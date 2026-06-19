@@ -1,5 +1,5 @@
 # Security Tools — Per-Tool Markdown Reference
-This ZIP contains one Markdown file for every parsed tool from the provided tools list.
+This Obsdian Vault contains one Markdown file for every parsed tool from the provided tools list.
 Each tool file includes installation commands, what the tool does, practical use cases, a first-run workflow, and safe lab-focused examples.
 > Use these tools only on systems, applications, networks, devices, accounts, files, and lab environments that you own or have explicit permission to assess.
 ## Structure

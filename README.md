@@ -1,13 +1,13 @@
 # Security Tools — Per-Tool Markdown Reference
 This Obsdian Vault contains one Markdown file for every parsed tool from the provided tools list.
 Each tool file includes installation commands, what the tool does, practical use cases, a first-run workflow, and safe lab-focused examples.
-> Use these tools only on systems, applications, networks, devices, accounts, files, and lab environments that you own or have explicit permission to assess.
+
+"With great power comes great responsibility"
+  -However that responsibility isnt mine 0-0
+
 ## Structure
 - `MASTER_INDEX.md` — full index by category.
 - `<category>/<tool>.md` — individual guide for each tool.
-
-## Category naming
-Category folders use clean names like `ai`, `automation`, `forensic`, and `webapp`; repository-style category prefixes were stripped from folder names and index labels.
 
 ## Categories
 - [ai](./ai/README.md) — 5 tools

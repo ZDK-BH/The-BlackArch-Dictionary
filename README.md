@@ -3,7 +3,8 @@ This Obsdian Vault contains one Markdown file for every parsed tool from the pro
 Each tool file includes installation commands, what the tool does, practical use cases, a first-run workflow, and safe lab-focused examples.
 
 "With great power comes great responsibility"
-  -However that responsibility isnt mine 0-0
+
+-However that responsibility isnt mine 0-0
 
 ## Structure
 - `MASTER_INDEX.md` — full index by category.

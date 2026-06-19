@@ -1,4 +1,9 @@
 # Security Tools — Per-Tool Markdown Reference
+
+<p align="center">
+  <img src="assets/images/blackarch-logo.png" alt="The BlackArch Dictionary" width="700">
+</p>
+
 This Obsdian Vault contains one Markdown file for every parsed tool from the provided tools list.
 Each tool file includes installation commands, what the tool does, practical use cases, a first-run workflow, and safe lab-focused examples.
 

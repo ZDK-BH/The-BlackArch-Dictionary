@@ -1,0 +1,134 @@
+# forensic
+
+**Tools in this category:** 126
+
+**Category use:** Disk, memory, browser, mobile, and network artifact analysis for investigations and recovery.
+
+## Tools
+
+- [afflib](./afflib.md) — An extensible open format for the storage of disk images and related forensic information.
+- [aimage](./aimage.md) — A tool to create aff-images.
+- [air](./air.md) — A GUI front-end to dd/dc3dd designed for easily creating forensic images.
+- [analyzemft](./analyzemft.md) — Parse the MFT file from an NTFS filesystem.
+- [autopsy](./autopsy.md) — The forensic browser. A GUI for the Sleuth Kit.
+- [bmap-tools](./bmap-tools.md) — Tool for copying largely sparse files using information from a block map file.
+- [bmc-tools](./bmc-tools.md) — RDP Bitmap Cache parser.
+- [bulk-extractor](./bulk-extractor.md) — Bulk Email and URL extraction tool.
+- [canari](./canari.md) — Maltego rapid transform development and execution framework.
+- [captipper](./captipper.md) — Malicious HTTP traffic explorer tool.
+- [casefile](./casefile.md) — The little brother to Maltego without transforms, but combines graph and link analysis to examine links between manually added data to mind map your information
+- [chaosmap](./chaosmap.md) — An information gathering tool and dns / whois / web server scanner
+- [chromefreak](./chromefreak.md) — A Cross-Platform Forensic Framework for Google Chrome
+- [dc3dd](./dc3dd.md) — A patched version of dd that includes a number of features useful for computer forensics.
+- [dcfldd](./dcfldd.md) — DCFL (DoD Computer Forensics Lab) dd replacement with hashing.
+- [dfir-ntfs](./dfir-ntfs.md) — An NTFS parser for digital forensics & incident response.
+- [dftimewolf](./dftimewolf.md) — Framework for orchestrating forensic collection, processing and data export.
+- [disitool](./disitool.md) — Tool to work with Windows executables digital signatures.
+- [dmde](./dmde.md) — Disk Editor and Data Recovery Software.
+- [dmg2img](./dmg2img.md) — A CLI tool to uncompress Apple's compressed DMG files to the HFS+ IMG format.
+- [dshell](./dshell.md) — A network forensic analysis framework.
+- [dumpzilla](./dumpzilla.md) — A forensic tool for firefox.
+- [eindeutig](./eindeutig.md) — Examine the contents of Outlook Express DBX email repository files.
+- [emldump](./emldump.md) — Analyze MIME files.
+- [evtkit](./evtkit.md) — Fix acquired .evt - Windows Event Log files (Forensics).
+- [exiflooter](./exiflooter.md) — Find geolocation on all image urls and directories also integrates with OpenStreetMap.
+- [ext4magic](./ext4magic.md) — File carver used when recovering from disasters or in digital forensics activities.
+- [extractusnjrnl](./extractusnjrnl.md) — Tool to extract the $UsnJrnl from an NTFS volume.
+- [firefox-decrypt](./firefox-decrypt.md) — Extract passwords from Mozilla Firefox, Waterfox, Thunderbird, SeaMonkey profiles.
+- [fridump](./fridump.md) — A universal memory dumper using Frida.
+- [galleta](./galleta.md) — Examine the contents of the IE's cookie files for forensic purposes.
+- [grokevt](./grokevt.md) — A collection of scripts built for reading Windows® NT/2K/XP/2K eventlog files.
+- [gspy](./gspy.md) — Forensic goroutine-to-syscall inspector for live Go processes.
+- [guymager](./guymager.md) — A forensic imager for media acquisition.
+- [imagemounter](./imagemounter.md) — Command line utility and Python package to ease the (un)mounting of forensic disk images.
+- [indx2csv](./indx2csv.md) — An advanced parser for INDX records.
+- [indxcarver](./indxcarver.md) — Carve INDX records from a chunk of data.
+- [indxparse](./indxparse.md) — A Tool suite for inspecting NTFS artifacts.
+- [interrogate](./interrogate.md) — A proof-of-concept tool for identification of cryptographic keys in binary material (regardless of target operating system), first and foremost for memory dump analysis and forensic usage.
+- [iosforensic](./iosforensic.md) — iOS forensic tool.
+- [ipba2](./ipba2.md) — IOS Backup Analyzer.
+- [iphoneanalyzer](./iphoneanalyzer.md) — Allows you to forensically examine or recover date from in iOS device.
+- [jefferson](./jefferson.md) — JFFS2 filesystem extraction tool.
+- [lazagne](./lazagne.md) — An open source application used to retrieve lots of passwords stored on a local computer.
+- [ldsview](./ldsview.md) — Offline search tool for LDAP directory dumps in LDIF format.
+- [lfle](./lfle.md) — Recover event log entries from an image by heurisitically looking for record structures.
+- [libfvde](./libfvde.md) — Library and tools to access FileVault Drive Encryption (FVDE) encrypted volumes.
+- [limeaide](./limeaide.md) — Remotely dump RAM of a Linux client and create a volatility profile for later analysis on your local host.
+- [log-file-parser](./log-file-parser.md) — Parser for $LogFile on NTFS.
+- [loki-scanner](./loki-scanner.md) — Simple IOC and Incident Response Scanner.
+- [mac-robber](./mac-robber.md) — A digital investigation tool that collects data from allocated files in a mounted file system.
+- [magicrescue](./magicrescue.md) — Find and recover deleted files on block devices.
+- [make-pdf](./make-pdf.md) — This tool will embed javascript inside a PDF document.
+- [malheur](./malheur.md) — A tool for the automatic analyze of malware behavior.
+- [maltego](./maltego.md) — An open source intelligence and forensics application, enabling to easily gather information about DNS, domains, IP addresses, websites, persons, etc.
+- [malwaredetect](./malwaredetect.md) — Submits a file's SHA1 sum to VirusTotal to determine whether it is a known piece of malware
+- [mboxgrep](./mboxgrep.md) — A small, non-interactive utility that scans mail folders for messages matching regular expressions. It does matching against basic and extended POSIX regular expressions, and reads and writes a variety of mailbox formats.
+- [mdbtools](./mdbtools.md) — Utilities for viewing data and exporting schema from Microsoft Access Database files.
+- [memdump](./memdump.md) — Dumps system memory to stdout, skipping over holes in memory maps.
+- [memfetch](./memfetch.md) — Dumps any userspace process memory without affecting its execution.
+- [mft2csv](./mft2csv.md) — Extract $MFT record info and log it to a csv file.
+- [mftcarver](./mftcarver.md) — Carve $MFT records from a chunk of data (for instance a memory dump).
+- [mftrcrd](./mftrcrd.md) — Command line $MFT record decoder.
+- [mftref2name](./mftref2name.md) — Resolve file index number to name or vice versa on NTFS.
+- [mimipenguin](./mimipenguin.md) — A tool to dump the login password from the current linux user.
+- [mobiusft](./mobiusft.md) — An open-source forensic framework written in Python/GTK that manages cases and case items, providing an abstract interface for developing extensions.
+- [mp3nema](./mp3nema.md) — A tool aimed at analyzing and capturing data that is hidden between frames in an MP3 file or stream, otherwise noted as "out of band" data.
+- [mxtract](./mxtract.md) — Memory Extractor & Analyzer.
+- [myrescue](./myrescue.md) — A hard disk recovery tool that reads undamaged regions first.
+- [naft](./naft.md) — Network Appliance Forensic Toolkit.
+- [netspionage](./netspionage.md) — Network Forensics CLI utility that performs Network Scanning, OSINT, and Attack Detection.
+- [networkminer](./networkminer.md) — A Network Forensic Analysis Tool for advanced Network Traffic Analysis, sniffer and packet analyzer.
+- [nfex](./nfex.md) — A tool for extracting files from the network in real-time or post-capture from an offline tcpdump pcap savefile.
+- [ntdsxtract](./ntdsxtract.md) — Active Directory forensic framework.
+- [ntfs-file-extractor](./ntfs-file-extractor.md) — Extract files off NTFS.
+- [ntfs-log-tracker](./ntfs-log-tracker.md) — This tool can parse $LogFile, $UsnJrnl of NTFS.
+- [parse-evtx](./parse-evtx.md) — A tool to parse the Windows XML Event Log (EVTX) format.
+- [pasco](./pasco.md) — Examines the contents of Internet Explorer's cache files for forensic purposes.
+- [pcapxray](./pcapxray.md) — A Network Forensics Tool - To visualize a Packet Capture offline as a Network Diagram including device identification, highlight important communication and file extraction.
+- [pdblaster](./pdblaster.md) — Extract PDB file paths from large sample sets of executable files.
+- [pdf-parser](./pdf-parser.md) — Parses a PDF document to identify the fundamental elements used in the analyzed file.
+- [pdfbook-analyzer](./pdfbook-analyzer.md) — Utility for facebook memory forensics.
+- [pdfid](./pdfid.md) — Scan a file to look for certain PDF keywords.
+- [pdfresurrect](./pdfresurrect.md) — A tool aimed at analyzing PDF documents.
+- [peepdf](./peepdf.md) — A Python tool to explore PDF files in order to find out if the file can be harmful or not.
+- [pev](./pev.md) — Command line based tool for PE32/PE32+ file analysis.
+- [powermft](./powermft.md) — Powerful commandline $MFT record editor.
+- [python-flow.record](./python-flow.record.md) — Recordization library.
+- [python2-peepdf](./python2-peepdf.md) — A Python tool to explore PDF files in order to find out if the file can be harmful or not.
+- [rcrdcarver](./rcrdcarver.md) — Carve RCRD records ($LogFile) from a chunk of data..
+- [recentfilecache-parser](./recentfilecache-parser.md) — Python parser for the RecentFileCache.bcf on Windows.
+- [recoverdm](./recoverdm.md) — Recover damaged CD DVD and disks with bad sectors.
+- [recoverjpeg](./recoverjpeg.md) — Recover jpegs from damaged devices.
+- [recuperabit](./recuperabit.md) — A tool for forensic file system reconstruction.
+- [regipy](./regipy.md) — Library for parsing offline registry hives.
+- [reglookup](./reglookup.md) — Command line utility for reading and querying Windows NT registries.
+- [regripper](./regripper.md) — Open source forensic software used as a Windows Registry data extraction command line or GUI tool.
+- [regrippy](./regrippy.md) — Framework for reading and extracting useful forensics data from Windows registry hives.
+- [rekall](./rekall.md) — Memory Forensic Framework.
+- [replayproxy](./replayproxy.md) — Forensic tool to replay web-based attacks (and also general HTTP traffic) that were captured in a pcap file.
+- [rifiuti2](./rifiuti2.md) — A rewrite of rifiuti, a great tool from Foundstone folks for analyzing Windows Recycle Bin INFO2 file.
+- [safecopy](./safecopy.md) — A disk data recovery tool to extract data from damaged media.
+- [scalpel](./scalpel.md) — A frugal, high performance file carver.
+- [scrounge-ntfs](./scrounge-ntfs.md) — Data recovery program for NTFS file systems
+- [secure2csv](./secure2csv.md) — Decode security descriptors in $Secure on NTFS.
+- [shadowexplorer](./shadowexplorer.md) — Browse the Shadow Copies created by the Windows Vista / 7 / 8 / 10 Volume Shadow Copy Service.
+- [skypefreak](./skypefreak.md) — A Cross Platform Forensic Framework for Skype.
+- [swap-digger](./swap-digger.md) — A tool used to automate Linux swap analysis during post-exploitation or forensics.
+- [tchunt-ng](./tchunt-ng.md) — Reveal encrypted files stored on a filesystem.
+- [tekdefense-automater](./tekdefense-automater.md) — IP URL and MD5 OSINT Analysis
+- [thumbcacheviewer](./thumbcacheviewer.md) — Extract Windows thumbcache database files.
+- [trid](./trid.md) — An utility designed to identify file types from their binary signatures.
+- [truehunter](./truehunter.md) — Detect TrueCrypt containers using a fast and memory efficient approach.
+- [unblob](./unblob.md) — Extract files from any kind of container formats.
+- [undbx](./undbx.md) — Extract e-mail messages from Outlook Express DBX files.
+- [usbrip](./usbrip.md) — USB device artifacts tracker.
+- [usnjrnl2csv](./usnjrnl2csv.md) — Parser for $UsnJrnl on NTFS.
+- [usnparser](./usnparser.md) — A Python script to parse the NTFS USN journal.
+- [vinetto](./vinetto.md) — A forensics tool to examine Thumbs.db files.
+- [vipermonkey](./vipermonkey.md) — A VBA parser and emulation engine to analyze malicious macros.
+- [volafox](./volafox.md) — Mac OS X Memory Analysis Toolkit.
+- [volatility-extra](./volatility-extra.md) — Volatility plugins developed and maintained by the community.
+- [windows-prefetch-parser](./windows-prefetch-parser.md) — Parse Windows Prefetch files.
+- [wmi-forensics](./wmi-forensics.md) — Scripts used to find evidence in WMI repositories.
+- [xplico](./xplico.md) — Internet Traffic Decoder. Network Forensic Analysis Tool (NFAT).
+- [zipdump](./zipdump.md) — ZIP dump utility.

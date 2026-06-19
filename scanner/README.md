@@ -1,0 +1,318 @@
+# scanner
+
+**Tools in this category:** 310
+
+**Category use:** Security scanning, service discovery, vulnerability indicators, and configuration review.
+
+## Tools
+
+- [0trace](./0trace.md) — A hop enumeration tool.
+- [a2sv](./a2sv.md) — Auto Scanning to SSL Vulnerability.
+- [admsnmp](./admsnmp.md) — ADM SNMP audit scanner.
+- [allthevhosts](./allthevhosts.md) — A vhost discovery tool that scrapes various web applications.
+- [amap](./amap.md) — Next-generation tool for assisting network penetration testing.
+- [amass](./amass.md) — In-depth subdomain enumeration written in Go.
+- [anubis-netsec](./anubis-netsec.md) — Subdomain enumeration and information gathering tool.
+- [apache-users](./apache-users.md) — This perl script will enumerate the usernames on a unix system that use the apache module UserDir.
+- [apachetomcatscanner](./apachetomcatscanner.md) — Apache Tomcat vulnerability scanner.
+- [arjun](./arjun.md) — HTTP parameter discovery suite.
+- [assassingo](./assassingo.md) — Web pentest framework for information gathering and vulnerability scanning.
+- [assetfinder](./assetfinder.md) — Find domains and subdomains potentially related to a given domain.
+- [athena-ssl-scanner](./athena-ssl-scanner.md) — A SSL cipher scanner that checks all cipher codes. It can identify about 150 different ciphers.
+- [atscan](./atscan.md) — Server, Site and Dork Scanner.
+- [attk](./attk.md) — Trend Micro Anti-Threat Toolkit.
+- [aws-extender-cli](./aws-extender-cli.md) — Script to test S3 buckets as well as Google Storage buckets and Azure Storage containers for common misconfiguration issues.
+- [aws-iam-privesc](./aws-iam-privesc.md) — AWS IAM policy scanner that helps determine where privilege escalation can be achieved.
+- [barmie](./barmie.md) — Java RMI enumeration and attack tool.
+- [bashscan](./bashscan.md) — A port scanner built to utilize /dev/tcp for network and service discovery.
+- [belati](./belati.md) — The Traditional Swiss Army Knife for OSINT.
+- [bingoo](./bingoo.md) — A Linux bash based Bing and Google Dorking Tool.
+- [birp](./birp.md) — A tool that will assist in the security assessment of mainframe applications served over TN3270.
+- [blackbox-scanner](./blackbox-scanner.md) — Dork scanner & bruteforcing & hash cracker with blackbox framework.
+- [bleah](./bleah.md) — A BLE scanner for "smart" devices hacking.
+- [blindy](./blindy.md) — Simple script to automate brutforcing blind sql injection vulnerabilities.
+- [bluto](./bluto.md) — Recon, Subdomain Bruting, Zone Transfers.
+- [braa](./braa.md) — A mass snmp scanner.
+- [cameradar](./cameradar.md) — Hacks its way into RTSP videosurveillance cameras.
+- [camscan](./camscan.md) — A tool which will analyze the CAM table of Cisco switches to look for anamolies.
+- [cangibrina](./cangibrina.md) — Dashboard Finder.
+- [cecster](./cecster.md) — A tool to perform security testing against the HDMI CEC (Consumer Electronics Control) and HEC (HDMI Ethernet Channel) protocols.
+- [cero](./cero.md) — Scrape domain names from SSL certificates of arbitrary hosts.
+- [changeme](./changeme.md) — A default credential scanner.
+- [check-weak-dh-ssh](./check-weak-dh-ssh.md) — Debian OpenSSL weak client Diffie-Hellman Exchange checker.
+- [chiron](./chiron.md) — An all-in-one IPv6 Penetration Testing Framework.
+- [cipherscan](./cipherscan.md) — A very simple way to find out which SSL ciphersuites are supported by a target.
+- [ciscos](./ciscos.md) — Scans class A, B, and C networks for cisco routers which have telnet open and have not changed the default password from cisco.
+- [clair](./clair.md) — Vulnerability Static Analysis for Containers.
+- [climber](./climber.md) — Check UNIX/Linux systems for privilege escalation.
+- [cloudflare-enum](./cloudflare-enum.md) — Cloudflare DNS Enumeration Tool for Pentesters.
+- [cloudsploit](./cloudsploit.md) — AWS security scanning checks.
+- [cmsmap](./cmsmap.md) — A python open source Content Management System scanner that automates the process of detecting security flaws of the most popular CMSs.
+- [configpush](./configpush.md) — This is a tool to span /8-sized networks quickly sending snmpset requests with default or otherwise specified community string to Cisco devices.
+- [corstest](./corstest.md) — A simple CORS misconfigurations checker.
+- [cpfinder](./cpfinder.md) — Simple script that looks for administrative web interfaces.
+- [crackmapexec](./crackmapexec.md) — A swiss army knife for pentesting Windows/Active Directory environments.
+- [ct-exposer](./ct-exposer.md) — An OSINT tool that discovers sub-domains by searching Certificate Transparency logs.
+- [cvechecker](./cvechecker.md) — The goal of cvechecker is to report about possible vulnerabilities on your system, by scanning the installed software and matching the results with the CVE database.
+- [d-tect](./d-tect.md) — Pentesting the Modern Web.
+- [darkbing](./darkbing.md) — A tool written in python that leverages bing for mining data on systems that may be susceptible to SQL injection.
+- [davtest](./davtest.md) — Tests WebDAV enabled servers by uploading test executable files, and then (optionally) uploading files which allow for command execution or other actions directly on the target.
+- [dbusmap](./dbusmap.md) — Simple utility for enumerating D-Bus endpoints, an nmap for D-Bus.
+- [dcrawl](./dcrawl.md) — Simple, but smart, multi-threaded web crawler for randomly gathering huge lists of unique domain names.
+- [deblaze](./deblaze.md) — Performs method enumeration and interrogation against flash remoting end points.
+- [delldrac](./delldrac.md) — DellDRAC and Dell Chassis Discovery and Brute Forcer.
+- [dhcpig](./dhcpig.md) — Enhanced DHCPv4 and DHCPv6 exhaustion and fuzzing script written in python using scapy network library.
+- [dirb](./dirb.md) — A web content scanner, brute forceing for hidden files.
+- [dirbuster](./dirbuster.md) — An application designed to brute force directories and files names on web/application servers
+- [dirscanner](./dirscanner.md) — This is a python script that scans webservers looking for administrative directories, php shells, and more.
+- [dirstalk](./dirstalk.md) — Modern alternative to dirbuster/dirb.
+- [dmitry](./dmitry.md) — Deepmagic Information Gathering Tool.
+- [dnmap](./dnmap.md) — The distributed nmap framework.
+- [dns2geoip](./dns2geoip.md) — A simple python script that brute forces DNS and subsequently geolocates the found subdomains.
+- [dnsa](./dnsa.md) — A dns security swiss army knife.
+- [dnsbf](./dnsbf.md) — Search for available domain names in an IP range.
+- [dnscan](./dnscan.md) — A python wordlist-based DNS subdomain scanner.
+- [dnsgoblin](./dnsgoblin.md) — Nasty creature constantly searching for DNS servers. It uses standard dns querys and waits for the replies.
+- [dnspredict](./dnspredict.md) — DNS prediction.
+- [dnstwist](./dnstwist.md) — Domain name permutation engine for detecting typo squatting, phishing and corporate espionage.
+- [dockerscan](./dockerscan.md) — Docker security analysis & hacking tools.
+- [dorkbot](./dorkbot.md) — Command-line tool to scan Google search results for vulnerabilities.
+- [dorkme](./dorkme.md) — Tool designed with the purpose of making easier the searching of vulnerabilities with Google Dorks, such as SQL Injection vulnerabilities.
+- [dpscan](./dpscan.md) — Drupal Vulnerability Scanner.
+- [driftnet](./driftnet.md) — Listens to network traffic and picks out images from TCP streams it observes.
+- [dripper](./dripper.md) — A fast, asynchronous DNS scanner; it can be used for enumerating subdomains and enumerating boxes via reverse DNS.
+- [dvcs-ripper](./dvcs-ripper.md) — Rip web accessible (distributed) version control systems: SVN/GIT/BZR/CVS/HG.
+- [eazy](./eazy.md) — This is a small python tool that scans websites to look for PHP shells, backups, admin panels, and more.
+- [enum-shares](./enum-shares.md) — Tool that enumerates shared folders across the network and under a custom user account.
+- [enumiax](./enumiax.md) — An IAX enumerator.
+- [eternal-scanner](./eternal-scanner.md) — An internet scanner for exploit CVE-0144 (Eternal Blue).
+- [faradaysec](./faradaysec.md) — Collaborative Penetration Test and Vulnerability Management Platform.
+- [fernmelder](./fernmelder.md) — Asynchronous mass DNS scanner.
+- [fgscanner](./fgscanner.md) — An advanced, opensource URL scanner.
+- [fi6s](./fi6s.md) — IPv6 network scanner designed to be fast.
+- [find-dns](./find-dns.md) — A tool that scans networks looking for DNS servers.
+- [flashscanner](./flashscanner.md) — Flash XSS Scanner.
+- [flunym0us](./flunym0us.md) — A Vulnerability Scanner for Wordpress and Moodle.
+- [forkingportscanner](./forkingportscanner.md) — Simple and fast forking port scanner written in perl. Can only scan on host at a time, the forking is done on the specified port range. Or on the default range of 1. Has the ability to scan UDP or TCP, defaults to tcp.
+- [fortiscan](./fortiscan.md) — A high performance FortiGate SSL-VPN vulnerability scanning and exploitation tool.
+- [fs-nyarl](./fs-nyarl.md) — A network takeover & forensic analysis tool - useful to advanced PenTest tasks & for fun and profit.
+- [fscan](./fscan.md) — A Security Auditing Tool.
+- [fsnoop](./fsnoop.md) — A tool to monitor file operations on GNU/Linux systems by using the Inotify mechanism. Its primary purpose is to help detecting file race condition vulnerabilities and since version 3, to exploit them with loadable DSO modules (also called "payload modules" or "paymods").
+- [ftp-spider](./ftp-spider.md) — FTP investigation tool - Scans ftp server for the following: reveal entire directory tree structures, detect anonymous access, detect directories with write permissions, find user specified data within repository.
+- [ftpscout](./ftpscout.md) — Scans ftps for anonymous access.
+- [garak](./garak.md) — The LLM vulnerability scanner.
+- [gcpbucketbrute](./gcpbucketbrute.md) — A script to enumerate Google Storage buckets, determine what access you have to them, and determine if they can be privilege escalated.
+- [gethsploit](./gethsploit.md) — Finding Ethereum nodes which are vulnerable to RPC-attacks.
+- [gggooglescan](./gggooglescan.md) — A Google scraper which performs automated searches and returns results of search queries in the form of URLs or hostnames.
+- [ghost-phisher](./ghost-phisher.md) — GUI suite for phishing and penetration attacks.
+- [git-dump](./git-dump.md) — Dump the contents of a remote git repository without directory listing enabled.
+- [git-dumper](./git-dumper.md) — A tool to dump a git repository from a website.
+- [gitrob](./gitrob.md) — Reconnaissance tool for GitHub organizations.
+- [gloom](./gloom.md) — Linux Penetration Testing Framework.
+- [glpwnme](./glpwnme.md) — GLPI vulnerabilities checking tool.
+- [grabbb](./grabbb.md) — Clean, functional, and fast banner scanner.
+- [graphql-cop](./graphql-cop.md) — GraphQL vulnerability scanner.
+- [grepforrfi](./grepforrfi.md) — Simple script for parsing web logs for RFIs and Webshells v1.2
+- [grype](./grype.md) — A vulnerability scanner for container images and filesystems.
+- [gtp-scan](./gtp-scan.md) — A small python script that scans for GTP (GPRS tunneling protocol) speaking hosts.
+- [h2buster](./h2buster.md) — A threaded, recursive, web directory brute-force scanner over HTTP/2.
+- [habu](./habu.md) — Python Network Hacking Toolkit.
+- [hakku](./hakku.md) — Simple framework that has been made for penetration testing tools.
+- [halberd](./halberd.md) — Halberd discovers HTTP load balancers. It is useful for web application security auditing and for load balancer configuration testing.
+- [hbad](./hbad.md) — This tool allows you to test clients on the heartbleed bug.
+- [hellraiser](./hellraiser.md) — Vulnerability Scanner.
+- [hexhttp](./hexhttp.md) — Perform tests on HTTP headers and analyze the results to identify vulnerabilities and interesting behaviors.
+- [hikpwn](./hikpwn.md) — A simple scanner for Hikvision devices with basic vulnerability scanning capabilities written in Python 3.8.
+- [homepwn](./homepwn.md) — Swiss Army Knife for Pentesting of IoT Devices.
+- [hoppy](./hoppy.md) — A python script which tests http methods for configuration issues leaking information or just to see if they are enabled.
+- [host-extract](./host-extract.md) — Ruby script tries to extract all IP/Host patterns in page response of a given URL and JavaScript/CSS files of that URL.
+- [hsecscan](./hsecscan.md) — A security scanner for HTTP response headers.
+- [http-enum](./http-enum.md) — A tool to enumerate the enabled HTTP methods supported on a webserver.
+- [httprobe](./httprobe.md) — Take a list of domains and probe for working HTTP and HTTPS servers
+- [httpsscanner](./httpsscanner.md) — A tool to test the strength of a SSL web server.
+- [iaxscan](./iaxscan.md) — A Python based scanner for detecting live IAX/2 hosts and then enumerating (by bruteforce) users on those hosts.
+- [icmpquery](./icmpquery.md) — Send and receive ICMP queries for address mask and current time.
+- [iis-shortname-scanner](./iis-shortname-scanner.md) — An IIS shortname Scanner.
+- [ike-scan](./ike-scan.md) — A tool that uses IKE protocol to discover, fingerprint and test IPSec VPN servers.
+- [ilo4-toolbox](./ilo4-toolbox.md) — Toolbox for HPE iLO4 analysis.
+- [infip](./infip.md) — A python script that checks output from netstat against RBLs from Spamhaus.
+- [inurlbr](./inurlbr.md) — Advanced search in the search engines - Inurl scanner, dorker, exploiter.
+- [ipscan](./ipscan.md) — A very fast IP address and port scanner.
+- [iptv](./iptv.md) — Search and brute force illegal iptv server.
+- [ipv6toolkit](./ipv6toolkit.md) — SI6 Networks' IPv6 Toolkit.
+- [jaadas](./jaadas.md) — Joint Advanced Defect assEsment for android applications.
+- [knock](./knock.md) — Subdomain scanner.
+- [knxmap](./knxmap.md) — KNXnet/IP scanning and auditing tool for KNX home automation installations.
+- [krbrelayx](./krbrelayx.md) — Kerberos relaying and unconstrained delegation abuse toolkit.
+- [kscan](./kscan.md) — Asset mapping tool that can perform port scanning, TCP fingerprinting and banner capture for specified assets.
+- [kube-hunter](./kube-hunter.md) — Hunt for security weaknesses in Kubernetes clusters.
+- [kubesploit](./kubesploit.md) — Cross-platform post-exploitation HTTP/2 Command & Control server.
+- [kubestriker](./kubestriker.md) — A Blazing fast Security Auditing tool for Kubernetes.
+- [laf](./laf.md) — Login Area Finder: scans host/s for login panels.
+- [leaklooker](./leaklooker.md) — Find open databases with Shodan.
+- [letmefuckit-scanner](./letmefuckit-scanner.md) — Scanner and Exploit Magento.
+- [leviathan](./leviathan.md) — A mass audit toolkit which has wide range service discovery, brute force, SQL injection detection and running custom exploit capabilities.
+- [lfi-scanner](./lfi-scanner.md) — This is a simple perl script that enumerates local file inclusion attempts when given a specific target.
+- [lfisuite](./lfisuite.md) — Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner.
+- [linenum](./linenum.md) — Scripted Local Linux Enumeration & Privilege Escalation Checks
+- [linux-smart-enumeration](./linux-smart-enumeration.md) — Linux enumeration tool for pentesting and CTFs with verbosity levels.
+- [littleblackbox](./littleblackbox.md) — Penetration testing tool, search in a collection of thousands of private SSL keys extracted from various embedded devices.
+- [locasploit](./locasploit.md) — Local enumeration and exploitation framework.
+- [logmepwn](./logmepwn.md) — A fully automated, reliable, super-fast, mass scanning and validation toolkit for the Log4J RCE CVE-44228 vulnerability.
+- [lotophagi](./lotophagi.md) — a relatively compact Perl script designed to scan remote hosts for default (or common) Lotus NSF and BOX databases.
+- [lunar](./lunar.md) — A UNIX security auditing tool based on several security frameworks.
+- [maligno](./maligno.md) — An open source penetration testing tool written in python, that serves Metasploit payloads. It generates shellcode with msfvenom and transmits it over HTTP or HTTPS.
+- [manspider](./manspider.md) — Spider entire networks for juicy files sitting on SMB shares. Search filenames or file content - regex supported!
+- [mantra](./mantra.md) — Hunt down API key leaks in JS files and pages.
+- [mitm6](./mitm6.md) — Pwning IPv4 via IPv6.
+- [modscan](./modscan.md) — A new tool designed to map a SCADA MODBUS TCP based network.
+- [mongoaudit](./mongoaudit.md) — A powerful MongoDB auditing and pentesting tool .
+- [mqtt-pwn](./mqtt-pwn.md) — A one-stop-shop for IoT Broker penetration-testing and security assessment operations.
+- [msmailprobe](./msmailprobe.md) — Office 365 and Exchange Enumeration tool.
+- [mssqlscan](./mssqlscan.md) — A small multi-threaded tool that scans for Microsoft SQL Servers.
+- [multiscanner](./multiscanner.md) — Modular file scanning/analysis framework.
+- [naabu](./naabu.md) — A fast port scanner written in go with focus on reliability and simplicity.
+- [navgix](./navgix.md) — Multi-threaded golang tool that will check for nginx alias traversal vulnerabilities.
+- [netbios-share-scanner](./netbios-share-scanner.md) — This tool could be used to check windows workstations and servers if they have accessible shared resources.
+- [netexec](./netexec.md) — A Windows / Active Directory environments pentest tool.
+- [netscan](./netscan.md) — Tcp/Udp/Tor port scanner with: synpacket, connect TCP/UDP and socks5 (tor connection).
+- [netscan2](./netscan2.md) — Active / passive network scanner.
+- [netz](./netz.md) — Discover internet-wide misconfigurations while drinking coffee.
+- [nili](./nili.md) — Tool for Network Scan, Man in the Middle, Protocol Reverse Engineering and Fuzzing.
+- [nmbscan](./nmbscan.md) — Tool to scan the shares of a SMB/NetBIOS network, using the NMB/SMB/NetBIOS protocols.
+- [nox-framework](./nox-framework.md) — OSINT & CTI Framework with 120+ sources, async performance, identity pivoting, and automated risk analysis.
+- [nray](./nray.md) — Distributed port scanner.
+- [ntlm-challenger](./ntlm-challenger.md) — Parse NTLM over HTTP challenge messages.
+- [ntlm-scanner](./ntlm-scanner.md) — A simple python tool based on Impacket that tests servers for various known NTLM vulnerabilities.
+- [ntlmrecon](./ntlmrecon.md) — A tool to enumerate information from NTLM authentication enabled web endpoints.
+- [nuclei](./nuclei.md) — A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
+- [nuclei-templates](./nuclei-templates.md) — Community curated list of template files for the nuclei engine.
+- [o-saft](./o-saft.md) — A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.
+- [ocs](./ocs.md) — Compact mass scanner for Cisco routers with default telnet/enable passwords.
+- [onetwopunch](./onetwopunch.md) — Use unicornscan to quickly scan all open ports, and then pass the open ports to nmap for detailed scans.
+- [onionscan](./onionscan.md) — Scan Onion Services for Security Issues.
+- [openvas](./openvas.md) — Meta package for installing all OpenVAS components.
+- [pagodo](./pagodo.md) — Google dork script to collect potentially vulnerable web pages and applications on the Internet.
+- [paketto](./paketto.md) — Advanced TCP/IP Toolkit.
+- [panhunt](./panhunt.md) — Searches for credit card numbers (PANs) in directories.
+- [paranoic](./paranoic.md) — A simple vulnerability scanner written in Perl.
+- [passhunt](./passhunt.md) — Search drives for documents containing passwords.
+- [pbscan](./pbscan.md) — Faster and more efficient stateless SYN scanner and banner grabber due to userland TCP/IP stack usage.
+- [pcredz](./pcredz.md) — A tool that extracts credit card numbers and more from a pcap file or from a live interface.
+- [peass](./peass.md) — Privilege Escalation Awesome Scripts SUITE (with colors).
+- [pentestly](./pentestly.md) — Python and Powershell internal penetration testing framework.
+- [plcscan](./plcscan.md) — This is a tool written in Python that will scan for PLC devices over s7comm or modbus protocols.
+- [pnscan](./pnscan.md) — A parallel network scanner that can be used to survey TCP network services.
+- [poison](./poison.md) — A fast, asynchronous syn and udp scanner.
+- [ppscan](./ppscan.md) — Yet another port scanner with HTTP and FTP tunneling support.
+- [prads](./prads.md) — A "Passive Real-time Asset Detection System".
+- [praeda](./praeda.md) — An automated data/information harvesting tool designed to gather critical information from various embedded devices.
+- [proxycheck](./proxycheck.md) — This is a simple proxy tool that checks for the HTTP CONNECT method and grabs verbose output from a webserver.
+- [proxyscan](./proxyscan.md) — A security penetration testing tool to scan for hosts and ports through a Web proxy server.
+- [pwndora](./pwndora.md) — Massive IPv4 scanner, find and analyze internet-connected devices in minutes, create your own IoT search engine at home.
+- [pyssltest](./pyssltest.md) — A python multithreaded script to make use of Qualys ssllabs api to test SSL flaws.
+- [pytbull](./pytbull.md) — Next generation of pytbull, IDS/IPS testing framework.
+- [pythem](./pythem.md) — Python2 penetration testing framework.
+- [python2-ldapdomaindump](./python2-ldapdomaindump.md) — Active Directory information dumper via LDAP.
+- [ranger-scanner](./ranger-scanner.md) — A tool to support security professionals to access and interact with remote Microsoft Windows based systems.
+- [rawr](./rawr.md) — Rapid Assessment of Web Resources. A web enumerator.
+- [rbac-lookup](./rbac-lookup.md) — A CLI that allows you to easily find Kubernetes roles and cluster roles bound to any user.
+- [rdp-cipher-checker](./rdp-cipher-checker.md) — Enumerate the encryption protocols supported by the server and the cipher strengths supported using native RDP encryption.
+- [rdp-sec-check](./rdp-sec-check.md) — Script to enumerate security settings of an RDP Service.
+- [relay-scanner](./relay-scanner.md) — An SMTP relay scanner.
+- [remote-method-guesser](./remote-method-guesser.md) — Java RMI vulnerability scanner.
+- [responder](./responder.md) — A LLMNR and NBT-NS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2 (multirelay version).
+- [retire](./retire.md) — Scanner detecting the use of JavaScript libraries with known vulnerabilities.
+- [routerhunter](./routerhunter.md) — Tool used to find vulnerable routers and devices on the Internet and perform tests.
+- [rtlizer](./rtlizer.md) — Simple spectrum analyzer.
+- [rtlsdr-scanner](./rtlsdr-scanner.md) — A cross platform Python frequency scanning GUI for the OsmoSDR rtl-sdr library.
+- [s3scanner](./s3scanner.md) — A tool to find open S3 buckets in AWS or other cloud providers.
+- [sambascan](./sambascan.md) — Allows you to search an entire network or a number of hosts for SMB shares. It will also list the contents of all public shares that it finds.
+- [sandcastle](./sandcastle.md) — A Python script for AWS S3 bucket enumeration.
+- [sandmap](./sandmap.md) — Simple CLI with the ability to run pure Nmap engine, 31 modules with 459 scan profiles.
+- [sandy](./sandy.md) — An open-source Samsung phone encryption assessment framework
+- [sb0x](./sb0x.md) — A simple and Lightweight framework for Penetration testing.
+- [scamper](./scamper.md) — A tool that actively probes the Internet in order to analyze topology and performance.
+- [scanless](./scanless.md) — Utility for using websites that can perform port scans on your behalf.
+- [scanssh](./scanssh.md) — Fast SSH server and open proxy scanner.
+- [scout2](./scout2.md) — Security auditing tool for AWS environments.
+- [scoutsuite](./scoutsuite.md) — Multi-Cloud Security Auditing Tool.
+- [scrape-dns](./scrape-dns.md) — Searches for interesting cached DNS entries.
+- [sdnpwn](./sdnpwn.md) — An SDN penetration testing toolkit.
+- [seat](./seat.md) — Next generation information digging application geared toward the needs of security professionals. It uses information stored in search engine databases, cache repositories, and other public resources to scan web sites for potential vulnerabilities.
+- [shareenum](./shareenum.md) — Tool to enumerate shares from Windows hosts.
+- [sharesniffer](./sharesniffer.md) — Network share sniffer and auto-mounter for crawling remote file systems.
+- [shortscan](./shortscan.md) — An IIS short filename enumeration tool.
+- [simple-lan-scan](./simple-lan-scan.md) — A simple python script that leverages scapy for discovering live hosts on a network.
+- [simple-lan-scan3](./simple-lan-scan3.md) — A simple python3 script that leverages scapy for discovering live hosts on a network.
+- [sipshock](./sipshock.md) — A scanner for SIP proxies vulnerable to Shellshock.
+- [slurp-scanner](./slurp-scanner.md) — Evaluate the security of S3 buckets.
+- [smap-scanner](./smap-scanner.md) — Passive port scanner built with shodan free API.
+- [smbexec](./smbexec.md) — A rapid psexec style attack with samba tools.
+- [smbmap](./smbmap.md) — A handy SMB enumeration tool.
+- [smbspider](./smbspider.md) — A lightweight python utility for searching SMB/CIFS/Samba file shares.
+- [smbsr](./smbsr.md) — Lookup for interesting stuff in SMB shares.
+- [smod](./smod.md) — A modular framework with every kind of diagnostic and offensive feature you could need in order to pentest modbus protocol.
+- [smtp-test](./smtp-test.md) — Automated testing of SMTP servers for penetration testing.
+- [smtp-vrfy](./smtp-vrfy.md) — An SMTP Protocol Hacker.
+- [smtptx](./smtptx.md) — A very simple tool used for sending simple email and do some basic email testing from a pentester perspective.
+- [snmpenum](./snmpenum.md) — An snmp enumerator.
+- [snmpscan](./snmpscan.md) — A free, multi-processes SNMP scanner.
+- [snoopbrute](./snoopbrute.md) — Multithreaded DNS recursive host brute-force tool.
+- [sparta](./sparta.md) — Python GUI application which simplifies network infrastructure penetration testing by aiding the penetration tester in the scanning and enumeration phase.
+- [sqlivulscan](./sqlivulscan.md) — This will give you the SQLi Vulnerable Website Just by Adding the Dork.
+- [ssdp-scanner](./ssdp-scanner.md) — SSDP amplification scanner written in Python. Makes use of Scapy.
+- [ssh-user-enum](./ssh-user-enum.md) — SSH User Enumeration Script in Python Using The Timing Attack.
+- [sslcaudit](./sslcaudit.md) — Utility to perform security audits of SSL/TLS clients.
+- [ssllabs-scan](./ssllabs-scan.md) — Command-line client for the SSL Labs APIs
+- [sslmap](./sslmap.md) — A lightweight TLS/SSL cipher suite scanner.
+- [sslscan2](./sslscan2.md) — Tests SSL/TLS enabled services to discover supported cipher suites.
+- [stacs](./stacs.md) — Static Token And Credential Scanner.
+- [sticky-keys-hunter](./sticky-keys-hunter.md) — Script to test an RDP host for sticky keys and utilman backdoor.
+- [stig-viewer](./stig-viewer.md) — XCCDF formatted SRGs and STIGs files viewer for SCAP validation tools.
+- [strutscan](./strutscan.md) — Apache Struts2 vulnerability scanner written in Perl.
+- [subbrute](./subbrute.md) — A DNS meta-query spider that enumerates DNS records, and subdomains.
+- [subjack](./subjack.md) — Subdomain Takeover tool written in Go.
+- [subover](./subover.md) — A Powerful Subdomain Takeover Tool.
+- [subzy](./subzy.md) — Subdomain takeover vulnerability checker.
+- [swarm](./swarm.md) — A distributed penetration testing tool.
+- [synscan](./synscan.md) — fast asynchronous half-open TCP portscanner
+- [tachyon-scanner](./tachyon-scanner.md) — Fast Multi-Threaded Web Discovery Tool.
+- [tactical-exploitation](./tactical-exploitation.md) — Modern tactical exploitation toolkit.
+- [taipan](./taipan.md) — Web application security scanner.
+- [takeover](./takeover.md) — Sub-Domain TakeOver Vulnerability Scanner.
+- [titus](./titus.md) — High-performance secrets scanner based on NoseyParker.
+- [tlsx](./tlsx.md) — TLS grabber focused on TLS based data collection.
+- [topera](./topera.md) — An IPv6 security analysis toolkit, with the particularity that their attacks can't be detected by Snort.
+- [traxss](./traxss.md) — Automated XSS Vulnerability Scanner.
+- [udp-hunter](./udp-hunter.md) — Network assessment tool for various UDP Services covering both IPv4 and IPv6 protocols.
+- [udsim](./udsim.md) — A graphical simulator that can emulate different modules in a vehicle and respond to UDS request.
+- [umap](./umap.md) — The USB host security assessment tool.
+- [unicornscan](./unicornscan.md) — Asynchronous, stateless TCP/UDP scanner for scalable, high-speed network reconnaissance. Includes Alicorn web UI for result visualization.
+- [upnpscan](./upnpscan.md) — Scans the LAN or a given address range for UPnP capable devices.
+- [uptux](./uptux.md) — Linux privilege escalation checks (systemd, dbus, socket fun, etc).
+- [uw-loveimap](./uw-loveimap.md) — Multi threaded imap bounce scanner.
+- [uw-udpscan](./uw-udpscan.md) — Multi threaded udp scanner.
+- [uw-zone](./uw-zone.md) — Multi threaded, randomized IP zoner.
+- [v3n0m](./v3n0m.md) — Offensive Security Tool for Vulnerability Scanning & Pentesting
+- [vais](./vais.md) — SWF Vulnerability & Information Scanner.
+- [vault-scanner](./vault-scanner.md) — Swiss army knife for hackers.
+- [vcsmap](./vcsmap.md) — A plugin-based tool to scan public version control systems for sensitive information.
+- [vhostscan](./vhostscan.md) — A virtual host scanner that can be used with pivot tools, detect catch-all scenarios, aliases and dynamic default pages.
+- [videosnarf](./videosnarf.md) — A new security assessment tool for pcap analysis
+- [visql](./visql.md) — Scan SQL vulnerability on target site and sites of on server.
+- [vscan](./vscan.md) — HTTPS / Vulnerability scanner.
+- [vulmap](./vulmap.md) — Vulmap Online Local Vulnerability Scanners Project
+- [vuls](./vuls.md) — Vulnerability scanner for Linux/FreeBSD, agentless, written in Go.
+- [wafw00f](./wafw00f.md) — Identify and fingerprint Web Application Firewall (WAF) products protecting a website.
+- [webenum](./webenum.md) — Tool to enumerate http responses using dynamically generated queries and more.
+- [webhunter](./webhunter.md) — Tool for scanning web applications and networks and easily completing the process of collecting knowledge.
+- [webpwn3r](./webpwn3r.md) — A python based Web Applications Security Scanner.
+- [webrute](./webrute.md) — Web server directory brute forcer.
+- [whitewidow](./whitewidow.md) — SQL Vulnerability Scanner.
+- [wolpertinger](./wolpertinger.md) — A distributed portscanner.
+- [wordpresscan](./wordpresscan.md) — WPScan rewritten in Python + some WPSeku ideas.
+- [xcname](./xcname.md) — A tool for enumerating expired domains in CNAME records.
+- [xpire-crossdomain-scanner](./xpire-crossdomain-scanner.md) — Scans crossdomain.xml policies for expired domain names.
+- [xsstracer](./xsstracer.md) — Python script that checks remote web servers for Clickjacking, Cross-Frame Scripting, Cross-Site Tracing and Host Header Injection.
+- [yasat](./yasat.md) — Yet Another Stupid Audit Tool.

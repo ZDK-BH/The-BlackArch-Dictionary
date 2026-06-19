@@ -1,0 +1,169 @@
+# cracker
+
+**Tools in this category:** 161
+
+**Category use:** Authorized password-audit labs, offline hash-strength checks, and recovery of your own encrypted material.
+
+## Tools
+
+- [acccheck](./acccheck.md) — A password dictionary attack tool that targets windows authentication via the SMB protocol.
+- [adfspray](./adfspray.md) — Python3 tool to perform password spraying against Microsoft Online service using various methods.
+- [aesfix](./aesfix.md) — A tool to find AES key in RAM.
+- [aeskeyfind](./aeskeyfind.md) — A tool to find AES key in RAM.
+- [against](./against.md) — A very fast ssh attacking script which includes a multithreaded port scanning module (tcp connect) for discovering possible targets and a multithreaded brute-forcing module which attacks parallel all discovered hosts or given ip addresses from a list.
+- [ares](./ares.md) — Automated decoding of encrypted text without knowing the key or ciphers used.
+- [asleap](./asleap.md) — Actively recover LEAP/PPTP passwords.
+- [beleth](./beleth.md) — A Multi-threaded Dictionary based SSH cracker.
+- [bgp-md5crack](./bgp-md5crack.md) — RFC2385 password cracker
+- [bios_memimage](./bios_memimage.md) — A tool to dump RAM contents to disk (aka cold boot attack).
+- [bkcrack](./bkcrack.md) — Crack legacy zip encryption with Biham and Kocher known plaintext attack.
+- [bkhive](./bkhive.md) — Program for dumping the syskey bootkey from a Windows NT/2K/XP system hive.
+- [blackhash](./blackhash.md) — Creates a filter from system hashes.
+- [bob-the-butcher](./bob-the-butcher.md) — A distributed password cracker package.
+- [brute-force](./brute-force.md) — Brute-Force attack tool for Gmail Hotmail Twitter Facebook Netflix.
+- [bruteforce-luks](./bruteforce-luks.md) — Try to find the password of a LUKS encrypted volume.
+- [bruteforce-salted-openssl](./bruteforce-salted-openssl.md) — Try to find the password of a file that was encrypted with the 'openssl' command.
+- [bruteforce-wallet](./bruteforce-wallet.md) — Try to find the password of an encrypted Peercoin (or Bitcoin,Litecoin, etc...) wallet file.
+- [brutessh](./brutessh.md) — A simple sshd password bruteforcer using a wordlist, it's very fast for internal networks. It's multithreads.
+- [chapcrack](./chapcrack.md) — A tool for parsing and decrypting MS-CHAPv2 network handshakes.
+- [cintruder](./cintruder.md) — An automatic pentesting tool to bypass captchas.
+- [cisco-auditing-tool](./cisco-auditing-tool.md) — Perl script which scans cisco routers for common vulnerabilities. Checks for default passwords, easily guessable community names, and the IOS history bug. Includes support for plugins and scanning multiple hosts.
+- [cisco-ocs](./cisco-ocs.md) — Cisco Router Default Password Scanner.
+- [cisco-scanner](./cisco-scanner.md) — Multithreaded Cisco HTTP vulnerability scanner. Tested on Linux, OpenBSD and Solaris.
+- [cisco5crack](./cisco5crack.md) — Crypt and decrypt the cisco enable 5 passwords.
+- [cisco7crack](./cisco7crack.md) — Crypt and decrypt the cisco enable 7 passwords.
+- [cmospwd](./cmospwd.md) — Decrypts password stored in CMOS used to access BIOS setup.
+- [compp](./compp.md) — Company Passwords Profiler helps making a bruteforce wordlist for a targeted company.
+- [crackhor](./crackhor.md) — A Password cracking utility.
+- [crackle](./crackle.md) — Crack and decrypt BLE encryption.
+- [crackpkcs12](./crackpkcs12.md) — A multithreaded program to crack PKCS#12 files (p12 and pfx extensions).
+- [crackq](./crackq.md) — Hashcrack.org GPU-accelerated password cracker.
+- [crackserver](./crackserver.md) — An XMLRPC server for password cracking.
+- [creddump](./creddump.md) — A python tool to extract various credentials and secrets from Windows registry hives.
+- [credmaster](./credmaster.md) — Refactored & improved CredKing password spraying tool, uses FireProx APIs to rotate IP addresses, stay anonymous, and beat throttling.
+- [crowbar](./crowbar.md) — Brute forcing tool that can be used during penetration tests.
+- [cryptohazemultiforcer](./cryptohazemultiforcer.md) — High performance multihash brute forcer with CUDA support.
+- [cudahashcat](./cudahashcat.md) — Worlds fastest WPA cracker with dictionary mutation engine.
+- [cupp](./cupp.md) — Common User Password Profiler
+- [dbpwaudit](./dbpwaudit.md) — A Java tool that allows you to perform online audits of password quality for several database engines.
+- [depant](./depant.md) — Check network for services with default passwords.
+- [device-pharmer](./device-pharmer.md) — Opens 1K+ IPs or Shodan search results and attempts to login.
+- [doozer](./doozer.md) — A Password cracking utility.
+- [dpeparser](./dpeparser.md) — Default password enumeration project
+- [eapmd5pass](./eapmd5pass.md) — An implementation of an offline dictionary attack against the EAP-MD5 protocol.
+- [enabler](./enabler.md) — Attempts to find the enable password on a cisco system via brute force.
+- [evilize](./evilize.md) — Tool to create MD5 colliding binaries.
+- [evilmaid](./evilmaid.md) — TrueCrypt loader backdoor to sniff volume password.
+- [f-scrack](./f-scrack.md) — A single file bruteforcer supports multi-protocol.
+- [facebrute](./facebrute.md) — This script tries to guess passwords for a given facebook account using a list of passwords (dictionary).
+- [fang](./fang.md) — A multi service threaded MD5 cracker.
+- [flask-unsign](./flask-unsign.md) — Command line tool to fetch, decode, brute-force and craft session cookies of a Flask application by guessing secret keys.
+- [ftp-scanner](./ftp-scanner.md) — Multithreaded ftp scanner/brute forcer. Tested on Linux, OpenBSD and Solaris.
+- [gomapenum](./gomapenum.md) — User enumeration and password bruteforce on Azure, ADFS, OWA, O365, Teams and gather emails on Linkedin.
+- [gpocrack](./gpocrack.md) — Active Directory Group Policy Preferences cpassword cracker/decrypter.
+- [hasher](./hasher.md) — A tool that allows you to quickly hash plaintext strings, or compare hashed values with a plaintext locally.
+- [hashtag](./hashtag.md) — A python script written to parse and identify password hashes.
+- [hostbox-ssh](./hostbox-ssh.md) — A ssh password/account scanner.
+- [htpwdscan](./htpwdscan.md) — A python HTTP weak pass scanner.
+- [ibrute](./ibrute.md) — An AppleID password bruteforce tool. It uses Find My Iphone service API, where bruteforce protection was not implemented.
+- [icloudbrutter](./icloudbrutter.md) — Tool for AppleID Bruteforce.
+- [iheartxor](./iheartxor.md) — A tool for bruteforcing encoded strings within a boundary defined by a regular expression. It will bruteforce the key value range of 0x1 through 0x255.
+- [iisbruteforcer](./iisbruteforcer.md) — HTTP authentication cracker. It's a tool that launchs an online dictionary attack to test for weak or simple passwords against protected areas on an IIS Web server.
+- [ikecrack](./ikecrack.md) — An IKE/IPSec crack tool designed to perform Pre-Shared-Key analysis of RFC compliant aggressive mode authentication
+- [ikeforce](./ikeforce.md) — A command line IPSEC VPN brute forcing tool for Linux that allows group name/ID enumeration and XAUTH brute forcing capabilities.
+- [inguma](./inguma.md) — A free penetration testing and vulnerability discovery toolkit entirely written in python. Framework includes modules to discover hosts, gather information about, fuzz targets, brute force usernames and passwords, exploits, and a disassembler.
+- [instashell](./instashell.md) — Multi-threaded Instagram Brute Forcer without password limit.
+- [ipmipwn](./ipmipwn.md) — IPMI cipher 0 attack tool.
+- [jbrute](./jbrute.md) — Open Source Security tool to audit hashed passwords.
+- [jeangrey](./jeangrey.md) — A tool to perform differential fault analysis attacks (DFA).
+- [johnny](./johnny.md) — GUI for John the Ripper.
+- [jwt-cracker](./jwt-cracker.md) — JWT brute force cracker written in C.
+- [jwt-tool](./jwt-tool.md) — Toolkit for validating, forging and cracking JWTs (JSON Web Tokens).
+- [jwtcat](./jwtcat.md) — Script performs offline brute-force attacks against JSON Web Token (JWT)
+- [keimpx](./keimpx.md) — Tool to verify the usefulness of credentials across a network over SMB.
+- [kerbrute](./kerbrute.md) — A tool to perform Kerberos pre-auth bruteforcing.
+- [khc](./khc.md) — A small tool designed to recover hashed known_hosts fiels back to their plain-text equivalents.
+- [ldap-brute](./ldap-brute.md) — A semi fast tool to bruteforce values of LDAP injections over HTTP.
+- [levye](./levye.md) — A brute force tool which is support sshkey, vnckey, rdp, openvpn.
+- [lodowep](./lodowep.md) — Lodowep is a tool for analyzing password strength of accounts on a Lotus Domino webserver system.
+- [mdcrack](./mdcrack.md) — MD4/MD5/NTLM1 hash cracker
+- [mkbrutus](./mkbrutus.md) — Password bruteforcer for MikroTik devices or boxes running RouterOS.
+- [morxbook](./morxbook.md) — A password cracking tool written in perl to perform a dictionary-based attack on a specific Facebook user through HTTPS.
+- [morxbrute](./morxbrute.md) — A customizable HTTP dictionary-based password cracking tool written in Perl.
+- [morxbtcrack](./morxbtcrack.md) — Single Bitcoin private key cracking tool released.
+- [morxcoinpwn](./morxcoinpwn.md) — Mass Bitcoin private keys brute forcing/Take over tool released.
+- [morxcrack](./morxcrack.md) — A cracking tool written in Perl to perform a dictionary-based attack on various hashing algorithm and CMS salted-passwords.
+- [mybff](./mybff.md) — A Brute Force Framework.
+- [o365enum](./o365enum.md) — Username enumeration and password enuming tool aimed at Microsoft O365.
+- [o365spray](./o365spray.md) — Username enumeration and password spraying tool aimed at Microsoft O365.
+- [obevilion](./obevilion.md) — Another archive cracker created in python, cracking [zip/7z/rar].
+- [oclhashcat](./oclhashcat.md) — Worlds fastest WPA cracker with dictionary mutation engine.
+- [omen](./omen.md) — Ordered Markov ENumerator - Password Guesser.
+- [onesixtyone](./onesixtyone.md) — An SNMP scanner that sends multiple SNMP requests to multiple IP addresses
+- [ophcrack](./ophcrack.md) — Windows password cracker based on rainbow tables.
+- [outlook-webapp-brute](./outlook-webapp-brute.md) — Microsoft Outlook WebAPP Brute.
+- [owabf](./owabf.md) — Outlook Web Access bruteforcer tool.
+- [pack](./pack.md) — Password Analysis and Cracking Kit
+- [passe-partout](./passe-partout.md) — Tool to extract RSA and DSA private keys from any process linked with OpenSSL. The target memory is scanned to lookup specific OpenSSL patterns.
+- [passgan](./passgan.md) — A Deep Learning Approach for Password Guessing.
+- [patator](./patator.md) — A multi-purpose bruteforcer.
+- [pdgmail](./pdgmail.md) — A password dictionary attack tool that targets windows authentication via the SMB protocol.
+- [pemcrack](./pemcrack.md) — Cracks SSL PEM files that hold encrypted private keys. Brute forces or dictionary cracks.
+- [pemcracker](./pemcracker.md) — Tool to crack encrypted PEM files.
+- [phoss](./phoss.md) — Sniffer designed to find HTTP, FTP, LDAP, Telnet, IMAP4, VNC and POP3 logins.
+- [php-mt-seed](./php-mt-seed.md) — PHP mt_rand() seed cracker.
+- [php-rfi-payload-decoder](./php-rfi-payload-decoder.md) — Decode and analyze RFI payloads developed in PHP.
+- [phrasendrescher](./phrasendrescher.md) — A modular and multi processing pass phrase cracking tool.
+- [pipal](./pipal.md) — A password analyser.
+- [pipeline](./pipeline.md) — Designed to aid in targeted brute force password cracking attacks.
+- [pkcrack](./pkcrack.md) — A PkZip encryption cracker.
+- [pwcrack](./pwcrack.md) — Password hash automatic cracking framework.
+- [pybozocrack](./pybozocrack.md) — A silly & effective MD5 cracker in Python.
+- [pyrit](./pyrit.md) — The famous WPA precomputed cracker.
+- [rainbowcrack](./rainbowcrack.md) — Password cracker based on the faster time-memory trade-off. With MySQL and Cisco PIX Algorithm patches.
+- [rcracki-mt](./rcracki-mt.md) — A tool to perform rainbow table attacks on password hashes. It is intended for indexed/perfected rainbow tables, mainly generated by the distributed project www.freerainbowtables.com.
+- [rdesktop-brute](./rdesktop-brute.md) — It connects to windows terminal servers - Bruteforce patch included.
+- [rdpassspray](./rdpassspray.md) — Python3 tool to perform password spraying using RDP.
+- [rfcrack](./rfcrack.md) — A Software Defined Radio Attack Tool.
+- [ridenum](./ridenum.md) — A null session RID cycle attack for brute forcing domain controllers.
+- [rlogin-scanner](./rlogin-scanner.md) — Multithreaded rlogin scanner. Tested on Linux, OpenBSD and Solaris.
+- [rootbrute](./rootbrute.md) — Local root account bruteforcer.
+- [rpdscan](./rpdscan.md) — Remmina Password Decoder and scanner.
+- [rsakeyfind](./rsakeyfind.md) — A tool to find RSA key in RAM.
+- [samdump2](./samdump2.md) — Dump password hashes from a Windows NT/2k/XP installation
+- [samydeluxe](./samydeluxe.md) — Automatic samdump creation script.
+- [shreder](./shreder.md) — A powerful multi-threaded SSH protocol password bruteforce tool.
+- [sidguesser](./sidguesser.md) — Guesses sids/instances against an Oracle database according to a predefined dictionary file.
+- [sipcrack](./sipcrack.md) — A SIP protocol login cracker.
+- [skul](./skul.md) — A PoC to bruteforce the Cryptsetup implementation of Linux Unified Key Setup (LUKS).
+- [smbbf](./smbbf.md) — SMB password bruteforcer.
+- [snmp-brute](./snmp-brute.md) — SNMP brute force, enumeration, CISCO config downloader and password cracking script.
+- [speedpwn](./speedpwn.md) — An active WPA/2 Bruteforcer, original created to prove weak standard key generation in different ISP labeled routers without a client is connected.
+- [spray365](./spray365.md) — Makes spraying Microsoft accounts (Office 365 / Azure AD) easy through its customizable two-step password spraying approach.
+- [spraycharles](./spraycharles.md) — Low and slow password spraying tool, designed to spray on an interval over a long period of time.
+- [sqlpat](./sqlpat.md) — This tool should be used to audit the strength of Microsoft SQL Server passwords offline.
+- [ssh-privkey-crack](./ssh-privkey-crack.md) — A SSH private key cracker.
+- [sshatter](./sshatter.md) — Password bruteforcer for SSH.
+- [sshprank](./sshprank.md) — A fast SSH mass-scanner, login cracker, banner grabber and password auth checker tool using the python-masscan and shodan module.
+- [sshscan](./sshscan.md) — A horizontal SSH scanner that scans large swaths of IPv4 space for a single SSH user and pass.
+- [sshtrix](./sshtrix.md) — A very fast multithreaded SSH login cracker.
+- [sslnuke](./sslnuke.md) — Transparent proxy that decrypts SSL traffic and prints out IRC messages.
+- [sucrack](./sucrack.md) — A multi-threaded Linux/UNIX tool for brute-force cracking local user accounts via su.
+- [talon](./talon.md) — A password guessing tool that targets the Kerberos and LDAP services within the Windows Active Directory environment.
+- [tftp-bruteforce](./tftp-bruteforce.md) — A fast TFTP filename bruteforcer written in perl.
+- [thc-keyfinder](./thc-keyfinder.md) — Finds crypto keys, encrypted data and compressed data in files by analyzing the entropy of parts of the file.
+- [thc-pptp-bruter](./thc-pptp-bruter.md) — A brute force program that works against pptp vpn endpoints (tcp port 1723).
+- [thc-smartbrute](./thc-smartbrute.md) — This tool finds undocumented and secret commands implemented in a smartcard.
+- [timeverter](./timeverter.md) — Bruteforce time-based tokens and to convert several time domains.
+- [trevorspray](./trevorspray.md) — A modular password sprayer with threading, clever proxying, loot modules, and more!
+- [truecrack](./truecrack.md) — Password cracking for truecrypt(c) volumes.
+- [tweetshell](./tweetshell.md) — Multi-thread Twitter BruteForcer in Shell Script.
+- [ufo-wardriving](./ufo-wardriving.md) — Allows you to test the security of wireless networks by detecting their passwords based on the router model.
+- [vnc-bypauth](./vnc-bypauth.md) — Multi-threaded bypass authentication scanner for VNC smaller than v4.1.1 servers.
+- [vncrack](./vncrack.md) — What it looks like: crack VNC.
+- [wmat](./wmat.md) — Automatic tool for testing webmail accounts.
+- [wordbrutepress](./wordbrutepress.md) — Python script that performs brute forcing against WordPress installs using a wordlist.
+- [wpbf](./wpbf.md) — Multithreaded WordPress brute forcer.
+- [wpbrute-rpc](./wpbrute-rpc.md) — Tool for amplified bruteforce attacks on wordpress based website via xmlrcp API.
+- [wyd](./wyd.md) — Gets keywords from personal files. IT security/forensic tool.
+- [zulu](./zulu.md) — A light weight 802.11 wireless frame generation tool to enable fast and easy debugging and probing of 802.11 networks.

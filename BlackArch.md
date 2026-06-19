@@ -1,0 +1,3170 @@
+# Master Index — Security Tools
+
+Total tools: **2866**
+
+Use the category folders to find individual tool guides.
+
+## Category Index
+
+- [ai](./ai/README.md) — 5 tools
+- [anti-forensic](./anti-forensic/README.md) — 2 tools
+- [automation](./automation/README.md) — 109 tools
+- [automobile](./automobile/README.md) — 4 tools
+- [backdoor](./backdoor/README.md) — 52 tools
+- [binary](./binary/README.md) — 63 tools
+- [bluetooth](./bluetooth/README.md) — 26 tools
+- [code-audit](./code-audit/README.md) — 30 tools
+- [cracker](./cracker/README.md) — 161 tools
+- [crypto](./crypto/README.md) — 80 tools
+- [database](./database/README.md) — 5 tools
+- [debugger](./debugger/README.md) — 10 tools
+- [decompiler](./decompiler/README.md) — 18 tools
+- [defensive](./defensive/README.md) — 44 tools
+- [disassembler](./disassembler/README.md) — 17 tools
+- [dos](./dos/README.md) — 27 tools
+- [drone](./drone/README.md) — 4 tools
+- [exploitation](./exploitation/README.md) — 181 tools
+- [fingerprint](./fingerprint/README.md) — 30 tools
+- [firmware](./firmware/README.md) — 4 tools
+- [forensic](./forensic/README.md) — 126 tools
+- [fuzzer](./fuzzer/README.md) — 85 tools
+- [hardware](./hardware/README.md) — 5 tools
+- [honeypot](./honeypot/README.md) — 16 tools
+- [ids](./ids/README.md) — 1 tools
+- [keylogger](./keylogger/README.md) — 3 tools
+- [malware](./malware/README.md) — 32 tools
+- [misc](./misc/README.md) — 145 tools
+- [mobile](./mobile/README.md) — 46 tools
+- [networking](./networking/README.md) — 146 tools
+- [nfc](./nfc/README.md) — 1 tools
+- [packer](./packer/README.md) — 2 tools
+- [proxy](./proxy/README.md) — 31 tools
+- [radio](./radio/README.md) — 30 tools
+- [recon](./recon/README.md) — 257 tools
+- [reversing](./reversing/README.md) — 33 tools
+- [scanner](./scanner/README.md) — 310 tools
+- [sniffer](./sniffer/README.md) — 39 tools
+- [social](./social/README.md) — 60 tools
+- [spoof](./spoof/README.md) — 18 tools
+- [stego](./stego/README.md) — 13 tools
+- [threat-model](./threat-model/README.md) — 1 tools
+- [tunnel](./tunnel/README.md) — 18 tools
+- [voip](./voip/README.md) — 22 tools
+- [webapp](./webapp/README.md) — 318 tools
+- [windows](./windows/README.md) — 158 tools
+- [wireless](./wireless/README.md) — 69 tools
+- [wordlist](./wordlist/README.md) — 5 tools
+- [uncategorized](./uncategorized/README.md) — 4 tools
+
+---
+
+## ai
+
+AI and machine-learning security assessment, model robustness review, and AI infrastructure discovery.
+
+- [adversarial-robustness-toolbox](./ai/adversarial-robustness-toolbox.md) — Python Library for Machine Learning Security.
+- [aimap](./ai/aimap.md) — Security scanner and fingerprinter for AI/ML infrastructure. Identifies 23 service types including LLMs, vector databases, and model servers.
+- [cai](./ai/cai.md) — The framework for AI Security.
+- [cleverhans](./ai/cleverhans.md) — Python library to benchmark machine learning systems vulnerability to adversarial examples.
+- [promptfoo](./ai/promptfoo.md) — Test and evaluate LLM outputs - AI red teaming, pentesting, and vulnerability scanning.
+
+## anti-forensic
+
+Forensic-readiness training and defensive research into evidence destruction/evasion techniques.
+
+- [ropeadope](./anti-forensic/ropeadope.md) — A linux log cleaner.
+- [secure-delete](./anti-forensic/secure-delete.md) — Secure file, disk, swap, memory erasure utilities.
+
+## automation
+
+Automating repetitive security testing, enumeration, reporting, or wordlist preparation tasks.
+
+- [apt2](./automation/apt2.md) — Automated penetration toolkit.
+- [automato](./automation/automato.md) — Should help with automating some of the user-focused enumeration tasks during an internal penetration test.
+- [autonessus](./automation/autonessus.md) — This script communicates with the Nessus API in an attempt to help with automating scans.
+- [autonse](./automation/autonse.md) — Massive NSE (Nmap Scripting Engine) AutoSploit and AutoScanner.
+- [autopwn](./automation/autopwn.md) — Specify targets and run sets of tools against them.
+- [autorecon](./automation/autorecon.md) — A multi-threaded network reconnaissance tool which performs automated enumeration of services.
+- [awsbucketdump](./automation/awsbucketdump.md) — A tool to quickly enumerate AWS S3 buckets to look for loot.
+- [bashfuscator](./automation/bashfuscator.md) — Fully configurable and extendable Bash obfuscation framework.
+- [blueranger](./automation/blueranger.md) — A simple Bash script which uses Link Quality to locate Bluetooth device radios.
+- [bopscrk](./automation/bopscrk.md) — Tool to generate smart wordlists, eg. based on lyrics.
+- [brutespray](./automation/brutespray.md) — Brute-Forcing from Nmap output - Automatically attempts default creds on found services.
+- [brutex](./automation/brutex.md) — Automatically brute force all services running on a target.
+- [byepass](./automation/byepass.md) — Automates password cracking tasks using optimized dictionaries and mangling rules.
+- [cewl](./automation/cewl.md) — A custom word list generator.
+- [cheat-sh](./automation/cheat-sh.md) — The only cheat sheet you need.
+- [cisco-snmp-enumeration](./automation/cisco-snmp-enumeration.md) — Automated Cisco SNMP Enumeration, Brute Force, Configuration Download and Password Cracking.
+- [clusterd](./automation/clusterd.md) — Automates the fingerprinting, reconnaissance, and exploitation phases of an application server attack.
+- [codeql](./automation/codeql.md) — The CLI tool for GitHub CodeQL
+- [commonspeak](./automation/commonspeak.md) — Leverages publicly available datasets from Google BigQuery to generate wordlists.
+- [cook](./automation/cook.md) — Easily create word's permutation and combination to generate complex wordlists and passwords.
+- [crunch](./automation/crunch.md) — A wordlist generator for all combinations/permutations of a given character set.
+- [deathstar](./automation/deathstar.md) — Automate getting Domain Admin using Empire.
+- [dorkscout](./automation/dorkscout.md) — Golang tool to automate google dork scan against the entire internet or specific targets.
+- [dracnmap](./automation/dracnmap.md) — Tool to exploit the network and gathering information with nmap help.
+- [dumb0](./automation/dumb0.md) — A simple tool to dump users in popular forums and CMS.
+- [easy-creds](./automation/easy-creds.md) — A bash script that leverages ettercap and other tools to obtain credentials.
+- [easyda](./automation/easyda.md) — Easy Windows Domain Access Script.
+- [emp3r0r](./automation/emp3r0r.md) — Linux post-exploitation framework made by linux user.
+- [empire](./automation/empire.md) — A PowerShell and Python post-exploitation agent.
+- [findsploit](./automation/findsploit.md) — Find exploits in local and online databases instantly.
+- [fstealer](./automation/fstealer.md) — Automates file system mirroring through remote file disclosure vulnerabilities on Linux machines.
+- [glue](./automation/glue.md) — A framework for running a series of tools.
+- [go-exploitdb](./automation/go-exploitdb.md) — Tool for searching Exploits from Exploit Databases, etc.
+- [google-explorer](./automation/google-explorer.md) — Google mass exploit robot - Make a google search, and parse the results for a especific exploit you define.
+- [gooscan](./automation/gooscan.md) — A tool that automates queries against Google search appliances, but with a twist.
+- [hackersh](./automation/hackersh.md) — A shell for with Pythonect-like syntax, including wrappers for commonly used security tools.
+- [harpoon](./automation/harpoon.md) — CLI tool for open source and threat intelligence.
+- [hate-crack](./automation/hate-crack.md) — A tool for automating cracking methodologies through Hashcat.
+- [havoc-c2](./automation/havoc-c2.md) — Modern and malleable post-exploitation command and control framework.
+- [intersect](./automation/intersect.md) — Post-exploitation framework.
+- [invoke-cradlecrafter](./automation/invoke-cradlecrafter.md) — PowerShell Remote Download Cradle Generator & Obfuscator.
+- [invoke-dosfuscation](./automation/invoke-dosfuscation.md) — Cmd.exe Command Obfuscation Generator & Detection Test Harness.
+- [invoke-obfuscation](./automation/invoke-obfuscation.md) — PowerShell Obfuscator.
+- [koadic](./automation/koadic.md) — A Windows post-exploitation rootkit similar to other penetration testing tools such as Meterpreter and Powershell Empire.
+- [ldapscripts](./automation/ldapscripts.md) — Simple shell scripts to handle POSIX entries in an LDAP directory.
+- [linikatz](./automation/linikatz.md) — Tool to attack AD on UNIX.
+- [linset](./automation/linset.md) — Evil Twin Attack Bash script - An automated WPA/WPA2 hacker.
+- [lyricpass](./automation/lyricpass.md) — Tool to generate wordlists based on lyrics.
+- [maskprocessor](./automation/maskprocessor.md) — A High-Performance word generator with a per-position configurable charset.
+- [masscan-automation](./automation/masscan-automation.md) — Masscan integrated with Shodan API.
+- [massexpconsole](./automation/massexpconsole.md) — A collection of tools and exploits with a cli ui for mass exploitation.
+- [mentalist](./automation/mentalist.md) — Graphical tool for custom wordlist generation.
+- [merlin-server](./automation/merlin-server.md) — Merlin is a cross-platform post-exploitation HTTP/2 Command & Control server and agent written in golang.
+- [metasploit-autopwn](./automation/metasploit-autopwn.md) — db_autopwn plugin of metasploit.
+- [mitmap-old](./automation/mitmap-old.md) — Shell Script for launching a Fake AP with karma functionality and launches ettercap for packet capture and traffic manipulation.
+- [morpheus](./automation/morpheus.md) — Automated Ettercap TCP/IP Hijacking Tool.
+- [msf-mpc](./automation/msf-mpc.md) — Msfvenom payload creator.
+- [msfenum](./automation/msfenum.md) — A Metasploit auto auxiliary script.
+- [mutator](./automation/mutator.md) — This project aims to be a wordlist mutator with hormones, which means that some mutations will be applied to the result of the ones that have been already done, resulting in something like: corporation -> C0rp0r4t10n_2012
+- [nettacker](./automation/nettacker.md) — Automated Penetration Testing Framework.
+- [nfspy](./automation/nfspy.md) — A Python library for automating the falsification of NFS credentials when mounting an NFS share.
+- [nfsshell](./automation/nfsshell.md) — Userland NFS command tool.
+- [nosqlattack](./automation/nosqlattack.md) — Python tool to automate exploit MongoDB server IP on Internet anddisclose the database data by MongoDB default configuration weaknesses and injection attacks.
+- [nullscan](./automation/nullscan.md) — A modular framework designed to chain and automate security tests.
+- [octopwnweb](./automation/octopwnweb.md) — Internal pentest framework running in your browser via WebAssembly, powerd by Pyodide
+- [openscap](./automation/openscap.md) — Open Source Security Compliance Solution.
+- [panoptic](./automation/panoptic.md) — A tool that automates the process of search and retrieval of content for common log and config files through LFI vulnerability.
+- [pastejacker](./automation/pastejacker.md) — Hacking systems with the automation of PasteJacking attacks.
+- [pasv-agrsv](./automation/pasv-agrsv.md) — Passive recon / OSINT automation script.
+- [penbox](./automation/penbox.md) — A Penetration Testing Framework - The Tool With All The Tools.
+- [pentestgpt](./automation/pentestgpt.md) — A penetration testing tool empowered by ChatGPT. It is designed to automate the penetration testing process.
+- [pentmenu](./automation/pentmenu.md) — A bash script for recon and DOS attacks.
+- [pin](./automation/pin.md) — A dynamic binary instrumentation tool.
+- [portia](./automation/portia.md) — Automate a number of techniques commonly performed on internal network penetration tests after a low privileged account has been compromised.
+- [pupy](./automation/pupy.md) — Opensource, cross-platform (Windows, Linux, OSX, Android) remote administration and post-exploitation tool mainly written in python.
+- [pureblood](./automation/pureblood.md) — A Penetration Testing Framework created for Hackers / Pentester / Bug Hunter.
+- [pyfuscation](./automation/pyfuscation.md) — Obfuscate powershell scripts by replacing Function names, Variables and Parameters.
+- [recomposer](./automation/recomposer.md) — Randomly changes Win32/64 PE Files for 'safer' uploading to malware and sandbox sites.
+- [rhodiola](./automation/rhodiola.md) — Personalized wordlist generator with NLP, by analyzing tweets (A.K.A crunch2049).
+- [rsmangler](./automation/rsmangler.md) — rsmangler takes a wordlist and mangle it
+- [sakis3g](./automation/sakis3g.md) — An all-in-one script for connecting with 3G.
+- [scap-security-guide](./automation/scap-security-guide.md) — Security compliance content in SCAP, Bash, Ansible, and other formats.
+- [scap-workbench](./automation/scap-workbench.md) — SCAP Scanner And Tailoring Graphical User Interface.
+- [search1337](./automation/search1337.md) — 1337Day Online Exploit Scanner.
+- [shellerator](./automation/shellerator.md) — Simple command-line tool aimed to help pentesters quickly generate one-liner reverse/bind shells in multiple languages.
+- [shellpop](./automation/shellpop.md) — Generate easy and sophisticated reverse or bind shell commands.
+- [shellz](./automation/shellz.md) — A script for generating common revshells fast and easy.
+- [simple-ducky](./automation/simple-ducky.md) — A payload generator.
+- [sipvicious](./automation/sipvicious.md) — Tools for auditing SIP devices.
+- [sn00p](./automation/sn00p.md) — A modular tool written in bourne shell and designed to chain and automate security tools and tests.
+- [sn1per](./automation/sn1per.md) — Automated Pentest Recon Scanner.
+- [sploitctl](./automation/sploitctl.md) — Fetch, install and search exploit archives from exploit sites like exploit-db and packetstorm.
+- [spookflare](./automation/spookflare.md) — Loader, dropper generator with multiple features for bypassing client-side and network-side countermeasures.
+- [statsprocessor](./automation/statsprocessor.md) — A high-performance word-generator based on per-position Markov-attack.
+- [thefatrat](./automation/thefatrat.md) — TheFatRat a massive exploiting tool: easy tool to generate backdoor and easy tool to post exploitation attack.
+- [tiger](./automation/tiger.md) — A security scanner, that checks computer for known problems. Can also use tripwire, aide and chkrootkit.
+- [tlssled](./automation/tlssled.md) — A Linux shell script whose purpose is to evaluate the security of a target SSL/TLS (HTTPS) web server implementation.
+- [torctl](./automation/torctl.md) — Script to redirect all traffic through tor network including dns queries for anonymizing entire system.
+- [ttpassgen](./automation/ttpassgen.md) — Highly flexible and scriptable password dictionary generator based on Python.
+- [unix-privesc-check](./automation/unix-privesc-check.md) — Tries to find misconfigurations that could allow local unprivilged users to escalate privileges to other users or to access local apps (e.g. databases).
+- [username-anarchy](./automation/username-anarchy.md) — Tools for generating usernames when penetration testing.
+- [valhalla-api](./automation/valhalla-api.md) — Valhalla API Client.
+- [veil](./automation/veil.md) — A tool designed to generate metasploit payloads that bypass common anti-virus solutions.
+- [vlan-hopping](./automation/vlan-hopping.md) — Easy 802.1Q VLAN Hopping
+- [voiphopper](./automation/voiphopper.md) — A security validation tool that tests to see if a PC can mimic the behavior of an IP Phone. It rapidly automates a VLAN Hop into the Voice VLAN.
+- [wifi-autopwner](./automation/wifi-autopwner.md) — Script to automate searching and auditing Wi-Fi networks with weak security.
+- [wikigen](./automation/wikigen.md) — A script to generate wordlists out of wikipedia pages.
+- [wmd](./automation/wmd.md) — Python framework for IT security tools.
+- [wnmap](./automation/wnmap.md) — A shell script written with the purpose to automate and chain scans via nmap.
+
+## automobile
+
+Automotive/CAN bus security research on owned hardware benches and simulators.
+
+- [can-utils](./automobile/can-utils.md) — Linux-CAN / SocketCAN user space applications.
+- [canalyzat0r](./automobile/canalyzat0r.md) — Security analysis toolkit for proprietary car protocols.
+- [cantoolz](./automobile/cantoolz.md) — Framework for black-box CAN network analysis.
+- [savvycan](./automobile/savvycan.md) — QT-based CAN bus analysis tool.
+
+## backdoor
+
+Malware-analysis labs, detection engineering, reverse engineering, and controlled adversary-emulation research.
+
+- [aesshell](./backdoor/aesshell.md) — A backconnect shell for Windows and Unix written in python and uses AES in CBC mode in conjunction with HMAC-SHA256 for secure transport.
+- [azazel](./backdoor/azazel.md) — A userland rootkit based off of the original LD_PRELOAD technique from Jynx rootkit.
+- [backcookie](./backdoor/backcookie.md) — Small backdoor using cookie.
+- [backdoor-factory](./backdoor/backdoor-factory.md) — Patch win32/64 binaries with shellcode.
+- [backdoorme](./backdoor/backdoorme.md) — A powerful utility capable of backdooring Unix machines with a slew of backdoors.
+- [backdoorppt](./backdoor/backdoorppt.md) — Transform your payload.exe into one fake word doc (.ppt).
+- [cymothoa](./backdoor/cymothoa.md) — A stealth backdooring tool, that inject backdoor's shellcode into an existing process.
+- [debinject](./backdoor/debinject.md) — Inject malicious code into *.debs.
+- [donut](./backdoor/donut.md) — Generates x86, x64 or AMD64+x86 P.I. shellcode loading .NET Assemblies from memory.
+- [dr0p1t-framework](./backdoor/dr0p1t-framework.md) — A framework that creates a dropper that bypass most AVs, some sandboxes and have some tricks.
+- [dragon-backdoor](./backdoor/dragon-backdoor.md) — A sniffing, non binding, reverse down/exec, portknocking service Based on cd00r.c.
+- [eggshell](./backdoor/eggshell.md) — iOS/macOS/Linux Remote Administration Tool.
+- [enyelkm](./backdoor/enyelkm.md) — Rootkit for Linux x86 kernels v2.6.
+- [evilpdf](./backdoor/evilpdf.md) — Embedding executable files in PDF Documents.
+- [exe2image](./backdoor/exe2image.md) — A simple utility to convert EXE files to JPEG images and vice versa.
+- [gobd](./backdoor/gobd.md) — A Golang covert backdoor.
+- [harness](./backdoor/harness.md) — Interactive remote PowerShell Payload.
+- [hoaxshell](./backdoor/hoaxshell.md) — A Windows reverse shell payload generator and handler that abuses the http(s) protocol to establish a beacon-like reverse shell.
+- [hotpatch](./backdoor/hotpatch.md) — Hot patches executables on Linux using .so file injection.
+- [icmpsh](./backdoor/icmpsh.md) — Simple reverse ICMP shell.
+- [jinjector](./backdoor/jinjector.md) — Joomla modules backdoor injector.
+- [jynx2](./backdoor/jynx2.md) — An expansion of the original Jynx LD_PRELOAD rootkit.
+- [k55](./backdoor/k55.md) — Linux x86_64 Process Injection Utility.
+- [kimi](./backdoor/kimi.md) — Script to generate malicious debian packages (debain trojans).
+- [kwetza](./backdoor/kwetza.md) — Python script to inject existing Android applications with a Meterpreter payload.
+- [ld-shatner](./backdoor/ld-shatner.md) — ld-linux code injector.
+- [linux-inject](./backdoor/linux-inject.md) — Tool for injecting a shared object into a Linux process.
+- [meterssh](./backdoor/meterssh.md) — A way to take shellcode, inject it into memory then tunnel whatever port you want to over SSH to mask any type of communications as a normal SSH connection.
+- [microsploit](./backdoor/microsploit.md) — Fast and easy create backdoor office exploitation using module metasploit packet, Microsoft Office, Open Office, Macro attack, Buffer Overflow.
+- [ms-sys](./backdoor/ms-sys.md) — A tool to write Win9x- master boot records (mbr) under linux - RTM!
+- [nxcrypt](./backdoor/nxcrypt.md) — Python backdoor framework.
+- [phishery](./backdoor/phishery.md) — An SSL Enabled Basic Auth Credential Harvester with a Word Document Template URL Injector.
+- [platypus](./backdoor/platypus.md) — A modern multiple reverse shell sessions manager written in go.
+- [pwncat](./backdoor/pwncat.md) — Bind and reverse shell handler with FW/IDS/IPS evasion, self-inject and port-scanning.
+- [pyrasite](./backdoor/pyrasite.md) — Code injection and introspection of running Python processes.
+- [revsh](./backdoor/revsh.md) — A reverse shell with terminal support, data tunneling, and advanced pivoting capabilities.
+- [rrs](./backdoor/rrs.md) — A reverse (connecting) remote shell. Instead of listening for incoming connections it will connect out to a listener (rrs in listen mode). With tty support and more.
+- [rubilyn](./backdoor/rubilyn.md) — 64bit Mac OS-X kernel rootkit that uses no hardcoded address to hook the BSD subsystem in all OS-X Lion & below. It uses a combination of syscall hooking and DKOM to hide activity on a host.
+- [shellinabox](./backdoor/shellinabox.md) — Implements a web server that can export arbitrary command line tools to a web based terminal emulator.
+- [shootback](./backdoor/shootback.md) — A reverse TCP tunnel let you access target behind NAT or firewall.
+- [silenttrinity](./backdoor/silenttrinity.md) — An asynchronous, collaborative post-exploitation agent powered by Python and .NET's DLR.
+- [sliver](./backdoor/sliver.md) — Opensource C2 framework.
+- [syringe](./backdoor/syringe.md) — A General Purpose DLL & Code Injection Utility.
+- [trixd00r](./backdoor/trixd00r.md) — An advanced and invisible userland backdoor based on TCP/IP for UNIX systems.
+- [tsh](./backdoor/tsh.md) — An open-source UNIX backdoor that compiles on all variants, has full pty support, and uses strong crypto for communication.
+- [tsh-sctp](./backdoor/tsh-sctp.md) — An open-source UNIX backdoor.
+- [u3-pwn](./backdoor/u3-pwn.md) — A tool designed to automate injecting executables to Sandisk smart usb devices with default U3 software install.
+- [unicorn-powershell](./backdoor/unicorn-powershell.md) — A simple tool for using a PowerShell downgrade attack and inject shellcode straight into memory.
+- [villain](./backdoor/villain.md) — C2 framework that can handle multiple TCP socket & HoaxShell-based reverse shells, enhance their functionality with additional features and share them among connected sibling servers.
+- [vlany](./backdoor/vlany.md) — Linux LD_PRELOAD rootkit (x86 and x86_64 architectures).
+- [webacoo](./backdoor/webacoo.md) — Web Backdoor Cookie Script-Kit.
+- [webspa](./backdoor/webspa.md) — A web knocking tool, sending a single HTTP/S to run O/S commands.
+
+## binary
+
+Binary analysis, file inspection, patch comparison, exploit-development learning, and reverse-engineering labs.
+
+- [amber](./binary/amber.md) — Reflective PE packer.
+- [amoco](./binary/amoco.md) — Yet another tool for analysing binaries.
+- [androguard](./binary/androguard.md) — Reverse engineering, Malware and goodware analysis of Android applications and more.
+- [angr](./binary/angr.md) — The next-generation binary analysis platform from UC Santa Barbaras Seclab.
+- [angr-management](./binary/angr-management.md) — The official angr GUI.
+- [angr-py2](./binary/angr-py2.md) — The next-generation binary analysis platform from UC Santa Barbaras Seclab.
+- [avet](./binary/avet.md) — AntiVirus Evasion Tool.
+- [barf](./binary/barf.md) — A multiplatform open source Binary Analysis and Reverse engineering Framework.
+- [bgrep](./binary/bgrep.md) — Binary grep.
+- [bindead](./binary/bindead.md) — A static analysis tool for binaries
+- [bindiff](./binary/bindiff.md) — A comparison tool for binary files, that assists vulnerability researchers and engineers to quickly find differences and similarities in disassembled code.
+- [binflow](./binary/binflow.md) — POSIX function tracing. Much better and faster than ftrace.
+- [binwally](./binary/binwally.md) — Binary and Directory tree comparison tool using the Fuzzy Hashing concept (ssdeep).
+- [bsdiff](./binary/bsdiff.md) — Tools for building and applying patches to binary files.
+- [bvi](./binary/bvi.md) — A display-oriented editor for binary files operate like "vi" editor.
+- [bytecode-viewer](./binary/bytecode-viewer.md) — A Java 8/Android APK Reverse Engineering Suite.
+- [cminer](./binary/cminer.md) — A tool for enumerating the code caves in PE files.
+- [cpp2il](./binary/cpp2il.md) — A tool to reverse unity's IL2PP toolchain
+- [detect-it-easy](./binary/detect-it-easy.md) — A program for determining types of files.
+- [dissector](./binary/dissector.md) — This code dissects the internal data structures in ELF files. It supports x86 and x86_64 archs and runs under Linux.
+- [dutas](./binary/dutas.md) — Analysis PE file or Shellcode.
+- [dwarf](./binary/dwarf.md) — Full featured multi arch/os debugger built on top of PyQt5 and frida.
+- [dynamorio](./binary/dynamorio.md) — A dynamic binary instrumentation framework.
+- [ecfs](./binary/ecfs.md) — Extended core file snapshot format.
+- [elfparser](./binary/elfparser.md) — Cross Platform ELF analysis.
+- [eresi](./binary/eresi.md) — The ERESI Reverse Engineering Software Interface.
+- [exescan](./binary/exescan.md) — A tool to detect anomalies in PE (Portable Executable) files.
+- [expimp-lookup](./binary/expimp-lookup.md) — Looks for all export and import names that contain a specified string in all Portable Executable in a directory tree.
+- [expose](./binary/expose.md) — A Dynamic Symbolic Execution (DSE) engine for JavaScript
+- [haystack](./binary/haystack.md) — A Python framework for finding C structures from process memory - heap analysis - Memory structures forensics.
+- [hercules-payload](./binary/hercules-payload.md) — A special payload generator that can bypass all antivirus software.
+- [hex2bin](./binary/hex2bin.md) — Converts Motorola and Intel hex files to binary.
+- [imagejs](./binary/imagejs.md) — Small tool to package javascript into a valid image file.
+- [jpegdump](./binary/jpegdump.md) — Tool to analyzse JPEG images Reads binary files and parses the JPEG markers inside them.
+- [klee](./binary/klee.md) — A symbolic virtual machine built on top of the LLVM compiler infrastructure.
+- [leena](./binary/leena.md) — Symbolic execution engine for JavaScript
+- [loadlibrary](./binary/loadlibrary.md) — Porting Windows Dynamic Link Libraries to Linux.
+- [manticore](./binary/manticore.md) — Symbolic execution tool.
+- [metame](./binary/metame.md) — A simple metamorphic code engine for arbitrary executables.
+- [objdump2shellcode](./binary/objdump2shellcode.md) — A tool I have found incredibly useful whenever creating custom shellcode.
+- [oledump](./binary/oledump.md) — Analyze OLE files (Compound File Binary Format). These files contain streams of data. This tool allows you to analyze these streams.
+- [packerid](./binary/packerid.md) — Script which uses a PEiD database to identify which packer (if any) is being used by a binary.
+- [patchkit](./binary/patchkit.md) — Powerful binary patching from Python.
+- [pixd](./binary/pixd.md) — Colourful visualization tool for binary files.
+- [powerstager](./binary/powerstager.md) — A payload stager using PowerShell.
+- [procdump](./binary/procdump.md) — Generate coredumps based off performance triggers.
+- [proctal](./binary/proctal.md) — Provides a command line interface and a C library to manipulate the address space of a running program on Linux.
+- [python-oletools](./binary/python-oletools.md) — Tools to analyze Microsoft OLE2 files.
+- [python-peid](./binary/python-peid.md) — Python implementation of the Packed Executable iDentifier (PEiD).
+- [python2-oletools](./binary/python2-oletools.md) — Tools to analyze Microsoft OLE2 files.
+- [qbdi](./binary/qbdi.md) — A Dynamic Binary Instrumentation framework based on LLVM.
+- [quickscope](./binary/quickscope.md) — Statically analyze windows, linux, osx, executables and also APK files.
+- [rbasefind](./binary/rbasefind.md) — A firmware base address search tool.
+- [redress](./binary/redress.md) — A tool for analyzing stripped Go binaries.
+- [saruman](./binary/saruman.md) — ELF anti-forensics exec, for injecting full dynamic executables into process image (With thread injection).
+- [sgn](./binary/sgn.md) — Shikata ga nai encoder ported into go with several improvements.
+- [soot](./binary/soot.md) — A Java Bytecode Analysis and Transformation Framework.
+- [stringsifter](./binary/stringsifter.md) — Machine learning tool that automatically ranks strings based on their relevance for malware analysis.
+- [triton](./binary/triton.md) — A Dynamic Binary Analysis (DBA) framework.
+- [veles](./binary/veles.md) — New open source tool for binary data analysis.
+- [wcc](./binary/wcc.md) — The Witchcraft Compiler Collection.
+- [wxhexeditor](./binary/wxhexeditor.md) — A free hex editor / disk editor for Linux, Windows and MacOSX.
+- [zelos](./binary/zelos.md) — A comprehensive binary emulation and instrumentation platform.
+
+## bluetooth
+
+Bluetooth security auditing, device inventory, protocol study, and lab testing of your own devices.
+
+- [blue-hydra](./bluetooth/blue-hydra.md) — A Bluetooth device discovery service built on top of the bluez library.
+- [bluebugger](./bluetooth/bluebugger.md) — An implementation of the bluebug technique which was discovered by Martin Herfurt.
+- [bluediving](./bluetooth/bluediving.md) — A Bluetooth penetration testing suite.
+- [bluefog](./bluetooth/bluefog.md) — A tool that can generate an essentially unlimited number of phantom Bluetooth devices.
+- [bluelog](./bluetooth/bluelog.md) — A Bluetooth scanner and sniffer written to do a single task, log devices that are in discoverable mode.
+- [bluepot](./bluetooth/bluepot.md) — A Bluetooth Honeypot written in Java, it runs on Linux.
+- [blueprint](./bluetooth/blueprint.md) — A perl tool to identify Bluetooth devices.
+- [bluescan](./bluetooth/bluescan.md) — A Bluetooth Device Scanner.
+- [bluesnarfer](./bluetooth/bluesnarfer.md) — A bluetooth attacking tool.
+- [bluphish](./bluetooth/bluphish.md) — Bluetooth device and service discovery tool that can be used for security assessment and penetration testing.
+- [braces](./bluetooth/braces.md) — A Bluetooth Tracking Utility.
+- [bss](./bluetooth/bss.md) — Bluetooth stack smasher / fuzzer.
+- [bt_audit](./bluetooth/bt_audit.md) — Bluetooth audit
+- [btcrack](./bluetooth/btcrack.md) — The world's first Bluetooth Pass phrase (PIN) bruteforce tool. Bruteforces the Passkey and the Link key from captured Pairing exchanges.
+- [btlejack](./bluetooth/btlejack.md) — Bluetooth Low Energy Swiss-army knife.
+- [btproxy-mitm](./bluetooth/btproxy-mitm.md) — Man in the Middle analysis tool for Bluetooth.
+- [btscanner](./bluetooth/btscanner.md) — Bluetooth device scanner.
+- [carwhisperer](./bluetooth/carwhisperer.md) — Sensibilise manufacturers of carkits and other Bluetooth appliances without display and keyboard for the possible security threat evolving from the use of standard passkeys.
+- [ghettotooth](./bluetooth/ghettotooth.md) — Ghettodriving for bluetooth.
+- [hidattack](./bluetooth/hidattack.md) — HID Attack (attacking HID host implementations).
+- [obexstress](./bluetooth/obexstress.md) — Script for testing remote OBEX service for some potential vulnerabilities.
+- [redfang](./bluetooth/redfang.md) — Finds non-discoverable Bluetooth devices by brute-forcing the last six bytes of the devices' Bluetooth addresses and calling read_remote_name().
+- [sparrow-wifi](./bluetooth/sparrow-wifi.md) — Next-Gen GUI-based WiFi and Bluetooth Analyzer.
+- [spooftooph](./bluetooth/spooftooph.md) — Designed to automate spoofing or cloning Bluetooth device Name, Class, and Address. Cloning this information effectively allows Bluetooth device to hide in plain sight.
+- [tbear](./bluetooth/tbear.md) — Transient Bluetooth Environment Auditor includes an ncurses-based Bluetooth scanner (a bit similar to kismet), a Bluetooth DoS tool, and a Bluetooth hidden device locator.
+- [ubertooth](./bluetooth/ubertooth.md) — A 2.4 GHz wireless development board suitable for Bluetooth experimentation. Open source hardware and software. Tools only.
+
+## code-audit
+
+Static analysis, secure code review, dependency review, and finding bugs before deployment.
+
+- [bof-detector](./code-audit/bof-detector.md) — A simple detector of BOF vulnerabilities by source-code-level check.
+- [brakeman](./code-audit/brakeman.md) — A static analysis security vulnerability scanner for Ruby on Rails applications.
+- [cflow](./code-audit/cflow.md) — A C program flow analyzer.
+- [checkov](./code-audit/checkov.md) — Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images and open source packages.
+- [cpptest](./code-audit/cpptest.md) — A portable and powerful, yet simple, unit testing framework for handling automated tests in C++.
+- [dependency-check](./code-audit/dependency-check.md) — A tool that attempts to detect publicly disclosed vulnerabilities contained within a project's dependencies.
+- [detect-secrets](./code-audit/detect-secrets.md) — An enterprise friendly way of detecting and preventing secrets in code.
+- [devaudit](./code-audit/devaudit.md) — An open-source, cross-platform, multi-purpose security auditing tool targeted at developers and teams.
+- [githound](./code-audit/githound.md) — Find secret information in git repositories.
+- [graudit](./code-audit/graudit.md) — Grep rough source code auditing tool.
+- [horusec](./code-audit/horusec.md) — Static code analysis to identify security flaws for many languages.
+- [local-php-security-checker](./code-audit/local-php-security-checker.md) — A command line tool that checks your PHP application packages with known security vulnerabilities.
+- [mosca](./code-audit/mosca.md) — Static analysis tool to find bugs like a grep unix command.
+- [njsscan](./code-audit/njsscan.md) — A static application testing (SAST) tool that can find insecure code patterns in your node.js applications.
+- [phpstan](./code-audit/phpstan.md) — PHP Static Analysis Tool - discover bugs in your code without running it.
+- [pscan](./code-audit/pscan.md) — A limited problem scanner for C source files
+- [rats](./code-audit/rats.md) — A rough auditing tool for security in source code files.
+- [semgrep](./code-audit/semgrep.md) — Lightweight static analysis for many languages.
+- [slither](./code-audit/slither.md) — Solidity static analysis framework written in Python 3.
+- [snyk](./code-audit/snyk.md) — CLI and build-time tool to find and fix known vulnerabilities in open-source dependencies.
+- [sonar-scanner](./code-audit/sonar-scanner.md) — Generic CLI tool to launch project analysis on SonarQube servers.
+- [spotbugs](./code-audit/spotbugs.md) — A tool for static analysis to look for bugs in Java code.
+- [stoq](./code-audit/stoq.md) — An open source framework for enterprise level automated analysis.
+- [tell-me-your-secrets](./code-audit/tell-me-your-secrets.md) — Find secrets on any machine from over 120 Different Signatures.
+- [trufflehog](./code-audit/trufflehog.md) — Searches through git repositories for high entropy strings, digging deep into commit history.
+- [whispers](./code-audit/whispers.md) — Identify hardcoded secrets in static structured text.
+- [wpbullet](./code-audit/wpbullet.md) — A static code analysis for WordPress (and PHP).
+- [wscript](./code-audit/wscript.md) — Emulator/tracer of the Windows Script Host functionality.
+- [yasca](./code-audit/yasca.md) — Multi-Language Static Analysis Toolset.
+- [zarn](./code-audit/zarn.md) — A lightweight static security analysis tool for modern Perl Apps.
+
+## cracker
+
+Authorized password-audit labs, offline hash-strength checks, and recovery of your own encrypted material.
+
+- [acccheck](./cracker/acccheck.md) — A password dictionary attack tool that targets windows authentication via the SMB protocol.
+- [adfspray](./cracker/adfspray.md) — Python3 tool to perform password spraying against Microsoft Online service using various methods.
+- [aesfix](./cracker/aesfix.md) — A tool to find AES key in RAM.
+- [aeskeyfind](./cracker/aeskeyfind.md) — A tool to find AES key in RAM.
+- [against](./cracker/against.md) — A very fast ssh attacking script which includes a multithreaded port scanning module (tcp connect) for discovering possible targets and a multithreaded brute-forcing module which attacks parallel all discovered hosts or given ip addresses from a list.
+- [ares](./cracker/ares.md) — Automated decoding of encrypted text without knowing the key or ciphers used.
+- [asleap](./cracker/asleap.md) — Actively recover LEAP/PPTP passwords.
+- [beleth](./cracker/beleth.md) — A Multi-threaded Dictionary based SSH cracker.
+- [bgp-md5crack](./cracker/bgp-md5crack.md) — RFC2385 password cracker
+- [bios_memimage](./cracker/bios_memimage.md) — A tool to dump RAM contents to disk (aka cold boot attack).
+- [bkcrack](./cracker/bkcrack.md) — Crack legacy zip encryption with Biham and Kocher known plaintext attack.
+- [bkhive](./cracker/bkhive.md) — Program for dumping the syskey bootkey from a Windows NT/2K/XP system hive.
+- [blackhash](./cracker/blackhash.md) — Creates a filter from system hashes.
+- [bob-the-butcher](./cracker/bob-the-butcher.md) — A distributed password cracker package.
+- [brute-force](./cracker/brute-force.md) — Brute-Force attack tool for Gmail Hotmail Twitter Facebook Netflix.
+- [bruteforce-luks](./cracker/bruteforce-luks.md) — Try to find the password of a LUKS encrypted volume.
+- [bruteforce-salted-openssl](./cracker/bruteforce-salted-openssl.md) — Try to find the password of a file that was encrypted with the 'openssl' command.
+- [bruteforce-wallet](./cracker/bruteforce-wallet.md) — Try to find the password of an encrypted Peercoin (or Bitcoin,Litecoin, etc...) wallet file.
+- [brutessh](./cracker/brutessh.md) — A simple sshd password bruteforcer using a wordlist, it's very fast for internal networks. It's multithreads.
+- [chapcrack](./cracker/chapcrack.md) — A tool for parsing and decrypting MS-CHAPv2 network handshakes.
+- [cintruder](./cracker/cintruder.md) — An automatic pentesting tool to bypass captchas.
+- [cisco-auditing-tool](./cracker/cisco-auditing-tool.md) — Perl script which scans cisco routers for common vulnerabilities. Checks for default passwords, easily guessable community names, and the IOS history bug. Includes support for plugins and scanning multiple hosts.
+- [cisco-ocs](./cracker/cisco-ocs.md) — Cisco Router Default Password Scanner.
+- [cisco-scanner](./cracker/cisco-scanner.md) — Multithreaded Cisco HTTP vulnerability scanner. Tested on Linux, OpenBSD and Solaris.
+- [cisco5crack](./cracker/cisco5crack.md) — Crypt and decrypt the cisco enable 5 passwords.
+- [cisco7crack](./cracker/cisco7crack.md) — Crypt and decrypt the cisco enable 7 passwords.
+- [cmospwd](./cracker/cmospwd.md) — Decrypts password stored in CMOS used to access BIOS setup.
+- [compp](./cracker/compp.md) — Company Passwords Profiler helps making a bruteforce wordlist for a targeted company.
+- [crackhor](./cracker/crackhor.md) — A Password cracking utility.
+- [crackle](./cracker/crackle.md) — Crack and decrypt BLE encryption.
+- [crackpkcs12](./cracker/crackpkcs12.md) — A multithreaded program to crack PKCS#12 files (p12 and pfx extensions).
+- [crackq](./cracker/crackq.md) — Hashcrack.org GPU-accelerated password cracker.
+- [crackserver](./cracker/crackserver.md) — An XMLRPC server for password cracking.
+- [creddump](./cracker/creddump.md) — A python tool to extract various credentials and secrets from Windows registry hives.
+- [credmaster](./cracker/credmaster.md) — Refactored & improved CredKing password spraying tool, uses FireProx APIs to rotate IP addresses, stay anonymous, and beat throttling.
+- [crowbar](./cracker/crowbar.md) — Brute forcing tool that can be used during penetration tests.
+- [cryptohazemultiforcer](./cracker/cryptohazemultiforcer.md) — High performance multihash brute forcer with CUDA support.
+- [cudahashcat](./cracker/cudahashcat.md) — Worlds fastest WPA cracker with dictionary mutation engine.
+- [cupp](./cracker/cupp.md) — Common User Password Profiler
+- [dbpwaudit](./cracker/dbpwaudit.md) — A Java tool that allows you to perform online audits of password quality for several database engines.
+- [depant](./cracker/depant.md) — Check network for services with default passwords.
+- [device-pharmer](./cracker/device-pharmer.md) — Opens 1K+ IPs or Shodan search results and attempts to login.
+- [doozer](./cracker/doozer.md) — A Password cracking utility.
+- [dpeparser](./cracker/dpeparser.md) — Default password enumeration project
+- [eapmd5pass](./cracker/eapmd5pass.md) — An implementation of an offline dictionary attack against the EAP-MD5 protocol.
+- [enabler](./cracker/enabler.md) — Attempts to find the enable password on a cisco system via brute force.
+- [evilize](./cracker/evilize.md) — Tool to create MD5 colliding binaries.
+- [evilmaid](./cracker/evilmaid.md) — TrueCrypt loader backdoor to sniff volume password.
+- [f-scrack](./cracker/f-scrack.md) — A single file bruteforcer supports multi-protocol.
+- [facebrute](./cracker/facebrute.md) — This script tries to guess passwords for a given facebook account using a list of passwords (dictionary).
+- [fang](./cracker/fang.md) — A multi service threaded MD5 cracker.
+- [flask-unsign](./cracker/flask-unsign.md) — Command line tool to fetch, decode, brute-force and craft session cookies of a Flask application by guessing secret keys.
+- [ftp-scanner](./cracker/ftp-scanner.md) — Multithreaded ftp scanner/brute forcer. Tested on Linux, OpenBSD and Solaris.
+- [gomapenum](./cracker/gomapenum.md) — User enumeration and password bruteforce on Azure, ADFS, OWA, O365, Teams and gather emails on Linkedin.
+- [gpocrack](./cracker/gpocrack.md) — Active Directory Group Policy Preferences cpassword cracker/decrypter.
+- [hasher](./cracker/hasher.md) — A tool that allows you to quickly hash plaintext strings, or compare hashed values with a plaintext locally.
+- [hashtag](./cracker/hashtag.md) — A python script written to parse and identify password hashes.
+- [hostbox-ssh](./cracker/hostbox-ssh.md) — A ssh password/account scanner.
+- [htpwdscan](./cracker/htpwdscan.md) — A python HTTP weak pass scanner.
+- [ibrute](./cracker/ibrute.md) — An AppleID password bruteforce tool. It uses Find My Iphone service API, where bruteforce protection was not implemented.
+- [icloudbrutter](./cracker/icloudbrutter.md) — Tool for AppleID Bruteforce.
+- [iheartxor](./cracker/iheartxor.md) — A tool for bruteforcing encoded strings within a boundary defined by a regular expression. It will bruteforce the key value range of 0x1 through 0x255.
+- [iisbruteforcer](./cracker/iisbruteforcer.md) — HTTP authentication cracker. It's a tool that launchs an online dictionary attack to test for weak or simple passwords against protected areas on an IIS Web server.
+- [ikecrack](./cracker/ikecrack.md) — An IKE/IPSec crack tool designed to perform Pre-Shared-Key analysis of RFC compliant aggressive mode authentication
+- [ikeforce](./cracker/ikeforce.md) — A command line IPSEC VPN brute forcing tool for Linux that allows group name/ID enumeration and XAUTH brute forcing capabilities.
+- [inguma](./cracker/inguma.md) — A free penetration testing and vulnerability discovery toolkit entirely written in python. Framework includes modules to discover hosts, gather information about, fuzz targets, brute force usernames and passwords, exploits, and a disassembler.
+- [instashell](./cracker/instashell.md) — Multi-threaded Instagram Brute Forcer without password limit.
+- [ipmipwn](./cracker/ipmipwn.md) — IPMI cipher 0 attack tool.
+- [jbrute](./cracker/jbrute.md) — Open Source Security tool to audit hashed passwords.
+- [jeangrey](./cracker/jeangrey.md) — A tool to perform differential fault analysis attacks (DFA).
+- [johnny](./cracker/johnny.md) — GUI for John the Ripper.
+- [jwt-cracker](./cracker/jwt-cracker.md) — JWT brute force cracker written in C.
+- [jwt-tool](./cracker/jwt-tool.md) — Toolkit for validating, forging and cracking JWTs (JSON Web Tokens).
+- [jwtcat](./cracker/jwtcat.md) — Script performs offline brute-force attacks against JSON Web Token (JWT)
+- [keimpx](./cracker/keimpx.md) — Tool to verify the usefulness of credentials across a network over SMB.
+- [kerbrute](./cracker/kerbrute.md) — A tool to perform Kerberos pre-auth bruteforcing.
+- [khc](./cracker/khc.md) — A small tool designed to recover hashed known_hosts fiels back to their plain-text equivalents.
+- [ldap-brute](./cracker/ldap-brute.md) — A semi fast tool to bruteforce values of LDAP injections over HTTP.
+- [levye](./cracker/levye.md) — A brute force tool which is support sshkey, vnckey, rdp, openvpn.
+- [lodowep](./cracker/lodowep.md) — Lodowep is a tool for analyzing password strength of accounts on a Lotus Domino webserver system.
+- [mdcrack](./cracker/mdcrack.md) — MD4/MD5/NTLM1 hash cracker
+- [mkbrutus](./cracker/mkbrutus.md) — Password bruteforcer for MikroTik devices or boxes running RouterOS.
+- [morxbook](./cracker/morxbook.md) — A password cracking tool written in perl to perform a dictionary-based attack on a specific Facebook user through HTTPS.
+- [morxbrute](./cracker/morxbrute.md) — A customizable HTTP dictionary-based password cracking tool written in Perl.
+- [morxbtcrack](./cracker/morxbtcrack.md) — Single Bitcoin private key cracking tool released.
+- [morxcoinpwn](./cracker/morxcoinpwn.md) — Mass Bitcoin private keys brute forcing/Take over tool released.
+- [morxcrack](./cracker/morxcrack.md) — A cracking tool written in Perl to perform a dictionary-based attack on various hashing algorithm and CMS salted-passwords.
+- [mybff](./cracker/mybff.md) — A Brute Force Framework.
+- [o365enum](./cracker/o365enum.md) — Username enumeration and password enuming tool aimed at Microsoft O365.
+- [o365spray](./cracker/o365spray.md) — Username enumeration and password spraying tool aimed at Microsoft O365.
+- [obevilion](./cracker/obevilion.md) — Another archive cracker created in python, cracking [zip/7z/rar].
+- [oclhashcat](./cracker/oclhashcat.md) — Worlds fastest WPA cracker with dictionary mutation engine.
+- [omen](./cracker/omen.md) — Ordered Markov ENumerator - Password Guesser.
+- [onesixtyone](./cracker/onesixtyone.md) — An SNMP scanner that sends multiple SNMP requests to multiple IP addresses
+- [ophcrack](./cracker/ophcrack.md) — Windows password cracker based on rainbow tables.
+- [outlook-webapp-brute](./cracker/outlook-webapp-brute.md) — Microsoft Outlook WebAPP Brute.
+- [owabf](./cracker/owabf.md) — Outlook Web Access bruteforcer tool.
+- [pack](./cracker/pack.md) — Password Analysis and Cracking Kit
+- [passe-partout](./cracker/passe-partout.md) — Tool to extract RSA and DSA private keys from any process linked with OpenSSL. The target memory is scanned to lookup specific OpenSSL patterns.
+- [passgan](./cracker/passgan.md) — A Deep Learning Approach for Password Guessing.
+- [patator](./cracker/patator.md) — A multi-purpose bruteforcer.
+- [pdgmail](./cracker/pdgmail.md) — A password dictionary attack tool that targets windows authentication via the SMB protocol.
+- [pemcrack](./cracker/pemcrack.md) — Cracks SSL PEM files that hold encrypted private keys. Brute forces or dictionary cracks.
+- [pemcracker](./cracker/pemcracker.md) — Tool to crack encrypted PEM files.
+- [phoss](./cracker/phoss.md) — Sniffer designed to find HTTP, FTP, LDAP, Telnet, IMAP4, VNC and POP3 logins.
+- [php-mt-seed](./cracker/php-mt-seed.md) — PHP mt_rand() seed cracker.
+- [php-rfi-payload-decoder](./cracker/php-rfi-payload-decoder.md) — Decode and analyze RFI payloads developed in PHP.
+- [phrasendrescher](./cracker/phrasendrescher.md) — A modular and multi processing pass phrase cracking tool.
+- [pipal](./cracker/pipal.md) — A password analyser.
+- [pipeline](./cracker/pipeline.md) — Designed to aid in targeted brute force password cracking attacks.
+- [pkcrack](./cracker/pkcrack.md) — A PkZip encryption cracker.
+- [pwcrack](./cracker/pwcrack.md) — Password hash automatic cracking framework.
+- [pybozocrack](./cracker/pybozocrack.md) — A silly & effective MD5 cracker in Python.
+- [pyrit](./cracker/pyrit.md) — The famous WPA precomputed cracker.
+- [rainbowcrack](./cracker/rainbowcrack.md) — Password cracker based on the faster time-memory trade-off. With MySQL and Cisco PIX Algorithm patches.
+- [rcracki-mt](./cracker/rcracki-mt.md) — A tool to perform rainbow table attacks on password hashes. It is intended for indexed/perfected rainbow tables, mainly generated by the distributed project www.freerainbowtables.com.
+- [rdesktop-brute](./cracker/rdesktop-brute.md) — It connects to windows terminal servers - Bruteforce patch included.
+- [rdpassspray](./cracker/rdpassspray.md) — Python3 tool to perform password spraying using RDP.
+- [rfcrack](./cracker/rfcrack.md) — A Software Defined Radio Attack Tool.
+- [ridenum](./cracker/ridenum.md) — A null session RID cycle attack for brute forcing domain controllers.
+- [rlogin-scanner](./cracker/rlogin-scanner.md) — Multithreaded rlogin scanner. Tested on Linux, OpenBSD and Solaris.
+- [rootbrute](./cracker/rootbrute.md) — Local root account bruteforcer.
+- [rpdscan](./cracker/rpdscan.md) — Remmina Password Decoder and scanner.
+- [rsakeyfind](./cracker/rsakeyfind.md) — A tool to find RSA key in RAM.
+- [samdump2](./cracker/samdump2.md) — Dump password hashes from a Windows NT/2k/XP installation
+- [samydeluxe](./cracker/samydeluxe.md) — Automatic samdump creation script.
+- [shreder](./cracker/shreder.md) — A powerful multi-threaded SSH protocol password bruteforce tool.
+- [sidguesser](./cracker/sidguesser.md) — Guesses sids/instances against an Oracle database according to a predefined dictionary file.
+- [sipcrack](./cracker/sipcrack.md) — A SIP protocol login cracker.
+- [skul](./cracker/skul.md) — A PoC to bruteforce the Cryptsetup implementation of Linux Unified Key Setup (LUKS).
+- [smbbf](./cracker/smbbf.md) — SMB password bruteforcer.
+- [snmp-brute](./cracker/snmp-brute.md) — SNMP brute force, enumeration, CISCO config downloader and password cracking script.
+- [speedpwn](./cracker/speedpwn.md) — An active WPA/2 Bruteforcer, original created to prove weak standard key generation in different ISP labeled routers without a client is connected.
+- [spray365](./cracker/spray365.md) — Makes spraying Microsoft accounts (Office 365 / Azure AD) easy through its customizable two-step password spraying approach.
+- [spraycharles](./cracker/spraycharles.md) — Low and slow password spraying tool, designed to spray on an interval over a long period of time.
+- [sqlpat](./cracker/sqlpat.md) — This tool should be used to audit the strength of Microsoft SQL Server passwords offline.
+- [ssh-privkey-crack](./cracker/ssh-privkey-crack.md) — A SSH private key cracker.
+- [sshatter](./cracker/sshatter.md) — Password bruteforcer for SSH.
+- [sshprank](./cracker/sshprank.md) — A fast SSH mass-scanner, login cracker, banner grabber and password auth checker tool using the python-masscan and shodan module.
+- [sshscan](./cracker/sshscan.md) — A horizontal SSH scanner that scans large swaths of IPv4 space for a single SSH user and pass.
+- [sshtrix](./cracker/sshtrix.md) — A very fast multithreaded SSH login cracker.
+- [sslnuke](./cracker/sslnuke.md) — Transparent proxy that decrypts SSL traffic and prints out IRC messages.
+- [sucrack](./cracker/sucrack.md) — A multi-threaded Linux/UNIX tool for brute-force cracking local user accounts via su.
+- [talon](./cracker/talon.md) — A password guessing tool that targets the Kerberos and LDAP services within the Windows Active Directory environment.
+- [tftp-bruteforce](./cracker/tftp-bruteforce.md) — A fast TFTP filename bruteforcer written in perl.
+- [thc-keyfinder](./cracker/thc-keyfinder.md) — Finds crypto keys, encrypted data and compressed data in files by analyzing the entropy of parts of the file.
+- [thc-pptp-bruter](./cracker/thc-pptp-bruter.md) — A brute force program that works against pptp vpn endpoints (tcp port 1723).
+- [thc-smartbrute](./cracker/thc-smartbrute.md) — This tool finds undocumented and secret commands implemented in a smartcard.
+- [timeverter](./cracker/timeverter.md) — Bruteforce time-based tokens and to convert several time domains.
+- [trevorspray](./cracker/trevorspray.md) — A modular password sprayer with threading, clever proxying, loot modules, and more!
+- [truecrack](./cracker/truecrack.md) — Password cracking for truecrypt(c) volumes.
+- [tweetshell](./cracker/tweetshell.md) — Multi-thread Twitter BruteForcer in Shell Script.
+- [ufo-wardriving](./cracker/ufo-wardriving.md) — Allows you to test the security of wireless networks by detecting their passwords based on the router model.
+- [vnc-bypauth](./cracker/vnc-bypauth.md) — Multi-threaded bypass authentication scanner for VNC smaller than v4.1.1 servers.
+- [vncrack](./cracker/vncrack.md) — What it looks like: crack VNC.
+- [wmat](./cracker/wmat.md) — Automatic tool for testing webmail accounts.
+- [wordbrutepress](./cracker/wordbrutepress.md) — Python script that performs brute forcing against WordPress installs using a wordlist.
+- [wpbf](./cracker/wpbf.md) — Multithreaded WordPress brute forcer.
+- [wpbrute-rpc](./cracker/wpbrute-rpc.md) — Tool for amplified bruteforce attacks on wordpress based website via xmlrcp API.
+- [wyd](./cracker/wyd.md) — Gets keywords from personal files. IT security/forensic tool.
+- [zulu](./cracker/zulu.md) — A light weight 802.11 wireless frame generation tool to enable fast and easy debugging and probing of 802.11 networks.
+
+## crypto
+
+Cryptography analysis, encoding/decoding, key-format inspection, and CTF/lab cryptanalysis.
+
+- [aespipe](./crypto/aespipe.md) — Reads data from stdin and outputs encrypted or decrypted results to stdout.
+- [auto-xor-decryptor](./crypto/auto-xor-decryptor.md) — Automatic XOR decryptor tool.
+- [bletchley](./crypto/bletchley.md) — A collection of practical application cryptanalysis tools.
+- [c7decrypt](./crypto/c7decrypt.md) — Cisco password type encryptor and decryptor.
+- [ciphertest](./crypto/ciphertest.md) — A better SSL cipher checker using gnutls.
+- [ciphr](./crypto/ciphr.md) — A CLI tool for encoding, decoding, encryption, decryption, and hashing streams of data.
+- [codetective](./crypto/codetective.md) — A tool to determine the crypto/encoding algorithm used according to traces of its representation.
+- [cribdrag](./crypto/cribdrag.md) — An interactive crib dragging tool for cryptanalysis on ciphertext generated with reused or predictable stream cipher keys.
+- [crypthook](./crypto/crypthook.md) — TCP/UDP symmetric encryption tunnel wrapper.
+- [cryptonark](./crypto/cryptonark.md) — SSL security checker.
+- [dagon](./crypto/dagon.md) — Advanced Hash Manipulation.
+- [daredevil](./crypto/daredevil.md) — A tool to perform (higher-order) correlation power analysis attacks (CPA).
+- [decodify](./crypto/decodify.md) — Tool that can detect and decode encoded strings, recursively.
+- [deen](./crypto/deen.md) — Generic data encoding/decoding application built with PyQt5.
+- [demiguise](./crypto/demiguise.md) — HTA encryption tool for RedTeams.
+- [dislocker](./crypto/dislocker.md) — Read BitLocker encrypted volumes under Linux.
+- [factordb-pycli](./crypto/factordb-pycli.md) — CLI for factordb and Python API Client.
+- [featherduster](./crypto/featherduster.md) — An automated, modular cryptanalysis tool.
+- [findmyhash](./crypto/findmyhash.md) — Crack different types of hashes using free online services.
+- [foresight](./crypto/foresight.md) — A tool for predicting the output of random number generators.
+- [gcrypt](./crypto/gcrypt.md) — Simple, secure and performance file encryption tool written in C
+- [gdir.pl](./crypto/gdir.pl.md) — Perl wrapper on gcrypt for directory encryption/decryption.
+- [gpp-decrypt](./crypto/gpp-decrypt.md) — Parse the Group Policy Preferences XML file which extracts the username and decrypts the cpassword attribute.
+- [haiti](./crypto/haiti.md) — Hash type identifier (CLI & lib).
+- [hash-buster](./crypto/hash-buster.md) — A python script which scraps online hash crackers to find cleartext of a hash.
+- [hash-extender](./crypto/hash-extender.md) — A hash length extension attack tool.
+- [hash-identifier](./crypto/hash-identifier.md) — Software to identify the different types of hashes used to encrypt data and especially passwords.
+- [hashcheck](./crypto/hashcheck.md) — Search for leaked passwords while maintaining a high level of privacy using the k-anonymity method.
+- [hashdb](./crypto/hashdb.md) — A block hash toolkit.
+- [hashdeep](./crypto/hashdeep.md) — Cross-platform tools to message digests for any number of files.
+- [hashfind](./crypto/hashfind.md) — A tool to search files for matching password hash types and other interesting data.
+- [hashid](./crypto/hashid.md) — Software to identify the different types of hashes used to encrypt data.
+- [hashpeek](./crypto/hashpeek.md) — A fast Go-based CLI tool to identify, extract, and classify hash types from structured data/files with JSON/CSV output and Hashcat/John formatting details (a hash identifier).
+- [hashpump](./crypto/hashpump.md) — A tool to exploit the hash length extension attack in various hashing algorithms.
+- [hashrat](./crypto/hashrat.md) — Hashing tool supporting MD5, SHA1, SHA256, SHA512, Whirlpool, JH and their HMAC.
+- [hdcp-genkey](./crypto/hdcp-genkey.md) — Generate HDCP source and sink keys from the leaked master key.
+- [hlextend](./crypto/hlextend.md) — Pure Python hash length extension module.
+- [ja3](./crypto/ja3.md) — Standard for creating SSL client fingerprints in an easy to produce and shareable way.
+- [jwt-key-recovery](./crypto/jwt-key-recovery.md) — Recovers the public key used to sign JWT tokens.
+- [kh2hc](./crypto/kh2hc.md) — Convert OpenSSH known_hosts file hashed with HashKnownHosts to hashes crackable by Hashcat.
+- [kraken](./crypto/kraken.md) — A project to encrypt A5/1 GSM signaling using a Time/Memory Tradeoff Attack.
+- [libbde](./crypto/libbde.md) — A library to access the BitLocker Drive Encryption (BDE) format.
+- [luksipc](./crypto/luksipc.md) — A tool to convert unencrypted block devices to encrypted LUKS devices in-place.
+- [morxkeyfmt](./crypto/morxkeyfmt.md) — Read a private key from stdin and output formatted data values.
+- [nomorexor](./crypto/nomorexor.md) — Tool to help guess a files 256 byte XOR key by using frequency analysis.
+- [ntlmv1-multi](./crypto/ntlmv1-multi.md) — NTLMv1 Multitool.
+- [omnihash](./crypto/omnihash.md) — Hash files, strings, input streams and network resources in various common algorithms simultaneously.
+- [openstego](./crypto/openstego.md) — A tool implemented in Java for generic steganography, with support for password-based encryption of the data.
+- [outguess](./crypto/outguess.md) — A universal steganographic tool.
+- [pacumen](./crypto/pacumen.md) — Packet Acumen - Analyse encrypted network traffic and more (side-channel attacks).
+- [padbuster](./crypto/padbuster.md) — Automated script for performing Padding Oracle attacks.
+- [padoracle](./crypto/padoracle.md) — Padding Oracle Attack with Node.js.
+- [padre](./crypto/padre.md) — Padding Oracle attack tool.
+- [pax-oracle](./crypto/pax-oracle.md) — CLI tool for PKCS7 padding oracle attacks.
+- [pip3line](./crypto/pip3line.md) — The Swiss army knife of byte manipulation.
+- [poracle](./crypto/poracle.md) — A tool for demonstrating padding oracle attacks.
+- [posttester](./crypto/posttester.md) — A jar file that will send POST requests to servers in order to test for the hash collision vulnerability discussed at the Chaos Communication Congress in Berlin.
+- [pwd-hash](./crypto/pwd-hash.md) — A password hashing tool that use the crypt function to generate the hash of a string given on standard input.
+- [pwdlyser](./crypto/pwdlyser.md) — Python-based CLI Password Analyser (Reporting Tool).
+- [rsactftool](./crypto/rsactftool.md) — RSA tool for ctf - retrieve private key from weak public key and/or uncipher data.
+- [rsatool](./crypto/rsatool.md) — Tool that can be used to calculate RSA and RSA-CRT parameters.
+- [rshack](./crypto/rshack.md) — Python tool which allows to carry out some attacks on RSA, and offer a few tools to manipulate RSA keys.
+- [rupture](./crypto/rupture.md) — A framework for BREACH and other compression-based crypto attacks.
+- [rustpad](./crypto/rustpad.md) — Multi-threaded Padding Oracle attacks against any service.
+- [sbd](./crypto/sbd.md) — Netcat-clone, portable, offers strong encryption - features AES-CBC + HMAC-SHA1 encryption, program execution (-e), choosing source port, continuous reconnection with delay + more
+- [sha1collisiondetection](./crypto/sha1collisiondetection.md) — Library and command line tool to detect SHA collision in a file
+- [snow](./crypto/snow.md) — Steganography program for concealing messages in text files.
+- [sslyze](./crypto/sslyze.md) — Python tool for analyzing the configuration of SSL servers and for identifying misconfigurations.
+- [tls-attacker](./crypto/tls-attacker.md) — A Java-based framework for analyzing TLS libraries.
+- [tls-map](./crypto/tls-map.md) — CLI & library for TLS cipher suites manipulation.
+- [tlsenum](./crypto/tlsenum.md) — A command line tool to enumerate TLS cipher-suites supported by a server.
+- [tlsfuzzer](./crypto/tlsfuzzer.md) — SSL and TLS protocol test suite and fuzzer.
+- [tlshelpers](./crypto/tlshelpers.md) — A collection of shell scripts that help handling X.509 certificate and TLS issues.
+- [tlspretense](./crypto/tlspretense.md) — SSL/TLS client testing framework.
+- [untwister](./crypto/untwister.md) — Seed recovery tool for PRNGs.
+- [x-rsa](./crypto/x-rsa.md) — Contains a many of attack types in RSA such as Hasted, Common Modulus, Chinese Remainder Theorem.
+- [xorbruteforcer](./crypto/xorbruteforcer.md) — Script that implements a XOR bruteforcing of a given file, although a specific key can be used too.
+- [xorsearch](./crypto/xorsearch.md) — Program to search for a given string in an XOR, ROL or ROT encoded binary file.
+- [zipexec](./crypto/zipexec.md) — A unique technique to execute binaries from a password protected zip.
+- [zulucrypt](./crypto/zulucrypt.md) — Front end to cryptsetup and tcplay and it allows easy management of encrypted block devices.
+
+## database
+
+Database security testing, SQL injection labs, database auditing, and defensive validation.
+
+- [blindsql](./database/blindsql.md) — Set of bash scripts for blind SQL injection attacks.
+- [getsids](./database/getsids.md) — Enumerate Oracle Sids by sending the services command to the Oracle TNS listener.
+- [metacoretex](./database/metacoretex.md) — MetaCoretex is an entirely JAVA vulnerability scanning framework for databases.
+- [mysql2sqlite](./database/mysql2sqlite.md) — Converts a mysqldump file into a Sqlite 3 compatible file.
+- [pgdbf](./database/pgdbf.md) — Convert XBase / FoxPro databases to PostgreSQL
+
+## debugger
+
+Debugging local binaries, crash triage, exploit-development education, and malware-analysis labs.
+
+- [edb](./debugger/edb.md) — A cross platform AArch32/x86/x86 debugger.
+- [electric-fence](./debugger/electric-fence.md) — A malloc(3) debugger that uses virtual memory hardware to detect illegal memory accesses.
+- [gdbgui](./debugger/gdbgui.md) — Browser-based gdb frontend using Flask and JavaScript to visually debug C, C++, Go, or Rust.
+- [heaptrace](./debugger/heaptrace.md) — Helps visualize heap operations for pwn and debugging.
+- [ollydbg](./debugger/ollydbg.md) — A 32-bit assembler-level analysing debugger.
+- [rr](./debugger/rr.md) — A Record and Replay Framework.
+- [saleae-logic](./debugger/saleae-logic.md) — Debug happy.
+- [shellnoob](./debugger/shellnoob.md) — A toolkit that eases the writing and debugging of shellcode.
+- [vivisect](./debugger/vivisect.md) — A Python based static analysis and reverse engineering framework.
+- [voltron](./debugger/voltron.md) — UI for GDB, LLDB and Vivisect's VDB.
+
+## decompiler
+
+Decompiler workflows for local binaries, Java/.NET/Android analysis, and patch review.
+
+- [avaloniailspy](./decompiler/avaloniailspy.md) — .NET Decompiler (port of ILSpy)
+- [beebug](./decompiler/beebug.md) — A tool for checking exploitability.
+- [cafebabe](./decompiler/cafebabe.md) — Java bytecode editor & decompiler.
+- [fernflower](./decompiler/fernflower.md) — An analytical decompiler for Java.
+- [flasm](./decompiler/flasm.md) — Disassembler tool for SWF bytecode.
+- [gadgetinspector](./decompiler/gadgetinspector.md) — A byte code analyzer for finding deserialization gadget chains in Java applications.
+- [jbe](./decompiler/jbe.md) — Java bytecode editor suitable for viewing and modifying java class files.
+- [jd-cli](./decompiler/jd-cli.md) — Command line Java Decompiler.
+- [jd-gui](./decompiler/jd-gui.md) — A standalone graphical utility that displays Java source codes of .class files.
+- [jpexs-decompiler](./decompiler/jpexs-decompiler.md) — JPEXS Free Flash Decompiler.
+- [luyten](./decompiler/luyten.md) — An Open Source Java Decompiler Gui for Procyon.
+- [pcode2code](./decompiler/pcode2code.md) — VBA p-code decompiler.
+- [procyon](./decompiler/procyon.md) — A suite of Java metaprogramming tools focused on code generation and analysis.
+- [python-uncompyle6](./decompiler/python-uncompyle6.md) — A Python cross-version decompiler.
+- [recaf](./decompiler/recaf.md) — Modern Java bytecode editor.
+- [rej](./decompiler/rej.md) — An API and a graphical tool for inspection and manipulation of classfiles for the Java platform.
+- [retdec](./decompiler/retdec.md) — Retargetable machine-code decompiler based on LLVM.
+- [shuji](./decompiler/shuji.md) — Reverse engineering JavaScript and CSS sources from sourcemaps.
+
+## defensive
+
+Blue-team monitoring, hardening, incident response, rootkit checks, and detection engineering.
+
+- [arpon](./defensive/arpon.md) — A host-based solution to secure the ARP protocol and prevent MITM attacks via ARP spoofing or cache poisoning.
+- [arpstraw](./defensive/arpstraw.md) — Arp spoof detection tool.
+- [artillery](./defensive/artillery.md) — Blue team tool designed to protect Linux and Windows operating systems through multiple methods.
+- [artlas](./defensive/artlas.md) — Apache Real Time Logs Analyzer System.
+- [capa](./defensive/capa.md) — The FLARE team's open-source tool to identify capabilities in executable files.
+- [chainsaw](./defensive/chainsaw.md) — A powerful ‘first-response’ capability to quickly identify threats within Windows event logs.
+- [chkrootkit](./defensive/chkrootkit.md) — Checks for rootkits on a system.
+- [detect-sniffer](./defensive/detect-sniffer.md) — Tool that detects sniffers in the network.
+- [fastnetmon](./defensive/fastnetmon.md) — High performance DoS/DDoS load analyzer built on top of multiple packet capture engines.
+- [fssb](./defensive/fssb.md) — A low-level filesystem sandbox for Linux using syscall intercepts.
+- [honeycreds](./defensive/honeycreds.md) — Network credential injection to detect responder and other network poisoners.
+- [ifchk](./defensive/ifchk.md) — A network interface promiscuous mode detection tool.
+- [inetsim](./defensive/inetsim.md) — A software suite for simulating common internet services in a lab environment, e.g. for analyzing the network behaviour of unknown malware samples.
+- [jeopardize](./defensive/jeopardize.md) — A low(zero) cost threat intelligence & response tool against phishing domains.
+- [lorg](./defensive/lorg.md) — Apache Logfile Security Analyzer.
+- [malice](./defensive/malice.md) — VirusTotal Wanna Be - Now with 100% more Hipster.
+- [malmon](./defensive/malmon.md) — Hosting exploit/backdoor detection daemon.
+- [maltrail](./defensive/maltrail.md) — Malicious traffic detection system.
+- [mat](./defensive/mat.md) — Metadata Anonymisation Toolkit composed of a GUI application, a CLI application and a library.
+- [munin-hashchecker](./defensive/munin-hashchecker.md) — Online hash checker for Virustotal and other services
+- [nipe](./defensive/nipe.md) — A script to make Tor Network your default gateway.
+- [orjail](./defensive/orjail.md) — A more secure way to force programs to exclusively use tor network.
+- [osfooler-ng](./defensive/osfooler-ng.md) — Prevents remote active/passive OS fingerprinting by tools like nmap or p0f.
+- [persistencesniper](./defensive/persistencesniper.md) — Hunt persistences implanted in Windows machines.
+- [portspoof](./defensive/portspoof.md) — This program's primary goal is to enhance OS security through a set of new techniques.
+- [procscope](./defensive/procscope.md) — Process-scoped runtime investigation tool using eBPF.
+- [prowler](./defensive/prowler.md) — Tool for AWS security assessment, auditing and hardening.
+- [quicksand-lite](./defensive/quicksand-lite.md) — Command line tool for scanning streams within office documents plus xor db attack.
+- [sentrypeer](./defensive/sentrypeer.md) — Protect SIP Servers from bad actors.
+- [sigma](./defensive/sigma.md) — Generic Signature Format for SIEM Systems
+- [sniffjoke](./defensive/sniffjoke.md) — Injects packets in the transmission flow that are able to seriously disturb passive analysis like sniffing, interception and low level information theft.
+- [snort](./defensive/snort.md) — A lightweight network intrusion detection system.
+- [sooty](./defensive/sooty.md) — The SOC Analysts all-in-one CLI tool to automate and speed up workflow.
+- [suricata](./defensive/suricata.md) — An Open Source Next Generation Intrusion Detection and Prevention Engine.
+- [tabi](./defensive/tabi.md) — BGP Hijack Detection.
+- [tfsec](./defensive/tfsec.md) — Security scanner for your Terraform code.
+- [threatspec](./defensive/threatspec.md) — Project to integrate threat modelling into development process.
+- [tor-autocircuit](./defensive/tor-autocircuit.md) — Tor Autocircuit was developed to give users a finer control over Tor circuit creation. The tool exposes the functionality of TorCtl library which allows its users to control circuit length, speed, geolocation, and other parameters.
+- [tor-browser](./defensive/tor-browser.md) — Tor Browser Bundle: anonymous browsing using Firefox and Tor.
+- [tor-router](./defensive/tor-router.md) — A tool that allow you to make TOR your default gateway and send all internet connections under TOR (as transparent proxy) for increase privacy/anonymity without extra unnecessary code.
+- [tyton](./defensive/tyton.md) — Kernel-Mode Rootkit Hunter.
+- [usb-canary](./defensive/usb-canary.md) — A Linux or OSX tool that uses psutil to monitor devices while your computer is locked. In the case it detects someone plugging in or unplugging devices it can be configured to send you an SMS or alert you via Slack or Pushover.
+- [yeti](./defensive/yeti.md) — A platform meant to organize observables, indicators of compromise, TTPs, and knowledge on threats in a single, unified repository.
+- [zeus](./defensive/zeus.md) — AWS Auditing & Hardening Tool.
+
+## disassembler
+
+Assembly-level review, firmware/binary analysis, and vulnerability research in local labs.
+
+- [abcd](./disassembler/abcd.md) — ActionScript ByteCode Disassembler.
+- [binnavi](./disassembler/binnavi.md) — A binary analysis IDE that allows to inspect, navigate, edit and annotate control flow graphs and call graphs of disassembled code.
+- [chiasm-shell](./disassembler/chiasm-shell.md) — Python-based interactive assembler/disassembler CLI, powered byKeystone/Capstone.
+- [exe2hex](./disassembler/exe2hex.md) — Inline file transfer using in-built Windows tools (DEBUG.exe or PowerShell).
+- [libdisasm](./disassembler/libdisasm.md) — A disassembler library.
+- [lief](./disassembler/lief.md) — Library to instrument executable formats.
+- [marc4dasm](./disassembler/marc4dasm.md) — A disassembler for the Atmel MARC4 (a 4 bit Harvard micro).
+- [plasma-disasm](./disassembler/plasma-disasm.md) — An interactive disassembler for x86/ARM/MIPS. It can generates indented pseudo-code with colored syntax.
+- [python-lief](./disassembler/python-lief.md) — Library to instrument executable formats.
+- [python-pcodedmp](./disassembler/python-pcodedmp.md) — A VBA p-code disassembler.
+- [python2-capstone](./disassembler/python2-capstone.md) — A disassembly framework with the target of becoming the ultimate disasm engine for binary analysis and reversing in the security community.
+- [python2-pcodedmp](./disassembler/python2-pcodedmp.md) — A VBA p-code disassembler.
+- [radare2-unicorn](./disassembler/radare2-unicorn.md) — Unicorn Emulator Plugin for radare2.
+- [redasm](./disassembler/redasm.md) — Interactive, multiarchitecture disassembler written in C++ using Qt5 as UI Framework.
+- [scratchabit](./disassembler/scratchabit.md) — Easily retargetable and hackable interactive disassembler with IDAPython-compatible plugin API.
+- [unstrip](./disassembler/unstrip.md) — ELF Unstrip Tool.
+- [viper](./disassembler/viper.md) — A Binary analysis framework.
+
+## dos
+
+Resilience testing and defensive research in fully isolated labs you control.
+
+- [42zip](./dos/42zip.md) — Recursive Zip archive bomb.
+- [blacknurse](./dos/blacknurse.md) — A low bandwidth ICMP attack that is capable of doing denial of service to well known firewalls.
+- [bonesi](./dos/bonesi.md) — The DDoS Botnet Simulator.
+- [davoset](./dos/davoset.md) — A tool for using Abuse of Functionality and XML External Entities vulnerabilities on some websites to attack other websites.
+- [ddosify](./dos/ddosify.md) — High-performance load testing tool, written in Golang.
+- [dnsdrdos](./dos/dnsdrdos.md) — Proof of concept code for distributed DNS reflection DoS.
+- [goldeneye](./dos/goldeneye.md) — A HTTP DoS test tool. Attack Vector exploited: HTTP Keep Alive + NoCache.
+- [hulk](./dos/hulk.md) — A webserver DoS tool (Http Unbearable Load King) ported to Go with some additional features.
+- [iaxflood](./dos/iaxflood.md) — IAX flooder.
+- [impulse](./dos/impulse.md) — Modern Denial-of-service ToolKit.
+- [inviteflood](./dos/inviteflood.md) — Flood a device with INVITE requests.
+- [mausezahn](./dos/mausezahn.md) — A free fast traffic generator written in C which allows you to send nearly every possible and impossible packet.
+- [network-app-stress-tester](./dos/network-app-stress-tester.md) — Network Application Stress Testing Yammer.
+- [nkiller2](./dos/nkiller2.md) — A TCP exhaustion/stressing tool.
+- [ntpdos](./dos/ntpdos.md) — PoC for distributed NTP reflection DoS (CVE-5211)
+- [phpstress](./dos/phpstress.md) — A PHP denial of service / stress test for Web Servers running PHP-FPM or PHP-CGI.
+- [pwnloris](./dos/pwnloris.md) — An improved slowloris DOS tool which keeps attacking until the server starts getting exhausted.
+- [shitflood](./dos/shitflood.md) — A Socks5 clone flooder for the Internet Relay Chat (IRC) protocol.
+- [slowloris](./dos/slowloris.md) — A tool which is written in perl to test http-server vulnerabilities for connection exhaustion denial of service (DoS) attacks so you can enhance the security of your webserver.
+- [slowloris-py](./dos/slowloris-py.md) — Low bandwidth DoS tool.
+- [synflood](./dos/synflood.md) — A very simply script to illustrate DoS SYN Flooding attack.
+- [t50](./dos/t50.md) — Experimental Multi-protocol Packet Injector Tool.
+- [tcgetkey](./dos/tcgetkey.md) — A set of tools that deal with acquiring physical memory dumps via FireWire and then scan the memory dump to locate TrueCrypt keys and finally decrypt the encrypted TrueCrypt container using the keys.
+- [thc-ssl-dos](./dos/thc-ssl-dos.md) — A tool to verify the performance of SSL. To be used in your authorized and legitimate area ONLY. You need to accept this to make use of it, no use for bad intentions, you have been warned!
+- [torshammer](./dos/torshammer.md) — A slow POST Denial of Service testing tool written in Python.
+- [ufonet](./dos/ufonet.md) — A tool designed to launch DDoS attacks against a target, using 'Open Redirect' vectors on third party web applications, like botnet.
+- [wreckuests](./dos/wreckuests.md) — Yet another one hard-hitting tool to run DDoS attacks with HTTP-flood.
+
+## drone
+
+Drone security research, telemetry analysis, and wireless protocol labs on owned devices.
+
+- [crozono](./drone/crozono.md) — A modular framework designed to automate the penetration testing of wireless networks from drones and such unconventional devices.
+- [missionplanner](./drone/missionplanner.md) — A GroundControl Station for Ardupilot.
+- [skyjack](./drone/skyjack.md) — Takes over Parrot drones, deauthenticating their true owner and taking over control, turning them into zombie drones under your own control.
+- [snoopy-ng](./drone/snoopy-ng.md) — A distributed, sensor, data collection, interception, analysis, and visualization framework.
+
+## exploitation
+
+Authorized vulnerability validation, CTFs, exploit-development education, and controlled lab assessment.
+
+- [aclpwn](./exploitation/aclpwn.md) — Active Directory ACL exploitation with BloodHound.
+- [adaptix-c2](./exploitation/adaptix-c2.md) — Extensible post-exploitation and adversarial emulation framework.
+- [adenum](./exploitation/adenum.md) — A pentesting tool that allows to find misconfiguration through the the protocol LDAP and exploit some of those weaknesses with kerberos.
+- [aggroargs](./exploitation/aggroargs.md) — Bruteforce commandline buffer overflows, linux, aggressive arguments.
+- [angrop](./exploitation/angrop.md) — A rop gadget finder and chain builder.
+- [armitage](./exploitation/armitage.md) — A graphical cyber attack management tool for Metasploit.
+- [armor](./exploitation/armor.md) — A simple Bash script designed to create encrypted macOS payloads capable of evading antivirus scanners.
+- [armscgen](./exploitation/armscgen.md) — ARM Shellcode Generator (Mostly Thumb Mode).
+- [arpoison](./exploitation/arpoison.md) — The UNIX arp cache update utility
+- [autosploit](./exploitation/autosploit.md) — Automate the exploitation of remote hosts.
+- [backoori](./exploitation/backoori.md) — Tool aided persistence via Windows URI schemes abuse.
+- [bad-pdf](./exploitation/bad-pdf.md) — Steal NTLM Hashes with Bad-PDF.
+- [barq](./exploitation/barq.md) — An AWS Cloud Post Exploitation framework.
+- [bed](./exploitation/bed.md) — Collection of scripts to test for buffer overflows, format string vulnerabilities.
+- [beef](./exploitation/beef.md) — The Browser Exploitation Framework that focuses on the web browser.
+- [beroot](./exploitation/beroot.md) — A post exploitation tool to check common misconfigurations to find a way to escalate our privilege.
+- [bfbtester](./exploitation/bfbtester.md) — Perform checks of single and multiple argument command line overflows and environment variable overflows.
+- [binex](./exploitation/binex.md) — Format String exploit building tool.
+- [bitdump](./exploitation/bitdump.md) — A tool to extract database data from a blind SQL injection vulnerability.
+- [blind-sql-bitshifting](./exploitation/blind-sql-bitshifting.md) — A blind SQL injection module that uses bitshfting to calculate characters.
+- [bloodyad](./exploitation/bloodyad.md) — An Active Directory Privilege Escalation Framework.
+- [bluffy](./exploitation/bluffy.md) — Convert shellcode into different formats.
+- [botb](./exploitation/botb.md) — A container analysis and exploitation tool for pentesters and engineers.
+- [bowcaster](./exploitation/bowcaster.md) — A framework intended to aid those developing exploits.
+- [brosec](./exploitation/brosec.md) — An interactive reference tool to help security professionals utilize useful payloads and commands.
+- [camover](./exploitation/camover.md) — A camera exploitation tool that allows to disclosure network camera admin password.
+- [certsync](./exploitation/certsync.md) — Dump NTDS remotely without DRSUAPI: using golden certificate and UnPAC the hash.
+- [chw00t](./exploitation/chw00t.md) — Unices chroot breaking tool.
+- [cisco-global-exploiter](./exploitation/cisco-global-exploiter.md) — Target multiple vulnerabilities in the Cisco Internetwork Operating System (IOS) and Catalyst products.
+- [cisco-torch](./exploitation/cisco-torch.md) — Cisco Torch mass scanning, fingerprinting, and exploitation tool.
+- [coercer](./exploitation/coercer.md) — Coerce a Windows server to authenticate on an arbitrary machine through 15 methods.
+- [cve-search](./exploitation/cve-search.md) — A tool to perform local searches for known vulnerabilities.
+- [cvemap](./exploitation/cvemap.md) — CLI tool designed to provide a structured and easily navigable interface to various vulnerability databases.
+- [darkd0rk3r](./exploitation/darkd0rk3r.md) — Python script that performs dork searching and searches for local file inclusion and SQL injection errors.
+- [darkmysqli](./exploitation/darkmysqli.md) — Multi-Purpose MySQL Injection Tool
+- [darkspiritz](./exploitation/darkspiritz.md) — A penetration testing framework for Linux, MacOS, and Windows systems.
+- [deepce](./exploitation/deepce.md) — Docker Enumeration, Escalation of Privileges and Container Escapes.
+- [delorean](./exploitation/delorean.md) — NTP Main-in-the-Middle tool.
+- [dkmc](./exploitation/dkmc.md) — Dont kill my cat - Malicious payload evasion tool.
+- [dotdotpwn](./exploitation/dotdotpwn.md) — The Transversal Directory Fuzzer.
+- [dr-checker](./exploitation/dr-checker.md) — A Soundy Vulnerability Detection Tool for Linux Kernel Drivers.
+- [drinkme](./exploitation/drinkme.md) — A shellcode testing harness.
+- [ducktoolkit](./exploitation/ducktoolkit.md) — Encoding Tools for Rubber Ducky.
+- [encodeshellcode](./exploitation/encodeshellcode.md) — This is an encoding tool for 32-bit x86 shellcode that assists a researcher when dealing with character filter or byte restrictions in a buffer overflow vulnerability or some kind of IDS/IPS/AV blocking your code.
+- [enteletaor](./exploitation/enteletaor.md) — Message Queue & Broker Injection tool that implements attacks to Redis, RabbitMQ and ZeroMQ.
+- [entropy](./exploitation/entropy.md) — A set of tools to exploit Netwave and GoAhead IP Webcams.
+- [erl-matter](./exploitation/erl-matter.md) — Tool to exploit epmd related services such as rabbitmq, ejabberd and couchdb by bruteforcing the cookie and gaining RCE afterwards.
+- [evil-winrm](./exploitation/evil-winrm.md) — The ultimate WinRM shell for hacking/pentesting.
+- [evilclippy](./exploitation/evilclippy.md) — A cross-platform assistant for creating malicious MS Office documents.
+- [exploit-db](./exploitation/exploit-db.md) — The Exploit Database (EDB) – an ultimate archive of exploits and vulnerable software - A collection of hacks
+- [exploitpack](./exploitation/exploitpack.md) — Exploit Pack - The next generation exploit framework.
+- [eyepwn](./exploitation/eyepwn.md) — Exploit for Eye-Fi Helper directory traversal vulnerability
+- [ffm](./exploitation/ffm.md) — A hacking harness that you can use during the post-exploitation phase of a red-teaming engagement.
+- [firstexecution](./exploitation/firstexecution.md) — A Collection of different ways to execute code outside of the expected entry points.
+- [flashsploit](./exploitation/flashsploit.md) — Exploitation Framework for ATtiny85 Based HID Attacks.
+- [formatstringexploiter](./exploitation/formatstringexploiter.md) — Helper script for working with format string bugs.
+- [fs-exploit](./exploitation/fs-exploit.md) — Format string exploit generation.
+- [fuzzbunch](./exploitation/fuzzbunch.md) — NSA Exploit framework
+- [gadgettojscript](./exploitation/gadgettojscript.md) — .NET serialized gadgets that can trigger .NET assembly from JS/VBS/VBA based scripts.
+- [getsploit](./exploitation/getsploit.md) — Command line utility for searching and downloading exploits.
+- [ghostdelivery](./exploitation/ghostdelivery.md) — Python script to generate obfuscated .vbs script that delivers payload (payload dropper) with persistence and windows antivirus disabling functions.
+- [hackredis](./exploitation/hackredis.md) — A simple tool to scan and exploit redis servers.
+- [hamster](./exploitation/hamster.md) — Tool for HTTP session sidejacking.
+- [hcraft](./exploitation/hcraft.md) — HTTP Vuln Request Crafter.
+- [heartleech](./exploitation/heartleech.md) — Scans for systems vulnerable to the heartbleed bug, and then download them.
+- [hqlmap](./exploitation/hqlmap.md) — A tool to exploit HQL Injections.
+- [htexploit](./exploitation/htexploit.md) — A Python script that exploits a weakness in the way that .htaccess files can be configured to protect a web directory with an authentication process.
+- [htshells](./exploitation/htshells.md) — Self contained web shells and other attacks via .htaccess files.
+- [impacket-ba](./exploitation/impacket-ba.md) — Collection of classes for working with network protocols.
+- [inception](./exploitation/inception.md) — A FireWire physical memory manipulation and hacking tool exploiting IEEE 1394 SBP DMA.
+- [insanity](./exploitation/insanity.md) — Generate Payloads and Control Remote Machines .
+- [irpas](./exploitation/irpas.md) — Internetwork Routing Protocol Attack Suite.
+- [isf](./exploitation/isf.md) — An exploitation framework based on Python.
+- [jdwp-knife](./exploitation/jdwp-knife.md) — Advanced JDWP exploitation and data extraction tool with interactive shell.
+- [jndi-injection-exploit](./exploitation/jndi-injection-exploit.md) — A tool which generates JNDI links can start several servers to exploit JNDI Injection vulnerability, like Jackson, Fastjson, etc.
+- [katana-framework](./exploitation/katana-framework.md) — A framework that seekss to unite general auditing tools, which are general pentesting tools (Network,Web,Desktop and others).
+- [kerberoast](./exploitation/kerberoast.md) — Kerberoast attack -pure python-.
+- [kernelpop](./exploitation/kernelpop.md) — Kernel privilege escalation enumeration and exploitation framework.
+- [killcast](./exploitation/killcast.md) — Manipulate Chromecast Devices in your Network.
+- [killerbee](./exploitation/killerbee.md) — Framework and tools for exploiting ZigBee and IEEE 802.15.4 networks.
+- [klar](./exploitation/klar.md) — Integration of Clair and Docker Registry.
+- [l0l](./exploitation/l0l.md) — The Exploit Development Kit.
+- [leroy-jenkins](./exploitation/leroy-jenkins.md) — A python tool that will allow remote execution of commands on a Jenkins server and its nodes.
+- [lfi-autopwn](./exploitation/lfi-autopwn.md) — A Perl script to try to gain code execution on a remote server via LFI.
+- [limelighter](./exploitation/limelighter.md) — A tool for generating fake code signing certificates or signing real ones.
+- [lisa.py](./exploitation/lisa.py.md) — An Exploit Dev Swiss Army Knife.
+- [m3-gen](./exploitation/m3-gen.md) — Generates Malicious Macro and Execute Powershell or Shellcode via MSBuild Application Whitelisting Bypass, this tool intended for adversary simulation and red teaming purpose.
+- [marshalsec](./exploitation/marshalsec.md) — Java Unmarshaller Security - Turning your data into code execution.
+- [minimysqlator](./exploitation/minimysqlator.md) — A multi-platform application used to audit web sites in order to discover and exploit SQL injection vulnerabilities.
+- [miranda-upnp](./exploitation/miranda-upnp.md) — A Python-based Universal Plug-N-Play client application designed to discover, query and interact with UPNP devices.
+- [mitmf](./exploitation/mitmf.md) — A Framework for Man-In-The-Middle attacks written in Python.
+- [moonwalk](./exploitation/moonwalk.md) — Cover your tracks during Linux Exploitation by leaving zero traces on system logs and filesystem timestamps.
+- [mosquito](./exploitation/mosquito.md) — XSS exploitation tool - access victims through HTTP proxy.
+- [myjwt](./exploitation/myjwt.md) — This cli is for pentesters, CTF players, or dev. You can modify your jwt, sign, inject, etc.
+- [n1qlmap](./exploitation/n1qlmap.md) — An N1QL exploitation tool.
+- [nosqli-user-pass-enum](./exploitation/nosqli-user-pass-enum.md) — Script to enumerate usernames and passwords from vulnerable web applications running MongoDB.
+- [ntlm-theft](./exploitation/ntlm-theft.md) — A tool for generating multiple types of NTLMv2 hash theft files.
+- [office-dde-payloads](./exploitation/office-dde-payloads.md) — Collection of scripts and templates to generate Office documents embedded with the DDE, macro-less command execution technique.
+- [opensvp](./exploitation/opensvp.md) — A security tool implementing "attacks" to be able to the resistance of firewall to protocol level attack.
+- [osueta](./exploitation/osueta.md) — A simple Python script to exploit the OpenSSH User Enumeration Timing Attack.
+- [otori](./exploitation/otori.md) — Toolbox intended to allow useful exploitation of XML external entity ("XXE") vulnerabilities.
+- [owasp-zsc](./exploitation/owasp-zsc.md) — Shellcode/Obfuscate Code Generator.
+- [pacu](./exploitation/pacu.md) — The AWS exploitation framework, designed for testing the security of Amazon Web Services environments.
+- [pathzuzu](./exploitation/pathzuzu.md) — Checks for PATH substitution vulnerabilities and logs the commands executed by the vulnerable executables.
+- [pblind](./exploitation/pblind.md) — Little utility to help exploiting blind sql injection vulnerabilities.
+- [phantom-evasion](./exploitation/phantom-evasion.md) — Antivirus evasion tool written in python.
+- [pirana](./exploitation/pirana.md) — Exploitation framework that tests the security of a email content filter.
+- [pkinittools](./exploitation/pkinittools.md) — Tools for Kerberos PKINIT and relaying to AD CS.
+- [pmcma](./exploitation/pmcma.md) — Automated exploitation of invalid memory writes (being them the consequences of an overflow in a writable section, of a missing format string, integer overflow, variable misuse, or any other type of memory corruption).
+- [pocsuite](./exploitation/pocsuite.md) — An open-sourced remote vulnerability testing framework developed by the Knownsec Security Team.
+- [pompem](./exploitation/pompem.md) — A python exploit tool finder.
+- [powersploit](./exploitation/powersploit.md) — A PowerShell Post-Exploitation Framework.
+- [preeny](./exploitation/preeny.md) — Some helpful preload libraries for pwning stuff.
+- [pret](./exploitation/pret.md) — Printer Exploitation Toolkit - The tool that made dumpster diving obsolete.
+- [ps1encode](./exploitation/ps1encode.md) — A tool to generate and encode a PowerShell based Metasploit payloads.
+- [ptf](./exploitation/ptf.md) — The Penetration Testers Framework: Way for modular support for up-to-date tools.
+- [punk](./exploitation/punk.md) — A post-exploitation tool meant to help network pivoting from a compromised unix box.
+- [pwncat-caleb](./exploitation/pwncat-caleb.md) — A post-exploitation platform.
+- [pykek](./exploitation/pykek.md) — Kerberos Exploitation Kit.
+- [python-ssh-mitm](./exploitation/python-ssh-mitm.md) — SSH mitm server for security audits supporting public key authentication, session hijacking and file manipulation.
+- [python2-ropgadget](./exploitation/python2-ropgadget.md) — Pythonic argument parser, that will make you smile.
+- [rebind](./exploitation/rebind.md) — DNS Rebinding Tool.
+- [rex](./exploitation/rex.md) — Shellphish's automated exploitation engine, originally created for the Cyber Grand Challenge.
+- [rext](./exploitation/rext.md) — Router EXploitation Toolkit - small toolkit for easy creation and usage of various python scripts that work with embedded devices.
+- [richsploit](./exploitation/richsploit.md) — Exploitation toolkit for RichFaces.
+- [rmiscout](./exploitation/rmiscout.md) — Enumerate Java RMI functions and exploit RMI parameter unmarshalling vulnerabilities.
+- [rombuster](./exploitation/rombuster.md) — A router exploitation tool that allows to disclosure network router admin password.
+- [ropeme](./exploitation/ropeme.md) — A set of python scripts to generate ROP gadgets and payload.
+- [roputils](./exploitation/roputils.md) — A Return-oriented Programming toolkit.
+- [rp](./exploitation/rp.md) — A full-cpp written tool that aims to find ROP sequences in PE/Elf/Mach-O x86/x64 binaries.
+- [rspet](./exploitation/rspet.md) — A Python based reverse shell equipped with functionalities that assist in a post exploitation scenario.
+- [sc-make](./exploitation/sc-make.md) — Tool for automating shellcode creation.
+- [scansploit](./exploitation/scansploit.md) — Exploit using barcodes, QRcodes, earn13, datamatrix.
+- [sensepost-xrdp](./exploitation/sensepost-xrdp.md) — A rudimentary remote desktop tool for the X11 protocol exploiting unauthenticated x11 sessions.
+- [serialbrute](./exploitation/serialbrute.md) — Java serialization brute force attack tool.
+- [shellcode-compiler](./exploitation/shellcode-compiler.md) — Compiles C/C++ style code into a small, position-independent and NULL-free shellcode for Windows & Linux.
+- [shellcode-factory](./exploitation/shellcode-factory.md) — Tool to create and test shellcodes from custom assembly sources.
+- [shellcodecs](./exploitation/shellcodecs.md) — A collection of shellcode, loaders, sources, and generators provided with documentation designed to ease the exploitation and shellcode programming process.
+- [shellen](./exploitation/shellen.md) — Interactive shellcoding environment to easily craft shellcodes.
+- [shellme](./exploitation/shellme.md) — Because sometimes you just need shellcode and opcodes quickly. This essentially just wraps some nasm/objdump calls into a neat script.
+- [shellsploit-framework](./exploitation/shellsploit-framework.md) — New Generation Exploit Development Kit.
+- [shellter](./exploitation/shellter.md) — A dynamic shellcode injection tool, and the first truly dynamic PE infector ever created.
+- [shocker](./exploitation/shocker.md) — A tool to find and exploit servers vulnerable to Shellshock.
+- [sickle](./exploitation/sickle.md) — A shellcode development tool, created to speed up the various steps needed to create functioning shellcode.
+- [sigploit](./exploitation/sigploit.md) — Telecom Signaling Exploitation Framework - SS7, GTP, Diameter & SIP.
+- [sigthief](./exploitation/sigthief.md) — Stealing Signatures and Making One Invalid Signature at a Time.
+- [sireprat](./exploitation/sireprat.md) — Remote Command Execution as SYSTEM on Windows IoT Core.
+- [sjet](./exploitation/sjet.md) — Siberas JMX exploitation toolkit.
+- [smap](./exploitation/smap.md) — Shellcode mapper - Handy tool for shellcode analysis.
+- [smtptester](./exploitation/smtptester.md) — Small python3 tool to check common vulnerabilities in SMTP servers.
+- [snarf-mitm](./exploitation/snarf-mitm.md) — SMB Man in the Middle Attack Engine / relay suite.
+- [spraykatz](./exploitation/spraykatz.md) — Credentials gathering tool automating remote procdump and parse of lsass process.
+- [sqlninja](./exploitation/sqlninja.md) — A tool targeted to exploit SQL Injection vulnerabilities on a web application that uses Microsoft SQL Server as its back-end.
+- [sqlsus](./exploitation/sqlsus.md) — An open source MySQL injection and takeover tool.
+- [ssh-mitm](./exploitation/ssh-mitm.md) — SSH man-in-the-middle tool.
+- [sstimap](./exploitation/sstimap.md) — Automatic SSTI detection tool with interactive interface.
+- [stackflow](./exploitation/stackflow.md) — Universal stack-based buffer overfow exploitation tool.
+- [staekka](./exploitation/staekka.md) — This plugin extends Metasploit for some missing features and modules allowing interaction with other/custom exploits/ways of getting shell access.
+- [subterfuge](./exploitation/subterfuge.md) — Automated Man-in-the-Middle Attack Framework.
+- [suid3num](./exploitation/suid3num.md) — Python script which utilizes python's built-in modules to enumerate SUID binaries.
+- [tcpjunk](./exploitation/tcpjunk.md) — A general tcp protocols testing and hacking utility.
+- [tomcatwardeployer](./exploitation/tomcatwardeployer.md) — Apache Tomcat auto WAR deployment & pwning penetration testing tool.
+- [unibrute](./exploitation/unibrute.md) — Multithreaded SQL union bruteforcer.
+- [venom](./exploitation/venom.md) — A Multi-hop Proxy for Penetration Testers.
+- [viproy-voipkit](./exploitation/viproy-voipkit.md) — VoIP Pen-Test Kit for Metasploit Framework.
+- [vmap](./exploitation/vmap.md) — A Vulnerability-Exploit desktop finder.
+- [volana](./exploitation/volana.md) — Shell command obfuscation to avoid detection systems.
+- [webexploitationtool](./exploitation/webexploitationtool.md) — A cross platform web exploitation toolkit.
+- [websploit](./exploitation/websploit.md) — An Open Source Project For, Social Engineering Works, Scan, Crawler & Analysis Web, Automatic Exploiter, Support Network Attacks
+- [wesng](./exploitation/wesng.md) — Windows Exploit Suggester - Next Generation.
+- [wildpwn](./exploitation/wildpwn.md) — Unix wildcard attacks.
+- [wsuspect-proxy](./exploitation/wsuspect-proxy.md) — A tool for MITM'ing insecure WSUS connections.
+- [xcat](./exploitation/xcat.md) — A command line tool to automate the exploitation of blind XPath injection vulnerabilities.
+- [xpl-search](./exploitation/xpl-search.md) — Search exploits in multiple exploit databases!.
+- [xrop](./exploitation/xrop.md) — Tool to generate ROP gadgets for ARM, AARCH64, x86, MIPS, PPC, RISCV, SH4 and SPARC.
+- [xxeinjector](./exploitation/xxeinjector.md) — Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods.
+- [xxexploiter](./exploitation/xxexploiter.md) — It generates the XML payloads, and automatically starts a server to serve the needed DTD's or to do data exfiltration.
+- [yinjector](./exploitation/yinjector.md) — A MySQL injection penetration tool. It has multiple features, proxy support, and multiple exploitation methods.
+- [zarp](./exploitation/zarp.md) — A network attack tool centered around the exploitation of local networks.
+- [zeratool](./exploitation/zeratool.md) — Automatic Exploit Generation (AEG) and remote flag capture for exploitable CTF problems.
+- [zirikatu](./exploitation/zirikatu.md) — Fud Payload generator script.
+
+## fingerprint
+
+Identifying software, versions, frameworks, services, CMSs, and exposed technology stacks.
+
+- [asp-audit](./fingerprint/asp-audit.md) — An ASP fingerprinting tool and vulnerability scanner.
+- [blindelephant](./fingerprint/blindelephant.md) — A web application fingerprinter. Attempts to discover the version of a (known) web application by comparing static files at known locations
+- [cms-explorer](./fingerprint/cms-explorer.md) — Designed to reveal the specific modules, plugins, components and themes that various cms driven websites are running.
+- [detectem](./fingerprint/detectem.md) — Detect software and its version on websites.
+- [dhcpf](./fingerprint/dhcpf.md) — Passive DHCP fingerprinting implementation.
+- [dnsmap](./fingerprint/dnsmap.md) — Passive DNS network mapper.
+- [fl0p](./fingerprint/fl0p.md) — A passive L7 flow fingerprinter that examines TCP/UDP/ICMP packet sequences, can peek into cryptographic tunnels, can tell human beings and robots apart, and performs a couple of other infosec-related tricks.
+- [fpdns](./fingerprint/fpdns.md) — Program that remotely determines DNS server versions.
+- [ftpmap](./fingerprint/ftpmap.md) — Scans remote FTP servers to identify what software and what versions they are running.
+- [htrosbif](./fingerprint/htrosbif.md) — Active HTTP server fingerprinting and recon tool.
+- [httprint](./fingerprint/httprint.md) — A web server fingerprinting tool.
+- [kolkata](./fingerprint/kolkata.md) — A web application fingerprinting engine written in Perl that combines cryptography with IDS evasion.
+- [lbmap](./fingerprint/lbmap.md) — Proof of concept scripts for advanced web application fingerprinting, presented at OWASP AppSecAsia 2012.
+- [mercury](./fingerprint/mercury.md) — Network metadata capture and analysis.
+- [mwebfp](./fingerprint/mwebfp.md) — Mass Web Fingerprinter.
+- [neighbor-cache-fingerprinter](./fingerprint/neighbor-cache-fingerprinter.md) — An ARP based Operating System version scanner.
+- [nerva](./fingerprint/nerva.md) — Fast service fingerprinting CLI for 170+ protocols (TCP/UDP/SCTP).
+- [nimbostratus](./fingerprint/nimbostratus.md) — Tools for fingerprintinging and exploiting Amazon cloud infrastructures.
+- [ntp-fingerprint](./fingerprint/ntp-fingerprint.md) — An active fingerprinting utility specifically designed to identify the OS the NTP server is running on.
+- [operative](./fingerprint/operative.md) — Framework based on fingerprint action, this tool is used for get information on a website or a enterprise target with multiple modules (Viadeo search,Linkedin search, Reverse email whois, Reverse ip whois, SQL file forensics ...).
+- [scannerl](./fingerprint/scannerl.md) — The modular distributed fingerprinting engine.
+- [sinfp](./fingerprint/sinfp.md) — A full operating system stack fingerprinting suite.
+- [smtpmap](./fingerprint/smtpmap.md) — Tool to identify the running smtp software on a given host.
+- [smtpscan](./fingerprint/smtpscan.md) — An SMTP scanner
+- [spartan](./fingerprint/spartan.md) — Frontpage and Sharepoint fingerprinting and attack tool.
+- [thcrut](./fingerprint/thcrut.md) — Network discovery and OS Fingerprinting tool.
+- [tls-fingerprinting](./fingerprint/tls-fingerprinting.md) — Tool and scripts to perform TLS Fingerprinting.
+- [tls-prober](./fingerprint/tls-prober.md) — A tool to fingerprint SSL/TLS servers.
+- [xprobe2](./fingerprint/xprobe2.md) — An active OS fingerprinting tool.
+- [zgrab2](./fingerprint/zgrab2.md) — Fast Application Layer Scanner.
+
+## firmware
+
+Firmware extraction, static analysis, embedded-device review, and update verification.
+
+- [firmwalker](./firmware/firmwalker.md) — Script for searching the extracted firmware file system for goodies.
+- [firmware-mod-kit](./firmware/firmware-mod-kit.md) — Modify firmware images without recompiling.
+- [meanalyzer](./firmware/meanalyzer.md) — Intel Engine Firmware Analysis Tool.
+- [uefi-firmware-parser](./firmware/uefi-firmware-parser.md) — Parse BIOS/Intel ME/UEFI firmware related structures: Volumes, FileSystems, Files, etc.
+
+## forensic
+
+Disk, memory, browser, mobile, and network artifact analysis for investigations and recovery.
+
+- [afflib](./forensic/afflib.md) — An extensible open format for the storage of disk images and related forensic information.
+- [aimage](./forensic/aimage.md) — A tool to create aff-images.
+- [air](./forensic/air.md) — A GUI front-end to dd/dc3dd designed for easily creating forensic images.
+- [analyzemft](./forensic/analyzemft.md) — Parse the MFT file from an NTFS filesystem.
+- [autopsy](./forensic/autopsy.md) — The forensic browser. A GUI for the Sleuth Kit.
+- [bmap-tools](./forensic/bmap-tools.md) — Tool for copying largely sparse files using information from a block map file.
+- [bmc-tools](./forensic/bmc-tools.md) — RDP Bitmap Cache parser.
+- [bulk-extractor](./forensic/bulk-extractor.md) — Bulk Email and URL extraction tool.
+- [canari](./forensic/canari.md) — Maltego rapid transform development and execution framework.
+- [captipper](./forensic/captipper.md) — Malicious HTTP traffic explorer tool.
+- [casefile](./forensic/casefile.md) — The little brother to Maltego without transforms, but combines graph and link analysis to examine links between manually added data to mind map your information
+- [chaosmap](./forensic/chaosmap.md) — An information gathering tool and dns / whois / web server scanner
+- [chromefreak](./forensic/chromefreak.md) — A Cross-Platform Forensic Framework for Google Chrome
+- [dc3dd](./forensic/dc3dd.md) — A patched version of dd that includes a number of features useful for computer forensics.
+- [dcfldd](./forensic/dcfldd.md) — DCFL (DoD Computer Forensics Lab) dd replacement with hashing.
+- [dfir-ntfs](./forensic/dfir-ntfs.md) — An NTFS parser for digital forensics & incident response.
+- [dftimewolf](./forensic/dftimewolf.md) — Framework for orchestrating forensic collection, processing and data export.
+- [disitool](./forensic/disitool.md) — Tool to work with Windows executables digital signatures.
+- [dmde](./forensic/dmde.md) — Disk Editor and Data Recovery Software.
+- [dmg2img](./forensic/dmg2img.md) — A CLI tool to uncompress Apple's compressed DMG files to the HFS+ IMG format.
+- [dshell](./forensic/dshell.md) — A network forensic analysis framework.
+- [dumpzilla](./forensic/dumpzilla.md) — A forensic tool for firefox.
+- [eindeutig](./forensic/eindeutig.md) — Examine the contents of Outlook Express DBX email repository files.
+- [emldump](./forensic/emldump.md) — Analyze MIME files.
+- [evtkit](./forensic/evtkit.md) — Fix acquired .evt - Windows Event Log files (Forensics).
+- [exiflooter](./forensic/exiflooter.md) — Find geolocation on all image urls and directories also integrates with OpenStreetMap.
+- [ext4magic](./forensic/ext4magic.md) — File carver used when recovering from disasters or in digital forensics activities.
+- [extractusnjrnl](./forensic/extractusnjrnl.md) — Tool to extract the $UsnJrnl from an NTFS volume.
+- [firefox-decrypt](./forensic/firefox-decrypt.md) — Extract passwords from Mozilla Firefox, Waterfox, Thunderbird, SeaMonkey profiles.
+- [fridump](./forensic/fridump.md) — A universal memory dumper using Frida.
+- [galleta](./forensic/galleta.md) — Examine the contents of the IE's cookie files for forensic purposes.
+- [grokevt](./forensic/grokevt.md) — A collection of scripts built for reading Windows® NT/2K/XP/2K eventlog files.
+- [gspy](./forensic/gspy.md) — Forensic goroutine-to-syscall inspector for live Go processes.
+- [guymager](./forensic/guymager.md) — A forensic imager for media acquisition.
+- [imagemounter](./forensic/imagemounter.md) — Command line utility and Python package to ease the (un)mounting of forensic disk images.
+- [indx2csv](./forensic/indx2csv.md) — An advanced parser for INDX records.
+- [indxcarver](./forensic/indxcarver.md) — Carve INDX records from a chunk of data.
+- [indxparse](./forensic/indxparse.md) — A Tool suite for inspecting NTFS artifacts.
+- [interrogate](./forensic/interrogate.md) — A proof-of-concept tool for identification of cryptographic keys in binary material (regardless of target operating system), first and foremost for memory dump analysis and forensic usage.
+- [iosforensic](./forensic/iosforensic.md) — iOS forensic tool.
+- [ipba2](./forensic/ipba2.md) — IOS Backup Analyzer.
+- [iphoneanalyzer](./forensic/iphoneanalyzer.md) — Allows you to forensically examine or recover date from in iOS device.
+- [jefferson](./forensic/jefferson.md) — JFFS2 filesystem extraction tool.
+- [lazagne](./forensic/lazagne.md) — An open source application used to retrieve lots of passwords stored on a local computer.
+- [ldsview](./forensic/ldsview.md) — Offline search tool for LDAP directory dumps in LDIF format.
+- [lfle](./forensic/lfle.md) — Recover event log entries from an image by heurisitically looking for record structures.
+- [libfvde](./forensic/libfvde.md) — Library and tools to access FileVault Drive Encryption (FVDE) encrypted volumes.
+- [limeaide](./forensic/limeaide.md) — Remotely dump RAM of a Linux client and create a volatility profile for later analysis on your local host.
+- [log-file-parser](./forensic/log-file-parser.md) — Parser for $LogFile on NTFS.
+- [loki-scanner](./forensic/loki-scanner.md) — Simple IOC and Incident Response Scanner.
+- [mac-robber](./forensic/mac-robber.md) — A digital investigation tool that collects data from allocated files in a mounted file system.
+- [magicrescue](./forensic/magicrescue.md) — Find and recover deleted files on block devices.
+- [make-pdf](./forensic/make-pdf.md) — This tool will embed javascript inside a PDF document.
+- [malheur](./forensic/malheur.md) — A tool for the automatic analyze of malware behavior.
+- [maltego](./forensic/maltego.md) — An open source intelligence and forensics application, enabling to easily gather information about DNS, domains, IP addresses, websites, persons, etc.
+- [malwaredetect](./forensic/malwaredetect.md) — Submits a file's SHA1 sum to VirusTotal to determine whether it is a known piece of malware
+- [mboxgrep](./forensic/mboxgrep.md) — A small, non-interactive utility that scans mail folders for messages matching regular expressions. It does matching against basic and extended POSIX regular expressions, and reads and writes a variety of mailbox formats.
+- [mdbtools](./forensic/mdbtools.md) — Utilities for viewing data and exporting schema from Microsoft Access Database files.
+- [memdump](./forensic/memdump.md) — Dumps system memory to stdout, skipping over holes in memory maps.
+- [memfetch](./forensic/memfetch.md) — Dumps any userspace process memory without affecting its execution.
+- [mft2csv](./forensic/mft2csv.md) — Extract $MFT record info and log it to a csv file.
+- [mftcarver](./forensic/mftcarver.md) — Carve $MFT records from a chunk of data (for instance a memory dump).
+- [mftrcrd](./forensic/mftrcrd.md) — Command line $MFT record decoder.
+- [mftref2name](./forensic/mftref2name.md) — Resolve file index number to name or vice versa on NTFS.
+- [mimipenguin](./forensic/mimipenguin.md) — A tool to dump the login password from the current linux user.
+- [mobiusft](./forensic/mobiusft.md) — An open-source forensic framework written in Python/GTK that manages cases and case items, providing an abstract interface for developing extensions.
+- [mp3nema](./forensic/mp3nema.md) — A tool aimed at analyzing and capturing data that is hidden between frames in an MP3 file or stream, otherwise noted as "out of band" data.
+- [mxtract](./forensic/mxtract.md) — Memory Extractor & Analyzer.
+- [myrescue](./forensic/myrescue.md) — A hard disk recovery tool that reads undamaged regions first.
+- [naft](./forensic/naft.md) — Network Appliance Forensic Toolkit.
+- [netspionage](./forensic/netspionage.md) — Network Forensics CLI utility that performs Network Scanning, OSINT, and Attack Detection.
+- [networkminer](./forensic/networkminer.md) — A Network Forensic Analysis Tool for advanced Network Traffic Analysis, sniffer and packet analyzer.
+- [nfex](./forensic/nfex.md) — A tool for extracting files from the network in real-time or post-capture from an offline tcpdump pcap savefile.
+- [ntdsxtract](./forensic/ntdsxtract.md) — Active Directory forensic framework.
+- [ntfs-file-extractor](./forensic/ntfs-file-extractor.md) — Extract files off NTFS.
+- [ntfs-log-tracker](./forensic/ntfs-log-tracker.md) — This tool can parse $LogFile, $UsnJrnl of NTFS.
+- [parse-evtx](./forensic/parse-evtx.md) — A tool to parse the Windows XML Event Log (EVTX) format.
+- [pasco](./forensic/pasco.md) — Examines the contents of Internet Explorer's cache files for forensic purposes.
+- [pcapxray](./forensic/pcapxray.md) — A Network Forensics Tool - To visualize a Packet Capture offline as a Network Diagram including device identification, highlight important communication and file extraction.
+- [pdblaster](./forensic/pdblaster.md) — Extract PDB file paths from large sample sets of executable files.
+- [pdf-parser](./forensic/pdf-parser.md) — Parses a PDF document to identify the fundamental elements used in the analyzed file.
+- [pdfbook-analyzer](./forensic/pdfbook-analyzer.md) — Utility for facebook memory forensics.
+- [pdfid](./forensic/pdfid.md) — Scan a file to look for certain PDF keywords.
+- [pdfresurrect](./forensic/pdfresurrect.md) — A tool aimed at analyzing PDF documents.
+- [peepdf](./forensic/peepdf.md) — A Python tool to explore PDF files in order to find out if the file can be harmful or not.
+- [pev](./forensic/pev.md) — Command line based tool for PE32/PE32+ file analysis.
+- [powermft](./forensic/powermft.md) — Powerful commandline $MFT record editor.
+- [python-flow.record](./forensic/python-flow.record.md) — Recordization library.
+- [python2-peepdf](./forensic/python2-peepdf.md) — A Python tool to explore PDF files in order to find out if the file can be harmful or not.
+- [rcrdcarver](./forensic/rcrdcarver.md) — Carve RCRD records ($LogFile) from a chunk of data..
+- [recentfilecache-parser](./forensic/recentfilecache-parser.md) — Python parser for the RecentFileCache.bcf on Windows.
+- [recoverdm](./forensic/recoverdm.md) — Recover damaged CD DVD and disks with bad sectors.
+- [recoverjpeg](./forensic/recoverjpeg.md) — Recover jpegs from damaged devices.
+- [recuperabit](./forensic/recuperabit.md) — A tool for forensic file system reconstruction.
+- [regipy](./forensic/regipy.md) — Library for parsing offline registry hives.
+- [reglookup](./forensic/reglookup.md) — Command line utility for reading and querying Windows NT registries.
+- [regripper](./forensic/regripper.md) — Open source forensic software used as a Windows Registry data extraction command line or GUI tool.
+- [regrippy](./forensic/regrippy.md) — Framework for reading and extracting useful forensics data from Windows registry hives.
+- [rekall](./forensic/rekall.md) — Memory Forensic Framework.
+- [replayproxy](./forensic/replayproxy.md) — Forensic tool to replay web-based attacks (and also general HTTP traffic) that were captured in a pcap file.
+- [rifiuti2](./forensic/rifiuti2.md) — A rewrite of rifiuti, a great tool from Foundstone folks for analyzing Windows Recycle Bin INFO2 file.
+- [safecopy](./forensic/safecopy.md) — A disk data recovery tool to extract data from damaged media.
+- [scalpel](./forensic/scalpel.md) — A frugal, high performance file carver.
+- [scrounge-ntfs](./forensic/scrounge-ntfs.md) — Data recovery program for NTFS file systems
+- [secure2csv](./forensic/secure2csv.md) — Decode security descriptors in $Secure on NTFS.
+- [shadowexplorer](./forensic/shadowexplorer.md) — Browse the Shadow Copies created by the Windows Vista / 7 / 8 / 10 Volume Shadow Copy Service.
+- [skypefreak](./forensic/skypefreak.md) — A Cross Platform Forensic Framework for Skype.
+- [swap-digger](./forensic/swap-digger.md) — A tool used to automate Linux swap analysis during post-exploitation or forensics.
+- [tchunt-ng](./forensic/tchunt-ng.md) — Reveal encrypted files stored on a filesystem.
+- [tekdefense-automater](./forensic/tekdefense-automater.md) — IP URL and MD5 OSINT Analysis
+- [thumbcacheviewer](./forensic/thumbcacheviewer.md) — Extract Windows thumbcache database files.
+- [trid](./forensic/trid.md) — An utility designed to identify file types from their binary signatures.
+- [truehunter](./forensic/truehunter.md) — Detect TrueCrypt containers using a fast and memory efficient approach.
+- [unblob](./forensic/unblob.md) — Extract files from any kind of container formats.
+- [undbx](./forensic/undbx.md) — Extract e-mail messages from Outlook Express DBX files.
+- [usbrip](./forensic/usbrip.md) — USB device artifacts tracker.
+- [usnjrnl2csv](./forensic/usnjrnl2csv.md) — Parser for $UsnJrnl on NTFS.
+- [usnparser](./forensic/usnparser.md) — A Python script to parse the NTFS USN journal.
+- [vinetto](./forensic/vinetto.md) — A forensics tool to examine Thumbs.db files.
+- [vipermonkey](./forensic/vipermonkey.md) — A VBA parser and emulation engine to analyze malicious macros.
+- [volafox](./forensic/volafox.md) — Mac OS X Memory Analysis Toolkit.
+- [volatility-extra](./forensic/volatility-extra.md) — Volatility plugins developed and maintained by the community.
+- [windows-prefetch-parser](./forensic/windows-prefetch-parser.md) — Parse Windows Prefetch files.
+- [wmi-forensics](./forensic/wmi-forensics.md) — Scripts used to find evidence in WMI repositories.
+- [xplico](./forensic/xplico.md) — Internet Traffic Decoder. Network Forensic Analysis Tool (NFAT).
+- [zipdump](./forensic/zipdump.md) — ZIP dump utility.
+
+## fuzzer
+
+Finding crashes and input-handling bugs in software you own or lab services.
+
+- [ajpfuzzer](./fuzzer/ajpfuzzer.md) — A command-line fuzzer for the Apache JServ Protocol (ajp13).
+- [backfuzz](./fuzzer/backfuzz.md) — A network protocol fuzzing toolkit.
+- [bfuzz](./fuzzer/bfuzz.md) — Input based fuzzer tool for browsers.
+- [boofuzz](./fuzzer/boofuzz.md) — No description provided in the source list.
+- [brainstorm](./fuzzer/brainstorm.md) — A smarter web fuzzing tool that combines local LLM models and ffuf to optimize directory and file discovery.
+- [browser-fuzzer](./fuzzer/browser-fuzzer.md) — Browser Fuzzer 3
+- [bunny](./fuzzer/bunny.md) — A closed loop, high-performance, general purpose protocol-blind fuzzer for C programs.
+- [choronzon](./fuzzer/choronzon.md) — An evolutionary knowledge-based fuzzer.
+- [cirt-fuzzer](./fuzzer/cirt-fuzzer.md) — A simple TCP/UDP protocol fuzzer.
+- [conscan](./fuzzer/conscan.md) — A blackbox vulnerability scanner for the Concre5 CMS.
+- [cookie-cadger](./fuzzer/cookie-cadger.md) — An auditing tool for Wi-Fi or wired Ethernet connections.
+- [crlf-injector](./fuzzer/crlf-injector.md) — A python script for testing CRLF injecting issues.
+- [dharma](./fuzzer/dharma.md) — Generation-based, context-free grammar fuzzer.
+- [dizzy](./fuzzer/dizzy.md) — A Python based fuzzing framework with many features.
+- [domato](./fuzzer/domato.md) — DOM fuzzer.
+- [doona](./fuzzer/doona.md) — A fork of the Bruteforce Exploit Detector Tool (BED).
+- [easyfuzzer](./fuzzer/easyfuzzer.md) — A flexible fuzzer, not only for web, has a CSV output for efficient output analysis (platform independent).
+- [firewalk](./fuzzer/firewalk.md) — An active reconnaissance network security tool.
+- [flyr](./fuzzer/flyr.md) — Block-based software vulnerability fuzzing framework.
+- [frisbeelite](./fuzzer/frisbeelite.md) — A GUI-based USB device fuzzer.
+- [ftester](./fuzzer/ftester.md) — A tool designed for testing firewall filtering policies and Intrusion Detection System (IDS) capabilities.
+- [ftp-fuzz](./fuzzer/ftp-fuzz.md) — The master of all master fuzzing scripts specifically targeted towards FTP server software.
+- [fuddly](./fuzzer/fuddly.md) — Fuzzing and Data Manipulation Framework (for GNU/Linux).
+- [fusil](./fuzzer/fusil.md) — A Python library used to write fuzzing programs.
+- [fuzzball2](./fuzzer/fuzzball2.md) — A fuzzer for TCP and IP protocol options. It sends a bunch of more or less bogus packets to the target.
+- [fuzzdb](./fuzzer/fuzzdb.md) — Attack and Discovery Pattern Dictionary for Application Fault Injection Testing.
+- [fuzzdiff](./fuzzer/fuzzdiff.md) — A simple tool designed to help out with crash analysis during fuzz testing. It selectively 'un-fuzzes' portions of a fuzzed file that is known to cause a crash, re-launches the targeted application, and sees if it still crashes.
+- [fuzzowski](./fuzzer/fuzzowski.md) — A Network Protocol Fuzzer made by NCCGroup based on Sulley and BooFuzz.
+- [goofuzz](./fuzzer/goofuzz.md) — A Bash script that uses advanced Google search techniques to obtain sensitive information in files or directories without making requests to the web server.
+- [grammarinator](./fuzzer/grammarinator.md) — A random test generator / fuzzer that creates test cases according to an input ANTLR v4 grammar.
+- [grr](./fuzzer/grr.md) — High-throughput fuzzer and emulator of DECREE binaries.
+- [hexorbase](./fuzzer/hexorbase.md) — A database application designed for administering and auditing multiple database servers simultaneously from a centralized location. It is capable of performing SQL queries and bruteforce attacks against common database servers (MySQL, SQLite, Microsoft SQL Server, Oracle, PostgreSQL).
+- [hodor](./fuzzer/hodor.md) — A general-use fuzzer that can be configured to use known-good input and delimiters in order to fuzz specific locations.
+- [honggfuzz](./fuzzer/honggfuzz.md) — A general-purpose fuzzer with simple, command-line interface.
+- [http-fuzz](./fuzzer/http-fuzz.md) — A simple http fuzzer.
+- [ifuzz](./fuzzer/ifuzz.md) — A binary file fuzzer with several options.
+- [ikeprober](./fuzzer/ikeprober.md) — Tool crafting IKE initiator packets and allowing many options to be manually set. Useful to find overflows, error conditions and identifiyng vendors
+- [jbrofuzz](./fuzzer/jbrofuzz.md) — Web application protocol fuzzer that emerged from the needs of penetration testing.
+- [kitty-framework](./fuzzer/kitty-framework.md) — Fuzzing framework written in python.
+- [malybuzz](./fuzzer/malybuzz.md) — A Python tool focused in discovering programming faults in network software.
+- [manul](./fuzzer/manul.md) — A coverage-guided parallel fuzzer for open-source and blackbox binaries on Windows, Linux and MacOS.
+- [melkor](./fuzzer/melkor.md) — An ELF fuzzer that mutates the existing data in an ELF sample given to create orcs (malformed ELFs), however, it does not change values randomly (dumb fuzzing), instead, it fuzzes certain metadata with semi-valid values through the use of fuzzing rules (knowledge base).
+- [notspikefile](./fuzzer/notspikefile.md) — A Linux based file format fuzzing tool
+- [oat](./fuzzer/oat.md) — A toolkit that could be used to audit security within Oracle database servers.
+- [ohrwurm](./fuzzer/ohrwurm.md) — A small and simple RTP fuzzer.
+- [oscanner](./fuzzer/oscanner.md) — An Oracle assessment framework developed in Java.
+- [peach](./fuzzer/peach.md) — A SmartFuzzer that is capable of performing both generation and mutation based fuzzing.
+- [peach-fuzz](./fuzzer/peach-fuzz.md) — Simple vulnerability scanning framework.
+- [pentbox](./fuzzer/pentbox.md) — A security suite that packs security and stability testing oriented tools for networks and systems.
+- [portmanteau](./fuzzer/portmanteau.md) — An experimental unix driver IOCTL security tool that is useful for fuzzing and discovering device driver attack surface.
+- [powerfuzzer](./fuzzer/powerfuzzer.md) — Powerfuzzer is a highly automated web fuzzer based on many other Open Source fuzzers available (incl. cfuzzer, fuzzled, fuzzer.pl, jbrofuzz, webscarab, wapiti, Socket Fuzzer). It can detect XSS, Injections (SQL, LDAP, commands, code, XPATH) and others.
+- [profuzz](./fuzzer/profuzz.md) — Simple PROFINET fuzzer based on Scapy.
+- [pulsar](./fuzzer/pulsar.md) — Protocol Learning and Stateful Fuzzing.
+- [pyjfuzz](./fuzzer/pyjfuzz.md) — Python JSON Fuzzer.
+- [ratproxy](./fuzzer/ratproxy.md) — A passive web application security assessment tool
+- [s3-fuzzer](./fuzzer/s3-fuzzer.md) — A concurrent, command-line AWS S3 Fuzzer.
+- [samesame](./fuzzer/samesame.md) — Command line tool to generate crafty homograph strings.
+- [sandsifter](./fuzzer/sandsifter.md) — The x86 processor fuzzer.
+- [sfuzz](./fuzzer/sfuzz.md) — A simple fuzzer.
+- [sharpfuzz](./fuzzer/sharpfuzz.md) — AFL-based fuzz testing for .NET.
+- [sloth-fuzzer](./fuzzer/sloth-fuzzer.md) — A smart file fuzzer.
+- [smtp-fuzz](./fuzzer/smtp-fuzz.md) — Simple smtp fuzzer.
+- [snmp-fuzzer](./fuzzer/snmp-fuzzer.md) — SNMP fuzzer uses Protos test cases with an entirely new engine written in Perl.
+- [socketfuzz](./fuzzer/socketfuzz.md) — Simple socket fuzzer.
+- [spiderpig-pdffuzzer](./fuzzer/spiderpig-pdffuzzer.md) — A javascript pdf fuzzer.
+- [spike-fuzzer](./fuzzer/spike-fuzzer.md) — IMMUNITYsec's fuzzer creation kit in C.
+- [sploitego](./fuzzer/sploitego.md) — Maltego Penetration Testing Transforms.
+- [sqlbrute](./fuzzer/sqlbrute.md) — Brute forces data out of databases using blind SQL injection.
+- [sshfuzz](./fuzzer/sshfuzz.md) — A SSH Fuzzing utility written in Perl that uses Net::SSH2.
+- [sulley](./fuzzer/sulley.md) — A pure-python fully automated and unattended fuzzing framework.
+- [taof](./fuzzer/taof.md) — A GUI cross-platform Python generic network protocol fuzzer.
+- [tcpcontrol-fuzzer](./fuzzer/tcpcontrol-fuzzer.md) — 2^6 TCP control bit fuzzer (no ECN or CWR).
+- [termineter](./fuzzer/termineter.md) — Smart meter testing framework.
+- [tftp-fuzz](./fuzzer/tftp-fuzz.md) — Master TFTP fuzzing script as part of the ftools series of fuzzers.
+- [thefuzz](./fuzzer/thefuzz.md) — CLI fuzzing tool.
+- [trinity](./fuzzer/trinity.md) — A Linux System call fuzzer.
+- [uff](./fuzzer/uff.md) — Unleashed ffuf. A fork of ffuf with more functions & a modified HTTP stack.
+- [unifuzzer](./fuzzer/unifuzzer.md) — A fuzzing tool for closed-source binaries based on Unicorn and LibFuzzer.
+- [uniofuzz](./fuzzer/uniofuzz.md) — The universal fuzzing tool for browsers, web services, files, programs and network services/ports
+- [uniscan](./fuzzer/uniscan.md) — A simple Remote File Include, Local File Include and Remote Command Execution vulnerability scanner.
+- [w3af](./fuzzer/w3af.md) — Web Application Attack and Audit Framework.
+- [webscarab](./fuzzer/webscarab.md) — Framework for analysing applications that communicate using the HTTP and HTTPS protocols
+- [webshag](./fuzzer/webshag.md) — A multi-threaded, multi-platform web server audit tool.
+- [wfuzz](./fuzzer/wfuzz.md) — Utility to bruteforce web applications to find their not linked resources.
+- [wsfuzzer](./fuzzer/wsfuzzer.md) — A Python tool written to automate SOAP pentesting of web services.
+
+## hardware
+
+Hardware and platform security review, firmware checks, and low-level configuration auditing.
+
+- [chipsec](./hardware/chipsec.md) — Platform Security Assessment Framework.
+- [dex2jar](./hardware/dex2jar.md) — A tool for converting Android's .dex format to Java's .class format
+- [hdmi-sniff](./hardware/hdmi-sniff.md) — HDMI DDC (I2C) inspection tool. It is designed to demonstrate just how easy it is to recover HDCP crypto keys from HDMI devices.
+- [kautilya](./hardware/kautilya.md) — Pwnage with Human Interface Devices using Teensy++2.0 and Teensy 3.0 devices.
+- [pcileech](./hardware/pcileech.md) — Tool, which uses PCIe hardware devices to read and write from the target system memory.
+
+## honeypot
+
+Deploying decoy services, collecting threat intelligence, and practicing detection/response.
+
+- [beeswarm](./honeypot/beeswarm.md) — Honeypot deployment made easy.
+- [conpot](./honeypot/conpot.md) — ICS honeypot with the goal to collect intelligence about the motives and methods of adversaries targeting industrial control systems.
+- [fakeap](./honeypot/fakeap.md) — Black Alchemy's Fake AP generates thousands of counterfeit 802.11b access points. Hide in plain sight amongst Fake AP's cacophony of beacon frames.
+- [fiked](./honeypot/fiked.md) — Fake IDE daemon.
+- [heartbleed-honeypot](./honeypot/heartbleed-honeypot.md) — Script that listens on TCP port 443 and responds with completely bogus SSL heartbeat responses, unless it detects the start of a byte pattern similar to that used in Jared Stafford's
+- [honeyd](./honeypot/honeyd.md) — A small daemon that creates virtual hosts on a network.
+- [honeypy](./honeypot/honeypy.md) — A low interaction Honeypot.
+- [honssh](./honeypot/honssh.md) — A high-interaction Honey Pot solution designed to log all SSH communications between a client and server.
+- [hpfeeds](./honeypot/hpfeeds.md) — Honeynet Project generic authenticated datafeed protocol.
+- [kippo](./honeypot/kippo.md) — A medium interaction SSH honeypot designed to log brute force attacks and most importantly, the entire shell interaction by the attacker.
+- [pshitt](./honeypot/pshitt.md) — A lightweight fake SSH server designed to collect authentication data sent by intruders.
+- [python2-hpfeeds](./honeypot/python2-hpfeeds.md) — Honeynet Project generic authenticated datafeed protocol.
+- [snare](./honeypot/snare.md) — Super Next generation Advanced Reactive honeypot.
+- [ssh-honeypot](./honeypot/ssh-honeypot.md) — Fake sshd that logs ip addresses, usernames, and passwords.
+- [wifi-honey](./honeypot/wifi-honey.md) — A management tool for wifi honeypots.
+- [wordpot](./honeypot/wordpot.md) — A Wordpress Honeypot.
+
+## ids
+
+Intrusion detection, alert validation, and network/security monitoring labs.
+
+- [sagan](./ids/sagan.md) — A snort-like log analysis engine.
+
+## keylogger
+
+Defensive research, malware-analysis labs, and detection testing for input-capture behavior.
+
+- [logkeys](./keylogger/logkeys.md) — A GNU/Linux keylogger that worked.
+- [python-keylogger](./keylogger/python-keylogger.md) — Simple keystroke logger.
+- [xspy](./keylogger/xspy.md) — A utility for monitoring keypresses on remote X servers
+
+## malware
+
+Malware analysis, sample triage, YARA/signature work, sandboxing, and incident response.
+
+- [balbuzard](./malware/balbuzard.md) — A package of malware analysis tools in python to extract patterns of interest from suspicious files (IP addresses, domain names, known file headers, interesting strings, etc).
+- [bamf-framework](./malware/bamf-framework.md) — A modular framework designed to be a platform to launch attacks against botnets.
+- [bdlogparser](./malware/bdlogparser.md) — This is a utility to parse a Bit Defender log file, in order to sort them into a malware archive for easier maintenance of your malware collection.
+- [box-js](./malware/box-js.md) — A tool for studying JavaScript malware.
+- [clamscanlogparser](./malware/clamscanlogparser.md) — This is a utility to parse a Clam Anti Virus log file, in order to sort them into a malware archive for easier maintanence of your malware collection.
+- [cuckoo](./malware/cuckoo.md) — Automated malware analysis system.
+- [damm](./malware/damm.md) — Differential Analysis of Malware in Memory.
+- [fakenet-ng](./malware/fakenet-ng.md) — Next Generation Dynamic Network Analysis Tool.
+- [fileintel](./malware/fileintel.md) — A modular Python application to pull intelligence about malicious files.
+- [flare-floss](./malware/flare-floss.md) — Obfuscated String Solver - Automatically extract obfuscated strings from malware.
+- [fprotlogparser](./malware/fprotlogparser.md) — This is a utility to parse a F-Prot Anti Virus log file, in order to sort them into a malware archive for easier maintanence of your collection.
+- [gcat](./malware/gcat.md) — A fully featured backdoor that uses Gmail as a C&C server.
+- [malboxes](./malware/malboxes.md) — Builds malware analysis Windows VMs so that you don't have to.
+- [malscan](./malware/malscan.md) — A Simple PE File Heuristics Scanner.
+- [maltrieve](./malware/maltrieve.md) — Originated as a fork of mwcrawler. It retrieves malware directly from the sources as listed at a number of sites.
+- [malware-check-tool](./malware/malware-check-tool.md) — Python script that detects malicious files via checking md5 hashes from an offline set or via the virustotal site. It has http proxy support and an update feature.
+- [noriben](./malware/noriben.md) — Portable, Simple, Malware Analysis Sandbox.
+- [origami](./malware/origami.md) — Aims at providing a scripting tool to generate and analyze malicious PDF files.
+- [peframe](./malware/peframe.md) — Tool to perform static analysis on (portable executable) malware.
+- [pepper](./malware/pepper.md) — An open source script to perform malware static analysis on Portable Executable.
+- [pftriage](./malware/pftriage.md) — Python tool and library to help analyze files during malware triage and analysis.
+- [polyswarm](./malware/polyswarm.md) — An interface to the public and private PolySwarm APIs.
+- [pyew](./malware/pyew.md) — A python tool to analyse malware.
+- [python-mmbot](./malware/python-mmbot.md) — Powerful malicious file triage tool for cyber responders.
+- [sea](./malware/sea.md) — A tool to help to create exploits of binary programs.
+- [ssma](./malware/ssma.md) — Simple Static Malware Analyzer.
+- [thezoo](./malware/thezoo.md) — A project created to make the possibility of malware analysis open and available to the public.
+- [vba2graph](./malware/vba2graph.md) — Generate call graphs from VBA code, for easier analysis of malicious documents.
+- [virustotal](./malware/virustotal.md) — Command-line utility to automatically lookup on VirusTotal all files recursively contained in a directory.
+- [vmcloak](./malware/vmcloak.md) — Automated Virtual Machine Generation and Cloaking for Cuckoo Sandbox.
+- [vt-cli](./malware/vt-cli.md) — VirusTotal Command Line Interface.
+- [zerowine](./malware/zerowine.md) — Malware Analysis Tool - research project to dynamically analyze the behavior of malware
+
+## misc
+
+General-purpose utilities that support security workflows, data processing, or specialized tasks.
+
+- [alterx](./misc/alterx.md) — Fast and customizable subdomain wordlist generator using DSL.
+- [archivebox](./misc/archivebox.md) — The open source self-hosted web archive. Takes browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, media, and more.
+- [aspisec](./misc/aspisec.md) — Removes the traces left by offensive security tools.
+- [aurebeshjs](./misc/aurebeshjs.md) — Translate JavaScript to Other Alphabets.
+- [avml](./misc/avml.md) — A portable volatile memory acquisition tool for Linux.
+- [azurehound](./misc/azurehound.md) — Azure data exporter for BloodHound.
+- [base64dump](./misc/base64dump.md) — Extract and decode base64 strings from files.
+- [bettercap-ui](./misc/bettercap-ui.md) — Official Bettercap's Web UI.
+- [bless](./misc/bless.md) — High-quality, full-featured hex editor.
+- [bloodhound-cli](./misc/bloodhound-cli.md) — Command-line interface for BloodHound v5.
+- [bqm](./misc/bqm.md) — Download BloudHound query lists, deduplicate entries and merge them in one file.
+- [catana](./misc/catana.md) — Filter your wordlist according to the specified password policy.
+- [centry](./misc/centry.md) — Cold boot & DMA protection
+- [checkiban](./misc/checkiban.md) — Checks the validity of an International Bank Account Number (IBAN).
+- [cisco-router-config](./misc/cisco-router-config.md) — Tools to copy and merge Cisco Routers Configuration.
+- [cloakify](./misc/cloakify.md) — Data Exfiltration In Plain Sight; Evade DLP/MLS Devices; Social Engineering of Analysts; Evade AV Detection.
+- [cracken](./misc/cracken.md) — A ast password wordlist generator, Smartlist creation and password hybrid-mask analysis tool written in pure safe Rust.
+- [credmap](./misc/credmap.md) — The Credential mapper - Tool that was created to bring awareness to the dangers of credential reuse.
+- [ctf-party](./misc/ctf-party.md) — A CLI tool & library to enhance and speed up script/exploit writing for CTF players.
+- [cve-api](./misc/cve-api.md) — Unofficial api for cve.mitre.org.
+- [dbd](./misc/dbd.md) — A Netcat-clone, designed to be portable and offer strong encryption. It runs on Unix-like operating systems and on Microsoft Win32.
+- [densityscout](./misc/densityscout.md) — Calculates density for files of any file-system-path to finally output an accordingly descending ordered list.
+- [depix](./misc/depix.md) — A tool for recovering passwords from pixelized screenshots.
+- [der-ascii](./misc/der-ascii.md) — A reversible DER and BER pretty-printer.
+- [dhcdrop](./misc/dhcdrop.md) — Remove illegal dhcp servers with IP-pool underflow.
+- [dnsgen](./misc/dnsgen.md) — Generate combination of domain names from the provided input.
+- [domlink](./misc/domlink.md) — A tool to link a domain with registered organisation names and emails, to other domains.
+- [dsd](./misc/dsd.md) — Digital Speech Decoder.
+- [dsd-fme](./misc/dsd-fme.md) — Digital Speech Decoder - Florida Man Edition.
+- [dumpsmbshare](./misc/dumpsmbshare.md) — A script to dump files and folders remotely from a Windows SMB share.
+- [duplicut](./misc/duplicut.md) — Remove duplicates from massive wordlist, without sorting it (for dictionnary-based password cracking).
+- [elettra](./misc/elettra.md) — A plausible deniable cryptography tool that supports a dynamic number of files and requires a password for each file.
+- [elettra-gui](./misc/elettra-gui.md) — Gui for the elettra crypto application.
+- [ent](./misc/ent.md) — Pseudorandom number sequence test.
+- [evilgrade](./misc/evilgrade.md) — Modular framework that takes advantage of poor upgrade implementations by injecting fake updates.
+- [exrex](./misc/exrex.md) — Irregular methods on regular expressions.
+- [extracthosts](./misc/extracthosts.md) — Extracts hosts (IP/Hostnames) from files.
+- [eyeballer](./misc/eyeballer.md) — Convolutional neural network for analyzing pentest screenshots.
+- [fakemail](./misc/fakemail.md) — Fake mail server that captures e-mails as files for acceptance testing.
+- [ffuf-scripts](./misc/ffuf-scripts.md) — Scripts and snippets for ffuf payloads.
+- [find3](./misc/find3.md) — High-precision indoor positioning framework.
+- [firefox-security-toolkit](./misc/firefox-security-toolkit.md) — A tool that transforms Firefox browsers into a penetration testing suite.
+- [flare](./misc/flare.md) — Flare processes an SWF and extracts all scripts from it.
+- [genlist](./misc/genlist.md) — Generates lists of IP addresses.
+- [geoipgen](./misc/geoipgen.md) — A country to IP addresses generator.
+- [gf](./misc/gf.md) — A wrapper around grep, to help you grep for things.
+- [gibberish-detector](./misc/gibberish-detector.md) — Train a model and detect gibberish strings with it.
+- [githubcloner](./misc/githubcloner.md) — A script that clones Github repositories of users and organizations automatically.
+- [gmsadumper](./misc/gmsadumper.md) — A tool that Reads any gMSA password blobs the user can access and parses the values.
+- [goshs](./misc/goshs.md) — A single-binary file server for pentesters and sysadmins with HTTP/S, WebDAV, SFTP, SMB, LDAP, NTLM hash capture, DNS/SMTP callbacks and more.
+- [graffiti](./misc/graffiti.md) — A tool to generate obfuscated one liners to aid in penetration testing.
+- [gtfo](./misc/gtfo.md) — Search gtfobins and lolbas files from your terminal.
+- [gtfoblookup](./misc/gtfoblookup.md) — Offline command line lookup utility for GTFOBins and LOLBAS.
+- [h2spec](./misc/h2spec.md) — A conformance testing tool for HTTP/2 implementation.
+- [halcyon-ide](./misc/halcyon-ide.md) — First IDE for Nmap Script (NSE) Development.
+- [http-put](./misc/http-put.md) — Simple http put perl script.
+- [httpscreenshot](./misc/httpscreenshot.md) — A tool for grabbing screenshots and HTML of large numbers of websites.
+- [hurl-encoder](./misc/hurl-encoder.md) — Hexadecimal & URL (en/de)coder.
+- [hxd](./misc/hxd.md) — Freeware Hex Editor and Disk Editor.
+- [imagegrep](./misc/imagegrep.md) — Grep word in pdf or image based on OCR.
+- [imhex](./misc/imhex.md) — A Hex Editor for Reverse Engineers, Programmers and people that value their eye sight when working at 3 AM.
+- [intelmq](./misc/intelmq.md) — A tool for collecting and processing security feeds using a message queuing protocol.
+- [intensio-obfuscator](./misc/intensio-obfuscator.md) — Obfuscate a python code 2 and 3.
+- [inundator](./misc/inundator.md) — An ids evasion tool, used to anonymously inundate intrusion detection logs with false positives in order to obfuscate a real attack.
+- [ipcountry](./misc/ipcountry.md) — Fetches IPv4 ranges of given country in host and cidr format.
+- [ipobfuscator](./misc/ipobfuscator.md) — A simple tool to convert the IP to a DWORD IP.
+- [jsfuck](./misc/jsfuck.md) — Write any JavaScript with 6 Characters: []()!+.
+- [laudanum](./misc/laudanum.md) — A collection of injectable files, designed to be used in a pentest when SQL injection flaws are found and are in multiple languages for different environments.
+- [leo](./misc/leo.md) — Literate programmer's editor, outliner, and project manager.
+- [magictree](./misc/magictree.md) — A penetration tester productivity tool designed to allow easy and straightforward data consolidation, querying, external command execution and report generation
+- [mapcidr](./misc/mapcidr.md) — Utility program to perform multiple operations for a given subnet/CIDR ranges.
+- [metaforge](./misc/metaforge.md) — Auto Scanning to SSL Vulnerability.
+- [mibble](./misc/mibble.md) — An open-source SNMP MIB parser (or SMI parser) written in Java. It can be used to read SNMP MIB files as well as simple ASN.1 files.
+- [minimodem](./misc/minimodem.md) — A command-line program which decodes (or generates) audio modem tones at any specified baud rate, using various framing protocols.
+- [mkyara](./misc/mkyara.md) — Tool to generate YARA rules based on binary code.
+- [mrtparse](./misc/mrtparse.md) — A module to read and analyze the MRT format data.
+- [msfdb](./misc/msfdb.md) — Manage the metasploit framework database.
+- [narthex](./misc/narthex.md) — Modular personalized dictionary generator.
+- [nmap-parse-output](./misc/nmap-parse-output.md) — Converts/manipulates/extracts data from a nmap scan output.
+- [nsearch](./misc/nsearch.md) — Minimal script to help find script into the nse database.
+- [one-lin3r](./misc/one-lin3r.md) — Gives you one-liners that aids in penetration testing and more.
+- [openrisk](./misc/openrisk.md) — Generates a risk score based on the results of a Nuclei scan using OpenAI's GPT model.
+- [osert](./misc/osert.md) — Markdown Templates for Offensive Security exam reports.
+- [pass-station](./misc/pass-station.md) — CLI & library to search for default credentials among thousands of Products / Vendors.
+- [passdetective](./misc/passdetective.md) — Scans shell command history to detect mistakenly written passwords, API keys, and secrets.
+- [payloadsallthethings](./misc/payloadsallthethings.md) — A list of useful payloads and bypass for Web Application Security and Pentest/CTF.
+- [pdfwalker](./misc/pdfwalker.md) — Frontend to explore the internals of a PDF document with Origami
+- [pencode](./misc/pencode.md) — Complex payload encoder.
+- [plumber.py](./misc/plumber.py.md) — A python implementation of a grep friendly ftrace wrapper.
+- [plutil](./misc/plutil.md) — Converts .plist files between binary and UTF (editable) text formats.
+- [princeprocessor](./misc/princeprocessor.md) — Standalone password candidate generator using the PRINCE algorithm.
+- [pspy](./misc/pspy.md) — Monitor linux processes without root permissions.
+- [pulledpork](./misc/pulledpork.md) — Snort rule management.
+- [pwdlogy](./misc/pwdlogy.md) — A target specific wordlist generating tool for social engineers and security researchers.
+- [pwfuzz-rs](./misc/pwfuzz-rs.md) — Rust-based password mutator for brute force attacks.
+- [pwnedpasswords](./misc/pwnedpasswords.md) — Generate and verify pwnedpasswords check digits.
+- [pydictor](./misc/pydictor.md) — A useful hacker dictionary builder for a brute-force attack.
+- [pyinstaller](./misc/pyinstaller.md) — Bundles a Python application and all its dependencies into a single package.
+- [pyinstaller-hooks-contrib](./misc/pyinstaller-hooks-contrib.md) — PyInstaller community hooks.
+- [python-google-streetview](./misc/python-google-streetview.md) — A command line tool and module for Google Street View Image API.
+- [python2-darts.util.lru](./misc/python2-darts.util.lru.md) — Simple dictionary with LRU behaviour.
+- [python2-exrex](./misc/python2-exrex.md) — Irregular methods on regular expressions.
+- [python2-google-streetview](./misc/python2-google-streetview.md) — A command line tool and module for Google Street View Image API.
+- [python2-utidylib](./misc/python2-utidylib.md) — Python bindings for Tidy HTML parser/cleaner.
+- [qrgen](./misc/qrgen.md) — Simple script for generating Malformed QRCodes.
+- [qsreplace](./misc/qsreplace.md) — Accept URLs on stdin, replace all query string values with a user-supplied value, only output each combination of query string parameters once per host and path.
+- [rawsec-cli](./misc/rawsec-cli.md) — Rawsec Inventory search CLI to find security tools and resources.
+- [rbkb](./misc/rbkb.md) — A miscellaneous collection of command-line tools related to pen-testing and reversing.
+- [redeye](./misc/redeye.md) — Visual analytic tool supporting Red & Blue Team operations.
+- [redpoint](./misc/redpoint.md) — Digital Bond's ICS Enumeration Tools.
+- [reptor](./misc/reptor.md) — CLI tool to automate pentest reporting with SysReptor.
+- [rogue-mysql-server](./misc/rogue-mysql-server.md) — A rogue MySQL server written in Python.
+- [rtfm](./misc/rtfm.md) — A database of common, interesting or useful commands, in one handy referable form.
+- [rulesfinder](./misc/rulesfinder.md) — Machine-learn password mangling rules.
+- [sasm](./misc/sasm.md) — A simple crossplatform IDE for NASM, MASM, GAS and FASM assembly languages.
+- [schnappi-dhcp](./misc/schnappi-dhcp.md) — Can fuck network with no DHCP.
+- [sh00t](./misc/sh00t.md) — A Testing Environment for Manual Security Testers.
+- [shadowfinder](./misc/shadowfinder.md) — Find possible locations of shadows around the world.
+- [shelling](./misc/shelling.md) — An offensive approach to the anatomy of improperly written OS command injection sanitisers.
+- [sleuthql](./misc/sleuthql.md) — Python3 Burp History parsing tool to discover potential SQL injection points. To be used in tandem with SQLmap.
+- [stompy](./misc/stompy.md) — An advanced utility to test the quality of WWW session identifiers and other tokens that are meant to be unpredictable.
+- [suricata-verify](./misc/suricata-verify.md) — Suricata Verification Tests - Testing Suricata Output.
+- [tcpxtract](./misc/tcpxtract.md) — A tool for extracting files from network traffic.
+- [tempomail](./misc/tempomail.md) — Tool to create a temporary email address in 1 Second and receive emails.
+- [tnscmd](./misc/tnscmd.md) — A lame tool to prod the oracle tnslsnr process (1521/tcp).
+- [token-reverser](./misc/token-reverser.md) — Word list generator to crack security tokens.
+- [tpcat](./misc/tpcat.md) — Tool based upon pcapdiff by the EFF.
+- [uatester](./misc/uatester.md) — User Agent String Tester
+- [uberfile](./misc/uberfile.md) — CLI tool for the generation of downloader oneliners for UNIX-like or Windows systems.
+- [unfurl](./misc/unfurl.md) — Pull out bits of URLs provided on stdin.
+- [unisec](./misc/unisec.md) — Unicode Security Toolkit.
+- [urlview](./misc/urlview.md) — A curses URL parser for text files.
+- [usernamer](./misc/usernamer.md) — Pentest Tool to generate usernames/logins based on supplied names.
+- [verinice](./misc/verinice.md) — Tool for managing information security.
+- [vfeed](./misc/vfeed.md) — Open Source Cross Linked and Aggregated Local Vulnerability Database main repository.
+- [visualize-logs](./misc/visualize-logs.md) — A Python library and command line tools to provide interactive log visualization.
+- [web2ldap](./misc/web2ldap.md) — Full-featured LDAP client running as web application.
+- [whapa](./misc/whapa.md) — WhatsApp Parser Tool.
+- [whatportis](./misc/whatportis.md) — A command to search port names and numbers.
+- [winexe](./misc/winexe.md) — Remotely execute commands on Windows NT/2000/XP/2003 systems.
+- [winregfs](./misc/winregfs.md) — Windows Registry FUSE filesystem.
+- [wol-e](./misc/wol-e.md) — A suite of tools for the Wake on LAN feature of network attached computers.
+- [wordlistctl](./misc/wordlistctl.md) — Fetch, install and search wordlist archives from websites.
+- [wordlister](./misc/wordlister.md) — A simple wordlist generator and mangler written in python.
+- [yay](./misc/yay.md) — Yet another yogurt. Pacman wrapper and AUR helper written in go.
+
+## mobile
+
+Android/iOS app analysis, mobile forensics, APK review, and mobile security testing in a lab.
+
+- [androbugs](./mobile/androbugs.md) — An efficient Android vulnerability scanner that helps developers or hackers find potential security vulnerabilities in Android applications.
+- [androick](./mobile/androick.md) — A python tool to help in forensics analysis on android.
+- [android-ndk](./mobile/android-ndk.md) — Android C/C++ developer kit
+- [android-sdk](./mobile/android-sdk.md) — Google Android SDK
+- [android-udev-rules](./mobile/android-udev-rules.md) — Android udev rules.
+- [androidmeda](./mobile/androidmeda.md) — AI tool to deobfuscate and find any potential vulnerabilities in android apps.
+- [androidpincrack](./mobile/androidpincrack.md) — Bruteforce the Android Passcode given the hash and salt.
+- [androidsniffer](./mobile/androidsniffer.md) — A perl script that lets you search for 3rd party passwords, dump the call log, dump contacts, dump wireless configuration, and more.
+- [androwarn](./mobile/androwarn.md) — Yet another static code analyzer for malicious Android applications.
+- [apkid](./mobile/apkid.md) — Android Application Identifier for Packers, Protectors, Obfuscators and Oddities.
+- [apkleaks](./mobile/apkleaks.md) — Scanning APK file for URIs, endpoints & secrets.
+- [apkstat](./mobile/apkstat.md) — Automated Information Retrieval From APKs For Initial Analysis.
+- [apkurlgrep](./mobile/apkurlgrep.md) — Extract endpoints from APK files.
+- [appmon](./mobile/appmon.md) — A runtime security testing & profiling framework for native apps on macOS, iOS & android and it is built using Frida.
+- [arcane](./mobile/arcane.md) — Backdoor iOS packages and create the necessary resources for APT repositories.
+- [backdoor-apk](./mobile/backdoor-apk.md) — Shell script that simplifies the process of adding a backdoor to any Android APK file
+- [backhack](./mobile/backhack.md) — Tool to perform Android app analysis by backing up and extracting apps, allowing you to analyze and modify file system contents for apps.
+- [bagbak](./mobile/bagbak.md) — Yet another frida based App decryptor.
+- [bandicoot](./mobile/bandicoot.md) — A toolbox to analyze mobile phone metadata.
+- [cnamulator](./mobile/cnamulator.md) — A phone CNAM lookup utility using the OpenCNAM API.
+- [dexpatcher](./mobile/dexpatcher.md) — Modify Android DEX/APK files at source-level using Java.
+- [drozer](./mobile/drozer.md) — A security testing framework for Android - Precompiled binary from official repository.
+- [findmyiphone](./mobile/findmyiphone.md) — Locates all devices associated with an iCloud account
+- [firebaseenum](./mobile/firebaseenum.md) — Tool to mass analyse potentially exposed Firebase databases on Android apps.
+- [frida-ios-dump](./mobile/frida-ios-dump.md) — Pull decrypted ipa from jailbreak device.
+- [ghost](./mobile/ghost.md) — Android post-exploitation framework that exploits the Android Debug Bridge to remotely access an Android device.
+- [idb](./mobile/idb.md) — A tool to simplify some common tasks for iOS pentesting and research.
+- [kalibrate-rtl](./mobile/kalibrate-rtl.md) — Fork of http://thre.at/kalibrate/ for use with rtl-sdr devices.
+- [lazydroid](./mobile/lazydroid.md) — Tool written as a bash script to facilitate some aspects of an Android Assessment
+- [mara-framework](./mobile/mara-framework.md) — A Mobile Application Reverse engineering and Analysis Framework.
+- [mobsf](./mobile/mobsf.md) — An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of performing static, dynamic analysis and web API testing.
+- [needle](./mobile/needle.md) — The iOS Security Testing Framework.
+- [objection](./mobile/objection.md) — Instrumented Mobile Pentest Framework.
+- [phonesploit](./mobile/phonesploit.md) — Adb exploiting tools.
+- [pyaxmlparser](./mobile/pyaxmlparser.md) — A simple parser to parse Android XML file.
+- [python-frida-tools](./mobile/python-frida-tools.md) — Frida CLI tools.
+- [python2-frida-tools](./mobile/python2-frida-tools.md) — Frida CLI tools.
+- [qark](./mobile/qark.md) — Tool to look for several security related Android application vulnerabilities.
+- [quark-engine](./mobile/quark-engine.md) — An Obfuscation-Neglect Android Malware Scoring System.
+- [sign](./mobile/sign.md) — Automatically signs an apk with the Android test certificate.
+- [simplify](./mobile/simplify.md) — Generic Android Deobfuscator.
+- [smali-cfgs](./mobile/smali-cfgs.md) — Smali Control Flow Graph's.
+- [smalisca](./mobile/smalisca.md) — Static Code Analysis for Smali files.
+- [smartphone-pentest-framework](./mobile/smartphone-pentest-framework.md) — Repository for the Smartphone Pentest Framework (SPF).
+- [stacoan](./mobile/stacoan.md) — Crossplatform tool which aids developers, bugbounty hunters and ethical hackers performing static code analysis on mobile applications.
+- [truegaze](./mobile/truegaze.md) — Static analysis tool for Android/iOS apps focusing on security issues outside the source code.
+
+## networking
+
+Network diagnostics, protocol study, service testing, routing, tunneling, and lab traffic analysis.
+
+- [adassault](./networking/adassault.md) — An Active Directory environments pentest tool complementary to existing ones like NetExec.
+- [aiengine](./networking/aiengine.md) — A packet inspection engine with capabilities of learning without any human intervention.
+- [apacket](./networking/apacket.md) — Sniffer syn and backscatter packets.
+- [argus](./networking/argus.md) — Network monitoring tool with flow control.
+- [argus-clients](./networking/argus-clients.md) — Network monitoring client for Argus.
+- [arpalert](./networking/arpalert.md) — Monitor ARP changes in ethernet networks.
+- [arping-th](./networking/arping-th.md) — ARP Ping from Thomas Habets (aka Debian arping).
+- [arptools](./networking/arptools.md) — A simple tool about ARP broadcast, ARP attack, and data transmission.
+- [arpwner](./networking/arpwner.md) — GUI-based python tool for arp poisoning and dns poisoning attacks.
+- [asnmap](./networking/asnmap.md) — Map organization network ranges using ASN information.
+- [autovpn](./networking/autovpn.md) — Easily connect to a VPN in a country of your choice.
+- [buttinsky](./networking/buttinsky.md) — Provide an open source framework for automated botnet monitoring.
+- [bypass-firewall-dns-history](./networking/bypass-firewall-dns-history.md) — Firewall bypass script based on DNS history records.
+- [chameleon](./networking/chameleon.md) — A tool for evading Proxy categorisation.
+- [chaosreader](./networking/chaosreader.md) — A freeware tool to trace tcp, udp etc. sessions and fetch application data from snoop or tcpdump logs.
+- [chopshop](./networking/chopshop.md) — Protocol Analysis/Decoder Framework.
+- [cidr2range](./networking/cidr2range.md) — Script for listing the IP addresses contained in a CIDR netblock.
+- [creak](./networking/creak.md) — Poison, reset, spoof, redirect MITM script.
+- [cyberscan](./networking/cyberscan.md) — A Network Pentesting Tool.
+- [dcdetector](./networking/dcdetector.md) — Spot all domain controllers in a Microsoft Active Directory environment. Find computer name, FQDN, and IP address(es) of all DCs.
+- [depdep](./networking/depdep.md) — A merciless sentinel which will seek sensitive files containing critical info leaking through your network.
+- [det](./networking/det.md) — (extensible) Data Exfiltration Toolkit.
+- [dhcpoptinj](./networking/dhcpoptinj.md) — DHCP option injector.
+- [dinouml](./networking/dinouml.md) — A network simulation tool, based on UML (User Mode Linux) that can simulate big Linux networks on a single PC
+- [dnsdiag](./networking/dnsdiag.md) — DNS Diagnostics and Performance Measurement Tools.
+- [dnsfilexfer](./networking/dnsfilexfer.md) — File transfer via DNS.
+- [dnsobserver](./networking/dnsobserver.md) — A handy DNS service written in Go to aid in the detection of several types of blind vulnerabilities.
+- [dnsteal](./networking/dnsteal.md) — DNS Exfiltration tool for stealthily sending files over DNS requests..
+- [dnsvalidator](./networking/dnsvalidator.md) — Maintains a list of IPv4 DNS servers by verifying them against baseline servers, and ensuring accurate responses.
+- [dripcap](./networking/dripcap.md) — Caffeinated Packet Analyzer.
+- [dtp-spoof](./networking/dtp-spoof.md) — Python script/security tool to test Dynamic Trunking Protocol configuration on a switch.
+- [dublin-traceroute](./networking/dublin-traceroute.md) — NAT-aware multipath tracerouting tool.
+- [dump1090](./networking/dump1090.md) — A simple Mode S decoder for RTLSDR devices.
+- [evillimiter](./networking/evillimiter.md) — Tool that limits bandwidth of devices on the same network without access.
+- [exabgp](./networking/exabgp.md) — The BGP swiss army knife of networking.
+- [filibuster](./networking/filibuster.md) — A Egress filter mapping application with additional functionality.
+- [firecat](./networking/firecat.md) — A penetration testing tool that allows you to punch reverse TCP tunnels out of a compromised network.
+- [flowinspect](./networking/flowinspect.md) — A network traffic inspection tool.
+- [girsh](./networking/girsh.md) — Automatically spawn a reverse shell fully interactive for Linux or Windows victim.
+- [gspoof](./networking/gspoof.md) — A simple GTK/command line TCP/IP packet generator.
+- [gwcheck](./networking/gwcheck.md) — A simple program that checks if a host in an ethernet network is a gateway to Internet.
+- [haka](./networking/haka.md) — A collection of tool that allows capturing TCP/IP packets and filtering them based on Lua policy files.
+- [hharp](./networking/hharp.md) — This tool can perform man-in-the-middle and switch flooding attacks. It has 4 major functions, 3 of which attempt to man-in-the-middle one or more computers on a network with a passive method or flood type method.
+- [http-traceroute](./networking/http-traceroute.md) — This is a python script that uses the Max-Forwards header in HTTP and SIP to perform a traceroute-like scanning functionality.
+- [hyde](./networking/hyde.md) — Just another tool in C to do DDoS (with spoofing).
+- [hyenae](./networking/hyenae.md) — Flexible platform independent packet generator.
+- [hyperfox](./networking/hyperfox.md) — A security tool for proxying and recording HTTP and HTTPs traffic.
+- [infection-monkey](./networking/infection-monkey.md) — Automated security testing tool for networks.
+- [interlace](./networking/interlace.md) — Easily turn single threaded command line applications into a fast, multi-threaded application with CIDR and glob support.
+- [ipaudit](./networking/ipaudit.md) — Monitors network activity on a network.
+- [ipdecap](./networking/ipdecap.md) — Can decapsulate traffic encapsulated within GRE, IPIP, 6in4, ESP (ipsec) protocols, and can also remove IEEE 802.1Q (virtual lan) header.
+- [ipv4bypass](./networking/ipv4bypass.md) — Using IPv6 to Bypass Security.
+- [jnetmap](./networking/jnetmap.md) — A network monitor of sorts.
+- [kickthemout](./networking/kickthemout.md) — Kick devices off your network by performing an ARP Spoof attack.
+- [krbjack](./networking/krbjack.md) — DNS dynamic update abuse in ADIDNS and MitM attack using Kerberos AP-REQ hijacking.
+- [latd](./networking/latd.md) — A LAT terminal daemon for Linux and BSD.
+- [ldapconsole](./networking/ldapconsole.md) — Script allows you to perform custom LDAP requests to a Windows domain.
+- [libparistraceroute](./networking/libparistraceroute.md) — A library written in C dedicated to active network measurements with examples, such as paris-ping and paris-traceroute.
+- [libtins](./networking/libtins.md) — High-level, multiplatform C++ network packet sniffing and crafting library.
+- [ligolo-mp](./networking/ligolo-mp.md) — Multiplayer pivoting solution.
+- [loic](./networking/loic.md) — An open source network stress tool for Windows.
+- [maclookup](./networking/maclookup.md) — Lookup MAC addresses in the IEEE MA-L/OUI public listing.
+- [maketh](./networking/maketh.md) — A packet generator that supports forging ARP, IP, TCP, UDP, ICMP and the ethernet header as well.
+- [malcom](./networking/malcom.md) — Analyze a system's network communication using graphical representations of network traffic.
+- [massdns](./networking/massdns.md) — A high-performance DNS stub resolver in C.
+- [middler](./networking/middler.md) — A Man in the Middle tool to demonstrate protocol middling attacks.
+- [mitm](./networking/mitm.md) — A simple yet effective python3 script to perform DNS spoofing via ARP poisoning.
+- [moloch](./networking/moloch.md) — An open source large scale IPv4 full PCAP capturing, indexing and database system.
+- [mptcp](./networking/mptcp.md) — A tool for manipulation of raw packets that allows a large number of options.
+- [mptcp-abuse](./networking/mptcp-abuse.md) — A collection of tools and resources to explore MPTCP on your network. Initially released at Black Hat USA 2014.
+- [mylg](./networking/mylg.md) — Network Diagnostic Tool.
+- [nacker](./networking/nacker.md) — A tool to circumvent 802.1x Network Access Control on a wired LAN.
+- [nbtool](./networking/nbtool.md) — Some tools for NetBIOS and DNS investigation, attacks, and communication.
+- [ncpfs](./networking/ncpfs.md) — Allows you to mount volumes of NetWare servers under Linux.
+- [nemesis](./networking/nemesis.md) — A command-line network packet crafting and injection utility.
+- [netactview](./networking/netactview.md) — A graphical network connections viewer similar in functionality to netstat.
+- [netcon](./networking/netcon.md) — A network connection establishment and management script.
+- [netmap](./networking/netmap.md) — Can be used to make a graphical representation of the surrounding network.
+- [netreconn](./networking/netreconn.md) — A collection of network scan/recon tools that are relatively small compared to their larger cousins.
+- [netsed](./networking/netsed.md) — Small and handful utility design to alter the contents of packets forwarded thru network in real time.
+- [networkmap](./networking/networkmap.md) — Post-exploitation network mapper.
+- [nextnet](./networking/nextnet.md) — Pivot point discovery tool.
+- [nfdump](./networking/nfdump.md) — A set of tools to collect and process netflow data.
+- [nield](./networking/nield.md) — A tool to receive notifications from kernel through netlink socket, and generate logs related to interfaces, neighbor cache(ARP,NDP), IP address(IPv4,IPv6), routing, FIB rules, traffic control.
+- [nipper](./networking/nipper.md) — Network Infrastructure Parser
+- [nsdtool](./networking/nsdtool.md) — A netgear switch discovery tool. It contains some extra features like bruteoforce and setting a new password.
+- [nsoq](./networking/nsoq.md) — A Network Security Tool for packet manipulation that allows a large number of options.
+- [packet-o-matic](./networking/packet-o-matic.md) — A real time packet processor. Reads the packet from an input module, match the packet using rules and connection tracking information and then send it to a target module.
+- [packetq](./networking/packetq.md) — A tool that provides a basic SQL-frontend to PCAP-files.
+- [packetsender](./networking/packetsender.md) — An open source utility to allow sending and receiving TCP and UDP packets.
+- [packit](./networking/packit.md) — A network auditing tool with the ability to customize, inject, monitor, and manipulate IP traffic.
+- [pcapfex](./networking/pcapfex.md) — Packet CAPture Forensic Evidence eXtractor.
+- [pcapfix](./networking/pcapfix.md) — Tries to repair your broken pcap and pcapng files.
+- [phantap](./networking/phantap.md) — An 'invisible' network tap aimed at red teams.
+- [pivotsuite](./networking/pivotsuite.md) — A portable, platform independent and powerful network pivoting toolkit.
+- [pkt2flow](./networking/pkt2flow.md) — A simple utility to classify packets into flows.
+- [pmacct](./networking/pmacct.md) — Small set of multi-purpose passive network monitoring tools [NetFlow IPFIX sFlow libpcap BGP BMP IGP Streaming Telemetry].
+- [prometheus-firewall](./networking/prometheus-firewall.md) — A Firewall analyzer written in ruby
+- [pwnat](./networking/pwnat.md) — A tool that allows any number of clients behind NATs to communicate with a server behind a separate NAT with *no* port forwarding and *no* DMZ setup on any routers in order to directly communicate with each other.
+- [pyersinia](./networking/pyersinia.md) — Network attack tool like yersinia but written in Python.
+- [pyexfil](./networking/pyexfil.md) — A couple of beta stage tools for data exfiltration.
+- [pyminifakedns](./networking/pyminifakedns.md) — Minimal DNS server written in Python; it always replies with a 127.0.0.1 A-record.
+- [python-cymruwhois](./networking/python-cymruwhois.md) — Python client for the whois.cymru.com service
+- [python2-cymruwhois](./networking/python2-cymruwhois.md) — Python client for the whois.cymru.com service
+- [rinetd](./networking/rinetd.md) — Internet redirection server.
+- [rtpbreak](./networking/rtpbreak.md) — Detects, reconstructs and analyzes any RTP session.
+- [rustcat](./networking/rustcat.md) — A modern port listener and reverse shell.
+- [samplicator](./networking/samplicator.md) — Send copies of (UDP) datagrams to multiple receivers, with optional sampling and spoofing.
+- [sdn-toolkit](./networking/sdn-toolkit.md) — Discover, Identify, and Manipulate SDN-Based Networks
+- [sessionlist](./networking/sessionlist.md) — Sniffer that intents to sniff HTTP packets and attempts to reconstruct interesting authentication data from websites that do not employ proper secure cookie auth.
+- [seth](./networking/seth.md) — Perform a MitM attack and extract clear text credentials from RDP connections.
+- [silk](./networking/silk.md) — A collection of traffic analysis tools developed by the CERT NetSA to facilitate security analysis of large networks.
+- [skydive](./networking/skydive.md) — An open source real-time network topology and protocols analyzer.
+- [smbclient-ng](./networking/smbclient-ng.md) — Interact with SMB shares.
+- [sniffer](./networking/sniffer.md) — Packet Trace Parser for TCP, SMTP Emails, and HTTP Cookies.
+- [sniffles](./networking/sniffles.md) — A Packet Capture Generator for IDS and Regular Expression Evaluation.
+- [snmpattack](./networking/snmpattack.md) — SNMP scanner and attacking tool.
+- [snmpcheck](./networking/snmpcheck.md) — A free open source utility to get information via SNMP protocols.
+- [sockstat](./networking/sockstat.md) — A tool to let you view information about open connections. It is similar to the tool of the same name that is included in FreeBSD, trying to faithfully reproduce as much functionality as is possible.
+- [sprayhound](./networking/sprayhound.md) — Password spraying tool and Bloodhound integration.
+- [sps](./networking/sps.md) — A Linux packet crafting tool. Supports IPv4, IPv6 including extension headers, and tunneling IPv6 over IPv4.
+- [stunner](./networking/stunner.md) — Test and exploit STUN, TURN and TURN over TCP servers.
+- [tcpcopy](./networking/tcpcopy.md) — A TCP stream replay tool to support real testing of Internet server applications.
+- [tcpdstat](./networking/tcpdstat.md) — Get protocol statistics from tcpdump pcap files.
+- [tcpextract](./networking/tcpextract.md) — Extracts files from captured TCP sessions. Support live streams and pcap files.
+- [tcptrace](./networking/tcptrace.md) — A TCP dump file analysis tool.
+- [tcptraceroute](./networking/tcptraceroute.md) — A traceroute implementation using TCP packets.
+- [tcpwatch](./networking/tcpwatch.md) — A utility written in Python that lets you monitor forwarded TCP connections or HTTP proxy connections.
+- [tgcd](./networking/tgcd.md) — TCP/IP Gender Changer Daemon utility.
+- [torpy](./networking/torpy.md) — Pure python Tor client implementation.
+- [tunna](./networking/tunna.md) — a set of tools which will wrap and tunnel any TCP communication over HTTP. It can be used to bypass network restrictions in fully firewalled environments.
+- [turner](./networking/turner.md) — Tunnels HTTP over a permissive/open TURN server; supports HTTP and SOCKS5 proxy.
+- [udpastcp](./networking/udpastcp.md) — This program hides UDP traffic as TCP traffic in order to bypass certain firewalls.
+- [udptunnel](./networking/udptunnel.md) — Tunnels TCP over UDP packets.
+- [umit](./networking/umit.md) — A powerful nmap frontend.
+- [uw-offish](./networking/uw-offish.md) — Clear-text protocol simulator.
+- [websockify](./networking/websockify.md) — WebSocket to TCP proxy/bridge.
+- [wondershaper](./networking/wondershaper.md) — Limit the bandwidth of one or more network adapters.
+- [xerosploit](./networking/xerosploit.md) — Efficient and advanced man in the middle framework.
+- [xxeserv](./networking/xxeserv.md) — A mini webserver with FTP support for XXE payloads.
+- [yaf](./networking/yaf.md) — Yet Another Flowmeter.
+- [yersinia](./networking/yersinia.md) — A network tool designed to take advantage of some weakness in different network protocols.
+- [zackattack](./networking/zackattack.md) — A new tool set to do NTLM Authentication relaying unlike any other tool currently out there.
+- [zdns](./networking/zdns.md) — Fast CLI DNS Lookup Tool.
+- [zeek](./networking/zeek.md) — A powerful network analysis framework that is much different from the typical IDS you may know.
+- [zeek-aux](./networking/zeek-aux.md) — Handy auxiliary programs related to the use of the Zeek Network Security Monitor.
+
+## nfc
+
+NFC/RFID lab research, tag inventory, and owned-card security learning.
+
+- [nfcutils](./nfc/nfcutils.md) — A simple command that lists tags which are in your NFC device field.
+
+## packer
+
+Binary packing/unpacking education, malware-analysis labs, and detection testing.
+
+- [sherlocked](./packer/sherlocked.md) — Universal script packer-- transforms any type of script into a protected ELF executable, encrypted with anti-debugging.
+- [vbsmin](./packer/vbsmin.md) — VBScript minifier.
+
+## proxy
+
+HTTP/TCP proxying, traffic debugging, authorized interception, and web/API testing.
+
+- [3proxy](./proxy/3proxy.md) — Tiny free proxy server.
+- [bdfproxy](./proxy/bdfproxy.md) — Patch Binaries via MITM: BackdoorFactory + mitmProxy
+- [binproxy](./proxy/binproxy.md) — A proxy for arbitrary TCP connections.
+- [cntlm](./proxy/cntlm.md) — An NTLM, NTLM2SR, and NTLMv2 authenticating HTTP proxy.
+- [datajackproxy](./proxy/datajackproxy.md) — A proxy which allows you to intercept TLS traffic in native x86 applications across platform.
+- [dns-reverse-proxy](./proxy/dns-reverse-proxy.md) — A reverse DNS proxy written in Go.
+- [dnschef](./proxy/dnschef.md) — A highly configurable DNS proxy for pentesters.
+- [elite-proxy-finder](./proxy/elite-proxy-finder.md) — Finds public elite anonymity proxies and concurrently tests them.
+- [fakedns](./proxy/fakedns.md) — A regular-expression based python MITM DNS server with correct DNS request passthrough and "Not Found" responses.
+- [fireprox](./proxy/fireprox.md) — AWS API Gateway management tool for creating on the fly HTTP pass-through proxies for unique IP rotation.
+- [jondo](./proxy/jondo.md) — Redirects internet traffic trough a mix of proxy servers to hide the origin of the requests.
+- [mallory](./proxy/mallory.md) — HTTP/HTTPS proxy over SSH.
+- [mitm-relay](./proxy/mitm-relay.md) — Hackish way to intercept and modify non-HTTP protocols through Burp & others.
+- [modlishka](./proxy/modlishka.md) — A powerful and flexible HTTP reverse proxy.
+- [mubeng](./proxy/mubeng.md) — An incredibly fast proxy checker & IP rotator with ease.
+- [obfs4proxy](./proxy/obfs4proxy.md) — A pluggable transport proxy written in Go.
+- [pr0cks](./proxy/pr0cks.md) — python script setting up a transparent proxy to forward all TCP and DNS traffic through a SOCKS / SOCKS5 or HTTP(CONNECT) proxy using iptables -j REDIRECT target.
+- [proxify](./proxy/proxify.md) — Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation, and replay on the go.
+- [proxyp](./proxy/proxyp.md) — Small multithreaded Perl script written to enumerate latency, port numbers, server names, & geolocations of proxy IP addresses.
+- [redsocks](./proxy/redsocks.md) — Transparent redirector of any TCP connection to proxy.
+- [rpivot](./proxy/rpivot.md) — Socks4 reverse proxy for penetration testing.
+- [sergio-proxy](./proxy/sergio-proxy.md) — A multi-threaded transparent HTTP proxy for manipulating web traffic.
+- [soapui](./proxy/soapui.md) — The Swiss-Army Knife for SOAP Testing.
+- [sslstrip](./proxy/sslstrip.md) — Python tool to hijack HTTPS connections during a MITM attack.
+- [ssrf-proxy](./proxy/ssrf-proxy.md) — Facilitates tunneling HTTP communications through servers vulnerable to Server-Side Request Forgery.
+- [starttls-mitm](./proxy/starttls-mitm.md) — A mitm proxy that will transparently proxy and dump both plaintext and TLS traffic.
+- [stowaway](./proxy/stowaway.md) — A Multi-hop proxy tool for security researchers and pentesters.
+- [striptls](./proxy/striptls.md) — Proxy PoC implementation of STARTTLS stripping attacks.
+- [tftp-proxy](./proxy/tftp-proxy.md) — This tool accepts connection on tftp and reloads requested content from an upstream tftp server.
+- [trevorproxy](./proxy/trevorproxy.md) — A SOCKS proxy written in Python that randomizes your source IP address.
+- [webfixy](./proxy/webfixy.md) — On-the-fly decryption proxy for MikroTik RouterOS WebFig sessions.
+
+## radio
+
+Software-defined radio learning, RF signal analysis, decoding, and lab spectrum experiments.
+
+- [airspyhf](./radio/airspyhf.md) — Host code for AirspyHF+ SDR.
+- [aptdec](./radio/aptdec.md) — NOAA APT satellite imagery decoder.
+- [csdr](./radio/csdr.md) — A simple DSP library and command-line tool for Software Defined Radio.
+- [cubicsdr](./radio/cubicsdr.md) — Cross-Platform Software-Defined Radio Application.
+- [deskhpsdr](./radio/deskhpsdr.md) — SDR App for HPSDR protocol and Soapy-API.
+- [gpredict](./radio/gpredict.md) — A real-time satellite tracking and orbit prediction application.
+- [gps-sdr-sim](./radio/gps-sdr-sim.md) — Software-Defined GPS Signal Simulator.
+- [gqrx-scanner](./radio/gqrx-scanner.md) — A frequency scanner for Gqrx Software Defined Radio receiver.
+- [gr-air-modes](./radio/gr-air-modes.md) — Gnuradio tools for receiving Mode S transponder signals, including ADS-B.
+- [gr-dect2](./radio/gr-dect2.md) — Real-time DECT voice channel decoding by Gnuradio.
+- [gr-gsm](./radio/gr-gsm.md) — Gnuradio blocks and tools for receiving GSM transmissions.
+- [gr-paint](./radio/gr-paint.md) — An OFDM Spectrum Painter for GNU Radio.
+- [gsmevil2](./radio/gsmevil2.md) — Python web-based tool which use for capturing imsi numbers and sms.
+- [hacktv](./radio/hacktv.md) — Analogue TV transmitter for the HackRF.
+- [libosmocore](./radio/libosmocore.md) — Collection of common code used in various sub-projects inside the Osmocom family of projects.
+- [lte-cell-scanner](./radio/lte-cell-scanner.md) — An OpenCL accelerated TDD/FDD LTE Scanner.
+- [openwebrx](./radio/openwebrx.md) — Open source, multi-user SDR receiver software with a web interface.
+- [qradiolink](./radio/qradiolink.md) — Multimode SDR transceiver for GNU radio, ADALM-Pluto, LimeSDR, USRP.
+- [rfcat](./radio/rfcat.md) — Swiss-army knife of ISM band radio.
+- [rtl](./radio/rtl.md) — A generic software defined radio data receiver, mainly for the 433.92 MHz, 868 MHz (SRD), 315 MHz, 345 MHz, and 915 MHz ISM bands.
+- [rtl-wmbus](./radio/rtl-wmbus.md) — Software defined receiver for wireless M-Bus with RTL-SDR.
+- [rtlamr](./radio/rtlamr.md) — An rtl-sdr receiver for smart meters operating in the 900MHz ISM band.
+- [sdrangel](./radio/sdrangel.md) — Qt6/OpenGL SDR and signal analyzer frontend.
+- [sdrpp](./radio/sdrpp.md) — The bloat-free SDR receiver.
+- [sdrsharp](./radio/sdrsharp.md) — The most popular SDR program.
+- [sdrtrunk](./radio/sdrtrunk.md) — A cross-platform java application for decoding, monitoring, recording and streaming trunked mobile and related radio protocols using SDR.
+- [simtrace2](./radio/simtrace2.md) — Host utilities to communicate with SIMtrace2 USB Devices.
+- [spektrum](./radio/spektrum.md) — rtl-sdr spectrum analyzer.
+- [wmbusmeters](./radio/wmbusmeters.md) — Read the wired or wireless mbus protocol to acquire utility meter readings.
+- [yate-bts](./radio/yate-bts.md) — An open source GSM Base Station software.
+
+## recon
+
+Asset discovery, OSINT, subdomain enumeration, certificate review, and scope mapping.
+
+- [activedirectoryenum](./recon/activedirectoryenum.md) — Enumerate AD through LDAP.
+- [ad-ldap-enum](./recon/ad-ldap-enum.md) — An LDAP based Active Directory user and group enumeration tool.
+- [ad-miner](./recon/ad-miner.md) — Active Directory audit tool that extract data from Bloodhound to uncover security weaknesses and generate an HTML report
+- [adexplorersnapshot](./recon/adexplorersnapshot.md) — AD Explorer snapshot parser.
+- [adidnsdump](./recon/adidnsdump.md) — Active Directory Integrated DNS dumping by any authenticated user.
+- [aiodnsbrute](./recon/aiodnsbrute.md) — Python 3 DNS asynchronous brute force utility.
+- [altdns](./recon/altdns.md) — Generates permutations, alterations and mutations of subdomains and then resolves them.
+- [aquatone](./recon/aquatone.md) — A Tool for Domain Flyovers.
+- [asn](./recon/asn.md) — ASN, RPKI validity, BGP stats, IPv4v6, Prefix, URL, ASPath, Organization, IP reputation, IP geolocation, IP fingerprinting, Network recon, lookup API server, Web traceroute server.
+- [attacksurfacemapper](./recon/attacksurfacemapper.md) — Tool that aims to automate the reconnaissance process.
+- [autosint](./recon/autosint.md) — Tool to automate common osint tasks.
+- [aws-inventory](./recon/aws-inventory.md) — Discover resources created in an AWS account.
+- [aztarna](./recon/aztarna.md) — A footprinting tool for ROS and SROS systems.
+- [badkarma](./recon/badkarma.md) — Advanced network reconnaissance toolkit.
+- [basedomainname](./recon/basedomainname.md) — Tool that can extract TLD (Top Level Domain), domain extensions (Second Level Domain + TLD), domain name, and hostname from fully qualified domain names.
+- [bbot](./recon/bbot.md) — Multipurpose scanner built to automate your Recon, Bug Bounties, and ASM.
+- [bfac](./recon/bfac.md) — An automated tool that checks for backup artifacts that may disclose the web-application's source code.
+- [billcipher](./recon/billcipher.md) — Information Gathering tool for a Website or IP address.
+- [bing-ip2hosts](./recon/bing-ip2hosts.md) — Enumerates all hostnames which Bing has indexed for a specific IP address.
+- [bloodhound](./recon/bloodhound.md) — Six Degrees of Domain Admin
+- [bloodhound-ce-python](./recon/bloodhound-ce-python.md) — Python data collector for Bloodhound community edition (v5)
+- [bloodhound-python](./recon/bloodhound-python.md) — Python data collector for Bloodhound legcacy (v4)
+- [bridgekeeper](./recon/bridgekeeper.md) — Scrape employee names from search engine LinkedIn profiles. Convert employee names to a specified username format.
+- [catnthecanary](./recon/catnthecanary.md) — An application to query the canary.pw data set for leaked data.
+- [ccrawldns](./recon/ccrawldns.md) — Retrieves from the CommonCrawl data set unique subdomains for a given domain name.
+- [certgraph](./recon/certgraph.md) — Crawl the graph of certificate Alternate Names.
+- [chaos-client](./recon/chaos-client.md) — Go client to communicate with Chaos dataset API.
+- [chronoleak](./recon/chronoleak.md) — ICMP Timestamp Remote Time Leaker.
+- [citadel](./recon/citadel.md) — A library of OSINT tools.
+- [cloud-buster](./recon/cloud-buster.md) — A tool that checks Cloudflare enabled sites for origin IP leaks.
+- [cloud_enum](./recon/cloud_enum.md) — Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
+- [cloudfail](./recon/cloudfail.md) — Utilize misconfigured DNS and old database records to find hidden IP's behind the CloudFlare network.
+- [cloudlist](./recon/cloudlist.md) — A tool for listing Assets from multiple Cloud Providers.
+- [cloudmare](./recon/cloudmare.md) — A simple tool to find origin servers of websites protected by CloudFlare with a misconfiguration DNS.
+- [cloudunflare](./recon/cloudunflare.md) — Reconnaissance Real IP address for Cloudflare Bypass.
+- [cr3dov3r](./recon/cr3dov3r.md) — Search for public leaks for email addresses + check creds against 16 websites.
+- [cutycapt](./recon/cutycapt.md) — A Qt and WebEngine-based command-line utility that captures a web page's rendered output.
+- [datasploit](./recon/datasploit.md) — Performs automated OSINT and more.
+- [dga-detection](./recon/dga-detection.md) — DGA Domain Detection using Bigram Frequency Analysis.
+- [dns-parallel-prober](./recon/dns-parallel-prober.md) — PoC for an adaptive parallelised DNS prober.
+- [dnsbrute](./recon/dnsbrute.md) — Multi-theaded DNS bruteforcing, average speed 80 lookups/second with 40 threads.
+- [dnscobra](./recon/dnscobra.md) — DNS subdomain bruteforcing tool with Tor support through torsocks.
+- [dnsenum](./recon/dnsenum.md) — Script that enumerates DNS information from a domain, attempts zone transfers, performs a brute force dictionary style attack, and then performs reverse look-ups on the results.
+- [dnsgrep](./recon/dnsgrep.md) — A utility for quickly searching presorted DNS names.
+- [dnsprobe](./recon/dnsprobe.md) — Allows you to perform multiple dns queries of your choice with a list of user supplied resolvers.
+- [dnsrecon](./recon/dnsrecon.md) — Python script for enumeration of hosts, subdomains and emails from a given domain using google.
+- [dnssearch](./recon/dnssearch.md) — A subdomain enumeration tool.
+- [dnsspider](./recon/dnsspider.md) — A fast multithreaded bruteforcer of subdomains that leverages a wordlist and/or character permutation.
+- [dnstracer](./recon/dnstracer.md) — Determines where a given DNS server gets its information from, and follows the chain of DNS servers
+- [dnswalk](./recon/dnswalk.md) — A DNS debugger and zone-transfer utility.
+- [dnsx](./recon/dnsx.md) — Fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.
+- [domain-analyzer](./recon/domain-analyzer.md) — Finds all the security information for a given domain name.
+- [domain-stats](./recon/domain-stats.md) — A web API to deliver domain information from whois and alexa.
+- [domained](./recon/domained.md) — Multi Tool Subdomain Enumeration.
+- [domainhunter](./recon/domainhunter.md) — Checks expired domains for categorization/reputation and Archive.org history to determine good candidates for phishing and C2 domain names.
+- [dradis-ce](./recon/dradis-ce.md) — An open source framework to enable effective information sharing.
+- [elevate](./recon/elevate.md) — Horizontal domain discovery tool you can use to discover other domains owned by a given company.
+- [enum4linux](./recon/enum4linux.md) — A tool for enumerating information from Windows and Samba systems.
+- [enum4linux-ng](./recon/enum4linux-ng.md) — A next generation version of enum4linux.
+- [enumerate-iam](./recon/enumerate-iam.md) — Enumerate the permissions associated with an AWS credential set.
+- [enumerid](./recon/enumerid.md) — Enumerate RIDs using pure Python.
+- [exitmap](./recon/exitmap.md) — A fast and modular scanner for Tor exit relays.
+- [facebot](./recon/facebot.md) — A facebook profile and reconnaissance system.
+- [fav-up](./recon/fav-up.md) — IP lookup by favicon using Shodan.
+- [favfreak](./recon/favfreak.md) — Weaponizing favicon.ico for BugBounties , OSINT and what not.
+- [fbid](./recon/fbid.md) — Show info about the author by facebook photo url.
+- [fierce](./recon/fierce.md) — A DNS reconnaissance tool for locating non-contiguous IP space.
+- [finalrecon](./recon/finalrecon.md) — OSINT Tool for All-In-One Web Reconnaissance.
+- [flashlight](./recon/flashlight.md) — Automated Information Gathering Tool for Penetration Testers.
+- [forager](./recon/forager.md) — Multithreaded threat Intelligence gathering utilizing.
+- [gasmask](./recon/gasmask.md) — All in one Information gathering tool - OSINT.
+- [gatecrasher](./recon/gatecrasher.md) — Network auditing and analysis tool developed in Python.
+- [geoedge](./recon/geoedge.md) — This little tools is designed to get geolocalization information of a host, it get the information from two sources (maxmind and geoiptool).
+- [gh-dork](./recon/gh-dork.md) — Github dorking tool.
+- [ghunt](./recon/ghunt.md) — An offensive OSINT Google framework.
+- [git-hound](./recon/git-hound.md) — Pinpoints exposed API keys on GitHub. A batch-catching, pattern-matching, patch-attacking secret snatcher.
+- [git-wild-hunt](./recon/git-wild-hunt.md) — A tool to hunt for credentials in github wild AKA git*hunt.
+- [gitdorker](./recon/gitdorker.md) — Python program to scrape secrets from GitHub through usage of a large repository of dorks.
+- [gitem](./recon/gitem.md) — A Github organization reconnaissance tool.
+- [gitgraber](./recon/gitgraber.md) — Monitor GitHub to search and find sensitive data in real time for different online services.
+- [githack](./recon/githack.md) — A `.git` folder disclosure exploit.
+- [github-dorks](./recon/github-dorks.md) — Collection of github dorks and helper tool to automate the process of checking dorks.
+- [github-subdomains](./recon/github-subdomains.md) — Find subdomains on GitHub.
+- [gitmails](./recon/gitmails.md) — An information gathering tool to collect git commit emails in version control host services.
+- [gitminer](./recon/gitminer.md) — Tool for advanced mining for content on Github.
+- [gitrecon](./recon/gitrecon.md) — OSINT tool to get information from a Github and Gitlab profile and find user's email addresses leaked on commits.
+- [go-windapsearch](./recon/go-windapsearch.md) — Utility to enumerate users, groups and computers from a Windows domain through LDAP queries.
+- [goddi](./recon/goddi.md) — Dumps Active Directory domain information.
+- [goodork](./recon/goodork.md) — A python script designed to allow you to leverage the power of google dorking straight from the comfort of your command line.
+- [goog-mail](./recon/goog-mail.md) — Enumerate domain emails from google.
+- [googlesub](./recon/googlesub.md) — A python script to find domains by using google dorks.
+- [goohak](./recon/goohak.md) — Automatically Launch Google Hacking Queries Against A Target Domain.
+- [goop](./recon/goop.md) — Perform google searches without being blocked by the CAPTCHA or hitting any rate limits.
+- [gosint](./recon/gosint.md) — OSINT framework in Go.
+- [grabing](./recon/grabing.md) — Counts all the hostnames for an IP adress
+- [graphinder](./recon/graphinder.md) — GraphQL endpoints finder using subdomain enumeration, scripts analysis and bruteforce.
+- [gwtenum](./recon/gwtenum.md) — Enumeration of GWT-RCP method calls.
+- [h8mail](./recon/h8mail.md) — Email OSINT and password breach hunting.
+- [hakrevdns](./recon/hakrevdns.md) — Small, fast tool for performing reverse DNS lookups en masse.
+- [halcyon](./recon/halcyon.md) — A repository crawler that runs checksums for static files found within a given git repository.
+- [hasere](./recon/hasere.md) — Discover the vhosts using google and bing.
+- [hatcloud](./recon/hatcloud.md) — Bypass CloudFlare with Ruby.
+- [hoper](./recon/hoper.md) — Trace URL's jumps across the rel links to obtain the last URL.
+- [hosthunter](./recon/hosthunter.md) — A recon tool for discovering hostnames using OSINT techniques.
+- [howmanypeoplearearound](./recon/howmanypeoplearearound.md) — Count the number of people around you by monitoring wifi signals.
+- [id-entify](./recon/id-entify.md) — Search for information related to a domain: Emails - IP addresses - Domains - Information on WEB technology - Type of Firewall - NS and MX records.
+- [idswakeup](./recon/idswakeup.md) — A collection of tools that allows to test network intrusion detection systems.
+- [infoga](./recon/infoga.md) — Tool for gathering e-mail accounts information from different public sources (search engines, pgp key servers).
+- [inquisitor](./recon/inquisitor.md) — OSINT Gathering Tool for Companies and Organizations.
+- [intelplot](./recon/intelplot.md) — OSINT Tool to Mark Points on Offline Map.
+- [intrace](./recon/intrace.md) — Traceroute-like application piggybacking on existing TCP connections.
+- [ip-tracer](./recon/ip-tracer.md) — Track and retrieve any ip address information.
+- [ip2clue](./recon/ip2clue.md) — A small memory/CPU footprint daemon to lookup country (and other info) based on IP (v4 and v6).
+- [iptodomain](./recon/iptodomain.md) — This tool extract domains from IP address based in the information saved in virustotal.
+- [ipv666](./recon/ipv666.md) — Golang IPv6 address enumeration.
+- [ircsnapshot](./recon/ircsnapshot.md) — Tool to gather information from IRC servers.
+- [isr-form](./recon/isr-form.md) — Simple html parsing tool that extracts all form related information and generates reports of the data. Allows for quick analyzing of data.
+- [ivre](./recon/ivre.md) — Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,...
+- [ivre-docs](./recon/ivre-docs.md) — Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (documentation)
+- [ivre-web](./recon/ivre-web.md) — Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (web application)
+- [jackdaw](./recon/jackdaw.md) — Collect all information in your domain, show you graphs on how domain objects interact with each-other and how to exploit these interactions.
+- [jsearch](./recon/jsearch.md) — Simple script that grep infos from javascript files.
+- [kacak](./recon/kacak.md) — Tools for penetration testers that can enumerate which users logged on windows system.
+- [kamerka](./recon/kamerka.md) — Build interactive map of cameras from Shodan.
+- [keye](./recon/keye.md) — Recon tool detecting changes of websites based on content-length differences.
+- [lanmap2](./recon/lanmap2.md) — Passive network mapping tool.
+- [lbd](./recon/lbd.md) — Load Balancing detector,
+- [ldapenum](./recon/ldapenum.md) — Enumerate domain controllers using LDAP.
+- [ldeep](./recon/ldeep.md) — In-depth ldap enumeration utility.
+- [legion](./recon/legion.md) — Automatic Enumeration Tool based in Open Source tools.
+- [lft](./recon/lft.md) — A layer four traceroute implementing numerous other features.
+- [lhf](./recon/lhf.md) — A modular recon tool for pentesting.
+- [linux-exploit-suggester](./recon/linux-exploit-suggester.md) — A Perl script that tries to suggest exploits based OS version number.
+- [linux-exploit-suggester.sh](./recon/linux-exploit-suggester.sh.md) — Linux privilege escalation auditing tool.
+- [littlebrother](./recon/littlebrother.md) — OSINT tool to get informations on French, Belgian and Swizerland people.
+- [loot](./recon/loot.md) — Sensitive information extraction tool.
+- [machinae](./recon/machinae.md) — A tool for collecting intelligence from public sites/feeds about various security-related pieces of data.
+- [mail-crawl](./recon/mail-crawl.md) — Tool to harvest emails from website.
+- [massbleed](./recon/massbleed.md) — SSL Vulnerability Scanner.
+- [mdns-recon](./recon/mdns-recon.md) — An mDNS recon tool written in Python.
+- [metabigor](./recon/metabigor.md) — Intelligence Tool but without API key.
+- [metafinder](./recon/metafinder.md) — Search for documents in a domain through Search Engines (Google, Bing and Baidu). The objective is to extract metadata.
+- [metagoofil](./recon/metagoofil.md) — An information gathering tool designed for extracting metadata of public documents.
+- [mildew](./recon/mildew.md) — Dotmil subdomain discovery tool that scrapes domains from official DoD website directories and certificate transparency logs.
+- [missidentify](./recon/missidentify.md) — A program to find Win32 applications.
+- [monocle](./recon/monocle.md) — A local network host discovery tool. In passive mode, it will listen for ARP request and reply packets. In active mode, it will send ARP requests to the specific IP range. The results are a list of IP and MAC addresses present on the local network.
+- [nasnum](./recon/nasnum.md) — Script to enumerate network attached storages.
+- [necromant](./recon/necromant.md) — Python Script that search unused Virtual Hosts in Web Servers.
+- [neglected](./recon/neglected.md) — Facebook CDN Photo Resolver.
+- [netdiscover](./recon/netdiscover.md) — An active/passive address reconnaissance tool, mainly developed for those wireless networks without dhcp server, when you are wardriving. It can be also used on hub/switched networks.
+- [netkit-bsd-finger](./recon/netkit-bsd-finger.md) — BSD-finger ported to Linux.
+- [netkit-rusers](./recon/netkit-rusers.md) — Logged in users; Displays who is logged in to machines on local network.
+- [netkit-rwho](./recon/netkit-rwho.md) — Remote who client and server (with Debian patches).
+- [netmask](./recon/netmask.md) — Helps determine network masks
+- [netscout](./recon/netscout.md) — OSINT tool that finds domains, subdomains, directories, endpoints and files.
+- [nohidy](./recon/nohidy.md) — The system admins best friend, multi platform auditing tool.
+- [nsec3map](./recon/nsec3map.md) — A tool to enumerate the resource records of a DNS zone using its DNSSEC NSEC or NSEC3 chain.
+- [nsec3walker](./recon/nsec3walker.md) — Enumerate domain names using DNSSEC.
+- [ntp-ip-enum](./recon/ntp-ip-enum.md) — Script to pull addresses from a NTP server using the monlist command. Can also output Maltego resultset.
+- [nullinux](./recon/nullinux.md) — Tool that can be used to enumerate OS information, domain information, shares, directories, and users through SMB null sessions.
+- [omnibus](./recon/omnibus.md) — OSINT tool for intelligence collection, research and artifact management.
+- [onioff](./recon/onioff.md) — An onion url inspector for inspecting deep web links.
+- [osint-spy](./recon/osint-spy.md) — Performs OSINT scan on email/domain/ip_address/organization.
+- [osinterator](./recon/osinterator.md) — Open Source Toolkit for Open Source Intelligence Gathering.
+- [osintgram](./recon/osintgram.md) — OSINT tool offering an interactive shell to perform analysis on Instagram account of any users by its nickname.
+- [parsero](./recon/parsero.md) — A robots.txt audit tool.
+- [pastemonitor](./recon/pastemonitor.md) — Scrape Pastebin API to collect daily pastes, setup a wordlist and be alerted by email when you have a match..
+- [pdfgrab](./recon/pdfgrab.md) — Tool for searching pdfs withthin google and extracting pdf metadata.
+- [pius-pi](./recon/pius-pi.md) — Organizational asset discovery tool with 20+ plugins covering certificate transparency, passive DNS, and all 5 Regional Internet Registries.
+- [pmapper](./recon/pmapper.md) — A tool for quickly evaluating IAM permissions in AWS.
+- [postenum](./recon/postenum.md) — Clean, nice and easy tool for basic/advanced privilege escalation techniques.
+- [protosint](./recon/protosint.md) — Python script that helps you investigate Protonmail accounts and ProtonVPN IP addresses.
+- [punter](./recon/punter.md) — Hunt domain names using DNSDumpster, WHOIS, Reverse WHOIS, Shodan, Crimeflare.
+- [puredns](./recon/puredns.md) — Fast domain resolver and subdomain bruteforcing with accurate wildcard filtering.
+- [pwned](./recon/pwned.md) — A command-line tool for querying the 'Have I been pwned?' service.
+- [pwned-search](./recon/pwned-search.md) — Pwned Password API lookup.
+- [pwnedornot](./recon/pwnedornot.md) — Tool to find passwords for compromised email addresses.
+- [pymeta](./recon/pymeta.md) — Auto Scanning to SSL Vulnerability.
+- [python-api-dnsdumpster](./recon/python-api-dnsdumpster.md) — Unofficial Python API for http://dnsdumpster.com/.
+- [python-ivre](./recon/python-ivre.md) — Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)
+- [python2-api-dnsdumpster](./recon/python2-api-dnsdumpster.md) — Unofficial Python API for http://dnsdumpster.com/.
+- [python2-ivre](./recon/python2-ivre.md) — Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)
+- [python2-shodan](./recon/python2-shodan.md) — Python library and command-line utility for Shodan (https://developer.shodan.io).
+- [quickrecon](./recon/quickrecon.md) — A python script for simple information gathering. It attempts to find subdomain names, perform zone transfers and gathers emails from Google and Bing.
+- [raccoon](./recon/raccoon.md) — A high performance offensive security tool for reconnaissance and vulnerability scanning.
+- [rdwatool](./recon/rdwatool.md) — A python script to extract information from a Microsoft Remote Desktop Web Access (RDWA) application.
+- [recon-ng](./recon/recon-ng.md) — A full-featured Web Reconnaissance framework written in Python.
+- [reconnoitre](./recon/reconnoitre.md) — A security tool for multithreaded information gathering and service enumeration.
+- [reconscan](./recon/reconscan.md) — Network reconnaissance and vulnerability assessment tools.
+- [recsech](./recon/recsech.md) — Tool for doing Footprinting and Reconnaissance on the target web.
+- [red-hawk](./recon/red-hawk.md) — All in one tool for Information Gathering, Vulnerability Scanning and Crawling.
+- [reverseip](./recon/reverseip.md) — Ruby based reverse IP-lookup tool.
+- [revipd](./recon/revipd.md) — A simple reverse IP domain scanner.
+- [ridrelay](./recon/ridrelay.md) — Enumerate usernames on a domain where you have no creds by using SMB Relay with low priv.
+- [ripdc](./recon/ripdc.md) — A script which maps domains related to an given ip address or domainname.
+- [rita](./recon/rita.md) — Real Intelligence Threat Analytics.
+- [rusthound-ce](./recon/rusthound-ce.md) — Active Directory data collector for BloodHound community edition (v5).
+- [s3enum](./recon/s3enum.md) — Amazon S3 bucket enumeration.
+- [scavenger](./recon/scavenger.md) — Crawler (Bot) searching for credential leaks on different paste sites.
+- [screamer](./recon/screamer.md) — Fast Subnet Discovery.
+- [sctpscan](./recon/sctpscan.md) — A network scanner for discovery and security.
+- [scylla](./recon/scylla.md) — Find Advanced Information on a Username, Website, Phone Number, etc.
+- [seekr](./recon/seekr.md) — A multi-purpose OSINT toolkit with a neat web-interface.
+- [server-status-pwn](./recon/server-status-pwn.md) — A script that monitors and extracts requested URLs and clients connected to the service by exploiting publicly accessible Apache server-status instances.
+- [shard](./recon/shard.md) — A command line tool to detect shared passwords.
+- [shhgit](./recon/shhgit.md) — Find committed secrets and sensitive files across GitHub, Gists, GitLab and BitBucket or your local repositories in real time.
+- [shodanhat](./recon/shodanhat.md) — Search for hosts info with shodan.
+- [shosubgo](./recon/shosubgo.md) — Small tool to Grab subdomains using Shodan API.
+- [simplyemail](./recon/simplyemail.md) — Email recon made fast and easy, with a framework to build on CyberSyndicates.
+- [sipi](./recon/sipi.md) — Simple IP Information Tools for Reputation Data Analysis.
+- [smbcrunch](./recon/smbcrunch.md) — 3 tools that work together to simplify reconnaissance of Windows File Shares.
+- [smtp-user-enum](./recon/smtp-user-enum.md) — Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
+- [snscrape](./recon/snscrape.md) — A social networking service scraper in Python.
+- [socialscan](./recon/socialscan.md) — Check email address and username availability on online platforms.
+- [spfmap](./recon/spfmap.md) — A program to map out SPF and DKIM records for a large number of domains.
+- [spiderfoot](./recon/spiderfoot.md) — The Open Source Footprinting Tool.
+- [spoofcheck](./recon/spoofcheck.md) — Simple script that checks a domain for email protections.
+- [spyse](./recon/spyse.md) — Python API wrapper and command-line client for the tools hosted on spyse.com.
+- [sr](./recon/sr.md) — Perform subdomain enumeration, endpoint recognition, and more.
+- [ssl-hostname-resolver](./recon/ssl-hostname-resolver.md) — CN (Common Name) grabber on X.509 Certificates over HTTPS.
+- [stardox](./recon/stardox.md) — Github stargazers information gathering tool.
+- [subdomainer](./recon/subdomainer.md) — A tool designed for obtaining subdomain names from public sources.
+- [subfinder](./recon/subfinder.md) — Modular subdomain discovery tool that can discover massive amounts of valid subdomains for any target.
+- [sublert](./recon/sublert.md) — A security and reconnaissance tool which leverages certificate transparency to automatically monitor new subdomains deployed by specific organizations and issued TLS/SSL certificate.
+- [sublist3r](./recon/sublist3r.md) — A Fast subdomains enumeration tool for penetration testers.
+- [subscraper](./recon/subscraper.md) — Tool that performs subdomain enumeration through various techniques.
+- [svn-extractor](./recon/svn-extractor.md) — A simple script to extract all web resources by means of .SVN folder exposed over network.
+- [swamp](./recon/swamp.md) — An OSINT tool for discovering associated sites through Google Analytics Tracking IDs.
+- [syborg](./recon/syborg.md) — Recursive DNS Subdomain Enumerator with dead-end avoidance system.
+- [teamsuserenum](./recon/teamsuserenum.md) — User enumeration with Microsoft Teams API
+- [thedorkbox](./recon/thedorkbox.md) — Comprehensive collection of Google Dorks & OSINT techniques to find Confidential Data.
+- [theharvester](./recon/theharvester.md) — E-mails, subdomains and names Harvester - OSINT
+- [tilt](./recon/tilt.md) — An easy and simple tool implemented in Python for ip reconnaissance, with reverse ip lookup.
+- [tinfoleak](./recon/tinfoleak.md) — Get detailed information about a Twitter user activity.
+- [tinfoleak2](./recon/tinfoleak2.md) — The most complete open-source tool for Twitter intelligence analysis.
+- [treasure](./recon/treasure.md) — Hunt for sensitive information through githubs code search.
+- [trusttrees](./recon/trusttrees.md) — A Tool for DNS Delegation Trust Graphing.
+- [twofi](./recon/twofi.md) — Twitter Words of Interest.
+- [ubiquiti-probing](./recon/ubiquiti-probing.md) — A Ubiquiti device discovery tool.
+- [udork](./recon/udork.md) — Bash script that uses advanced Google search techniques to obtain sensitive information in files or directories, find IoT devices, detect versions of web applications.
+- [uhoh365](./recon/uhoh365.md) — Script to enumerate Office 365 users without performing login attempts
+- [uncover](./recon/uncover.md) — Discover exposed hosts on the internet using multiple search engines.
+- [userrecon](./recon/userrecon.md) — Find usernames across over 75 social networks.
+- [vbrute](./recon/vbrute.md) — Virtual hosts brute forcer.
+- [vpnpivot](./recon/vpnpivot.md) — Explore the network using this tool.
+- [waldo](./recon/waldo.md) — A lightweight and multithreaded directory and subdomain bruteforcer implemented in Python.
+- [waybackurls](./recon/waybackurls.md) — Fetch all the URLs that the Wayback Machine knows about for a domain.
+- [waymore](./recon/waymore.md) — Find way more from the Wayback Machine, Common Crawl, Alien Vault OTX, URLScan & VirusTotal.
+- [websearch](./recon/websearch.md) — Search vhost names given a host range. Powered by Bing..
+- [weebdns](./recon/weebdns.md) — DNS Enumeration with Asynchronicity.
+- [whatweb](./recon/whatweb.md) — Next generation web scanner that identifies what websites are running.
+- [whoxyrm](./recon/whoxyrm.md) — A reverse whois tool based on Whoxy API.
+- [windapsearch](./recon/windapsearch.md) — Script to enumerate users, groups and computers from a Windows domain through LDAP queries.
+- [windows-exploit-suggester](./recon/windows-exploit-suggester.md) — This tool compares a targets patch levels against the Microsoft vulnerability database in order to detect potential missing patches on the target.
+- [xray](./recon/xray.md) — A tool for recon, mapping and OSINT gathering from public networks.
+- [zeus-scanner](./recon/zeus-scanner.md) — Advanced dork searching utility.
+- [zgrab](./recon/zgrab.md) — Grab banners (optionally over TLS).
+
+## reversing
+
+Reverse engineering local programs, APKs, firmware, and file formats.
+
+- [android-apktool](./reversing/android-apktool.md) — A tool for reverse engineering Android apk files.
+- [apkstudio](./reversing/apkstudio.md) — An IDE for decompiling/editing & then recompiling of android application binaries.
+- [binaryninja](./reversing/binaryninja.md) — A new kind of reversing platform (demo version).
+- [ctypes-sh](./reversing/ctypes-sh.md) — Allows you to call routines in shared libraries from within bash.
+- [elidecode](./reversing/elidecode.md) — A tool to decode obfuscated shellcodes using the unicorn-engine for the emulation and the capstone-engine to print the asm code.
+- [frida-extract](./reversing/frida-extract.md) — Frida.re based RunPE (and MapViewOfSection) extraction tool.
+- [ghidriff](./reversing/ghidriff.md) — Python Command-Line Ghidra Binary Diffing Engine.
+- [gostringsr2](./reversing/gostringsr2.md) — Extract strings from a Go binary using radare2.
+- [hopper](./reversing/hopper.md) — Reverse engineering tool that lets you disassemble, decompile and debug your applications.
+- [ida-free](./reversing/ida-free.md) — Freeware version of the world's smartest and most feature-full disassembler.
+- [innounp](./reversing/innounp.md) — Inno Setup Unpacker.
+- [javasnoop](./reversing/javasnoop.md) — A tool that lets you intercept methods, alter data and otherwise hack Java applications running on your computer.
+- [jeb-android](./reversing/jeb-android.md) — Android decompiler.
+- [jeb-arm](./reversing/jeb-arm.md) — Arm decompiler.
+- [jeb-intel](./reversing/jeb-intel.md) — Intel decompiler.
+- [jeb-mips](./reversing/jeb-mips.md) — Mips decompiler.
+- [jeb-webasm](./reversing/jeb-webasm.md) — WebAssembly decompiler.
+- [jwscan](./reversing/jwscan.md) — Scanner for Jar to EXE wrapper like Launch4j, Exe4j, JSmooth, Jar2Exe.
+- [libc-database](./reversing/libc-database.md) — Database of libc offsets to simplify exploitation.
+- [malwasm](./reversing/malwasm.md) — Offline debugger for malware's reverse engineering.
+- [mikrotik-npk](./reversing/mikrotik-npk.md) — Python tools for manipulating Mikrotik NPK format.
+- [netzob](./reversing/netzob.md) — An open source tool for reverse engineering, traffic generation and fuzzing of communication protocols.
+- [pintool](./reversing/pintool.md) — This tool can be useful for solving some reversing challenges in CTFs events.
+- [pintool2](./reversing/pintool2.md) — Improved version of pintool.
+- [pyinstxtractor](./reversing/pyinstxtractor.md) — PyInstaller Extractor.
+- [python-frida](./reversing/python-frida.md) — Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.
+- [python2-frida](./reversing/python2-frida.md) — Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.
+- [radare2-keystone](./reversing/radare2-keystone.md) — Keystone assembler plugins for radare2.
+- [seccomp-tools](./reversing/seccomp-tools.md) — Seccomp analysis toolkit.
+- [swfintruder](./reversing/swfintruder.md) — First tool for testing security in Flash movies. A runtime analyzer for SWF external movies. It helps to find flaws in Flash.
+- [swftools](./reversing/swftools.md) — A collection of SWF manipulation and creation utilities.
+- [syms2elf](./reversing/syms2elf.md) — A plugin for Hex-Ray's IDA Pro and radare2 to export the symbols recognized to the ELF symbol table.
+- [udis86](./reversing/udis86.md) — A minimalistic disassembler library.
+
+## scanner
+
+Security scanning, service discovery, vulnerability indicators, and configuration review.
+
+- [0trace](./scanner/0trace.md) — A hop enumeration tool.
+- [a2sv](./scanner/a2sv.md) — Auto Scanning to SSL Vulnerability.
+- [admsnmp](./scanner/admsnmp.md) — ADM SNMP audit scanner.
+- [allthevhosts](./scanner/allthevhosts.md) — A vhost discovery tool that scrapes various web applications.
+- [amap](./scanner/amap.md) — Next-generation tool for assisting network penetration testing.
+- [amass](./scanner/amass.md) — In-depth subdomain enumeration written in Go.
+- [anubis-netsec](./scanner/anubis-netsec.md) — Subdomain enumeration and information gathering tool.
+- [apache-users](./scanner/apache-users.md) — This perl script will enumerate the usernames on a unix system that use the apache module UserDir.
+- [apachetomcatscanner](./scanner/apachetomcatscanner.md) — Apache Tomcat vulnerability scanner.
+- [arjun](./scanner/arjun.md) — HTTP parameter discovery suite.
+- [assassingo](./scanner/assassingo.md) — Web pentest framework for information gathering and vulnerability scanning.
+- [assetfinder](./scanner/assetfinder.md) — Find domains and subdomains potentially related to a given domain.
+- [athena-ssl-scanner](./scanner/athena-ssl-scanner.md) — A SSL cipher scanner that checks all cipher codes. It can identify about 150 different ciphers.
+- [atscan](./scanner/atscan.md) — Server, Site and Dork Scanner.
+- [attk](./scanner/attk.md) — Trend Micro Anti-Threat Toolkit.
+- [aws-extender-cli](./scanner/aws-extender-cli.md) — Script to test S3 buckets as well as Google Storage buckets and Azure Storage containers for common misconfiguration issues.
+- [aws-iam-privesc](./scanner/aws-iam-privesc.md) — AWS IAM policy scanner that helps determine where privilege escalation can be achieved.
+- [barmie](./scanner/barmie.md) — Java RMI enumeration and attack tool.
+- [bashscan](./scanner/bashscan.md) — A port scanner built to utilize /dev/tcp for network and service discovery.
+- [belati](./scanner/belati.md) — The Traditional Swiss Army Knife for OSINT.
+- [bingoo](./scanner/bingoo.md) — A Linux bash based Bing and Google Dorking Tool.
+- [birp](./scanner/birp.md) — A tool that will assist in the security assessment of mainframe applications served over TN3270.
+- [blackbox-scanner](./scanner/blackbox-scanner.md) — Dork scanner & bruteforcing & hash cracker with blackbox framework.
+- [bleah](./scanner/bleah.md) — A BLE scanner for "smart" devices hacking.
+- [blindy](./scanner/blindy.md) — Simple script to automate brutforcing blind sql injection vulnerabilities.
+- [bluto](./scanner/bluto.md) — Recon, Subdomain Bruting, Zone Transfers.
+- [braa](./scanner/braa.md) — A mass snmp scanner.
+- [cameradar](./scanner/cameradar.md) — Hacks its way into RTSP videosurveillance cameras.
+- [camscan](./scanner/camscan.md) — A tool which will analyze the CAM table of Cisco switches to look for anamolies.
+- [cangibrina](./scanner/cangibrina.md) — Dashboard Finder.
+- [cecster](./scanner/cecster.md) — A tool to perform security testing against the HDMI CEC (Consumer Electronics Control) and HEC (HDMI Ethernet Channel) protocols.
+- [cero](./scanner/cero.md) — Scrape domain names from SSL certificates of arbitrary hosts.
+- [changeme](./scanner/changeme.md) — A default credential scanner.
+- [check-weak-dh-ssh](./scanner/check-weak-dh-ssh.md) — Debian OpenSSL weak client Diffie-Hellman Exchange checker.
+- [chiron](./scanner/chiron.md) — An all-in-one IPv6 Penetration Testing Framework.
+- [cipherscan](./scanner/cipherscan.md) — A very simple way to find out which SSL ciphersuites are supported by a target.
+- [ciscos](./scanner/ciscos.md) — Scans class A, B, and C networks for cisco routers which have telnet open and have not changed the default password from cisco.
+- [clair](./scanner/clair.md) — Vulnerability Static Analysis for Containers.
+- [climber](./scanner/climber.md) — Check UNIX/Linux systems for privilege escalation.
+- [cloudflare-enum](./scanner/cloudflare-enum.md) — Cloudflare DNS Enumeration Tool for Pentesters.
+- [cloudsploit](./scanner/cloudsploit.md) — AWS security scanning checks.
+- [cmsmap](./scanner/cmsmap.md) — A python open source Content Management System scanner that automates the process of detecting security flaws of the most popular CMSs.
+- [configpush](./scanner/configpush.md) — This is a tool to span /8-sized networks quickly sending snmpset requests with default or otherwise specified community string to Cisco devices.
+- [corstest](./scanner/corstest.md) — A simple CORS misconfigurations checker.
+- [cpfinder](./scanner/cpfinder.md) — Simple script that looks for administrative web interfaces.
+- [crackmapexec](./scanner/crackmapexec.md) — A swiss army knife for pentesting Windows/Active Directory environments.
+- [ct-exposer](./scanner/ct-exposer.md) — An OSINT tool that discovers sub-domains by searching Certificate Transparency logs.
+- [cvechecker](./scanner/cvechecker.md) — The goal of cvechecker is to report about possible vulnerabilities on your system, by scanning the installed software and matching the results with the CVE database.
+- [d-tect](./scanner/d-tect.md) — Pentesting the Modern Web.
+- [darkbing](./scanner/darkbing.md) — A tool written in python that leverages bing for mining data on systems that may be susceptible to SQL injection.
+- [davtest](./scanner/davtest.md) — Tests WebDAV enabled servers by uploading test executable files, and then (optionally) uploading files which allow for command execution or other actions directly on the target.
+- [dbusmap](./scanner/dbusmap.md) — Simple utility for enumerating D-Bus endpoints, an nmap for D-Bus.
+- [dcrawl](./scanner/dcrawl.md) — Simple, but smart, multi-threaded web crawler for randomly gathering huge lists of unique domain names.
+- [deblaze](./scanner/deblaze.md) — Performs method enumeration and interrogation against flash remoting end points.
+- [delldrac](./scanner/delldrac.md) — DellDRAC and Dell Chassis Discovery and Brute Forcer.
+- [dhcpig](./scanner/dhcpig.md) — Enhanced DHCPv4 and DHCPv6 exhaustion and fuzzing script written in python using scapy network library.
+- [dirb](./scanner/dirb.md) — A web content scanner, brute forceing for hidden files.
+- [dirbuster](./scanner/dirbuster.md) — An application designed to brute force directories and files names on web/application servers
+- [dirscanner](./scanner/dirscanner.md) — This is a python script that scans webservers looking for administrative directories, php shells, and more.
+- [dirstalk](./scanner/dirstalk.md) — Modern alternative to dirbuster/dirb.
+- [dmitry](./scanner/dmitry.md) — Deepmagic Information Gathering Tool.
+- [dnmap](./scanner/dnmap.md) — The distributed nmap framework.
+- [dns2geoip](./scanner/dns2geoip.md) — A simple python script that brute forces DNS and subsequently geolocates the found subdomains.
+- [dnsa](./scanner/dnsa.md) — A dns security swiss army knife.
+- [dnsbf](./scanner/dnsbf.md) — Search for available domain names in an IP range.
+- [dnscan](./scanner/dnscan.md) — A python wordlist-based DNS subdomain scanner.
+- [dnsgoblin](./scanner/dnsgoblin.md) — Nasty creature constantly searching for DNS servers. It uses standard dns querys and waits for the replies.
+- [dnspredict](./scanner/dnspredict.md) — DNS prediction.
+- [dnstwist](./scanner/dnstwist.md) — Domain name permutation engine for detecting typo squatting, phishing and corporate espionage.
+- [dockerscan](./scanner/dockerscan.md) — Docker security analysis & hacking tools.
+- [dorkbot](./scanner/dorkbot.md) — Command-line tool to scan Google search results for vulnerabilities.
+- [dorkme](./scanner/dorkme.md) — Tool designed with the purpose of making easier the searching of vulnerabilities with Google Dorks, such as SQL Injection vulnerabilities.
+- [dpscan](./scanner/dpscan.md) — Drupal Vulnerability Scanner.
+- [driftnet](./scanner/driftnet.md) — Listens to network traffic and picks out images from TCP streams it observes.
+- [dripper](./scanner/dripper.md) — A fast, asynchronous DNS scanner; it can be used for enumerating subdomains and enumerating boxes via reverse DNS.
+- [dvcs-ripper](./scanner/dvcs-ripper.md) — Rip web accessible (distributed) version control systems: SVN/GIT/BZR/CVS/HG.
+- [eazy](./scanner/eazy.md) — This is a small python tool that scans websites to look for PHP shells, backups, admin panels, and more.
+- [enum-shares](./scanner/enum-shares.md) — Tool that enumerates shared folders across the network and under a custom user account.
+- [enumiax](./scanner/enumiax.md) — An IAX enumerator.
+- [eternal-scanner](./scanner/eternal-scanner.md) — An internet scanner for exploit CVE-0144 (Eternal Blue).
+- [faradaysec](./scanner/faradaysec.md) — Collaborative Penetration Test and Vulnerability Management Platform.
+- [fernmelder](./scanner/fernmelder.md) — Asynchronous mass DNS scanner.
+- [fgscanner](./scanner/fgscanner.md) — An advanced, opensource URL scanner.
+- [fi6s](./scanner/fi6s.md) — IPv6 network scanner designed to be fast.
+- [find-dns](./scanner/find-dns.md) — A tool that scans networks looking for DNS servers.
+- [flashscanner](./scanner/flashscanner.md) — Flash XSS Scanner.
+- [flunym0us](./scanner/flunym0us.md) — A Vulnerability Scanner for Wordpress and Moodle.
+- [forkingportscanner](./scanner/forkingportscanner.md) — Simple and fast forking port scanner written in perl. Can only scan on host at a time, the forking is done on the specified port range. Or on the default range of 1. Has the ability to scan UDP or TCP, defaults to tcp.
+- [fortiscan](./scanner/fortiscan.md) — A high performance FortiGate SSL-VPN vulnerability scanning and exploitation tool.
+- [fs-nyarl](./scanner/fs-nyarl.md) — A network takeover & forensic analysis tool - useful to advanced PenTest tasks & for fun and profit.
+- [fscan](./scanner/fscan.md) — A Security Auditing Tool.
+- [fsnoop](./scanner/fsnoop.md) — A tool to monitor file operations on GNU/Linux systems by using the Inotify mechanism. Its primary purpose is to help detecting file race condition vulnerabilities and since version 3, to exploit them with loadable DSO modules (also called "payload modules" or "paymods").
+- [ftp-spider](./scanner/ftp-spider.md) — FTP investigation tool - Scans ftp server for the following: reveal entire directory tree structures, detect anonymous access, detect directories with write permissions, find user specified data within repository.
+- [ftpscout](./scanner/ftpscout.md) — Scans ftps for anonymous access.
+- [garak](./scanner/garak.md) — The LLM vulnerability scanner.
+- [gcpbucketbrute](./scanner/gcpbucketbrute.md) — A script to enumerate Google Storage buckets, determine what access you have to them, and determine if they can be privilege escalated.
+- [gethsploit](./scanner/gethsploit.md) — Finding Ethereum nodes which are vulnerable to RPC-attacks.
+- [gggooglescan](./scanner/gggooglescan.md) — A Google scraper which performs automated searches and returns results of search queries in the form of URLs or hostnames.
+- [ghost-phisher](./scanner/ghost-phisher.md) — GUI suite for phishing and penetration attacks.
+- [git-dump](./scanner/git-dump.md) — Dump the contents of a remote git repository without directory listing enabled.
+- [git-dumper](./scanner/git-dumper.md) — A tool to dump a git repository from a website.
+- [gitrob](./scanner/gitrob.md) — Reconnaissance tool for GitHub organizations.
+- [gloom](./scanner/gloom.md) — Linux Penetration Testing Framework.
+- [glpwnme](./scanner/glpwnme.md) — GLPI vulnerabilities checking tool.
+- [grabbb](./scanner/grabbb.md) — Clean, functional, and fast banner scanner.
+- [graphql-cop](./scanner/graphql-cop.md) — GraphQL vulnerability scanner.
+- [grepforrfi](./scanner/grepforrfi.md) — Simple script for parsing web logs for RFIs and Webshells v1.2
+- [grype](./scanner/grype.md) — A vulnerability scanner for container images and filesystems.
+- [gtp-scan](./scanner/gtp-scan.md) — A small python script that scans for GTP (GPRS tunneling protocol) speaking hosts.
+- [h2buster](./scanner/h2buster.md) — A threaded, recursive, web directory brute-force scanner over HTTP/2.
+- [habu](./scanner/habu.md) — Python Network Hacking Toolkit.
+- [hakku](./scanner/hakku.md) — Simple framework that has been made for penetration testing tools.
+- [halberd](./scanner/halberd.md) — Halberd discovers HTTP load balancers. It is useful for web application security auditing and for load balancer configuration testing.
+- [hbad](./scanner/hbad.md) — This tool allows you to test clients on the heartbleed bug.
+- [hellraiser](./scanner/hellraiser.md) — Vulnerability Scanner.
+- [hexhttp](./scanner/hexhttp.md) — Perform tests on HTTP headers and analyze the results to identify vulnerabilities and interesting behaviors.
+- [hikpwn](./scanner/hikpwn.md) — A simple scanner for Hikvision devices with basic vulnerability scanning capabilities written in Python 3.8.
+- [homepwn](./scanner/homepwn.md) — Swiss Army Knife for Pentesting of IoT Devices.
+- [hoppy](./scanner/hoppy.md) — A python script which tests http methods for configuration issues leaking information or just to see if they are enabled.
+- [host-extract](./scanner/host-extract.md) — Ruby script tries to extract all IP/Host patterns in page response of a given URL and JavaScript/CSS files of that URL.
+- [hsecscan](./scanner/hsecscan.md) — A security scanner for HTTP response headers.
+- [http-enum](./scanner/http-enum.md) — A tool to enumerate the enabled HTTP methods supported on a webserver.
+- [httprobe](./scanner/httprobe.md) — Take a list of domains and probe for working HTTP and HTTPS servers
+- [httpsscanner](./scanner/httpsscanner.md) — A tool to test the strength of a SSL web server.
+- [iaxscan](./scanner/iaxscan.md) — A Python based scanner for detecting live IAX/2 hosts and then enumerating (by bruteforce) users on those hosts.
+- [icmpquery](./scanner/icmpquery.md) — Send and receive ICMP queries for address mask and current time.
+- [iis-shortname-scanner](./scanner/iis-shortname-scanner.md) — An IIS shortname Scanner.
+- [ike-scan](./scanner/ike-scan.md) — A tool that uses IKE protocol to discover, fingerprint and test IPSec VPN servers.
+- [ilo4-toolbox](./scanner/ilo4-toolbox.md) — Toolbox for HPE iLO4 analysis.
+- [infip](./scanner/infip.md) — A python script that checks output from netstat against RBLs from Spamhaus.
+- [inurlbr](./scanner/inurlbr.md) — Advanced search in the search engines - Inurl scanner, dorker, exploiter.
+- [ipscan](./scanner/ipscan.md) — A very fast IP address and port scanner.
+- [iptv](./scanner/iptv.md) — Search and brute force illegal iptv server.
+- [ipv6toolkit](./scanner/ipv6toolkit.md) — SI6 Networks' IPv6 Toolkit.
+- [jaadas](./scanner/jaadas.md) — Joint Advanced Defect assEsment for android applications.
+- [knock](./scanner/knock.md) — Subdomain scanner.
+- [knxmap](./scanner/knxmap.md) — KNXnet/IP scanning and auditing tool for KNX home automation installations.
+- [krbrelayx](./scanner/krbrelayx.md) — Kerberos relaying and unconstrained delegation abuse toolkit.
+- [kscan](./scanner/kscan.md) — Asset mapping tool that can perform port scanning, TCP fingerprinting and banner capture for specified assets.
+- [kube-hunter](./scanner/kube-hunter.md) — Hunt for security weaknesses in Kubernetes clusters.
+- [kubesploit](./scanner/kubesploit.md) — Cross-platform post-exploitation HTTP/2 Command & Control server.
+- [kubestriker](./scanner/kubestriker.md) — A Blazing fast Security Auditing tool for Kubernetes.
+- [laf](./scanner/laf.md) — Login Area Finder: scans host/s for login panels.
+- [leaklooker](./scanner/leaklooker.md) — Find open databases with Shodan.
+- [letmefuckit-scanner](./scanner/letmefuckit-scanner.md) — Scanner and Exploit Magento.
+- [leviathan](./scanner/leviathan.md) — A mass audit toolkit which has wide range service discovery, brute force, SQL injection detection and running custom exploit capabilities.
+- [lfi-scanner](./scanner/lfi-scanner.md) — This is a simple perl script that enumerates local file inclusion attempts when given a specific target.
+- [lfisuite](./scanner/lfisuite.md) — Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner.
+- [linenum](./scanner/linenum.md) — Scripted Local Linux Enumeration & Privilege Escalation Checks
+- [linux-smart-enumeration](./scanner/linux-smart-enumeration.md) — Linux enumeration tool for pentesting and CTFs with verbosity levels.
+- [littleblackbox](./scanner/littleblackbox.md) — Penetration testing tool, search in a collection of thousands of private SSL keys extracted from various embedded devices.
+- [locasploit](./scanner/locasploit.md) — Local enumeration and exploitation framework.
+- [logmepwn](./scanner/logmepwn.md) — A fully automated, reliable, super-fast, mass scanning and validation toolkit for the Log4J RCE CVE-44228 vulnerability.
+- [lotophagi](./scanner/lotophagi.md) — a relatively compact Perl script designed to scan remote hosts for default (or common) Lotus NSF and BOX databases.
+- [lunar](./scanner/lunar.md) — A UNIX security auditing tool based on several security frameworks.
+- [maligno](./scanner/maligno.md) — An open source penetration testing tool written in python, that serves Metasploit payloads. It generates shellcode with msfvenom and transmits it over HTTP or HTTPS.
+- [manspider](./scanner/manspider.md) — Spider entire networks for juicy files sitting on SMB shares. Search filenames or file content - regex supported!
+- [mantra](./scanner/mantra.md) — Hunt down API key leaks in JS files and pages.
+- [mitm6](./scanner/mitm6.md) — Pwning IPv4 via IPv6.
+- [modscan](./scanner/modscan.md) — A new tool designed to map a SCADA MODBUS TCP based network.
+- [mongoaudit](./scanner/mongoaudit.md) — A powerful MongoDB auditing and pentesting tool .
+- [mqtt-pwn](./scanner/mqtt-pwn.md) — A one-stop-shop for IoT Broker penetration-testing and security assessment operations.
+- [msmailprobe](./scanner/msmailprobe.md) — Office 365 and Exchange Enumeration tool.
+- [mssqlscan](./scanner/mssqlscan.md) — A small multi-threaded tool that scans for Microsoft SQL Servers.
+- [multiscanner](./scanner/multiscanner.md) — Modular file scanning/analysis framework.
+- [naabu](./scanner/naabu.md) — A fast port scanner written in go with focus on reliability and simplicity.
+- [navgix](./scanner/navgix.md) — Multi-threaded golang tool that will check for nginx alias traversal vulnerabilities.
+- [netbios-share-scanner](./scanner/netbios-share-scanner.md) — This tool could be used to check windows workstations and servers if they have accessible shared resources.
+- [netexec](./scanner/netexec.md) — A Windows / Active Directory environments pentest tool.
+- [netscan](./scanner/netscan.md) — Tcp/Udp/Tor port scanner with: synpacket, connect TCP/UDP and socks5 (tor connection).
+- [netscan2](./scanner/netscan2.md) — Active / passive network scanner.
+- [netz](./scanner/netz.md) — Discover internet-wide misconfigurations while drinking coffee.
+- [nili](./scanner/nili.md) — Tool for Network Scan, Man in the Middle, Protocol Reverse Engineering and Fuzzing.
+- [nmbscan](./scanner/nmbscan.md) — Tool to scan the shares of a SMB/NetBIOS network, using the NMB/SMB/NetBIOS protocols.
+- [nox-framework](./scanner/nox-framework.md) — OSINT & CTI Framework with 120+ sources, async performance, identity pivoting, and automated risk analysis.
+- [nray](./scanner/nray.md) — Distributed port scanner.
+- [ntlm-challenger](./scanner/ntlm-challenger.md) — Parse NTLM over HTTP challenge messages.
+- [ntlm-scanner](./scanner/ntlm-scanner.md) — A simple python tool based on Impacket that tests servers for various known NTLM vulnerabilities.
+- [ntlmrecon](./scanner/ntlmrecon.md) — A tool to enumerate information from NTLM authentication enabled web endpoints.
+- [nuclei](./scanner/nuclei.md) — A fast tool for configurable targeted scanning based on templates offering massive extensibility and ease of use.
+- [nuclei-templates](./scanner/nuclei-templates.md) — Community curated list of template files for the nuclei engine.
+- [o-saft](./scanner/o-saft.md) — A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurations.
+- [ocs](./scanner/ocs.md) — Compact mass scanner for Cisco routers with default telnet/enable passwords.
+- [onetwopunch](./scanner/onetwopunch.md) — Use unicornscan to quickly scan all open ports, and then pass the open ports to nmap for detailed scans.
+- [onionscan](./scanner/onionscan.md) — Scan Onion Services for Security Issues.
+- [openvas](./scanner/openvas.md) — Meta package for installing all OpenVAS components.
+- [pagodo](./scanner/pagodo.md) — Google dork script to collect potentially vulnerable web pages and applications on the Internet.
+- [paketto](./scanner/paketto.md) — Advanced TCP/IP Toolkit.
+- [panhunt](./scanner/panhunt.md) — Searches for credit card numbers (PANs) in directories.
+- [paranoic](./scanner/paranoic.md) — A simple vulnerability scanner written in Perl.
+- [passhunt](./scanner/passhunt.md) — Search drives for documents containing passwords.
+- [pbscan](./scanner/pbscan.md) — Faster and more efficient stateless SYN scanner and banner grabber due to userland TCP/IP stack usage.
+- [pcredz](./scanner/pcredz.md) — A tool that extracts credit card numbers and more from a pcap file or from a live interface.
+- [peass](./scanner/peass.md) — Privilege Escalation Awesome Scripts SUITE (with colors).
+- [pentestly](./scanner/pentestly.md) — Python and Powershell internal penetration testing framework.
+- [plcscan](./scanner/plcscan.md) — This is a tool written in Python that will scan for PLC devices over s7comm or modbus protocols.
+- [pnscan](./scanner/pnscan.md) — A parallel network scanner that can be used to survey TCP network services.
+- [poison](./scanner/poison.md) — A fast, asynchronous syn and udp scanner.
+- [ppscan](./scanner/ppscan.md) — Yet another port scanner with HTTP and FTP tunneling support.
+- [prads](./scanner/prads.md) — A "Passive Real-time Asset Detection System".
+- [praeda](./scanner/praeda.md) — An automated data/information harvesting tool designed to gather critical information from various embedded devices.
+- [proxycheck](./scanner/proxycheck.md) — This is a simple proxy tool that checks for the HTTP CONNECT method and grabs verbose output from a webserver.
+- [proxyscan](./scanner/proxyscan.md) — A security penetration testing tool to scan for hosts and ports through a Web proxy server.
+- [pwndora](./scanner/pwndora.md) — Massive IPv4 scanner, find and analyze internet-connected devices in minutes, create your own IoT search engine at home.
+- [pyssltest](./scanner/pyssltest.md) — A python multithreaded script to make use of Qualys ssllabs api to test SSL flaws.
+- [pytbull](./scanner/pytbull.md) — Next generation of pytbull, IDS/IPS testing framework.
+- [pythem](./scanner/pythem.md) — Python2 penetration testing framework.
+- [python2-ldapdomaindump](./scanner/python2-ldapdomaindump.md) — Active Directory information dumper via LDAP.
+- [ranger-scanner](./scanner/ranger-scanner.md) — A tool to support security professionals to access and interact with remote Microsoft Windows based systems.
+- [rawr](./scanner/rawr.md) — Rapid Assessment of Web Resources. A web enumerator.
+- [rbac-lookup](./scanner/rbac-lookup.md) — A CLI that allows you to easily find Kubernetes roles and cluster roles bound to any user.
+- [rdp-cipher-checker](./scanner/rdp-cipher-checker.md) — Enumerate the encryption protocols supported by the server and the cipher strengths supported using native RDP encryption.
+- [rdp-sec-check](./scanner/rdp-sec-check.md) — Script to enumerate security settings of an RDP Service.
+- [relay-scanner](./scanner/relay-scanner.md) — An SMTP relay scanner.
+- [remote-method-guesser](./scanner/remote-method-guesser.md) — Java RMI vulnerability scanner.
+- [responder](./scanner/responder.md) — A LLMNR and NBT-NS poisoner, with built-in HTTP/SMB/MSSQL/FTP/LDAP rogue authentication server supporting NTLMv1/NTLMv2/LMv2 (multirelay version).
+- [retire](./scanner/retire.md) — Scanner detecting the use of JavaScript libraries with known vulnerabilities.
+- [routerhunter](./scanner/routerhunter.md) — Tool used to find vulnerable routers and devices on the Internet and perform tests.
+- [rtlizer](./scanner/rtlizer.md) — Simple spectrum analyzer.
+- [rtlsdr-scanner](./scanner/rtlsdr-scanner.md) — A cross platform Python frequency scanning GUI for the OsmoSDR rtl-sdr library.
+- [s3scanner](./scanner/s3scanner.md) — A tool to find open S3 buckets in AWS or other cloud providers.
+- [sambascan](./scanner/sambascan.md) — Allows you to search an entire network or a number of hosts for SMB shares. It will also list the contents of all public shares that it finds.
+- [sandcastle](./scanner/sandcastle.md) — A Python script for AWS S3 bucket enumeration.
+- [sandmap](./scanner/sandmap.md) — Simple CLI with the ability to run pure Nmap engine, 31 modules with 459 scan profiles.
+- [sandy](./scanner/sandy.md) — An open-source Samsung phone encryption assessment framework
+- [sb0x](./scanner/sb0x.md) — A simple and Lightweight framework for Penetration testing.
+- [scamper](./scanner/scamper.md) — A tool that actively probes the Internet in order to analyze topology and performance.
+- [scanless](./scanner/scanless.md) — Utility for using websites that can perform port scans on your behalf.
+- [scanssh](./scanner/scanssh.md) — Fast SSH server and open proxy scanner.
+- [scout2](./scanner/scout2.md) — Security auditing tool for AWS environments.
+- [scoutsuite](./scanner/scoutsuite.md) — Multi-Cloud Security Auditing Tool.
+- [scrape-dns](./scanner/scrape-dns.md) — Searches for interesting cached DNS entries.
+- [sdnpwn](./scanner/sdnpwn.md) — An SDN penetration testing toolkit.
+- [seat](./scanner/seat.md) — Next generation information digging application geared toward the needs of security professionals. It uses information stored in search engine databases, cache repositories, and other public resources to scan web sites for potential vulnerabilities.
+- [shareenum](./scanner/shareenum.md) — Tool to enumerate shares from Windows hosts.
+- [sharesniffer](./scanner/sharesniffer.md) — Network share sniffer and auto-mounter for crawling remote file systems.
+- [shortscan](./scanner/shortscan.md) — An IIS short filename enumeration tool.
+- [simple-lan-scan](./scanner/simple-lan-scan.md) — A simple python script that leverages scapy for discovering live hosts on a network.
+- [simple-lan-scan3](./scanner/simple-lan-scan3.md) — A simple python3 script that leverages scapy for discovering live hosts on a network.
+- [sipshock](./scanner/sipshock.md) — A scanner for SIP proxies vulnerable to Shellshock.
+- [slurp-scanner](./scanner/slurp-scanner.md) — Evaluate the security of S3 buckets.
+- [smap-scanner](./scanner/smap-scanner.md) — Passive port scanner built with shodan free API.
+- [smbexec](./scanner/smbexec.md) — A rapid psexec style attack with samba tools.
+- [smbmap](./scanner/smbmap.md) — A handy SMB enumeration tool.
+- [smbspider](./scanner/smbspider.md) — A lightweight python utility for searching SMB/CIFS/Samba file shares.
+- [smbsr](./scanner/smbsr.md) — Lookup for interesting stuff in SMB shares.
+- [smod](./scanner/smod.md) — A modular framework with every kind of diagnostic and offensive feature you could need in order to pentest modbus protocol.
+- [smtp-test](./scanner/smtp-test.md) — Automated testing of SMTP servers for penetration testing.
+- [smtp-vrfy](./scanner/smtp-vrfy.md) — An SMTP Protocol Hacker.
+- [smtptx](./scanner/smtptx.md) — A very simple tool used for sending simple email and do some basic email testing from a pentester perspective.
+- [snmpenum](./scanner/snmpenum.md) — An snmp enumerator.
+- [snmpscan](./scanner/snmpscan.md) — A free, multi-processes SNMP scanner.
+- [snoopbrute](./scanner/snoopbrute.md) — Multithreaded DNS recursive host brute-force tool.
+- [sparta](./scanner/sparta.md) — Python GUI application which simplifies network infrastructure penetration testing by aiding the penetration tester in the scanning and enumeration phase.
+- [sqlivulscan](./scanner/sqlivulscan.md) — This will give you the SQLi Vulnerable Website Just by Adding the Dork.
+- [ssdp-scanner](./scanner/ssdp-scanner.md) — SSDP amplification scanner written in Python. Makes use of Scapy.
+- [ssh-user-enum](./scanner/ssh-user-enum.md) — SSH User Enumeration Script in Python Using The Timing Attack.
+- [sslcaudit](./scanner/sslcaudit.md) — Utility to perform security audits of SSL/TLS clients.
+- [ssllabs-scan](./scanner/ssllabs-scan.md) — Command-line client for the SSL Labs APIs
+- [sslmap](./scanner/sslmap.md) — A lightweight TLS/SSL cipher suite scanner.
+- [sslscan2](./scanner/sslscan2.md) — Tests SSL/TLS enabled services to discover supported cipher suites.
+- [stacs](./scanner/stacs.md) — Static Token And Credential Scanner.
+- [sticky-keys-hunter](./scanner/sticky-keys-hunter.md) — Script to test an RDP host for sticky keys and utilman backdoor.
+- [stig-viewer](./scanner/stig-viewer.md) — XCCDF formatted SRGs and STIGs files viewer for SCAP validation tools.
+- [strutscan](./scanner/strutscan.md) — Apache Struts2 vulnerability scanner written in Perl.
+- [subbrute](./scanner/subbrute.md) — A DNS meta-query spider that enumerates DNS records, and subdomains.
+- [subjack](./scanner/subjack.md) — Subdomain Takeover tool written in Go.
+- [subover](./scanner/subover.md) — A Powerful Subdomain Takeover Tool.
+- [subzy](./scanner/subzy.md) — Subdomain takeover vulnerability checker.
+- [swarm](./scanner/swarm.md) — A distributed penetration testing tool.
+- [synscan](./scanner/synscan.md) — fast asynchronous half-open TCP portscanner
+- [tachyon-scanner](./scanner/tachyon-scanner.md) — Fast Multi-Threaded Web Discovery Tool.
+- [tactical-exploitation](./scanner/tactical-exploitation.md) — Modern tactical exploitation toolkit.
+- [taipan](./scanner/taipan.md) — Web application security scanner.
+- [takeover](./scanner/takeover.md) — Sub-Domain TakeOver Vulnerability Scanner.
+- [titus](./scanner/titus.md) — High-performance secrets scanner based on NoseyParker.
+- [tlsx](./scanner/tlsx.md) — TLS grabber focused on TLS based data collection.
+- [topera](./scanner/topera.md) — An IPv6 security analysis toolkit, with the particularity that their attacks can't be detected by Snort.
+- [traxss](./scanner/traxss.md) — Automated XSS Vulnerability Scanner.
+- [udp-hunter](./scanner/udp-hunter.md) — Network assessment tool for various UDP Services covering both IPv4 and IPv6 protocols.
+- [udsim](./scanner/udsim.md) — A graphical simulator that can emulate different modules in a vehicle and respond to UDS request.
+- [umap](./scanner/umap.md) — The USB host security assessment tool.
+- [unicornscan](./scanner/unicornscan.md) — Asynchronous, stateless TCP/UDP scanner for scalable, high-speed network reconnaissance. Includes Alicorn web UI for result visualization.
+- [upnpscan](./scanner/upnpscan.md) — Scans the LAN or a given address range for UPnP capable devices.
+- [uptux](./scanner/uptux.md) — Linux privilege escalation checks (systemd, dbus, socket fun, etc).
+- [uw-loveimap](./scanner/uw-loveimap.md) — Multi threaded imap bounce scanner.
+- [uw-udpscan](./scanner/uw-udpscan.md) — Multi threaded udp scanner.
+- [uw-zone](./scanner/uw-zone.md) — Multi threaded, randomized IP zoner.
+- [v3n0m](./scanner/v3n0m.md) — Offensive Security Tool for Vulnerability Scanning & Pentesting
+- [vais](./scanner/vais.md) — SWF Vulnerability & Information Scanner.
+- [vault-scanner](./scanner/vault-scanner.md) — Swiss army knife for hackers.
+- [vcsmap](./scanner/vcsmap.md) — A plugin-based tool to scan public version control systems for sensitive information.
+- [vhostscan](./scanner/vhostscan.md) — A virtual host scanner that can be used with pivot tools, detect catch-all scenarios, aliases and dynamic default pages.
+- [videosnarf](./scanner/videosnarf.md) — A new security assessment tool for pcap analysis
+- [visql](./scanner/visql.md) — Scan SQL vulnerability on target site and sites of on server.
+- [vscan](./scanner/vscan.md) — HTTPS / Vulnerability scanner.
+- [vulmap](./scanner/vulmap.md) — Vulmap Online Local Vulnerability Scanners Project
+- [vuls](./scanner/vuls.md) — Vulnerability scanner for Linux/FreeBSD, agentless, written in Go.
+- [wafw00f](./scanner/wafw00f.md) — Identify and fingerprint Web Application Firewall (WAF) products protecting a website.
+- [webenum](./scanner/webenum.md) — Tool to enumerate http responses using dynamically generated queries and more.
+- [webhunter](./scanner/webhunter.md) — Tool for scanning web applications and networks and easily completing the process of collecting knowledge.
+- [webpwn3r](./scanner/webpwn3r.md) — A python based Web Applications Security Scanner.
+- [webrute](./scanner/webrute.md) — Web server directory brute forcer.
+- [whitewidow](./scanner/whitewidow.md) — SQL Vulnerability Scanner.
+- [wolpertinger](./scanner/wolpertinger.md) — A distributed portscanner.
+- [wordpresscan](./scanner/wordpresscan.md) — WPScan rewritten in Python + some WPSeku ideas.
+- [xcname](./scanner/xcname.md) — A tool for enumerating expired domains in CNAME records.
+- [xpire-crossdomain-scanner](./scanner/xpire-crossdomain-scanner.md) — Scans crossdomain.xml policies for expired domain names.
+- [xsstracer](./scanner/xsstracer.md) — Python script that checks remote web servers for Clickjacking, Cross-Frame Scripting, Cross-Site Tracing and Host Header Injection.
+- [yasat](./scanner/yasat.md) — Yet Another Stupid Audit Tool.
+
+## sniffer
+
+Packet capture, protocol analysis, traffic debugging, and defensive monitoring on networks you control.
+
+- [above](./sniffer/above.md) — Network Protocols Sniffer.
+- [bittwist](./sniffer/bittwist.md) — A simple yet powerful libpcap-based Ethernet packet generator. It is designed to complement tcpdump, which by itself has done a great job at capturing network traffic.
+- [capfuzz](./sniffer/capfuzz.md) — Capture, fuzz and intercept web traffic.
+- [cdpsnarf](./sniffer/cdpsnarf.md) — Cisco discovery protocol sniffer.
+- [cottontail](./sniffer/cottontail.md) — Capture all RabbitMQ messages being sent through a broker.
+- [creds](./sniffer/creds.md) — Harvest FTP/POP/IMAP/HTTP/IRC credentials along with interesting data from each of the protocols.
+- [dnswatch](./sniffer/dnswatch.md) — DNS Traffic Sniffer and Analyzer.
+- [eigrp-tools](./sniffer/eigrp-tools.md) — This is a custom EIGRP packet generator and sniffer developed to test the security and overall operation quality of this brilliant Cisco routing protocol.
+- [espionage](./sniffer/espionage.md) — A Network Packet and Traffic Interceptor For Linux. Sniff All Data Sent Through a Network.
+- [firstorder](./sniffer/firstorder.md) — A traffic analyzer to evade Empire communication from Anomaly-Based IDS.
+- [hexinject](./sniffer/hexinject.md) — A very versatile packet injector and sniffer that provides a command-line framework for raw network access.
+- [httpry](./sniffer/httpry.md) — A specialized packet sniffer designed for displaying and logging HTTP traffic.
+- [httpsniff](./sniffer/httpsniff.md) — Tool to sniff HTTP responses from TCP/IP based networks and save contained files locally for later review.
+- [hubbit-sniffer](./sniffer/hubbit-sniffer.md) — Simple application that listens for WIFI-frames and records the mac-address of the sender and posts them to a REST-api.
+- [hungry-interceptor](./sniffer/hungry-interceptor.md) — Intercepts data, does something with it, stores it.
+- [issniff](./sniffer/issniff.md) — Internet Session Sniffer.
+- [junkie](./sniffer/junkie.md) — A modular packet sniffer and analyzer.
+- [katsnoop](./sniffer/katsnoop.md) — Utility that sniffs HTTP Basic Authentication information and prints the base64 decoded form.
+- [mfsniffer](./sniffer/mfsniffer.md) — A python script for capturing unencrypted TSO login credentials.
+- [mitmer](./sniffer/mitmer.md) — A man-in-the-middle and phishing attack tool that steals the victim's credentials of some web services like Facebook.
+- [mots](./sniffer/mots.md) — Man on the Side Attack - experimental packet injection and detection.
+- [net-creds](./sniffer/net-creds.md) — Sniffs sensitive data from interface or pcap.
+- [nsntrace](./sniffer/nsntrace.md) — Perform network trace of a single process by using network namespaces.
+- [ofp-sniffer](./sniffer/ofp-sniffer.md) — An OpenFlow sniffer to help network troubleshooting in production networks.
+- [ostinato](./sniffer/ostinato.md) — An open-source, cross-platform packet/traffic generator and analyzer with a friendly GUI. It aims to be "Wireshark in Reverse" and thus become complementary to Wireshark.
+- [passivedns](./sniffer/passivedns.md) — A network sniffer that logs all DNS server replies for use in a passive DNS setup.
+- [pcapteller](./sniffer/pcapteller.md) — A tool designed for traffic manipulation and replay.
+- [pth-toolkit](./sniffer/pth-toolkit.md) — Modified version of the passing-the-hash tool collection made to work straight out of the box.
+- [pyrdp](./sniffer/pyrdp.md) — Python 3 RDP MITM and library.
+- [pytacle](./sniffer/pytacle.md) — Automates the task of sniffing GSM frames
+- [rvi-capture](./sniffer/rvi-capture.md) — Capture packets sent or received by iOS devices.
+- [sipffer](./sniffer/sipffer.md) — SIP protocol command line sniffer.
+- [snapception](./sniffer/snapception.md) — Intercept and decrypt all snapchats received over your network.
+- [ssl-phuck3r](./sniffer/ssl-phuck3r.md) — All in one script for Man-In-The-Middle attacks.
+- [ssldump](./sniffer/ssldump.md) — An SSLv3/TLS network protocol analyzer.
+- [sslsniff](./sniffer/sslsniff.md) — A tool to MITM all SSL connections on a LAN and dynamically generate certs for the domains that are being accessed on the fly.
+- [stenographer](./sniffer/stenographer.md) — A packet capture solution which aims to quickly spool all packets to disk, then provide simple, fast access to subsets of those packets.
+- [wifi-monitor](./sniffer/wifi-monitor.md) — Prints the IPs on your local network that're sending the most packets.
+- [xcavator](./sniffer/xcavator.md) — Man-In-The-Middle and phishing attack tool that steals the victim's credentials of some web services like Facebook.
+
+## social
+
+OSINT training, awareness exercises, phishing-defense labs, and social-engineering detection research.
+
+- [anontwi](./social/anontwi.md) — A free software python client designed to navigate anonymously on social networks. It supports Identi.ca and Twitter.com.
+- [blackeye](./social/blackeye.md) — Ultimate phishing tool with ngrok and serveo.
+- [buster](./social/buster.md) — Find emails of a person and return info associated with them.
+- [cardpwn](./social/cardpwn.md) — OSINT Tool to find Breached Credit Cards Information.
+- [catphish](./social/catphish.md) — For phishing and corporate espionage.
+- [chameleonmini](./social/chameleonmini.md) — Official repository of ChameleonMini, a freely programmable, portable tool for NFC security analysis that can emulate and clone contactless cards, read RFID tags and sniff/log RF data.
+- [credsniper](./social/credsniper.md) — Phishing framework written with the Python micro-framework Flask and Jinja2 templating which supports capturing 2FA tokens.
+- [crosslinked](./social/crosslinked.md) — LinkedIn enumeration tool to extract valid employee names from an organization through search engine scraping.
+- [email2phonenumber](./social/email2phonenumber.md) — A OSINT tool to obtain a target's phone number just by having his email address.
+- [facebash](./social/facebash.md) — Facebook Brute Forcer in shellscript using TOR.
+- [facebookosint](./social/facebookosint.md) — OSINT tool to replace facebook graph search.
+- [facebrok](./social/facebrok.md) — Social Engineering Tool Oriented to facebook.
+- [fbi](./social/fbi.md) — An accurate facebook account information gathering.
+- [fluxion](./social/fluxion.md) — A security auditing and social-engineering research tool.
+- [genisys](./social/genisys.md) — Powerful Telegram Members Scraping and Adding Toolkit.
+- [gg-images](./social/gg-images.md) — The application was created to allow anyone to easily download profile pictures from GG.
+- [gocabrito](./social/gocabrito.md) — Super organized and flexible script for sending phishing campaigns.
+- [gophish](./social/gophish.md) — Open-Source Phishing Framework.
+- [hemingway](./social/hemingway.md) — A simple and easy to use spear phishing helper.
+- [hiddeneye](./social/hiddeneye.md) — Modern phishing tool with advanced functionality.
+- [hiddeneye-legacy](./social/hiddeneye-legacy.md) — Modern Phishing Tool With Advanced Functionality.
+- [holehe](./social/holehe.md) — A tool for Efficiently finding registered accounts from emails.
+- [instagramosint](./social/instagramosint.md) — An Instagram Open Source Intelligence Tool.
+- [linkedin2username](./social/linkedin2username.md) — OSINT Tool: Generate username lists for companies on LinkedIn.
+- [linkedint](./social/linkedint.md) — LinkedIn Recon Tool.
+- [maigret](./social/maigret.md) — OSINT username checker. Collect a dossier on a person by username from a huge number of sites.
+- [muraena](./social/muraena.md) — Almost-transparent reverse proxy to automate phishing and post-phishing activities.
+- [nexfil](./social/nexfil.md) — OSINT tool for finding profiles by username.
+- [osi.ig](./social/osi.ig.md) — Instagram OSINT Tool gets a range of information from an Instagram account.
+- [pepe](./social/pepe.md) — Collect information about email addresses from Pastebin.
+- [phemail](./social/phemail.md) — A python open source phishing email tool that automates the process of sending phishing emails as part of a social engineering test.
+- [phishingkithunter](./social/phishingkithunter.md) — Find phishing kits which use your brand/organization's files and image'.
+- [phoneinfoga](./social/phoneinfoga.md) — Information gathering & OSINT framework for phone numbers.
+- [phonia](./social/phonia.md) — Advanced toolkits to scan phone numbers using only free resources.
+- [qrljacker](./social/qrljacker.md) — QRLJacker is a highly customizable exploitation framework to demonstrate "QRLJacking Attack Vector".
+- [raven](./social/raven.md) — A Linkedin information gathering tool that can be used by pentesters to gather information about an organization employees using Linkedin.
+- [reelphish](./social/reelphish.md) — A Real-Time Two-Factor Phishing Tool.
+- [seeker](./social/seeker.md) — Accurately Locate People using Social Engineering.
+- [sees](./social/sees.md) — Increase the success rate of phishing attacks by sending emails to company users as if they are coming from the very same company's domain.
+- [set](./social/set.md) — Social-engineer toolkit. Aimed at penetration testing around Social-Engineering.
+- [sherlock](./social/sherlock.md) — Find usernames across social networks.
+- [simpleemailspoofer](./social/simpleemailspoofer.md) — A simple Python CLI to spoof emails.
+- [skiptracer](./social/skiptracer.md) — OSINT python2 webscraping framework. Skipping the needs of API keys.
+- [slackpirate](./social/slackpirate.md) — Slack Enumeration and Extraction Tool - extract sensitive information from a Slack Workspace.
+- [social-analyzer](./social/social-analyzer.md) — Analyzing & finding a person's profile across social media websites.
+- [social-mapper](./social/social-mapper.md) — A social media enumeration and correlation tool.
+- [social-vuln-scanner](./social/social-vuln-scanner.md) — Gathers public information on companies to highlight social engineering risk.
+- [socialfish](./social/socialfish.md) — Ultimate phishing tool with Ngrok integrated.
+- [socialpwned](./social/socialpwned.md) — OSINT tool that allows to get the emails, from a target, published in social networks.
+- [spf](./social/spf.md) — A python tool designed to allow for quick recon and deployment of simple social engineering phishing exercises.
+- [token-hunter](./social/token-hunter.md) — OSINT Tool - Search the group and group members' snippets, issues, and issue discussions for sensitive data that may be included in these assets.
+- [trape](./social/trape.md) — People tracker on the Internet: OSINT analysis and research tool by Jose Pino.
+- [tweets-analyzer](./social/tweets-analyzer.md) — Tweets metadata scraper & activity analyzer.
+- [twint](./social/twint.md) — An advanced Twitter scraping & OSINT tool written in Python that doesn't use Twitter's API, allowing you to scrape a user's followers, following, Tweets and more while evading most API limitations.
+- [ultimate-facebook-scraper](./social/ultimate-facebook-scraper.md) — A bot which scrapes almost everything about a Facebook user's profile.
+- [user-scanner](./social/user-scanner.md) — OSINT tool that analyzes username and email presence across multiple platforms, intended for security research, investigations, legitimate analysis.
+- [userrecon-py](./social/userrecon-py.md) — Recognition usernames in 187 social networks.
+- [weeman](./social/weeman.md) — HTTP Server for phishing in python.
+- [whatbreach](./social/whatbreach.md) — OSINT tool to find breached emails and databases.
+- [whatsmyname](./social/whatsmyname.md) — Tool to perform user and username enumeration on various websites.
+
+## spoof
+
+Protocol-spoofing labs, network-defense testing, and detection engineering in isolated networks.
+
+- [admid-pack](./spoof/admid-pack.md) — ADM DNS spoofing tools - Uses a variety of active and passive methods to spoof DNS packets. Very powerful.
+- [aranea](./spoof/aranea.md) — A fast and clean dns spoofing tool.
+- [arpspoof-smikims](./spoof/arpspoof-smikims.md) — Performs an ARP spoofing attack using the Linux kernel's raw sockets.
+- [cisco-snmp-slap](./spoof/cisco-snmp-slap.md) — IP address spoofing tool in order to bypass an ACL protecting an SNMP service on Cisco IOS devices.
+- [dns-spoof](./spoof/dns-spoof.md) — Yet another DNS spoof utility.
+- [evil-ssdp](./spoof/evil-ssdp.md) — Spoof SSDP replies to phish for NetNTLM challenge/response on a network.
+- [fakenetbios](./spoof/fakenetbios.md) — A family of tools designed to simulate Windows hosts (NetBIOS) on a LAN.
+- [lans](./spoof/lans.md) — A Multithreaded asynchronous packet parsing/injecting arp spoofer.
+- [lsrtunnel](./spoof/lsrtunnel.md) — Spoofs connections using source routed packets.
+- [mailsend-go](./spoof/mailsend-go.md) — A multi-platform command line tool to send mail via SMTP protocol.
+- [motsa-dns-spoofing](./spoof/motsa-dns-spoofing.md) — ManOnTheSideAttack-DNS Spoofing.
+- [multimac](./spoof/multimac.md) — Multiple MACs on an adapter.
+- [nbnspoof](./spoof/nbnspoof.md) — NetBIOS Name Service Spoofer.
+- [netcommander](./spoof/netcommander.md) — An easy-to-use arp spoofing tool.
+- [rbndr](./spoof/rbndr.md) — Simple DNS Rebinding Service.
+- [spoofy](./spoof/spoofy.md) — Check if a list of domains can be spoofed based on SPF and DMARC records.
+- [sylkie](./spoof/sylkie.md) — IPv6 address spoofing with the Neighbor Discovery Protocol.
+- [synner](./spoof/synner.md) — A custom eth->ip->tcp packet generator (spoofer) for testing firewalls and dos attacks.
+
+## stego
+
+Steganography analysis, CTFs, hidden-data detection, and media/file inspection.
+
+- [matroschka](./stego/matroschka.md) — Python steganography tool to hide images or text in images.
+- [openpuff](./stego/openpuff.md) — Yet not another steganography SW.
+- [pngcheck](./stego/pngcheck.md) — Verifies the integrity of PNG, JNG and MNG files by checking the CRCs and decompressing the image data.
+- [silenteye](./stego/silenteye.md) — A cross-platform application design for an easy use of steganography.
+- [stegcracker](./stego/stegcracker.md) — Steganography brute-force utility to uncover hidden data inside files.
+- [stegdetect](./stego/stegdetect.md) — An automated tool for detecting steganographic content in images.
+- [steghide](./stego/steghide.md) — Embeds a message in a file by replacing some of the least significant bits.
+- [stegolego](./stego/stegolego.md) — Simple program for using stegonography to hide data within BMP images.
+- [stegoveritas](./stego/stegoveritas.md) — Automatic image steganography analysis tool.
+- [stegseek](./stego/stegseek.md) — Lightning fast steghide cracker.
+- [stegsolve](./stego/stegsolve.md) — Steganography Solver.
+- [stepic](./stego/stepic.md) — A python image steganography tool.
+- [zsteg](./stego/zsteg.md) — Detect stegano-hidden data in PNG and BMP.
+
+## threat-model
+
+Threat modeling, architecture review, and planning defensive controls before implementation.
+
+- [threat-dragon](./threat-model/threat-dragon.md) — Electron Threat Modelling and diagramming tool.
+
+## tunnel
+
+Authorized network tunneling, lab connectivity, debugging, and controlled remote access tests.
+
+- [chisel](./tunnel/chisel.md) — A fast TCP tunnel over HTTP.
+- [chownat](./tunnel/chownat.md) — Allows two peers behind two separate NATs with no port forwarding and no DMZ setup on their routers to directly communicate with each other
+- [ctunnel](./tunnel/ctunnel.md) — Tunnel and/or proxy TCP or UDP connections via a cryptographic tunnel.
+- [dns2tcp](./tunnel/dns2tcp.md) — A tool for relaying TCP connections over DNS.
+- [fraud-bridge](./tunnel/fraud-bridge.md) — ICMP and DNS tunneling via IPv4 and IPv6.
+- [icmptx](./tunnel/icmptx.md) — IP over ICMP tunnel.
+- [ip-https-tools](./tunnel/ip-https-tools.md) — Tools for the IP over HTTPS (IP-HTTPS) Tunneling Protocol.
+- [ligolo-ng](./tunnel/ligolo-ng.md) — An advanced, yet simple, tunneling tool that uses a TUN interface.
+- [matahari](./tunnel/matahari.md) — A reverse HTTP shell to execute commands on remote machines behind firewalls.
+- [morxtunel](./tunnel/morxtunel.md) — Network Tunneling using TUN/TAP interfaces over TCP tool.
+- [multitun](./tunnel/multitun.md) — Tunnel arbitrary traffic through an innocuous WebSocket.
+- [neo-regeorg](./tunnel/neo-regeorg.md) — Improved version of reGeorg, HTTP tunneling pivot tool
+- [ngrok](./tunnel/ngrok.md) — A tunneling, reverse proxy for developing and understanding networked, HTTP services.
+- [oniongrok](./tunnel/oniongrok.md) — Onion addresses for anything.
+- [regeorg](./tunnel/regeorg.md) — The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn.
+- [stegosip](./tunnel/stegosip.md) — TCP tunnel over RTP/SIP.
+- [vstt](./tunnel/vstt.md) — VSTT is a multi-protocol tunneling tool. It accepts input by TCP stream sockets and FIFOs, and can send data via TCP, POP3, and ICMP tunneling.
+- [xfltreat](./tunnel/xfltreat.md) — Tunnelling framework.
+
+## voip
+
+VoIP/SIP inventory, configuration review, and lab security testing.
+
+- [ace](./voip/ace.md) — A simple yet powerful VoIP Corporate Directory enumeration tool that mimics the behavior of an IP Phone in order to download the name and extension entries that a given phone can display on its screen interface.
+- [bluebox-ng](./voip/bluebox-ng.md) — A GPL VoIP/UC vulnerability scanner.
+- [erase-registrations](./voip/erase-registrations.md) — An IAX flooder.
+- [ilty](./voip/ilty.md) — An interception phone system for VoIP network.
+- [isip](./voip/isip.md) — Interactive sip toolkit for packet manipulations, sniffing, man in the middle attacks, fuzzing, simulating of dos attacks.
+- [isme](./voip/isme.md) — Scans a VOIP environment, adapts to enterprise VOIP, and exploits the possibilities of being connected directly to an IP Phone VLAN.
+- [mrsip](./voip/mrsip.md) — SIP-Based Audit and Attack Tool.
+- [pcapsipdump](./voip/pcapsipdump.md) — A tool for dumping SIP sessions (+RTP traffic, if available) to disk in a fashion similar to 'tcpdump -w' (format is exactly the same), but one file per sip session (even if there is thousands of concurrent SIP sessions).
+- [protos-sip](./voip/protos-sip.md) — SIP test suite.
+- [redirectpoison](./voip/redirectpoison.md) — A tool to poison a targeted issuer of SIP INVITE requests with 301 (i.e. Moved Permanently) redirection responses.
+- [rtp-flood](./voip/rtp-flood.md) — RTP flooder
+- [siparmyknife](./voip/siparmyknife.md) — A small command line tool for developers and administrators of Session Initiation Protocol (SIP) applications.
+- [sipbrute](./voip/sipbrute.md) — A utility to perform dictionary attacks against the VoIP SIP Register hash.
+- [sipp](./voip/sipp.md) — A free Open Source test tool / traffic generator for the SIP protocol.
+- [sippts](./voip/sippts.md) — Set of tools to audit SIP based VoIP Systems.
+- [sipsak](./voip/sipsak.md) — A small command line tool for developers and administrators of Session Initiation Protocol (SIP) applications.
+- [storm-ring](./voip/storm-ring.md) — This simple tool is useful to test a PABX with "allow guest" parameter set to "yes" (in this scenario an anonymous caller could place a call).
+- [teardown](./voip/teardown.md) — Command line tool to send a BYE request to tear down a call.
+- [vnak](./voip/vnak.md) — Aim is to be the one tool a user needs to attack multiple VoIP protocols.
+- [voiper](./voip/voiper.md) — A VoIP security testing toolkit incorporating several VoIP fuzzers and auxiliary tools to assist the auditor.
+- [voipong](./voip/voipong.md) — A utility which detects all Voice Over IP calls on a pipeline, and for those which are G711 encoded, dumps actual conversation to separate wave files.
+- [vsaudit](./voip/vsaudit.md) — VOIP Security Audit Framework.
+
+## webapp
+
+Web application testing, API review, CMS checks, HTTP fuzzing, and application hardening.
+
+- [0d1n](./webapp/0d1n.md) — Web security tool to make fuzzing at HTTP inputs, made in C with libCurl.
+- [abuse-ssl-bypass-waf](./webapp/abuse-ssl-bypass-waf.md) — Bypassing WAF by abusing SSL/TLS Ciphers.
+- [adfind](./webapp/adfind.md) — Simple admin panel finder for php,js,cgi,asp and aspx admin panels.
+- [adminpagefinder](./webapp/adminpagefinder.md) — This python script looks for a large amount of possible administrative interfaces on a given site.
+- [albatar](./webapp/albatar.md) — A SQLi exploitation framework in Python.
+- [anti-xss](./webapp/anti-xss.md) — A XSS vulnerability scanner.
+- [arachni](./webapp/arachni.md) — A feature-full, modular, high-performance Ruby framework aimed towards helping penetration testers and administrators evaluate the security of web applications.
+- [astra](./webapp/astra.md) — Automated Security Testing For REST API's.
+- [atlas](./webapp/atlas.md) — Open source tool that can suggest sqlmap tampers to bypass WAF/IDS/IPS.
+- [badministration](./webapp/badministration.md) — A tool which interfaces with management or administration applications from an offensive standpoint.
+- [badsecrets](./webapp/badsecrets.md) — A library for detecting known secrets across many web frameworks.
+- [bbqsql](./webapp/bbqsql.md) — SQL injection exploit tool.
+- [bbscan](./webapp/bbscan.md) — A tiny Batch web vulnerability Scanner.
+- [bing-lfi-rfi](./webapp/bing-lfi-rfi.md) — Python script for searching Bing for sites that may have local and remote file inclusion vulnerabilities.
+- [blisqy](./webapp/blisqy.md) — Exploit Time-based blind-SQL injection in HTTP-Headers (MySQL/MariaDB).
+- [brutemap](./webapp/brutemap.md) — Penetration testing tool that automates testing accounts to the site's login page.
+- [brutexss](./webapp/brutexss.md) — Cross-Site Scripting Bruteforcer.
+- [bsqlbf](./webapp/bsqlbf.md) — Blind SQL Injection Brute Forcer.
+- [bsqlinjector](./webapp/bsqlinjector.md) — Blind SQL injection exploitation tool written in ruby.
+- [burpsuite](./webapp/burpsuite.md) — An integrated platform for attacking web applications (community edition) + SHELLING plugin.
+- [c5scan](./webapp/c5scan.md) — Vulnerability scanner and information gatherer for the Concrete5 CMS.
+- [caido-cli](./webapp/caido-cli.md) — Intercepting proxy to replay, inject, scan and fuzz HTTP requests.
+- [caido-desktop](./webapp/caido-desktop.md) — Intercepting proxy to replay, inject, scan and fuzz HTTP requests.
+- [cansina](./webapp/cansina.md) — A python-based Web Content Discovery Tool.
+- [cariddi](./webapp/cariddi.md) — Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, token.
+- [cent](./webapp/cent.md) — Community edition nuclei templates.
+- [chankro](./webapp/chankro.md) — Tool that generates a PHP capable of run a custom binary (like a meterpreter) or a bash script (p.e. reverse shell) bypassing disable_functions & open_basedir).
+- [cjexploiter](./webapp/cjexploiter.md) — Drag and Drop ClickJacking exploit development assistance tool.
+- [clairvoyance](./webapp/clairvoyance.md) — Obtain GraphQL API Schema even if the introspection is not enabled.
+- [cloudget](./webapp/cloudget.md) — Python script to bypass cloudflare from command line. Built upon cfscrape module.
+- [cms-few](./webapp/cms-few.md) — Joomla, Mambo, PHP-Nuke, and XOOPS CMS SQL injection vulnerability scanning tool written in Python.
+- [cmseek](./webapp/cmseek.md) — CMS (Content Management Systems) Detection and Exploitation suite.
+- [cmsfuzz](./webapp/cmsfuzz.md) — Fuzzer for wordpress, cold fusion, drupal, joomla, and phpnuke.
+- [cmsscan](./webapp/cmsscan.md) — CMS scanner to identify and find vulnerabilities for Wordpress, Drupal, Joomla, vBulletin.
+- [cmsscanner](./webapp/cmsscanner.md) — CMS Scanner Framework.
+- [comission](./webapp/comission.md) — WhiteBox CMS analysis.
+- [commentor](./webapp/commentor.md) — Extract all comments from the specified URL resource.
+- [commix](./webapp/commix.md) — Automated All-in-One OS Command Injection and Exploitation Tool.
+- [corscanner](./webapp/corscanner.md) — Fast CORS misconfiguration vulnerabilities scanner.
+- [corsy](./webapp/corsy.md) — CORS Misconfiguration Scanner.
+- [crabstick](./webapp/crabstick.md) — Automatic remote/local file inclusion vulnerability analysis and exploit tool.
+- [crackql](./webapp/crackql.md) — GraphQL password brute-force and fuzzing utility
+- [crawlic](./webapp/crawlic.md) — Web recon tool (find temporary files, parse robots.txt, search folders, google dorks and search domains hosted on same server).
+- [crlfuzz](./webapp/crlfuzz.md) — A fast tool to scan CRLF vulnerability written in Go.
+- [csrftester](./webapp/csrftester.md) — The OWASP CSRFTester Project attempts to give developers the ability to test their applications for CSRF flaws.
+- [cybercrowl](./webapp/cybercrowl.md) — A Python Web path scanner tool.
+- [dalfox](./webapp/dalfox.md) — Powerful open-source XSS scanner and utility focused on automation.
+- [darkdump](./webapp/darkdump.md) — Open Source Intelligence interface for Deep Web scraping.
+- [darkjumper](./webapp/darkjumper.md) — This tool will try to find every website that host at the same server at your target.
+- [darkscrape](./webapp/darkscrape.md) — OSINT Tool For Scraping Dark Websites.
+- [davscan](./webapp/davscan.md) — Fingerprints servers, finds exploits, scans WebDAV.
+- [dawnscanner](./webapp/dawnscanner.md) — A static analysis security scanner for ruby written web applications.
+- [dff-scanner](./webapp/dff-scanner.md) — Tool for finding path of predictable resource locations.
+- [dirble](./webapp/dirble.md) — Fast directory scanning and scraping tool.
+- [dirbuster-ng](./webapp/dirbuster-ng.md) — C CLI implementation of the Java dirbuster tool.
+- [dirhunt](./webapp/dirhunt.md) — Find web directories without bruteforce.
+- [dirscraper](./webapp/dirscraper.md) — OSINT Scanning tool which discovers and maps directories found in javascript files hosted on a website.
+- [dirsearch](./webapp/dirsearch.md) — HTTP(S) directory/file brute forcer.
+- [docem](./webapp/docem.md) — Uility to embed XXE and XSS payloads in docx,odt,pptx,etc (OXML_XEE on steroids).
+- [domi-owned](./webapp/domi-owned.md) — A tool used for compromising IBM/Lotus Domino servers.
+- [dontgo403](./webapp/dontgo403.md) — Tool to bypass 40X response codes..
+- [doork](./webapp/doork.md) — Passive Vulnerability Auditor.
+- [dorknet](./webapp/dorknet.md) — Selenium powered Python script to automate searching for vulnerable web apps.
+- [droopescan](./webapp/droopescan.md) — A plugin-based scanner that aids security researchers in identifying issues with several CMSs, mainly Drupal & Silverstripe.
+- [drupal-module-enum](./webapp/drupal-module-enum.md) — Enumerate on drupal modules.
+- [drupalscan](./webapp/drupalscan.md) — Simple non-intrusive Drupal scanner.
+- [drupwn](./webapp/drupwn.md) — Drupal enumeration & exploitation tool.
+- [dsfs](./webapp/dsfs.md) — A fully functional File inclusion vulnerability scanner (supporting GET and POST parameters) written in under 100 lines of code.
+- [dsjs](./webapp/dsjs.md) — A fully functional JavaScript library vulnerability scanner written in under 100 lines of code.
+- [dsss](./webapp/dsss.md) — A fully functional SQL injection vulnerability scanner (supporting GET and POST parameters) written in under 100 lines of code.
+- [dsstore-crawler](./webapp/dsstore-crawler.md) — A parser + crawler for .DS_Store files exposed publically.
+- [dsxs](./webapp/dsxs.md) — A fully functional Cross-site scripting vulnerability scanner (supporting GET and POST parameters) written in under 100 lines of code.
+- [eos](./webapp/eos.md) — Enemies Of Symfony - Debug mode Symfony looter.
+- [epicwebhoneypot](./webapp/epicwebhoneypot.md) — Tool which aims to lure attackers using various types of web vulnerability scanners by tricking them into believing that they have found a vulnerability on a host.
+- [evine](./webapp/evine.md) — Interactive CLI Web Crawler.
+- [extended-ssrf-search](./webapp/extended-ssrf-search.md) — Smart ssrf scanner using different methods like parameter brute forcing in post and get.
+- [eyewitness](./webapp/eyewitness.md) — Designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.
+- [fbht](./webapp/fbht.md) — A Facebook Hacking Tool
+- [fdsploit](./webapp/fdsploit.md) — A File Inclusion & Directory Traversal fuzzing, enumeration & exploitation tool.
+- [feroxbuster](./webapp/feroxbuster.md) — A fast, simple, recursive content discovery tool written in Rust.
+- [ffuf](./webapp/ffuf.md) — Fast web fuzzer written in Go.
+- [fhttp](./webapp/fhttp.md) — This is a framework for HTTP related attacks. It is written in Perl with a GTK interface, has a proxy for debugging and manipulation, proxy chaining, evasion rules, and more.
+- [filebuster](./webapp/filebuster.md) — An extremely fast and flexible web fuzzer.
+- [filegps](./webapp/filegps.md) — A tool that help you to guess how your shell was renamed after the server-side script of the file uploader saved it.
+- [fimap](./webapp/fimap.md) — A little tool for local and remote file inclusion auditing and exploitation.
+- [fingerprinter](./webapp/fingerprinter.md) — CMS/LMS/Library etc Versions Fingerprinter.
+- [flask-session-cookie-manager2](./webapp/flask-session-cookie-manager2.md) — Decode and encode Flask session cookie.
+- [flask-session-cookie-manager3](./webapp/flask-session-cookie-manager3.md) — Decode and encode Flask session cookie.
+- [fockcache](./webapp/fockcache.md) — Tool to make cache poisoning by trying X-Forwarded-Host and X-Forwarded-Scheme headers on web pages.
+- [fuxploider](./webapp/fuxploider.md) — Tool that automates the process of detecting and exploiting file upload forms flaws.
+- [gau](./webapp/gau.md) — Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.
+- [ghauri](./webapp/ghauri.md) — An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws.
+- [ghost-py](./webapp/ghost-py.md) — Webkit based webclient (relies on PyQT).
+- [gitdump](./webapp/gitdump.md) — A pentesting tool that dumps the source code from .git even when the directory traversal is disabled.
+- [gittools](./webapp/gittools.md) — A repository with 3 tools for pwn'ing websites with .git repositories available'.
+- [golismero](./webapp/golismero.md) — Opensource web security testing framework.
+- [goop-dump](./webapp/goop-dump.md) — Tool to dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases.
+- [gopherus](./webapp/gopherus.md) — Tool generates gopher link for exploiting SSRF and gaining RCE in various servers.
+- [gospider](./webapp/gospider.md) — Fast web spider written in Go.
+- [gowitness](./webapp/gowitness.md) — A golang, web screenshot utility using Chrome Headless.
+- [grabber](./webapp/grabber.md) — A web application scanner. Basically it detects some kind of vulnerabilities in your website.
+- [graphql-path-enum](./webapp/graphql-path-enum.md) — Tool that lists the different ways of reaching a given type in a GraphQL schema.
+- [graphqlmap](./webapp/graphqlmap.md) — Scripting engine to interact with a graphql endpoint for pentesting purposes.
+- [graphw00f](./webapp/graphw00f.md) — GraphQL endpoint detection and engine fingerprinting.
+- [grpc-pentest-suite](./webapp/grpc-pentest-suite.md) — Set of tools for pentesting gRPC-Web Applications.
+- [h2csmuggler](./webapp/h2csmuggler.md) — HTTP Request Smuggling over HTTP/2 Cleartext (h2c).
+- [h2t](./webapp/h2t.md) — Scans a website and suggests security headers to apply.
+- [hakrawler](./webapp/hakrawler.md) — Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application.
+- [hetty](./webapp/hetty.md) — HTTP toolkit for security research. Aims to become an open source alternative to commercial software like Burp Suite Pro.
+- [hookshot](./webapp/hookshot.md) — Integrated web scraper and email account data breach comparison tool.
+- [htcap](./webapp/htcap.md) — A web application analysis tool for detecting communications between javascript and the server.
+- [http2smugl](./webapp/http2smugl.md) — Http2Smugl - Tool to detect and exploit HTTP request smuggling in cases it can be achieved via HTTP/2 -> HTTP/1.1 conversion.
+- [httpforge](./webapp/httpforge.md) — A set of shell tools that let you manipulate, send, receive, and analyze HTTP messages. These tools can be used to test, discover, and assert the security of Web servers, apps, and sites. An accompanying Python library is available for extensions.
+- [httpgrep](./webapp/httpgrep.md) — Async HTTP(S) scanner that greps response bodies and headers for strings or regex across hosts, ports, CIDR/ranges and TLS-cert vhosts.
+- [httppwnly](./webapp/httppwnly.md) — "Repeater" style XSS post-exploitation tool for mass browser control.
+- [httpx](./webapp/httpx.md) — A fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library.
+- [identywaf](./webapp/identywaf.md) — Blind WAF identification tool.
+- [injectus](./webapp/injectus.md) — CRLF and open redirect fuzzer.
+- [interactsh-client](./webapp/interactsh-client.md) — Open-Source Solution for Out of band Data Extraction.
+- [ipsourcebypass](./webapp/ipsourcebypass.md) — This Python script can be used to bypass IP source restrictions using HTTP headers.
+- [jaeles](./webapp/jaeles.md) — The Swiss Army knife for automated Web Application Testing.
+- [jaidam](./webapp/jaidam.md) — Penetration testing tool that would take as input a list of domain names, scan them, determine if wordpress or joomla platform was used and finally check them automatically, for web vulnerabilities using two well-known open source tools,
+- [jast](./webapp/jast.md) — Just Another Screenshot Tool.
+- [jboss-autopwn](./webapp/jboss-autopwn.md) — A JBoss script for obtaining remote shell access.
+- [jdeserialize](./webapp/jdeserialize.md) — A library that interprets Java serialized objects. It also comes with a command-line tool that can generate compilable class declarations, extract block data, and print textual representations of instance values.
+- [jexboss](./webapp/jexboss.md) — Jboss verify and Exploitation Tool.
+- [jira-scan](./webapp/jira-scan.md) — A simple remote scanner for Atlassian Jira
+- [jok3r](./webapp/jok3r.md) — Network and Web Pentest Framework.
+- [jomplug](./webapp/jomplug.md) — This php script fingerprints a given Joomla system and then uses Packet Storm's archive to check for bugs related to the installed components.
+- [jooforce](./webapp/jooforce.md) — A Joomla password brute force tester.
+- [joomlascan](./webapp/joomlascan.md) — Joomla scanner scans for known vulnerable remote file inclusion paths and files.
+- [joomlavs](./webapp/joomlavs.md) — A black box, Ruby powered, Joomla vulnerability scanner.
+- [joomscan](./webapp/joomscan.md) — Detects file inclusion, sql injection, command execution vulnerabilities of a target Joomla! web site.
+- [jshell](./webapp/jshell.md) — Get a JavaScript shell with XSS.
+- [jsonbee](./webapp/jsonbee.md) — A ready to use JSONP endpoints/payloads to help bypass content security policy (CSP).
+- [jsparser](./webapp/jsparser.md) — Parse javascript using Tornado and JSBeautifier to discover interesting enpoints.
+- [jsql-injection](./webapp/jsql-injection.md) — A Java application for automatic SQL database injection.
+- [jstillery](./webapp/jstillery.md) — Advanced JavaScript Deobfuscation via Partial Evaluation.
+- [juumla](./webapp/juumla.md) — Python tool created to identify Joomla version, scan for vulnerabilities and search for config files.
+- [jwt-hack](./webapp/jwt-hack.md) — A tool for hacking / security testing to JWT.
+- [kadimus](./webapp/kadimus.md) — LFI Scan & Exploit Tool.
+- [katana-pd](./webapp/katana-pd.md) — Crawling and spidering framework.
+- [kiterunner](./webapp/kiterunner.md) — Contextual Content Discovery Tool.
+- [konan](./webapp/konan.md) — Advanced Web Application Dir Scanner.
+- [kubolt](./webapp/kubolt.md) — Utility for scanning public kubernetes clusters.
+- [lfi-exploiter](./webapp/lfi-exploiter.md) — This perl script leverages /proc/self/environ to attempt getting code execution out of a local file inclusion vulnerability..
+- [lfi-fuzzploit](./webapp/lfi-fuzzploit.md) — A simple tool to help in the fuzzing for, finding, and exploiting of local file inclusion vulnerabilities in Linux-based PHP applications.
+- [lfi-image-helper](./webapp/lfi-image-helper.md) — A simple script to infect images with PHP Backdoors for local file inclusion attacks.
+- [lfi-sploiter](./webapp/lfi-sploiter.md) — This tool helps you exploit LFI (Local File Inclusion) vulnerabilities. Post discovery, simply pass the affected URL and vulnerable parameter to this tool. You can also use this tool to scan a URL for LFI vulnerabilities.
+- [lfifreak](./webapp/lfifreak.md) — A unique automated LFi Exploiter with Bind/Reverse Shells.
+- [lfimap](./webapp/lfimap.md) — Local file inclusion discovery and exploitation tool.
+- [liffy](./webapp/liffy.md) — A Local File Inclusion Exploitation tool.
+- [lightbulb](./webapp/lightbulb.md) — Python framework for auditing web applications firewalls.
+- [linkfinder](./webapp/linkfinder.md) — Discovers endpoint and their parameters in JavaScript files.
+- [list-urls](./webapp/list-urls.md) — Extracts links from webpage.
+- [log4j-bypass](./webapp/log4j-bypass.md) — Log4j web app tester that includes WAF bypasses.
+- [log4j-scan](./webapp/log4j-scan.md) — A fully automated, accurate, and extensive scanner for finding log4j RCE CVE-44228.
+- [lorsrf](./webapp/lorsrf.md) — Find the parameters that can be used to find SSRF or Out-of-band resource load.
+- [lulzbuster](./webapp/lulzbuster.md) — A multithreaded, very fast and smart HTTP(S) directory and file bruteforcer written in C on top of libcurl.
+- [magescan](./webapp/magescan.md) — Scan a Magento site for information.
+- [malicious-pdf](./webapp/malicious-pdf.md) — Generate a bunch of malicious pdf files with phone-home functionality.
+- [mando.me](./webapp/mando.me.md) — Web Command Injection Tool.
+- [maryam](./webapp/maryam.md) — OSINT Framework
+- [meg](./webapp/meg.md) — Fetch many paths for many hosts - without killing the hosts.
+- [metoscan](./webapp/metoscan.md) — Tool for scanning the HTTP methods supported by a webserver.
+- [monsoon](./webapp/monsoon.md) — A fast HTTP enumerator that allows you to execute a large number of HTTP requests.
+- [mooscan](./webapp/mooscan.md) — A scanner for Moodle LMS.
+- [morxtraversal](./webapp/morxtraversal.md) — Path Traversal checking tool.
+- [multiinjector](./webapp/multiinjector.md) — Automatic SQL injection utility using a lsit of URI addresses to test parameter manipulation.
+- [nosqli](./webapp/nosqli.md) — NoSQL scanner and injector.
+- [nosqlmap](./webapp/nosqlmap.md) — Automated Mongo database and NoSQL web application exploitation tool
+- [novahot](./webapp/novahot.md) — A webshell framework for penetration testers.
+- [okadminfinder](./webapp/okadminfinder.md) — Tool to find admin panels / admin login pages.
+- [onionsearch](./webapp/onionsearch.md) — Script that scrapes urls on different .onion search engines.
+- [opendoor](./webapp/opendoor.md) — OWASP WEB Directory Scanner.
+- [owasp-bywaf](./webapp/owasp-bywaf.md) — A web application penetration testing framework (WAPTF).
+- [owtf](./webapp/owtf.md) — The Offensive (Web) Testing Framework.
+- [pappy-proxy](./webapp/pappy-proxy.md) — An intercepting proxy for web application testing.
+- [parameth](./webapp/parameth.md) — This tool can be used to brute discover GET and POST parameters.
+- [parampampam](./webapp/parampampam.md) — This tool for brute discover GET and POST parameters.
+- [paramspider](./webapp/paramspider.md) — Mining URLs from dark corners of Web Archives for bug hunting/fuzzing/further probing.
+- [paros](./webapp/paros.md) — Java-based HTTP/HTTPS proxy for assessing web app vulnerabilities. Supports editing/viewing HTTP messages on-the-fly, spiders, client certificates, proxy-chaining, intelligent scanning for XSS and SQLi, etc.
+- [payloadmask](./webapp/payloadmask.md) — Web Payload list editor to use techniques to try bypass web application firewall.
+- [peepingtom](./webapp/peepingtom.md) — A tool to take screenshots of websites. Much like eyewitness.
+- [phantomcollect](./webapp/phantomcollect.md) — Lightweight stealth web data collection framework for ethical security testing.
+- [photon](./webapp/photon.md) — Incredibly fast crawler which extracts urls, emails, files, website accounts and much more.
+- [php-findsock-shell](./webapp/php-findsock-shell.md) — A Findsock Shell implementation in PHP + C.
+- [php-malware-finder](./webapp/php-malware-finder.md) — Detect potentially malicious PHP files.
+- [phpggc](./webapp/phpggc.md) — A library of PHP unserialize() payloads along with a tool to generate them, from command line or programmatically.
+- [phpsploit](./webapp/phpsploit.md) — Stealth post-exploitation framework.
+- [pinkerton](./webapp/pinkerton.md) — JavaScript file crawler and secret finder.
+- [pixload](./webapp/pixload.md) — Image Payload Creating/Injecting tools.
+- [plecost](./webapp/plecost.md) — Wordpress finger printer Tool.
+- [plown](./webapp/plown.md) — A security scanner for Plone CMS.
+- [poly](./webapp/poly.md) — Polymorphic webshells.
+- [pown](./webapp/pown.md) — Security testing and exploitation toolkit built on top of Node.js and NPM.
+- [ppfuzz](./webapp/ppfuzz.md) — A fast tool to scan client-side prototype pollution vulnerability written in Rust.
+- [ppmap](./webapp/ppmap.md) — A scanner/exploitation tool written in GO, which leverages client-side Prototype Pollution to XSS by exploiting known gadgets.
+- [proxenet](./webapp/proxenet.md) — THE REAL hacker friendly proxy for web application pentests.
+- [pwndrop](./webapp/pwndrop.md) — Self-deployable file hosting service for red teamers, allowing to easily upload and share payloads over HTTP and WebDAV.
+- [pyfiscan](./webapp/pyfiscan.md) — Free web-application vulnerability and version scanner.
+- [python-witnessme](./webapp/python-witnessme.md) — Web Inventory tool, takes screenshots of webpages using Pyppeteer.
+- [python2-jsbeautifier](./webapp/python2-jsbeautifier.md) — JavaScript unobfuscator and beautifier.
+- [rabid](./webapp/rabid.md) — A CLI tool and library allowing to simply decode all kind of BigIP cookies.
+- [rapidscan](./webapp/rapidscan.md) — The Multi-Tool Web Vulnerability Scanner.
+- [remot3d](./webapp/remot3d.md) — An Simple Exploit for PHP Language.
+- [restler-fuzzer](./webapp/restler-fuzzer.md) — First stateful REST API fuzzing tool for automatically testing cloud services through their REST APIs and finding security and reliability bugs in these services.
+- [riwifshell](./webapp/riwifshell.md) — Web backdoor - infector - explorer.
+- [rookie](./webapp/rookie.md) — Load cookies from your web browsers.
+- [ruler](./webapp/ruler.md) — A tool to abuse Exchange services.
+- [rustbuster](./webapp/rustbuster.md) — DirBuster for Rust.
+- [rww-attack](./webapp/rww-attack.md) — Performs a dictionary attack against a live Microsoft Windows Small Business Server.
+- [sawef](./webapp/sawef.md) — Send Attack Web Forms.
+- [scanqli](./webapp/scanqli.md) — SQLi scanner to detect SQL vulns.
+- [scrying](./webapp/scrying.md) — Collect RDP, web, and VNC screenshots smartly.
+- [second-order](./webapp/second-order.md) — Second-order subdomain takeover scanner.
+- [secretfinder](./webapp/secretfinder.md) — A python script to find sensitive data (apikeys, accesstoken, jwt,..) in javascript files.
+- [secscan](./webapp/secscan.md) — Web Apps Scanner and Much more utilities.
+- [see-surf](./webapp/see-surf.md) — Security tool to find potential vulnerable Server Side Request Forgery (SSRF) parameters.
+- [serializationdumper](./webapp/serializationdumper.md) — A tool to dump Java serialization streams in a more human readable form.
+- [shortfuzzy](./webapp/shortfuzzy.md) — A web fuzzing script written in perl.
+- [shuffledns](./webapp/shuffledns.md) — A wrapper around massdns written in GO.
+- [sitadel](./webapp/sitadel.md) — Web Application Security Scanner.
+- [sitediff](./webapp/sitediff.md) — Fingerprint a web app using local files as the fingerprint sources.
+- [sj](./webapp/sj.md) — A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition files.
+- [skipfish](./webapp/skipfish.md) — A fully automated, active web application security reconnaissance tool.
+- [smplshllctrlr](./webapp/smplshllctrlr.md) — PHP Command Injection exploitation tool.
+- [smuggler](./webapp/smuggler.md) — An HTTP Request Smuggling / Desync testing tool written in Python 3.
+- [smuggler-py](./webapp/smuggler-py.md) — Python tool used to test for HTTP Desync/Request Smuggling attacks.
+- [snallygaster](./webapp/snallygaster.md) — Tool to scan for secret files on HTTP servers.
+- [snuck](./webapp/snuck.md) — Automatic XSS filter bypass.
+- [sourcemapper](./webapp/sourcemapper.md) — Extract JavaScript source trees from Sourcemap files.
+- [spaf](./webapp/spaf.md) — Static Php Analysis and Fuzzer.
+- [sparty](./webapp/sparty.md) — An open source tool written in python to audit web applications using sharepoint and frontpage architecture.
+- [spiga](./webapp/spiga.md) — Configurable web resource scanner.
+- [spike-proxy](./webapp/spike-proxy.md) — A Proxy for detecting vulnerabilities in web applications
+- [spipscan](./webapp/spipscan.md) — SPIP (CMS) scanner for penetration testing purpose written in Python.
+- [sprayingtoolkit](./webapp/sprayingtoolkit.md) — Scripts to make password spraying attacks against Lync/S4B & OWA a lot quicker, less painful and more efficient.
+- [sqid](./webapp/sqid.md) — A SQL injection digger.
+- [ssrf-sheriff](./webapp/ssrf-sheriff.md) — A simple SSRF-testing sheriff written in Go.
+- [ssrfmap](./webapp/ssrfmap.md) — Automatic SSRF fuzzer and exploitation tool.
+- [stews](./webapp/stews.md) — A Security Tool for Enumerating WebSockets.
+- [striker](./webapp/striker.md) — An offensive information and vulnerability scanner.
+- [subjs](./webapp/subjs.md) — Fetches javascript file from a list of URLS or subdomains.
+- [themole](./webapp/themole.md) — Automatic SQL injection exploitation tool.
+- [tidos-framework](./webapp/tidos-framework.md) — Offensive Web Application Penetration Testing Framework.
+- [tinja](./webapp/tinja.md) — CLI tool for testing web pages for template injection vulnerabilities.
+- [torcrawl](./webapp/torcrawl.md) — Crawl and extract (regular or onion) webpages through TOR network.
+- [tplmap](./webapp/tplmap.md) — Automatic Server-Side Template Injection Detection and Exploitation Tool.
+- [typo3scan](./webapp/typo3scan.md) — Enumerate Typo3 version and extensions.
+- [uncaptcha2](./webapp/uncaptcha2.md) — Defeating the latest version of ReCaptcha with 91% accuracy.
+- [uppwn](./webapp/uppwn.md) — A script that automates detection of security flaws on websites' file upload systems'.
+- [urlcrazy](./webapp/urlcrazy.md) — Generate and test domain typos and variations to detect and perform typo squatting, URL hijacking, phishing, and corporate espionage.
+- [urldigger](./webapp/urldigger.md) — A python tool to extract URL addresses from different HOT sources and/or detect SPAM and malicious code
+- [urlextractor](./webapp/urlextractor.md) — Information gathering & website reconnaissance.
+- [urx](./webapp/urx.md) — Extracts URLs from OSINT Archives for Security Insights.
+- [vane](./webapp/vane.md) — A vulnerability scanner which checks the security of WordPress installations using a black box approach.
+- [vanguard](./webapp/vanguard.md) — A comprehensive web penetration testing tool written in Perl thatidentifies vulnerabilities in web applications.
+- [vbscan](./webapp/vbscan.md) — A black box vBulletin vulnerability scanner written in perl.
+- [vega](./webapp/vega.md) — An open source platform to test the security of web applications.
+- [vsvbp](./webapp/vsvbp.md) — Black box tool for Vulnerability detection in web applications.
+- [vulnerabilities-spider](./webapp/vulnerabilities-spider.md) — A tool to scan for web vulnerabilities.
+- [vulnx](./webapp/vulnx.md) — Cms and vulnerabilites detector & An intelligent bot auto shell injector.
+- [w13scan](./webapp/w13scan.md) — Passive Security Scanner.
+- [wafninja](./webapp/wafninja.md) — A tool which contains two functions to attack Web Application Firewalls.
+- [wafp](./webapp/wafp.md) — An easy to use Web Application Finger Printing tool written in ruby using sqlite3 databases for storing the fingerprints.
+- [wafpass](./webapp/wafpass.md) — Analysing parameters with all payloads' bypass methods, aiming at benchmarking security solutions like WAF.
+- [wapiti](./webapp/wapiti.md) — A vulnerability scanner for web applications.
+- [wascan](./webapp/wascan.md) — Web Application Scanner.
+- [waybackpack](./webapp/waybackpack.md) — Download the entire Wayback Machine archive for a given URL.
+- [wayparam](./webapp/wayparam.md) — Fetch and normalize parameterized URLs from the Wayback CDX API.
+- [wcvs](./webapp/wcvs.md) — Web Cache Vulnerability Scanner is a Go-based CLI tool for testing for web cache poisoning.
+- [web-soul](./webapp/web-soul.md) — A plugin based scanner for attacking and data mining web sites written in Perl.
+- [webanalyze](./webapp/webanalyze.md) — Port of Wappalyzer (uncovers technologies used on websites) in go to automate scanning.
+- [webborer](./webapp/webborer.md) — A directory-enumeration tool written in Go.
+- [webhandler](./webapp/webhandler.md) — A handler for PHP system functions & also an alternative 'netcat' handler.
+- [webkiller](./webapp/webkiller.md) — Tool Information Gathering Write By Python.
+- [webshells](./webapp/webshells.md) — Web Backdoors.
+- [webslayer](./webapp/webslayer.md) — A tool designed for brute forcing Web Applications.
+- [webtech](./webapp/webtech.md) — Identify technologies used on websites.
+- [webxploiter](./webapp/webxploiter.md) — An OWASP Top 10 Security scanner.
+- [weevely](./webapp/weevely.md) — Weaponized web shell.
+- [weirdaal](./webapp/weirdaal.md) — AWS Attack Library.
+- [whatwaf](./webapp/whatwaf.md) — Detect and bypass web application firewalls and protection systems.
+- [whichcdn](./webapp/whichcdn.md) — Tool to detect if a given website is protected by a Content Delivery Network.
+- [wig](./webapp/wig.md) — WebApp Information Gatherer.
+- [witchxtool](./webapp/witchxtool.md) — A perl script that consists of a port scanner, LFI scanner, MD5 bruteforcer, dork SQL injection scanner, fresh proxy scanner, and a dork LFI scanner.
+- [wordpress-exploit-framework](./webapp/wordpress-exploit-framework.md) — A Ruby framework for developing and using modules which aid in the penetration testing of WordPress powered websites and systems.
+- [wpforce](./webapp/wpforce.md) — Wordpress Attack Suite.
+- [wpintel](./webapp/wpintel.md) — Chrome extension designed for WordPress Vulnerability Scanning and information gathering.
+- [wpprobe](./webapp/wpprobe.md) — A fast WordPress plugin enumeration tool.
+- [wpseku](./webapp/wpseku.md) — Simple Wordpress Security Scanner.
+- [ws-attacker](./webapp/ws-attacker.md) — A modular framework for web services penetration testing.
+- [wssip](./webapp/wssip.md) — Application for capturing, modifying and sending custom WebSocket data from client to server and vice versa.
+- [wuzz](./webapp/wuzz.md) — Interactive cli tool for HTTP inspection.
+- [x8](./webapp/x8.md) — Hidden parameters discovery suite.
+- [xmlrpc-bruteforcer](./webapp/xmlrpc-bruteforcer.md) — An XMLRPC brute forcer targeting Wordpress written in Python 3.
+- [xspear](./webapp/xspear.md) — Powerful XSS Scanning and Parameter analysis tool&gem.
+- [xsrfprobe](./webapp/xsrfprobe.md) — The Prime Cross Site Request Forgery Audit and Exploitation Toolkit.
+- [xss-freak](./webapp/xss-freak.md) — An XSS scanner fully written in Python3 from scratch.
+- [xsscon](./webapp/xsscon.md) — Simple XSS Scanner tool.
+- [xsscrapy](./webapp/xsscrapy.md) — XSS spider - 66/66 wavsep XSS detected.
+- [xsser](./webapp/xsser.md) — A penetration testing tool for detecting and exploiting XSS vulnerabilites.
+- [xssless](./webapp/xssless.md) — An automated XSS payload generator written in python.
+- [xsspy](./webapp/xsspy.md) — Web Application XSS Scanner.
+- [xsss](./webapp/xsss.md) — A brute force cross site scripting scanner.
+- [xssscan](./webapp/xssscan.md) — Command line tool for detection of XSS attacks in URLs. Based on ModSecurity rules from OWASP CRS.
+- [xsssniper](./webapp/xsssniper.md) — An automatic XSS discovery tool
+- [xsstrike](./webapp/xsstrike.md) — An advanced XSS detection and exploitation suite.
+- [xssya](./webapp/xssya.md) — A Cross Site Scripting Scanner & Vulnerability Confirmation.
+- [xwaf](./webapp/xwaf.md) — Automatic WAF bypass tool.
+- [xxxpwn](./webapp/xxxpwn.md) — A tool Designed for blind optimized XPath 1 injection attacks.
+- [xxxpwn-smart](./webapp/xxxpwn-smart.md) — A fork of xxxpwn adding further optimizations and tweaks.
+- [yaaf](./webapp/yaaf.md) — Yet Another Admin Finder.
+- [yasuo](./webapp/yasuo.md) — A ruby script that scans for vulnerable & exploitable 3rd-party web applications on a network.
+- [yawast](./webapp/yawast.md) — The YAWAST Antecedent Web Application Security Toolkit.
+- [ycrawler](./webapp/ycrawler.md) — A web crawler that is useful for grabbing all user supplied input related to a given website and will save the output. It has proxy and log file support.
+- [ysoserial](./webapp/ysoserial.md) — A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.
+
+## windows
+
+Windows administration, auditing, forensics, AD lab work, and reverse-engineering in Windows VMs.
+
+- [3proxy-win32](./windows/3proxy-win32.md) — Tiny free proxy server.
+- [adape-script](./windows/adape-script.md) — Active Directory Assessment and Privilege Escalation Script.
+- [adpeas](./windows/adpeas.md) — winPEAS, but for Active Directory.
+- [agafi](./windows/agafi.md) — A gadget finder and a ROP-Chainer tool for x86 platforms.
+- [analyzepesig](./windows/analyzepesig.md) — Analyze digital signature of PE file.
+- [antiransom](./windows/antiransom.md) — A tool capable of detect and stop attacks of Ransomware using honeypots.
+- [atstaketools](./windows/atstaketools.md) — This is an archive of various @Stake tools that help perform vulnerability scanning and analysis, information gathering, password auditing, and forensics.
+- [backorifice](./windows/backorifice.md) — A remote administration system which allows a user to control a computer across a tcpip connection using a simple console or GUI application.
+- [browselist](./windows/browselist.md) — Retrieves the browse list ; the output list contains computer names, and the roles they play in the network.
+- [brute12](./windows/brute12.md) — A tool designed for auditing the cryptography container security in PKCS12 format.
+- [brutus](./windows/brutus.md) — One of the fastest, most flexible remote password crackers you can get your hands on.
+- [cachedump](./windows/cachedump.md) — A tool that demonstrates how to recover cache entry information: username and hashed password (called MSCASH).
+- [certi](./windows/certi.md) — Active Directory Certificate Services (ADCS) abuser. impacket copy of Certify.
+- [certipy](./windows/certipy.md) — Active Directory Certificate Services enumeration and abuse.
+- [chrome-decode](./windows/chrome-decode.md) — Chrome web browser decoder tool that demonstrates recovering passwords.
+- [chromensics](./windows/chromensics.md) — A Google chrome forensics tool.
+- [conpass](./windows/conpass.md) — Password spraying in AD environment avoing account locking.
+- [crackmapexec-pingcastle](./windows/crackmapexec-pingcastle.md) — NetExec & CrackMapExec module that execute PingCastle on a remote machine.
+- [dark-dork-searcher](./windows/dark-dork-searcher.md) — Dark-Dork Searcher.
+- [darkarmour](./windows/darkarmour.md) — Store and execute an encrypted windows binary from inside memory, without a single bit touching disk.
+- [de4dot](./windows/de4dot.md) — .NET deobfuscator and unpacker.
+- [de4dotex](./windows/de4dotex.md) — .NET deobfuscator and unpacker.
+- [directorytraversalscan](./windows/directorytraversalscan.md) — Detect directory traversal vulnerabilities in HTTP servers and web applications.
+- [dnspy](./windows/dnspy.md) — .NET debugger and assembly editor.
+- [donpapi](./windows/donpapi.md) — Dumping revelant information on compromised targets without AV detection with DPAPI.
+- [dotpeek](./windows/dotpeek.md) — Free .NET Decompiler and Assembly Browser.
+- [dumpacl](./windows/dumpacl.md) — Dumps NTs ACLs and audit settings.
+- [dumpusers](./windows/dumpusers.md) — Dumps account names and information even though RestrictAnonymous has been set to 1.
+- [eraser](./windows/eraser.md) — Windows tool which allows you to completely remove sensitive data from your hard drive by overwriting it several times with carefully selected patterns.
+- [etherchange](./windows/etherchange.md) — Can change the Ethernet address of the network adapters in Windows.
+- [etherflood](./windows/etherflood.md) — Floods a switched network with Ethernet frames with random hardware addresses.
+- [evil-winrm-py](./windows/evil-winrm-py.md) — WinRM shell for Windows and Active Directory pentesting.
+- [extractbitlockerkeys](./windows/extractbitlockerkeys.md) — Script to automatically extract the bitlocker recovery keys from a domain.
+- [filefuzz](./windows/filefuzz.md) — A binary file fuzzer for Windows with several options.
+- [finduncommonshares](./windows/finduncommonshares.md) — Python script allowing to quickly find uncommon shares in vast Windows Domains.
+- [fport](./windows/fport.md) — Identify unknown open ports and their associated applications.
+- [fred](./windows/fred.md) — Cross-platform M$ registry hive editor.
+- [fuzztalk](./windows/fuzztalk.md) — An XML driven fuzz testing framework that emphasizes easy extensibility and reusability.
+- [gene](./windows/gene.md) — Signature Engine for Windows Event Logs.
+- [ghostpack](./windows/ghostpack.md) — Compiled Binaries for Ghostpack (.NET v4.8.1).
+- [gplist](./windows/gplist.md) — Lists information about the applied Group Policies.
+- [gpowned](./windows/gpowned.md) — GPOs manipulation tool.
+- [grabitall](./windows/grabitall.md) — Performs traffic redirection by sending spoofed ARP replies.
+- [gsd](./windows/gsd.md) — Gives you the Discretionary Access Control List of any Windows NT service you specify as a command line option.
+- [gtalk-decode](./windows/gtalk-decode.md) — Google Talk decoder tool that demonstrates recovering passwords from accounts.
+- [handle](./windows/handle.md) — An small application designed to analyze your system searching for global objects related to running process and display information for every found object, like tokens, semaphores, ports, files,..
+- [hekatomb](./windows/hekatomb.md) — Extract and decrypt all credentials from all domain computers using DPAPI.
+- [hexodus](./windows/hexodus.md) — Python framework project designed to enumerate and help in Active Directory attacks through Windows protocols like SMB, LDAP, WinRM and other.
+- [hollows-hunter](./windows/hollows-hunter.md) — Scans all running processes. Recognizes and dumps a variety of potentially malicious implants (replaced/injected PEs, shellcodes, hooks, in-memory patches).
+- [hookanalyser](./windows/hookanalyser.md) — A hook tool which can be potentially helpful in reversing applications and analyzing malware. It can hook to an API in a process and search for a pattern in memory or dump the buffer.
+- [httpbog](./windows/httpbog.md) — A slow HTTP denial-of-service tool that works similarly to other attacks, but rather than leveraging request headers or POST data Bog consumes sockets by slowly reading responses.
+- [httprecon](./windows/httprecon.md) — Tool for web server fingerprinting, also known as http fingerprinting.
+- [httprint-win32](./windows/httprint-win32.md) — A web server fingerprinting tool (Windows binaries).
+- [hyperion-crypter](./windows/hyperion-crypter.md) — A runtime encrypter for 32-bit and 64-bit portable executables.
+- [ikeprobe](./windows/ikeprobe.md) — Determine vulnerabilities in the PSK implementation of the VPN server.
+- [intercepter-ng](./windows/intercepter-ng.md) — A next generation sniffer including a lot of features: capturing passwords/hashes, sniffing chat messages, performing man-in-the-middle attacks, etc.
+- [inzider](./windows/inzider.md) — This is a tool that lists processes in your Windows system and the ports each one listen on.
+- [juicy-potato](./windows/juicy-potato.md) — A sugared version of RottenPotatoNG, with a bit of juice.
+- [justdecompile](./windows/justdecompile.md) — The decompilation engine of JustDecompile.
+- [kekeo](./windows/kekeo.md) — A little toolbox to play with Microsoft Kerberos in C.
+- [kerbcrack](./windows/kerbcrack.md) — Kerberos sniffer and cracker for Windows.
+- [klogger](./windows/klogger.md) — A keystroke logger for the NT-series of Windows.
+- [ldapmonitor](./windows/ldapmonitor.md) — Monitor creation, deletion and changes to LDAP objects live during your pentest or system administration!
+- [lethalhta](./windows/lethalhta.md) — Lateral Movement technique using DCOM and HTA.
+- [lolbas](./windows/lolbas.md) — Living Off The Land Binaries And Scripts - (LOLBins and LOLScripts).
+- [malwareanalyser](./windows/malwareanalyser.md) — A freeware tool to perform static and dynamic analysis on malware.
+- [mbenum](./windows/mbenum.md) — Queries the master browser for whatever information it has registered.
+- [memimager](./windows/memimager.md) — Performs a memory dump using NtSystemDebugControl.
+- [mimikatz](./windows/mimikatz.md) — A little tool to play with Windows security.
+- [mingsweeper](./windows/mingsweeper.md) — A network reconnaissance tool designed to facilitate large address space,high speed node discovery and identification.
+- [modifycerttemplate](./windows/modifycerttemplate.md) — Aid operators in modifying ADCS certificate templates so that a created vulnerable state can be leveraged for privilege escalation.
+- [mrkaplan](./windows/mrkaplan.md) — Help red teamers to stay hidden by clearing evidence of execution.
+- [mssqlrelay](./windows/mssqlrelay.md) — Microsoft SQL Relay is an offensive tool for auditing and abusing Microsoft SQL (MSSQL) services.
+- [msvpwn](./windows/msvpwn.md) — Bypass Windows' authentication via binary patching.
+- [nbname](./windows/nbname.md) — Decodes and displays all NetBIOS name packets it receives on UDP port 137 and more!
+- [nbtenum](./windows/nbtenum.md) — A utility for Windows that can be used to enumerate NetBIOS information from one host or a range of hosts.
+- [netbus](./windows/netbus.md) — NetBus remote administration tool
+- [netexec-pingcastle](./windows/netexec-pingcastle.md) — NetExec & CrackMapExec module that execute PingCastle on a remote machine.
+- [netripper](./windows/netripper.md) — Smart traffic sniffing for penetration testers.
+- [netstumbler](./windows/netstumbler.md) — Well-known wireless AP scanner and sniffer.
+- [nimrm](./windows/nimrm.md) — Native WinRM shell client with NTLM, Kerberos, file transfers, in-memory operations, and multi-session support.
+- [nirsoft](./windows/nirsoft.md) — Unique collection of small and useful freeware utilities.
+- [nishang](./windows/nishang.md) — Using PowerShell for Penetration Testing.
+- [ntds-decode](./windows/ntds-decode.md) — This application dumps LM and NTLM hashes from active accounts stored in an Active Directory database.
+- [orakelcrackert](./windows/orakelcrackert.md) — This tool can crack passwords which are encrypted using Oracle's latest SHA1 based password protection algorithm.
+- [osslsigncode](./windows/osslsigncode.md) — A small tool that implements part of the functionality of the Microsoft tool signtool.exe.
+- [pafish](./windows/pafish.md) — A demonstration tool that employs several techniques to detect sandboxes and analysis environments in the same way as malware families do.
+- [pe-bear](./windows/pe-bear.md) — A freeware reversing tool for PE files.
+- [pe-sieve](./windows/pe-sieve.md) — Scans a given process. Recognizes and dumps a variety of potentially malicious implants (replaced/injected PEs, shellcodes, hooks, in-memory patches).
+- [periscope](./windows/periscope.md) — A PE file inspection tool.
+- [petools](./windows/petools.md) — Portable executable (PE) manipulation toolkit.
+- [pextractor](./windows/pextractor.md) — A forensics tool that can extract all files from an executable file created by a joiner or similar.
+- [php-vulnerability-hunter](./windows/php-vulnerability-hunter.md) — An whitebox fuzz testing tool capable of detected several classes of vulnerabilities in PHP web applications.
+- [pingcastle](./windows/pingcastle.md) — Active Directory scanning tool.
+- [pmap](./windows/pmap.md) — Passively discover, scan, and fingerprint link-local peers by the background noise they generate (i.e. their broadcast and multicast traffic).
+- [pmdump](./windows/pmdump.md) — A tool that lets you dump the memory contents of a process to a file without stopping the process.
+- [powercloud](./windows/powercloud.md) — Deliver powershell payloads via DNS TXT via CloudFlare using PowerShell.
+- [powerlessshell](./windows/powerlessshell.md) — Run PowerShell command without invoking powershell.exe.
+- [powerops](./windows/powerops.md) — PowerShell Runspace Portable Post Exploitation Tool aimed at making Penetration Testing with PowerShell "easier".
+- [powershdll](./windows/powershdll.md) — Run PowerShell with rundll32. Bypass software restrictions.
+- [ppee](./windows/ppee.md) — A Professional PE file Explorer for reversers, malware researchers and those who want to statically inspect PE files in more details.
+- [pre2k](./windows/pre2k.md) — Query for existence of pre-windows 2000 computer objects which can be leveraged to gain a foothold in a target domain.
+- [promiscdetect](./windows/promiscdetect.md) — Checks if your network adapter(s) is running in promiscuous mode, which may be a sign that you have a sniffer running on your computer.
+- [pstoreview](./windows/pstoreview.md) — Lists the contents of the Protected Storage.
+- [pwdump](./windows/pwdump.md) — Extracts the binary SAM and SYSTEM file from the filesystem and then the hashes.
+- [pyadrecon](./windows/pyadrecon.md) — Gathers information about the Active Directory and generates a report which can provide a holistic picture of the current state of the target AD environment.
+- [pygpoabuse](./windows/pygpoabuse.md) — RCE via GPO scheduled tasks.
+- [python2-minidump](./windows/python2-minidump.md) — Python library to parse and read Microsoft minidump file format.
+- [python2-minikerberos](./windows/python2-minikerberos.md) — Kerberos manipulation library in pure Python.
+- [radiography](./windows/radiography.md) — A forensic tool which grabs as much information as possible from a Windows system.
+- [rasenum](./windows/rasenum.md) — A small program which lists the information for all of the entries in any phonebook file (.pbk).
+- [regreport](./windows/regreport.md) — Windows registry forensic analysis tool.
+- [regview](./windows/regview.md) — Open raw Windows NT 5 Registry files (Windows 2000 or higher).
+- [resourcehacker](./windows/resourcehacker.md) — Resource compiler and decompiler for Windows® applications.
+- [roadlib](./windows/roadlib.md) — Azure AD and O365 exploration framework.
+- [roadoidc](./windows/roadoidc.md) — Azure AD and O365 exploration framework.
+- [roadrecon](./windows/roadrecon.md) — Azure AD and O365 exploration framework.
+- [roadtx](./windows/roadtx.md) — Azure AD and O365 exploration framework.
+- [rpak](./windows/rpak.md) — A collection of tools that can be useful for doing attacks on routing protocols.
+- [rpcsniffer](./windows/rpcsniffer.md) — Sniffs WINDOWS RPC messages in a given RPC server process.
+- [rpctools](./windows/rpctools.md) — Contains three separate tools for obtaining information from a system that is running RPC services
+- [sccmhunter](./windows/sccmhunter.md) — Identifying, profiling, and attacking SCCM related assets in an Active Directory domain.
+- [setowner](./windows/setowner.md) — Allows you to set file ownership to any account, as long as you have the "Restore files and directories" user right.
+- [shad0w](./windows/shad0w.md) — A modular C2 framework designed to successfully operate on mature environments.
+- [shed](./windows/shed.md) — .NET runtime inspector.
+- [sigspotter](./windows/sigspotter.md) — A tool that search in your HD to find which publishers has been signed binaries in your PC.
+- [sipscan](./windows/sipscan.md) — A sip scanner.
+- [skype-dump](./windows/skype-dump.md) — This is a tool that demonstrates dumping MD5 password hashes from the configuration file in Skype.
+- [smbrelay](./windows/smbrelay.md) — SMB / HTTP to SMB replay attack toolkit.
+- [snitch](./windows/snitch.md) — Turn back the asterisks in password fields to plaintext passwords.
+- [snowman](./windows/snowman.md) — A native code to C/C++ decompiler, see the examples of generated code.
+- [snscan](./windows/snscan.md) — A Windows based SNMP detection utility that can quickly and accurately identify SNMP enabled devices on a network.
+- [spade](./windows/spade.md) — A general-purpose Internet utility package, with some extra features to help in tracing the source of spam and other forms of Internet harassment.
+- [sqldict](./windows/sqldict.md) — A dictionary attack tool for SQL Server.
+- [sqlping](./windows/sqlping.md) — SQL Server scanning tool that also checks for weak passwords using wordlists.
+- [sqlpowerinjector](./windows/sqlpowerinjector.md) — Application created in .Net 1.1 that helps the penetration tester to find and exploit SQL injections on a web page.
+- [streamfinder](./windows/streamfinder.md) — Searches for Alternate Data Streams (ADS).
+- [sub7](./windows/sub7.md) — A remote administration tool. No further comments ;-)
+- [superscan](./windows/superscan.md) — Powerful TCP port scanner, pinger, resolver.
+- [sysinternals-suite](./windows/sysinternals-suite.md) — Sysinternals tools suite.
+- [targetedkerberoast](./windows/targetedkerberoast.md) — Kerberoast with ACL abuse capabilities.
+- [uacme](./windows/uacme.md) — Defeating Windows User Account Control.
+- [unsecure](./windows/unsecure.md) — Bruteforces network login masks.
+- [upnp-pentest-toolkit](./windows/upnp-pentest-toolkit.md) — UPnP Pentest Toolkit for Windows.
+- [wce](./windows/wce.md) — A security tool to list logon sessions and add, change, list and delete associated credentials (ex.: LM/NT hashes, plaintext passwords and Kerberos tickets).
+- [wifichannelmonitor](./windows/wifichannelmonitor.md) — A utility for Windows that captures wifi traffic on the channel you choose, using Microsoft Network Monitor capture driver.
+- [windivert](./windows/windivert.md) — A user-mode packet capture-and-divert package for Windows.
+- [windows-binaries](./windows/windows-binaries.md) — A colleciton of pentesting Windows binaries.
+- [windows-privesc-check](./windows/windows-privesc-check.md) — Standalone Executable to Check for Simple Privilege Escalation Vectors on Windows Systems.
+- [windowsspyblocker](./windows/windowsspyblocker.md) — Block spying and tracking on Windows.
+- [winfo](./windows/winfo.md) — Uses null sessions to remotely try to retrieve lists of and information about user accounts, workstation/interdomain/server trust accounts, shares (also hidden), sessions, logged in users, and password/lockout policy, from Windows NT/2000/XP.
+- [winhex](./windows/winhex.md) — Hex Editor and Disk Editor.
+- [winpwn](./windows/winpwn.md) — Automation for internal Windows Penetrationtest / AD-Security.
+- [winrelay](./windows/winrelay.md) — A TCP/UDP forwarder/redirector that works with both IPv4 and IPv6.
+- [wpsweep](./windows/wpsweep.md) — A simple ping sweeper, that is, it pings a range of IP addresses and lists the ones that reply.
+- [wups](./windows/wups.md) — An UDP port scanner for Windows.
+- [x-scan](./windows/x-scan.md) — A general network vulnerabilities scanner for scanning network vulnerabilities for specific IP address scope or stand-alone computer by multi-threading method, plug-ins are supportable.
+- [x64dbg](./windows/x64dbg.md) — An open-source x64/x32 debugger for windows.
+
+## wireless
+
+Wi‑Fi auditing, lab access-point testing, wireless inventory, and defensive monitoring.
+
+- [airflood](./wireless/airflood.md) — A modification of aireplay that allows for a DoS of the AP. This program fills the table of clients of the AP with random MACs doing impossible new connections. [Tool in Spanish]
+- [airgeddon](./wireless/airgeddon.md) — Multi-use bash script for Linux systems to audit wireless networks.
+- [airopy](./wireless/airopy.md) — Get (wireless) clients and access points.
+- [airoscript](./wireless/airoscript.md) — A script to simplify the use of aircrack-ng tools.
+- [airpwn](./wireless/airpwn.md) — A tool for generic packet injection on an 802.11 network.
+- [aphopper](./wireless/aphopper.md) — A program that automatically hops between access points of different wireless networks.
+- [apnbf](./wireless/apnbf.md) — A small python script designed for enumerating valid APNs (Access Point Name) on a GTP-C speaking device.
+- [atear](./wireless/atear.md) — Wireless Hacking, WiFi Security, Vulnerability Analyzer, Pentestration.
+- [auto-eap](./wireless/auto-eap.md) — Automated Brute-Force Login Attacks Against EAP Networks.
+- [batman-adv](./wireless/batman-adv.md) — Batman kernel module, (included upstream since .38)
+- [batman-alfred](./wireless/batman-alfred.md) — Almighty Lightweight Fact Remote Exchange Daemon.
+- [beholder](./wireless/beholder.md) — A wireless intrusion detection tool that looks for anomalies in a wifi environment.
+- [berate_ap](./wireless/berate_ap.md) — Script for orchestrating mana rogue WiFi Access Points.
+- [boopsuite](./wireless/boopsuite.md) — A Suite of Tools written in Python for wireless auditing and security testing.
+- [create_ap](./wireless/create_ap.md) — A shell script to create a NATed/Bridged Software Access Point.
+- [eapeak](./wireless/eapeak.md) — Analysis Suite For EAP Enabled Wireless Networks.
+- [eaphammer](./wireless/eaphammer.md) — Targeted evil twin attacks against WPA2-Enterprise networks. Indirect wireless pivots using hostile portal attacks.
+- [fern-wifi-cracker](./wireless/fern-wifi-cracker.md) — WEP, WPA wifi cracker for wireless penetration testing.
+- [freewifi](./wireless/freewifi.md) — How to get free wifi.
+- [fuzzap](./wireless/fuzzap.md) — A python script for obfuscating wireless networks.
+- [g72x++](./wireless/g72x++.md) — Decoder for the g72x++ codec.
+- [gerix-wifi-cracker](./wireless/gerix-wifi-cracker.md) — A graphical user interface for aircrack-ng and pyrit.
+- [giskismet](./wireless/giskismet.md) — A program to visually represent the Kismet data in a flexible manner.
+- [hashcatch](./wireless/hashcatch.md) — Capture handshakes of nearby WiFi networks automatically.
+- [hoover](./wireless/hoover.md) — Wireless Probe Requests Sniffer.
+- [hostapd-mana](./wireless/hostapd-mana.md) — Modified hostapd for Wi-Fi attacks to create a rogue access point.
+- [hostapd-wpe](./wireless/hostapd-wpe.md) — Modified hostapd to facilitate AP impersonation attacks.
+- [hotspotter](./wireless/hotspotter.md) — Passively monitor the network for probe request frames to identify the preferred networks of Windows XP clients, and compare it to a supplied list of common hotspot network names.
+- [hwk](./wireless/hwk.md) — Collection of packet crafting and wireless network flooding tools
+- [jcrack](./wireless/jcrack.md) — A utility to create dictionary files that will crack the default passwords of select wireless gateways
+- [kismet-earth](./wireless/kismet-earth.md) — Various scripts to convert kismet logs to kml file to be used in Google Earth.
+- [kismet2earth](./wireless/kismet2earth.md) — A set of utilities that convert from Kismet logs to Google Earth .kml format.
+- [kismon](./wireless/kismon.md) — GUI client for kismet (wireless scanner/sniffer/monitor).
+- [mana](./wireless/mana.md) — A toolkit for rogue access point (evilAP) attacks first presented at Defcon 22.
+- [mdk3](./wireless/mdk3.md) — WLAN penetration tool.
+- [mfcuk](./wireless/mfcuk.md) — MIFARE Classic Universal toolKit.
+- [mitmap](./wireless/mitmap.md) — A python program to create a fake AP and sniff data.
+- [mousejack](./wireless/mousejack.md) — Wireless mouse/keyboard attack with replay/transmit poc.
+- [mtscan](./wireless/mtscan.md) — Mikrotik RouterOS wireless scanner.
+- [netattack](./wireless/netattack.md) — Python script to scan and attack wireless networks.
+- [nzyme](./wireless/nzyme.md) — WiFi defense system.
+- [pidense](./wireless/pidense.md) — Monitor illegal wireless network activities. (Fake Access Points)
+- [python-trackerjacker](./wireless/python-trackerjacker.md) — Finds and tracks wifi devices through raw 802.11 monitoring.
+- [rfidiot](./wireless/rfidiot.md) — An open source python library for exploring RFID devices.
+- [rfidtool](./wireless/rfidtool.md) — An open source tool to read / write rfid tags.
+- [roguehostapd](./wireless/roguehostapd.md) — Hostapd fork including Wi-Fi attacks and providing Python bindings with ctypes.
+- [rtl8814au-dkms-git](./wireless/rtl8814au-dkms-git.md) — RTL8814AU and RTL8813AU chipset driver with firmware v5.8.5.1.
+- [sniff-probe-req](./wireless/sniff-probe-req.md) — Wi-Fi Probe Requests Sniffer.
+- [spectools](./wireless/spectools.md) — Spectrum-Tools is a set of utilities for using the Wi-Spy USB spectrum analyzer hardware.
+- [timegen](./wireless/timegen.md) — This program generates a *.wav file to "send" an own time signal to DCF77 compatible devices.
+- [ubitack](./wireless/ubitack.md) — Tool, which automates some of the tasks you might need on a (wireless) penetration test or while you are on the go.
+- [waidps](./wireless/waidps.md) — Wireless Auditing, Intrusion Detection & Prevention System.
+- [wepbuster](./wireless/wepbuster.md) — script for automating aircrack-ng
+- [wi-feye](./wireless/wi-feye.md) — An automated wireless penetration testing tool written in python, its designed to simplify common attacks that can be performed on wifi networks so that they can be executed quickly and easily.
+- [wifi-pumpkin](./wireless/wifi-pumpkin.md) — Framework for Rogue Wi-Fi Access Point Attack.
+- [wifibroot](./wireless/wifibroot.md) — A WiFi Pentest Cracking tool for WPA/WPA2 (Handshake, PMKID, Cracking, EAPOL, Deauthentication).
+- [wificurse](./wireless/wificurse.md) — WiFi jamming tool.
+- [wifijammer](./wireless/wifijammer.md) — A python script to continuously jam all wifi clients within range.
+- [wifiphisher](./wireless/wifiphisher.md) — Fast automated phishing attacks against WPA networks.
+- [wifiscanmap](./wireless/wifiscanmap.md) — Another wifi mapping tool.
+- [wifitap](./wireless/wifitap.md) — WiFi injection tool through tun/tap device.
+- [wireless-ids](./wireless/wireless-ids.md) — Ability to detect suspicious activity such as (WEP/WPA/WPS) attack by sniffing the air for wireless packets.
+- [wirouter-keyrec](./wireless/wirouter-keyrec.md) — A platform independent software to recover the default WPA passphrases of the supported router models
+- [wlan2eth](./wireless/wlan2eth.md) — Re-writes 802.11 captures into standard Ethernet frames.
+- [wpa-bruteforcer](./wireless/wpa-bruteforcer.md) — Attacking WPA/WPA encrypted access point without client.
+- [wpa2-halfhandshake-crack](./wireless/wpa2-halfhandshake-crack.md) — A POC to show it is possible to capture enough of a handshake with a user from a fake AP to crack a WPA2 network without knowing the passphrase of the actual AP.
+- [wpsik](./wireless/wpsik.md) — WPS scan and pwn tool.
+- [zizzania](./wireless/zizzania.md) — Automated DeAuth attack.
+- [zykeys](./wireless/zykeys.md) — Demonstrates how default wireless settings are derived on some models of ZyXEL routers.
+
+## wordlist
+
+Creating or using wordlists for authorized audits, fuzzing, discovery, and training labs.
+
+- [assetnote-wordlists](./wordlist/assetnote-wordlists.md) — Assetnote generated wordlists.
+- [country-ip-blocks](./wordlist/country-ip-blocks.md) — CIDR country-level IP data, straight from the Regional Internet Registries, updated hourly.
+- [ldapwordlistharvester](./wordlist/ldapwordlistharvester.md) — Tool to generate wordlist from information present in LDAP, in order to crack passwords of domain accounts.
+- [seclists](./wordlist/seclists.md) — A collection of multiple types of lists used during security assessments.
+- [wdict](./wordlist/wdict.md) — Create dictionaries by scraping webpages or crawling local files.
+
+## uncategorized
+
+Uncategorized package from the source list; inspect package contents and documentation before use.
+
+- [blackarch-officials](./uncategorized/blackarch-officials.md) — Meta package for installing official security tools from the Arch Linux repository.
+- [didier-stevens-suite](./uncategorized/didier-stevens-suite.md) — Didier Stevens Suite.
+- [proxybroker2](./uncategorized/proxybroker2.md) — Proxy [Finder Checker
+- [python-search-engine-parser](./uncategorized/python-search-engine-parser.md) — Scrapes search engine pages for query titles, descriptions and links.

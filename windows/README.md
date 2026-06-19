@@ -1,0 +1,166 @@
+# windows
+
+**Tools in this category:** 158
+
+**Category use:** Windows administration, auditing, forensics, AD lab work, and reverse-engineering in Windows VMs.
+
+## Tools
+
+- [3proxy-win32](./3proxy-win32.md) — Tiny free proxy server.
+- [adape-script](./adape-script.md) — Active Directory Assessment and Privilege Escalation Script.
+- [adpeas](./adpeas.md) — winPEAS, but for Active Directory.
+- [agafi](./agafi.md) — A gadget finder and a ROP-Chainer tool for x86 platforms.
+- [analyzepesig](./analyzepesig.md) — Analyze digital signature of PE file.
+- [antiransom](./antiransom.md) — A tool capable of detect and stop attacks of Ransomware using honeypots.
+- [atstaketools](./atstaketools.md) — This is an archive of various @Stake tools that help perform vulnerability scanning and analysis, information gathering, password auditing, and forensics.
+- [backorifice](./backorifice.md) — A remote administration system which allows a user to control a computer across a tcpip connection using a simple console or GUI application.
+- [browselist](./browselist.md) — Retrieves the browse list ; the output list contains computer names, and the roles they play in the network.
+- [brute12](./brute12.md) — A tool designed for auditing the cryptography container security in PKCS12 format.
+- [brutus](./brutus.md) — One of the fastest, most flexible remote password crackers you can get your hands on.
+- [cachedump](./cachedump.md) — A tool that demonstrates how to recover cache entry information: username and hashed password (called MSCASH).
+- [certi](./certi.md) — Active Directory Certificate Services (ADCS) abuser. impacket copy of Certify.
+- [certipy](./certipy.md) — Active Directory Certificate Services enumeration and abuse.
+- [chrome-decode](./chrome-decode.md) — Chrome web browser decoder tool that demonstrates recovering passwords.
+- [chromensics](./chromensics.md) — A Google chrome forensics tool.
+- [conpass](./conpass.md) — Password spraying in AD environment avoing account locking.
+- [crackmapexec-pingcastle](./crackmapexec-pingcastle.md) — NetExec & CrackMapExec module that execute PingCastle on a remote machine.
+- [dark-dork-searcher](./dark-dork-searcher.md) — Dark-Dork Searcher.
+- [darkarmour](./darkarmour.md) — Store and execute an encrypted windows binary from inside memory, without a single bit touching disk.
+- [de4dot](./de4dot.md) — .NET deobfuscator and unpacker.
+- [de4dotex](./de4dotex.md) — .NET deobfuscator and unpacker.
+- [directorytraversalscan](./directorytraversalscan.md) — Detect directory traversal vulnerabilities in HTTP servers and web applications.
+- [dnspy](./dnspy.md) — .NET debugger and assembly editor.
+- [donpapi](./donpapi.md) — Dumping revelant information on compromised targets without AV detection with DPAPI.
+- [dotpeek](./dotpeek.md) — Free .NET Decompiler and Assembly Browser.
+- [dumpacl](./dumpacl.md) — Dumps NTs ACLs and audit settings.
+- [dumpusers](./dumpusers.md) — Dumps account names and information even though RestrictAnonymous has been set to 1.
+- [eraser](./eraser.md) — Windows tool which allows you to completely remove sensitive data from your hard drive by overwriting it several times with carefully selected patterns.
+- [etherchange](./etherchange.md) — Can change the Ethernet address of the network adapters in Windows.
+- [etherflood](./etherflood.md) — Floods a switched network with Ethernet frames with random hardware addresses.
+- [evil-winrm-py](./evil-winrm-py.md) — WinRM shell for Windows and Active Directory pentesting.
+- [extractbitlockerkeys](./extractbitlockerkeys.md) — Script to automatically extract the bitlocker recovery keys from a domain.
+- [filefuzz](./filefuzz.md) — A binary file fuzzer for Windows with several options.
+- [finduncommonshares](./finduncommonshares.md) — Python script allowing to quickly find uncommon shares in vast Windows Domains.
+- [fport](./fport.md) — Identify unknown open ports and their associated applications.
+- [fred](./fred.md) — Cross-platform M$ registry hive editor.
+- [fuzztalk](./fuzztalk.md) — An XML driven fuzz testing framework that emphasizes easy extensibility and reusability.
+- [gene](./gene.md) — Signature Engine for Windows Event Logs.
+- [ghostpack](./ghostpack.md) — Compiled Binaries for Ghostpack (.NET v4.8.1).
+- [gplist](./gplist.md) — Lists information about the applied Group Policies.
+- [gpowned](./gpowned.md) — GPOs manipulation tool.
+- [grabitall](./grabitall.md) — Performs traffic redirection by sending spoofed ARP replies.
+- [gsd](./gsd.md) — Gives you the Discretionary Access Control List of any Windows NT service you specify as a command line option.
+- [gtalk-decode](./gtalk-decode.md) — Google Talk decoder tool that demonstrates recovering passwords from accounts.
+- [handle](./handle.md) — An small application designed to analyze your system searching for global objects related to running process and display information for every found object, like tokens, semaphores, ports, files,..
+- [hekatomb](./hekatomb.md) — Extract and decrypt all credentials from all domain computers using DPAPI.
+- [hexodus](./hexodus.md) — Python framework project designed to enumerate and help in Active Directory attacks through Windows protocols like SMB, LDAP, WinRM and other.
+- [hollows-hunter](./hollows-hunter.md) — Scans all running processes. Recognizes and dumps a variety of potentially malicious implants (replaced/injected PEs, shellcodes, hooks, in-memory patches).
+- [hookanalyser](./hookanalyser.md) — A hook tool which can be potentially helpful in reversing applications and analyzing malware. It can hook to an API in a process and search for a pattern in memory or dump the buffer.
+- [httpbog](./httpbog.md) — A slow HTTP denial-of-service tool that works similarly to other attacks, but rather than leveraging request headers or POST data Bog consumes sockets by slowly reading responses.
+- [httprecon](./httprecon.md) — Tool for web server fingerprinting, also known as http fingerprinting.
+- [httprint-win32](./httprint-win32.md) — A web server fingerprinting tool (Windows binaries).
+- [hyperion-crypter](./hyperion-crypter.md) — A runtime encrypter for 32-bit and 64-bit portable executables.
+- [ikeprobe](./ikeprobe.md) — Determine vulnerabilities in the PSK implementation of the VPN server.
+- [intercepter-ng](./intercepter-ng.md) — A next generation sniffer including a lot of features: capturing passwords/hashes, sniffing chat messages, performing man-in-the-middle attacks, etc.
+- [inzider](./inzider.md) — This is a tool that lists processes in your Windows system and the ports each one listen on.
+- [juicy-potato](./juicy-potato.md) — A sugared version of RottenPotatoNG, with a bit of juice.
+- [justdecompile](./justdecompile.md) — The decompilation engine of JustDecompile.
+- [kekeo](./kekeo.md) — A little toolbox to play with Microsoft Kerberos in C.
+- [kerbcrack](./kerbcrack.md) — Kerberos sniffer and cracker for Windows.
+- [klogger](./klogger.md) — A keystroke logger for the NT-series of Windows.
+- [ldapmonitor](./ldapmonitor.md) — Monitor creation, deletion and changes to LDAP objects live during your pentest or system administration!
+- [lethalhta](./lethalhta.md) — Lateral Movement technique using DCOM and HTA.
+- [lolbas](./lolbas.md) — Living Off The Land Binaries And Scripts - (LOLBins and LOLScripts).
+- [malwareanalyser](./malwareanalyser.md) — A freeware tool to perform static and dynamic analysis on malware.
+- [mbenum](./mbenum.md) — Queries the master browser for whatever information it has registered.
+- [memimager](./memimager.md) — Performs a memory dump using NtSystemDebugControl.
+- [mimikatz](./mimikatz.md) — A little tool to play with Windows security.
+- [mingsweeper](./mingsweeper.md) — A network reconnaissance tool designed to facilitate large address space,high speed node discovery and identification.
+- [modifycerttemplate](./modifycerttemplate.md) — Aid operators in modifying ADCS certificate templates so that a created vulnerable state can be leveraged for privilege escalation.
+- [mrkaplan](./mrkaplan.md) — Help red teamers to stay hidden by clearing evidence of execution.
+- [mssqlrelay](./mssqlrelay.md) — Microsoft SQL Relay is an offensive tool for auditing and abusing Microsoft SQL (MSSQL) services.
+- [msvpwn](./msvpwn.md) — Bypass Windows' authentication via binary patching.
+- [nbname](./nbname.md) — Decodes and displays all NetBIOS name packets it receives on UDP port 137 and more!
+- [nbtenum](./nbtenum.md) — A utility for Windows that can be used to enumerate NetBIOS information from one host or a range of hosts.
+- [netbus](./netbus.md) — NetBus remote administration tool
+- [netexec-pingcastle](./netexec-pingcastle.md) — NetExec & CrackMapExec module that execute PingCastle on a remote machine.
+- [netripper](./netripper.md) — Smart traffic sniffing for penetration testers.
+- [netstumbler](./netstumbler.md) — Well-known wireless AP scanner and sniffer.
+- [nimrm](./nimrm.md) — Native WinRM shell client with NTLM, Kerberos, file transfers, in-memory operations, and multi-session support.
+- [nirsoft](./nirsoft.md) — Unique collection of small and useful freeware utilities.
+- [nishang](./nishang.md) — Using PowerShell for Penetration Testing.
+- [ntds-decode](./ntds-decode.md) — This application dumps LM and NTLM hashes from active accounts stored in an Active Directory database.
+- [orakelcrackert](./orakelcrackert.md) — This tool can crack passwords which are encrypted using Oracle's latest SHA1 based password protection algorithm.
+- [osslsigncode](./osslsigncode.md) — A small tool that implements part of the functionality of the Microsoft tool signtool.exe.
+- [pafish](./pafish.md) — A demonstration tool that employs several techniques to detect sandboxes and analysis environments in the same way as malware families do.
+- [pe-bear](./pe-bear.md) — A freeware reversing tool for PE files.
+- [pe-sieve](./pe-sieve.md) — Scans a given process. Recognizes and dumps a variety of potentially malicious implants (replaced/injected PEs, shellcodes, hooks, in-memory patches).
+- [periscope](./periscope.md) — A PE file inspection tool.
+- [petools](./petools.md) — Portable executable (PE) manipulation toolkit.
+- [pextractor](./pextractor.md) — A forensics tool that can extract all files from an executable file created by a joiner or similar.
+- [php-vulnerability-hunter](./php-vulnerability-hunter.md) — An whitebox fuzz testing tool capable of detected several classes of vulnerabilities in PHP web applications.
+- [pingcastle](./pingcastle.md) — Active Directory scanning tool.
+- [pmap](./pmap.md) — Passively discover, scan, and fingerprint link-local peers by the background noise they generate (i.e. their broadcast and multicast traffic).
+- [pmdump](./pmdump.md) — A tool that lets you dump the memory contents of a process to a file without stopping the process.
+- [powercloud](./powercloud.md) — Deliver powershell payloads via DNS TXT via CloudFlare using PowerShell.
+- [powerlessshell](./powerlessshell.md) — Run PowerShell command without invoking powershell.exe.
+- [powerops](./powerops.md) — PowerShell Runspace Portable Post Exploitation Tool aimed at making Penetration Testing with PowerShell "easier".
+- [powershdll](./powershdll.md) — Run PowerShell with rundll32. Bypass software restrictions.
+- [ppee](./ppee.md) — A Professional PE file Explorer for reversers, malware researchers and those who want to statically inspect PE files in more details.
+- [pre2k](./pre2k.md) — Query for existence of pre-windows 2000 computer objects which can be leveraged to gain a foothold in a target domain.
+- [promiscdetect](./promiscdetect.md) — Checks if your network adapter(s) is running in promiscuous mode, which may be a sign that you have a sniffer running on your computer.
+- [pstoreview](./pstoreview.md) — Lists the contents of the Protected Storage.
+- [pwdump](./pwdump.md) — Extracts the binary SAM and SYSTEM file from the filesystem and then the hashes.
+- [pyadrecon](./pyadrecon.md) — Gathers information about the Active Directory and generates a report which can provide a holistic picture of the current state of the target AD environment.
+- [pygpoabuse](./pygpoabuse.md) — RCE via GPO scheduled tasks.
+- [python2-minidump](./python2-minidump.md) — Python library to parse and read Microsoft minidump file format.
+- [python2-minikerberos](./python2-minikerberos.md) — Kerberos manipulation library in pure Python.
+- [radiography](./radiography.md) — A forensic tool which grabs as much information as possible from a Windows system.
+- [rasenum](./rasenum.md) — A small program which lists the information for all of the entries in any phonebook file (.pbk).
+- [regreport](./regreport.md) — Windows registry forensic analysis tool.
+- [regview](./regview.md) — Open raw Windows NT 5 Registry files (Windows 2000 or higher).
+- [resourcehacker](./resourcehacker.md) — Resource compiler and decompiler for Windows® applications.
+- [roadlib](./roadlib.md) — Azure AD and O365 exploration framework.
+- [roadoidc](./roadoidc.md) — Azure AD and O365 exploration framework.
+- [roadrecon](./roadrecon.md) — Azure AD and O365 exploration framework.
+- [roadtx](./roadtx.md) — Azure AD and O365 exploration framework.
+- [rpak](./rpak.md) — A collection of tools that can be useful for doing attacks on routing protocols.
+- [rpcsniffer](./rpcsniffer.md) — Sniffs WINDOWS RPC messages in a given RPC server process.
+- [rpctools](./rpctools.md) — Contains three separate tools for obtaining information from a system that is running RPC services
+- [sccmhunter](./sccmhunter.md) — Identifying, profiling, and attacking SCCM related assets in an Active Directory domain.
+- [setowner](./setowner.md) — Allows you to set file ownership to any account, as long as you have the "Restore files and directories" user right.
+- [shad0w](./shad0w.md) — A modular C2 framework designed to successfully operate on mature environments.
+- [shed](./shed.md) — .NET runtime inspector.
+- [sigspotter](./sigspotter.md) — A tool that search in your HD to find which publishers has been signed binaries in your PC.
+- [sipscan](./sipscan.md) — A sip scanner.
+- [skype-dump](./skype-dump.md) — This is a tool that demonstrates dumping MD5 password hashes from the configuration file in Skype.
+- [smbrelay](./smbrelay.md) — SMB / HTTP to SMB replay attack toolkit.
+- [snitch](./snitch.md) — Turn back the asterisks in password fields to plaintext passwords.
+- [snowman](./snowman.md) — A native code to C/C++ decompiler, see the examples of generated code.
+- [snscan](./snscan.md) — A Windows based SNMP detection utility that can quickly and accurately identify SNMP enabled devices on a network.
+- [spade](./spade.md) — A general-purpose Internet utility package, with some extra features to help in tracing the source of spam and other forms of Internet harassment.
+- [sqldict](./sqldict.md) — A dictionary attack tool for SQL Server.
+- [sqlping](./sqlping.md) — SQL Server scanning tool that also checks for weak passwords using wordlists.
+- [sqlpowerinjector](./sqlpowerinjector.md) — Application created in .Net 1.1 that helps the penetration tester to find and exploit SQL injections on a web page.
+- [streamfinder](./streamfinder.md) — Searches for Alternate Data Streams (ADS).
+- [sub7](./sub7.md) — A remote administration tool. No further comments ;-)
+- [superscan](./superscan.md) — Powerful TCP port scanner, pinger, resolver.
+- [sysinternals-suite](./sysinternals-suite.md) — Sysinternals tools suite.
+- [targetedkerberoast](./targetedkerberoast.md) — Kerberoast with ACL abuse capabilities.
+- [uacme](./uacme.md) — Defeating Windows User Account Control.
+- [unsecure](./unsecure.md) — Bruteforces network login masks.
+- [upnp-pentest-toolkit](./upnp-pentest-toolkit.md) — UPnP Pentest Toolkit for Windows.
+- [wce](./wce.md) — A security tool to list logon sessions and add, change, list and delete associated credentials (ex.: LM/NT hashes, plaintext passwords and Kerberos tickets).
+- [wifichannelmonitor](./wifichannelmonitor.md) — A utility for Windows that captures wifi traffic on the channel you choose, using Microsoft Network Monitor capture driver.
+- [windivert](./windivert.md) — A user-mode packet capture-and-divert package for Windows.
+- [windows-binaries](./windows-binaries.md) — A colleciton of pentesting Windows binaries.
+- [windows-privesc-check](./windows-privesc-check.md) — Standalone Executable to Check for Simple Privilege Escalation Vectors on Windows Systems.
+- [windowsspyblocker](./windowsspyblocker.md) — Block spying and tracking on Windows.
+- [winfo](./winfo.md) — Uses null sessions to remotely try to retrieve lists of and information about user accounts, workstation/interdomain/server trust accounts, shares (also hidden), sessions, logged in users, and password/lockout policy, from Windows NT/2000/XP.
+- [winhex](./winhex.md) — Hex Editor and Disk Editor.
+- [winpwn](./winpwn.md) — Automation for internal Windows Penetrationtest / AD-Security.
+- [winrelay](./winrelay.md) — A TCP/UDP forwarder/redirector that works with both IPv4 and IPv6.
+- [wpsweep](./wpsweep.md) — A simple ping sweeper, that is, it pings a range of IP addresses and lists the ones that reply.
+- [wups](./wups.md) — An UDP port scanner for Windows.
+- [x-scan](./x-scan.md) — A general network vulnerabilities scanner for scanning network vulnerabilities for specific IP address scope or stand-alone computer by multi-threading method, plug-ins are supportable.
+- [x64dbg](./x64dbg.md) — An open-source x64/x32 debugger for windows.

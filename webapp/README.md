@@ -1,0 +1,326 @@
+# webapp
+
+**Tools in this category:** 318
+
+**Category use:** Web application testing, API review, CMS checks, HTTP fuzzing, and application hardening.
+
+## Tools
+
+- [0d1n](./0d1n.md) — Web security tool to make fuzzing at HTTP inputs, made in C with libCurl.
+- [abuse-ssl-bypass-waf](./abuse-ssl-bypass-waf.md) — Bypassing WAF by abusing SSL/TLS Ciphers.
+- [adfind](./adfind.md) — Simple admin panel finder for php,js,cgi,asp and aspx admin panels.
+- [adminpagefinder](./adminpagefinder.md) — This python script looks for a large amount of possible administrative interfaces on a given site.
+- [albatar](./albatar.md) — A SQLi exploitation framework in Python.
+- [anti-xss](./anti-xss.md) — A XSS vulnerability scanner.
+- [arachni](./arachni.md) — A feature-full, modular, high-performance Ruby framework aimed towards helping penetration testers and administrators evaluate the security of web applications.
+- [astra](./astra.md) — Automated Security Testing For REST API's.
+- [atlas](./atlas.md) — Open source tool that can suggest sqlmap tampers to bypass WAF/IDS/IPS.
+- [badministration](./badministration.md) — A tool which interfaces with management or administration applications from an offensive standpoint.
+- [badsecrets](./badsecrets.md) — A library for detecting known secrets across many web frameworks.
+- [bbqsql](./bbqsql.md) — SQL injection exploit tool.
+- [bbscan](./bbscan.md) — A tiny Batch web vulnerability Scanner.
+- [bing-lfi-rfi](./bing-lfi-rfi.md) — Python script for searching Bing for sites that may have local and remote file inclusion vulnerabilities.
+- [blisqy](./blisqy.md) — Exploit Time-based blind-SQL injection in HTTP-Headers (MySQL/MariaDB).
+- [brutemap](./brutemap.md) — Penetration testing tool that automates testing accounts to the site's login page.
+- [brutexss](./brutexss.md) — Cross-Site Scripting Bruteforcer.
+- [bsqlbf](./bsqlbf.md) — Blind SQL Injection Brute Forcer.
+- [bsqlinjector](./bsqlinjector.md) — Blind SQL injection exploitation tool written in ruby.
+- [burpsuite](./burpsuite.md) — An integrated platform for attacking web applications (community edition) + SHELLING plugin.
+- [c5scan](./c5scan.md) — Vulnerability scanner and information gatherer for the Concrete5 CMS.
+- [caido-cli](./caido-cli.md) — Intercepting proxy to replay, inject, scan and fuzz HTTP requests.
+- [caido-desktop](./caido-desktop.md) — Intercepting proxy to replay, inject, scan and fuzz HTTP requests.
+- [cansina](./cansina.md) — A python-based Web Content Discovery Tool.
+- [cariddi](./cariddi.md) — Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, token.
+- [cent](./cent.md) — Community edition nuclei templates.
+- [chankro](./chankro.md) — Tool that generates a PHP capable of run a custom binary (like a meterpreter) or a bash script (p.e. reverse shell) bypassing disable_functions & open_basedir).
+- [cjexploiter](./cjexploiter.md) — Drag and Drop ClickJacking exploit development assistance tool.
+- [clairvoyance](./clairvoyance.md) — Obtain GraphQL API Schema even if the introspection is not enabled.
+- [cloudget](./cloudget.md) — Python script to bypass cloudflare from command line. Built upon cfscrape module.
+- [cms-few](./cms-few.md) — Joomla, Mambo, PHP-Nuke, and XOOPS CMS SQL injection vulnerability scanning tool written in Python.
+- [cmseek](./cmseek.md) — CMS (Content Management Systems) Detection and Exploitation suite.
+- [cmsfuzz](./cmsfuzz.md) — Fuzzer for wordpress, cold fusion, drupal, joomla, and phpnuke.
+- [cmsscan](./cmsscan.md) — CMS scanner to identify and find vulnerabilities for Wordpress, Drupal, Joomla, vBulletin.
+- [cmsscanner](./cmsscanner.md) — CMS Scanner Framework.
+- [comission](./comission.md) — WhiteBox CMS analysis.
+- [commentor](./commentor.md) — Extract all comments from the specified URL resource.
+- [commix](./commix.md) — Automated All-in-One OS Command Injection and Exploitation Tool.
+- [corscanner](./corscanner.md) — Fast CORS misconfiguration vulnerabilities scanner.
+- [corsy](./corsy.md) — CORS Misconfiguration Scanner.
+- [crabstick](./crabstick.md) — Automatic remote/local file inclusion vulnerability analysis and exploit tool.
+- [crackql](./crackql.md) — GraphQL password brute-force and fuzzing utility
+- [crawlic](./crawlic.md) — Web recon tool (find temporary files, parse robots.txt, search folders, google dorks and search domains hosted on same server).
+- [crlfuzz](./crlfuzz.md) — A fast tool to scan CRLF vulnerability written in Go.
+- [csrftester](./csrftester.md) — The OWASP CSRFTester Project attempts to give developers the ability to test their applications for CSRF flaws.
+- [cybercrowl](./cybercrowl.md) — A Python Web path scanner tool.
+- [dalfox](./dalfox.md) — Powerful open-source XSS scanner and utility focused on automation.
+- [darkdump](./darkdump.md) — Open Source Intelligence interface for Deep Web scraping.
+- [darkjumper](./darkjumper.md) — This tool will try to find every website that host at the same server at your target.
+- [darkscrape](./darkscrape.md) — OSINT Tool For Scraping Dark Websites.
+- [davscan](./davscan.md) — Fingerprints servers, finds exploits, scans WebDAV.
+- [dawnscanner](./dawnscanner.md) — A static analysis security scanner for ruby written web applications.
+- [dff-scanner](./dff-scanner.md) — Tool for finding path of predictable resource locations.
+- [dirble](./dirble.md) — Fast directory scanning and scraping tool.
+- [dirbuster-ng](./dirbuster-ng.md) — C CLI implementation of the Java dirbuster tool.
+- [dirhunt](./dirhunt.md) — Find web directories without bruteforce.
+- [dirscraper](./dirscraper.md) — OSINT Scanning tool which discovers and maps directories found in javascript files hosted on a website.
+- [dirsearch](./dirsearch.md) — HTTP(S) directory/file brute forcer.
+- [docem](./docem.md) — Uility to embed XXE and XSS payloads in docx,odt,pptx,etc (OXML_XEE on steroids).
+- [domi-owned](./domi-owned.md) — A tool used for compromising IBM/Lotus Domino servers.
+- [dontgo403](./dontgo403.md) — Tool to bypass 40X response codes..
+- [doork](./doork.md) — Passive Vulnerability Auditor.
+- [dorknet](./dorknet.md) — Selenium powered Python script to automate searching for vulnerable web apps.
+- [droopescan](./droopescan.md) — A plugin-based scanner that aids security researchers in identifying issues with several CMSs, mainly Drupal & Silverstripe.
+- [drupal-module-enum](./drupal-module-enum.md) — Enumerate on drupal modules.
+- [drupalscan](./drupalscan.md) — Simple non-intrusive Drupal scanner.
+- [drupwn](./drupwn.md) — Drupal enumeration & exploitation tool.
+- [dsfs](./dsfs.md) — A fully functional File inclusion vulnerability scanner (supporting GET and POST parameters) written in under 100 lines of code.
+- [dsjs](./dsjs.md) — A fully functional JavaScript library vulnerability scanner written in under 100 lines of code.
+- [dsss](./dsss.md) — A fully functional SQL injection vulnerability scanner (supporting GET and POST parameters) written in under 100 lines of code.
+- [dsstore-crawler](./dsstore-crawler.md) — A parser + crawler for .DS_Store files exposed publically.
+- [dsxs](./dsxs.md) — A fully functional Cross-site scripting vulnerability scanner (supporting GET and POST parameters) written in under 100 lines of code.
+- [eos](./eos.md) — Enemies Of Symfony - Debug mode Symfony looter.
+- [epicwebhoneypot](./epicwebhoneypot.md) — Tool which aims to lure attackers using various types of web vulnerability scanners by tricking them into believing that they have found a vulnerability on a host.
+- [evine](./evine.md) — Interactive CLI Web Crawler.
+- [extended-ssrf-search](./extended-ssrf-search.md) — Smart ssrf scanner using different methods like parameter brute forcing in post and get.
+- [eyewitness](./eyewitness.md) — Designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.
+- [fbht](./fbht.md) — A Facebook Hacking Tool
+- [fdsploit](./fdsploit.md) — A File Inclusion & Directory Traversal fuzzing, enumeration & exploitation tool.
+- [feroxbuster](./feroxbuster.md) — A fast, simple, recursive content discovery tool written in Rust.
+- [ffuf](./ffuf.md) — Fast web fuzzer written in Go.
+- [fhttp](./fhttp.md) — This is a framework for HTTP related attacks. It is written in Perl with a GTK interface, has a proxy for debugging and manipulation, proxy chaining, evasion rules, and more.
+- [filebuster](./filebuster.md) — An extremely fast and flexible web fuzzer.
+- [filegps](./filegps.md) — A tool that help you to guess how your shell was renamed after the server-side script of the file uploader saved it.
+- [fimap](./fimap.md) — A little tool for local and remote file inclusion auditing and exploitation.
+- [fingerprinter](./fingerprinter.md) — CMS/LMS/Library etc Versions Fingerprinter.
+- [flask-session-cookie-manager2](./flask-session-cookie-manager2.md) — Decode and encode Flask session cookie.
+- [flask-session-cookie-manager3](./flask-session-cookie-manager3.md) — Decode and encode Flask session cookie.
+- [fockcache](./fockcache.md) — Tool to make cache poisoning by trying X-Forwarded-Host and X-Forwarded-Scheme headers on web pages.
+- [fuxploider](./fuxploider.md) — Tool that automates the process of detecting and exploiting file upload forms flaws.
+- [gau](./gau.md) — Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl.
+- [ghauri](./ghauri.md) — An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws.
+- [ghost-py](./ghost-py.md) — Webkit based webclient (relies on PyQT).
+- [gitdump](./gitdump.md) — A pentesting tool that dumps the source code from .git even when the directory traversal is disabled.
+- [gittools](./gittools.md) — A repository with 3 tools for pwn'ing websites with .git repositories available'.
+- [golismero](./golismero.md) — Opensource web security testing framework.
+- [goop-dump](./goop-dump.md) — Tool to dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases.
+- [gopherus](./gopherus.md) — Tool generates gopher link for exploiting SSRF and gaining RCE in various servers.
+- [gospider](./gospider.md) — Fast web spider written in Go.
+- [gowitness](./gowitness.md) — A golang, web screenshot utility using Chrome Headless.
+- [grabber](./grabber.md) — A web application scanner. Basically it detects some kind of vulnerabilities in your website.
+- [graphql-path-enum](./graphql-path-enum.md) — Tool that lists the different ways of reaching a given type in a GraphQL schema.
+- [graphqlmap](./graphqlmap.md) — Scripting engine to interact with a graphql endpoint for pentesting purposes.
+- [graphw00f](./graphw00f.md) — GraphQL endpoint detection and engine fingerprinting.
+- [grpc-pentest-suite](./grpc-pentest-suite.md) — Set of tools for pentesting gRPC-Web Applications.
+- [h2csmuggler](./h2csmuggler.md) — HTTP Request Smuggling over HTTP/2 Cleartext (h2c).
+- [h2t](./h2t.md) — Scans a website and suggests security headers to apply.
+- [hakrawler](./hakrawler.md) — Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application.
+- [hetty](./hetty.md) — HTTP toolkit for security research. Aims to become an open source alternative to commercial software like Burp Suite Pro.
+- [hookshot](./hookshot.md) — Integrated web scraper and email account data breach comparison tool.
+- [htcap](./htcap.md) — A web application analysis tool for detecting communications between javascript and the server.
+- [http2smugl](./http2smugl.md) — Http2Smugl - Tool to detect and exploit HTTP request smuggling in cases it can be achieved via HTTP/2 -> HTTP/1.1 conversion.
+- [httpforge](./httpforge.md) — A set of shell tools that let you manipulate, send, receive, and analyze HTTP messages. These tools can be used to test, discover, and assert the security of Web servers, apps, and sites. An accompanying Python library is available for extensions.
+- [httpgrep](./httpgrep.md) — Async HTTP(S) scanner that greps response bodies and headers for strings or regex across hosts, ports, CIDR/ranges and TLS-cert vhosts.
+- [httppwnly](./httppwnly.md) — "Repeater" style XSS post-exploitation tool for mass browser control.
+- [httpx](./httpx.md) — A fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library.
+- [identywaf](./identywaf.md) — Blind WAF identification tool.
+- [injectus](./injectus.md) — CRLF and open redirect fuzzer.
+- [interactsh-client](./interactsh-client.md) — Open-Source Solution for Out of band Data Extraction.
+- [ipsourcebypass](./ipsourcebypass.md) — This Python script can be used to bypass IP source restrictions using HTTP headers.
+- [jaeles](./jaeles.md) — The Swiss Army knife for automated Web Application Testing.
+- [jaidam](./jaidam.md) — Penetration testing tool that would take as input a list of domain names, scan them, determine if wordpress or joomla platform was used and finally check them automatically, for web vulnerabilities using two well-known open source tools,
+- [jast](./jast.md) — Just Another Screenshot Tool.
+- [jboss-autopwn](./jboss-autopwn.md) — A JBoss script for obtaining remote shell access.
+- [jdeserialize](./jdeserialize.md) — A library that interprets Java serialized objects. It also comes with a command-line tool that can generate compilable class declarations, extract block data, and print textual representations of instance values.
+- [jexboss](./jexboss.md) — Jboss verify and Exploitation Tool.
+- [jira-scan](./jira-scan.md) — A simple remote scanner for Atlassian Jira
+- [jok3r](./jok3r.md) — Network and Web Pentest Framework.
+- [jomplug](./jomplug.md) — This php script fingerprints a given Joomla system and then uses Packet Storm's archive to check for bugs related to the installed components.
+- [jooforce](./jooforce.md) — A Joomla password brute force tester.
+- [joomlascan](./joomlascan.md) — Joomla scanner scans for known vulnerable remote file inclusion paths and files.
+- [joomlavs](./joomlavs.md) — A black box, Ruby powered, Joomla vulnerability scanner.
+- [joomscan](./joomscan.md) — Detects file inclusion, sql injection, command execution vulnerabilities of a target Joomla! web site.
+- [jshell](./jshell.md) — Get a JavaScript shell with XSS.
+- [jsonbee](./jsonbee.md) — A ready to use JSONP endpoints/payloads to help bypass content security policy (CSP).
+- [jsparser](./jsparser.md) — Parse javascript using Tornado and JSBeautifier to discover interesting enpoints.
+- [jsql-injection](./jsql-injection.md) — A Java application for automatic SQL database injection.
+- [jstillery](./jstillery.md) — Advanced JavaScript Deobfuscation via Partial Evaluation.
+- [juumla](./juumla.md) — Python tool created to identify Joomla version, scan for vulnerabilities and search for config files.
+- [jwt-hack](./jwt-hack.md) — A tool for hacking / security testing to JWT.
+- [kadimus](./kadimus.md) — LFI Scan & Exploit Tool.
+- [katana-pd](./katana-pd.md) — Crawling and spidering framework.
+- [kiterunner](./kiterunner.md) — Contextual Content Discovery Tool.
+- [konan](./konan.md) — Advanced Web Application Dir Scanner.
+- [kubolt](./kubolt.md) — Utility for scanning public kubernetes clusters.
+- [lfi-exploiter](./lfi-exploiter.md) — This perl script leverages /proc/self/environ to attempt getting code execution out of a local file inclusion vulnerability..
+- [lfi-fuzzploit](./lfi-fuzzploit.md) — A simple tool to help in the fuzzing for, finding, and exploiting of local file inclusion vulnerabilities in Linux-based PHP applications.
+- [lfi-image-helper](./lfi-image-helper.md) — A simple script to infect images with PHP Backdoors for local file inclusion attacks.
+- [lfi-sploiter](./lfi-sploiter.md) — This tool helps you exploit LFI (Local File Inclusion) vulnerabilities. Post discovery, simply pass the affected URL and vulnerable parameter to this tool. You can also use this tool to scan a URL for LFI vulnerabilities.
+- [lfifreak](./lfifreak.md) — A unique automated LFi Exploiter with Bind/Reverse Shells.
+- [lfimap](./lfimap.md) — Local file inclusion discovery and exploitation tool.
+- [liffy](./liffy.md) — A Local File Inclusion Exploitation tool.
+- [lightbulb](./lightbulb.md) — Python framework for auditing web applications firewalls.
+- [linkfinder](./linkfinder.md) — Discovers endpoint and their parameters in JavaScript files.
+- [list-urls](./list-urls.md) — Extracts links from webpage.
+- [log4j-bypass](./log4j-bypass.md) — Log4j web app tester that includes WAF bypasses.
+- [log4j-scan](./log4j-scan.md) — A fully automated, accurate, and extensive scanner for finding log4j RCE CVE-44228.
+- [lorsrf](./lorsrf.md) — Find the parameters that can be used to find SSRF or Out-of-band resource load.
+- [lulzbuster](./lulzbuster.md) — A multithreaded, very fast and smart HTTP(S) directory and file bruteforcer written in C on top of libcurl.
+- [magescan](./magescan.md) — Scan a Magento site for information.
+- [malicious-pdf](./malicious-pdf.md) — Generate a bunch of malicious pdf files with phone-home functionality.
+- [mando.me](./mando.me.md) — Web Command Injection Tool.
+- [maryam](./maryam.md) — OSINT Framework
+- [meg](./meg.md) — Fetch many paths for many hosts - without killing the hosts.
+- [metoscan](./metoscan.md) — Tool for scanning the HTTP methods supported by a webserver.
+- [monsoon](./monsoon.md) — A fast HTTP enumerator that allows you to execute a large number of HTTP requests.
+- [mooscan](./mooscan.md) — A scanner for Moodle LMS.
+- [morxtraversal](./morxtraversal.md) — Path Traversal checking tool.
+- [multiinjector](./multiinjector.md) — Automatic SQL injection utility using a lsit of URI addresses to test parameter manipulation.
+- [nosqli](./nosqli.md) — NoSQL scanner and injector.
+- [nosqlmap](./nosqlmap.md) — Automated Mongo database and NoSQL web application exploitation tool
+- [novahot](./novahot.md) — A webshell framework for penetration testers.
+- [okadminfinder](./okadminfinder.md) — Tool to find admin panels / admin login pages.
+- [onionsearch](./onionsearch.md) — Script that scrapes urls on different .onion search engines.
+- [opendoor](./opendoor.md) — OWASP WEB Directory Scanner.
+- [owasp-bywaf](./owasp-bywaf.md) — A web application penetration testing framework (WAPTF).
+- [owtf](./owtf.md) — The Offensive (Web) Testing Framework.
+- [pappy-proxy](./pappy-proxy.md) — An intercepting proxy for web application testing.
+- [parameth](./parameth.md) — This tool can be used to brute discover GET and POST parameters.
+- [parampampam](./parampampam.md) — This tool for brute discover GET and POST parameters.
+- [paramspider](./paramspider.md) — Mining URLs from dark corners of Web Archives for bug hunting/fuzzing/further probing.
+- [paros](./paros.md) — Java-based HTTP/HTTPS proxy for assessing web app vulnerabilities. Supports editing/viewing HTTP messages on-the-fly, spiders, client certificates, proxy-chaining, intelligent scanning for XSS and SQLi, etc.
+- [payloadmask](./payloadmask.md) — Web Payload list editor to use techniques to try bypass web application firewall.
+- [peepingtom](./peepingtom.md) — A tool to take screenshots of websites. Much like eyewitness.
+- [phantomcollect](./phantomcollect.md) — Lightweight stealth web data collection framework for ethical security testing.
+- [photon](./photon.md) — Incredibly fast crawler which extracts urls, emails, files, website accounts and much more.
+- [php-findsock-shell](./php-findsock-shell.md) — A Findsock Shell implementation in PHP + C.
+- [php-malware-finder](./php-malware-finder.md) — Detect potentially malicious PHP files.
+- [phpggc](./phpggc.md) — A library of PHP unserialize() payloads along with a tool to generate them, from command line or programmatically.
+- [phpsploit](./phpsploit.md) — Stealth post-exploitation framework.
+- [pinkerton](./pinkerton.md) — JavaScript file crawler and secret finder.
+- [pixload](./pixload.md) — Image Payload Creating/Injecting tools.
+- [plecost](./plecost.md) — Wordpress finger printer Tool.
+- [plown](./plown.md) — A security scanner for Plone CMS.
+- [poly](./poly.md) — Polymorphic webshells.
+- [pown](./pown.md) — Security testing and exploitation toolkit built on top of Node.js and NPM.
+- [ppfuzz](./ppfuzz.md) — A fast tool to scan client-side prototype pollution vulnerability written in Rust.
+- [ppmap](./ppmap.md) — A scanner/exploitation tool written in GO, which leverages client-side Prototype Pollution to XSS by exploiting known gadgets.
+- [proxenet](./proxenet.md) — THE REAL hacker friendly proxy for web application pentests.
+- [pwndrop](./pwndrop.md) — Self-deployable file hosting service for red teamers, allowing to easily upload and share payloads over HTTP and WebDAV.
+- [pyfiscan](./pyfiscan.md) — Free web-application vulnerability and version scanner.
+- [python-witnessme](./python-witnessme.md) — Web Inventory tool, takes screenshots of webpages using Pyppeteer.
+- [python2-jsbeautifier](./python2-jsbeautifier.md) — JavaScript unobfuscator and beautifier.
+- [rabid](./rabid.md) — A CLI tool and library allowing to simply decode all kind of BigIP cookies.
+- [rapidscan](./rapidscan.md) — The Multi-Tool Web Vulnerability Scanner.
+- [remot3d](./remot3d.md) — An Simple Exploit for PHP Language.
+- [restler-fuzzer](./restler-fuzzer.md) — First stateful REST API fuzzing tool for automatically testing cloud services through their REST APIs and finding security and reliability bugs in these services.
+- [riwifshell](./riwifshell.md) — Web backdoor - infector - explorer.
+- [rookie](./rookie.md) — Load cookies from your web browsers.
+- [ruler](./ruler.md) — A tool to abuse Exchange services.
+- [rustbuster](./rustbuster.md) — DirBuster for Rust.
+- [rww-attack](./rww-attack.md) — Performs a dictionary attack against a live Microsoft Windows Small Business Server.
+- [sawef](./sawef.md) — Send Attack Web Forms.
+- [scanqli](./scanqli.md) — SQLi scanner to detect SQL vulns.
+- [scrying](./scrying.md) — Collect RDP, web, and VNC screenshots smartly.
+- [second-order](./second-order.md) — Second-order subdomain takeover scanner.
+- [secretfinder](./secretfinder.md) — A python script to find sensitive data (apikeys, accesstoken, jwt,..) in javascript files.
+- [secscan](./secscan.md) — Web Apps Scanner and Much more utilities.
+- [see-surf](./see-surf.md) — Security tool to find potential vulnerable Server Side Request Forgery (SSRF) parameters.
+- [serializationdumper](./serializationdumper.md) — A tool to dump Java serialization streams in a more human readable form.
+- [shortfuzzy](./shortfuzzy.md) — A web fuzzing script written in perl.
+- [shuffledns](./shuffledns.md) — A wrapper around massdns written in GO.
+- [sitadel](./sitadel.md) — Web Application Security Scanner.
+- [sitediff](./sitediff.md) — Fingerprint a web app using local files as the fingerprint sources.
+- [sj](./sj.md) — A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition files.
+- [skipfish](./skipfish.md) — A fully automated, active web application security reconnaissance tool.
+- [smplshllctrlr](./smplshllctrlr.md) — PHP Command Injection exploitation tool.
+- [smuggler](./smuggler.md) — An HTTP Request Smuggling / Desync testing tool written in Python 3.
+- [smuggler-py](./smuggler-py.md) — Python tool used to test for HTTP Desync/Request Smuggling attacks.
+- [snallygaster](./snallygaster.md) — Tool to scan for secret files on HTTP servers.
+- [snuck](./snuck.md) — Automatic XSS filter bypass.
+- [sourcemapper](./sourcemapper.md) — Extract JavaScript source trees from Sourcemap files.
+- [spaf](./spaf.md) — Static Php Analysis and Fuzzer.
+- [sparty](./sparty.md) — An open source tool written in python to audit web applications using sharepoint and frontpage architecture.
+- [spiga](./spiga.md) — Configurable web resource scanner.
+- [spike-proxy](./spike-proxy.md) — A Proxy for detecting vulnerabilities in web applications
+- [spipscan](./spipscan.md) — SPIP (CMS) scanner for penetration testing purpose written in Python.
+- [sprayingtoolkit](./sprayingtoolkit.md) — Scripts to make password spraying attacks against Lync/S4B & OWA a lot quicker, less painful and more efficient.
+- [sqid](./sqid.md) — A SQL injection digger.
+- [ssrf-sheriff](./ssrf-sheriff.md) — A simple SSRF-testing sheriff written in Go.
+- [ssrfmap](./ssrfmap.md) — Automatic SSRF fuzzer and exploitation tool.
+- [stews](./stews.md) — A Security Tool for Enumerating WebSockets.
+- [striker](./striker.md) — An offensive information and vulnerability scanner.
+- [subjs](./subjs.md) — Fetches javascript file from a list of URLS or subdomains.
+- [themole](./themole.md) — Automatic SQL injection exploitation tool.
+- [tidos-framework](./tidos-framework.md) — Offensive Web Application Penetration Testing Framework.
+- [tinja](./tinja.md) — CLI tool for testing web pages for template injection vulnerabilities.
+- [torcrawl](./torcrawl.md) — Crawl and extract (regular or onion) webpages through TOR network.
+- [tplmap](./tplmap.md) — Automatic Server-Side Template Injection Detection and Exploitation Tool.
+- [typo3scan](./typo3scan.md) — Enumerate Typo3 version and extensions.
+- [uncaptcha2](./uncaptcha2.md) — Defeating the latest version of ReCaptcha with 91% accuracy.
+- [uppwn](./uppwn.md) — A script that automates detection of security flaws on websites' file upload systems'.
+- [urlcrazy](./urlcrazy.md) — Generate and test domain typos and variations to detect and perform typo squatting, URL hijacking, phishing, and corporate espionage.
+- [urldigger](./urldigger.md) — A python tool to extract URL addresses from different HOT sources and/or detect SPAM and malicious code
+- [urlextractor](./urlextractor.md) — Information gathering & website reconnaissance.
+- [urx](./urx.md) — Extracts URLs from OSINT Archives for Security Insights.
+- [vane](./vane.md) — A vulnerability scanner which checks the security of WordPress installations using a black box approach.
+- [vanguard](./vanguard.md) — A comprehensive web penetration testing tool written in Perl thatidentifies vulnerabilities in web applications.
+- [vbscan](./vbscan.md) — A black box vBulletin vulnerability scanner written in perl.
+- [vega](./vega.md) — An open source platform to test the security of web applications.
+- [vsvbp](./vsvbp.md) — Black box tool for Vulnerability detection in web applications.
+- [vulnerabilities-spider](./vulnerabilities-spider.md) — A tool to scan for web vulnerabilities.
+- [vulnx](./vulnx.md) — Cms and vulnerabilites detector & An intelligent bot auto shell injector.
+- [w13scan](./w13scan.md) — Passive Security Scanner.
+- [wafninja](./wafninja.md) — A tool which contains two functions to attack Web Application Firewalls.
+- [wafp](./wafp.md) — An easy to use Web Application Finger Printing tool written in ruby using sqlite3 databases for storing the fingerprints.
+- [wafpass](./wafpass.md) — Analysing parameters with all payloads' bypass methods, aiming at benchmarking security solutions like WAF.
+- [wapiti](./wapiti.md) — A vulnerability scanner for web applications.
+- [wascan](./wascan.md) — Web Application Scanner.
+- [waybackpack](./waybackpack.md) — Download the entire Wayback Machine archive for a given URL.
+- [wayparam](./wayparam.md) — Fetch and normalize parameterized URLs from the Wayback CDX API.
+- [wcvs](./wcvs.md) — Web Cache Vulnerability Scanner is a Go-based CLI tool for testing for web cache poisoning.
+- [web-soul](./web-soul.md) — A plugin based scanner for attacking and data mining web sites written in Perl.
+- [webanalyze](./webanalyze.md) — Port of Wappalyzer (uncovers technologies used on websites) in go to automate scanning.
+- [webborer](./webborer.md) — A directory-enumeration tool written in Go.
+- [webhandler](./webhandler.md) — A handler for PHP system functions & also an alternative 'netcat' handler.
+- [webkiller](./webkiller.md) — Tool Information Gathering Write By Python.
+- [webshells](./webshells.md) — Web Backdoors.
+- [webslayer](./webslayer.md) — A tool designed for brute forcing Web Applications.
+- [webtech](./webtech.md) — Identify technologies used on websites.
+- [webxploiter](./webxploiter.md) — An OWASP Top 10 Security scanner.
+- [weevely](./weevely.md) — Weaponized web shell.
+- [weirdaal](./weirdaal.md) — AWS Attack Library.
+- [whatwaf](./whatwaf.md) — Detect and bypass web application firewalls and protection systems.
+- [whichcdn](./whichcdn.md) — Tool to detect if a given website is protected by a Content Delivery Network.
+- [wig](./wig.md) — WebApp Information Gatherer.
+- [witchxtool](./witchxtool.md) — A perl script that consists of a port scanner, LFI scanner, MD5 bruteforcer, dork SQL injection scanner, fresh proxy scanner, and a dork LFI scanner.
+- [wordpress-exploit-framework](./wordpress-exploit-framework.md) — A Ruby framework for developing and using modules which aid in the penetration testing of WordPress powered websites and systems.
+- [wpforce](./wpforce.md) — Wordpress Attack Suite.
+- [wpintel](./wpintel.md) — Chrome extension designed for WordPress Vulnerability Scanning and information gathering.
+- [wpprobe](./wpprobe.md) — A fast WordPress plugin enumeration tool.
+- [wpseku](./wpseku.md) — Simple Wordpress Security Scanner.
+- [ws-attacker](./ws-attacker.md) — A modular framework for web services penetration testing.
+- [wssip](./wssip.md) — Application for capturing, modifying and sending custom WebSocket data from client to server and vice versa.
+- [wuzz](./wuzz.md) — Interactive cli tool for HTTP inspection.
+- [x8](./x8.md) — Hidden parameters discovery suite.
+- [xmlrpc-bruteforcer](./xmlrpc-bruteforcer.md) — An XMLRPC brute forcer targeting Wordpress written in Python 3.
+- [xspear](./xspear.md) — Powerful XSS Scanning and Parameter analysis tool&gem.
+- [xsrfprobe](./xsrfprobe.md) — The Prime Cross Site Request Forgery Audit and Exploitation Toolkit.
+- [xss-freak](./xss-freak.md) — An XSS scanner fully written in Python3 from scratch.
+- [xsscon](./xsscon.md) — Simple XSS Scanner tool.
+- [xsscrapy](./xsscrapy.md) — XSS spider - 66/66 wavsep XSS detected.
+- [xsser](./xsser.md) — A penetration testing tool for detecting and exploiting XSS vulnerabilites.
+- [xssless](./xssless.md) — An automated XSS payload generator written in python.
+- [xsspy](./xsspy.md) — Web Application XSS Scanner.
+- [xsss](./xsss.md) — A brute force cross site scripting scanner.
+- [xssscan](./xssscan.md) — Command line tool for detection of XSS attacks in URLs. Based on ModSecurity rules from OWASP CRS.
+- [xsssniper](./xsssniper.md) — An automatic XSS discovery tool
+- [xsstrike](./xsstrike.md) — An advanced XSS detection and exploitation suite.
+- [xssya](./xssya.md) — A Cross Site Scripting Scanner & Vulnerability Confirmation.
+- [xwaf](./xwaf.md) — Automatic WAF bypass tool.
+- [xxxpwn](./xxxpwn.md) — A tool Designed for blind optimized XPath 1 injection attacks.
+- [xxxpwn-smart](./xxxpwn-smart.md) — A fork of xxxpwn adding further optimizations and tweaks.
+- [yaaf](./yaaf.md) — Yet Another Admin Finder.
+- [yasuo](./yasuo.md) — A ruby script that scans for vulnerable & exploitable 3rd-party web applications on a network.
+- [yawast](./yawast.md) — The YAWAST Antecedent Web Application Security Toolkit.
+- [ycrawler](./ycrawler.md) — A web crawler that is useful for grabbing all user supplied input related to a given website and will save the output. It has proxy and log file support.
+- [ysoserial](./ysoserial.md) — A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization.

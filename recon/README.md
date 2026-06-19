@@ -1,0 +1,265 @@
+# recon
+
+**Tools in this category:** 257
+
+**Category use:** Asset discovery, OSINT, subdomain enumeration, certificate review, and scope mapping.
+
+## Tools
+
+- [activedirectoryenum](./activedirectoryenum.md) — Enumerate AD through LDAP.
+- [ad-ldap-enum](./ad-ldap-enum.md) — An LDAP based Active Directory user and group enumeration tool.
+- [ad-miner](./ad-miner.md) — Active Directory audit tool that extract data from Bloodhound to uncover security weaknesses and generate an HTML report
+- [adexplorersnapshot](./adexplorersnapshot.md) — AD Explorer snapshot parser.
+- [adidnsdump](./adidnsdump.md) — Active Directory Integrated DNS dumping by any authenticated user.
+- [aiodnsbrute](./aiodnsbrute.md) — Python 3 DNS asynchronous brute force utility.
+- [altdns](./altdns.md) — Generates permutations, alterations and mutations of subdomains and then resolves them.
+- [aquatone](./aquatone.md) — A Tool for Domain Flyovers.
+- [asn](./asn.md) — ASN, RPKI validity, BGP stats, IPv4v6, Prefix, URL, ASPath, Organization, IP reputation, IP geolocation, IP fingerprinting, Network recon, lookup API server, Web traceroute server.
+- [attacksurfacemapper](./attacksurfacemapper.md) — Tool that aims to automate the reconnaissance process.
+- [autosint](./autosint.md) — Tool to automate common osint tasks.
+- [aws-inventory](./aws-inventory.md) — Discover resources created in an AWS account.
+- [aztarna](./aztarna.md) — A footprinting tool for ROS and SROS systems.
+- [badkarma](./badkarma.md) — Advanced network reconnaissance toolkit.
+- [basedomainname](./basedomainname.md) — Tool that can extract TLD (Top Level Domain), domain extensions (Second Level Domain + TLD), domain name, and hostname from fully qualified domain names.
+- [bbot](./bbot.md) — Multipurpose scanner built to automate your Recon, Bug Bounties, and ASM.
+- [bfac](./bfac.md) — An automated tool that checks for backup artifacts that may disclose the web-application's source code.
+- [billcipher](./billcipher.md) — Information Gathering tool for a Website or IP address.
+- [bing-ip2hosts](./bing-ip2hosts.md) — Enumerates all hostnames which Bing has indexed for a specific IP address.
+- [bloodhound](./bloodhound.md) — Six Degrees of Domain Admin
+- [bloodhound-ce-python](./bloodhound-ce-python.md) — Python data collector for Bloodhound community edition (v5)
+- [bloodhound-python](./bloodhound-python.md) — Python data collector for Bloodhound legcacy (v4)
+- [bridgekeeper](./bridgekeeper.md) — Scrape employee names from search engine LinkedIn profiles. Convert employee names to a specified username format.
+- [catnthecanary](./catnthecanary.md) — An application to query the canary.pw data set for leaked data.
+- [ccrawldns](./ccrawldns.md) — Retrieves from the CommonCrawl data set unique subdomains for a given domain name.
+- [certgraph](./certgraph.md) — Crawl the graph of certificate Alternate Names.
+- [chaos-client](./chaos-client.md) — Go client to communicate with Chaos dataset API.
+- [chronoleak](./chronoleak.md) — ICMP Timestamp Remote Time Leaker.
+- [citadel](./citadel.md) — A library of OSINT tools.
+- [cloud-buster](./cloud-buster.md) — A tool that checks Cloudflare enabled sites for origin IP leaks.
+- [cloud_enum](./cloud_enum.md) — Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud.
+- [cloudfail](./cloudfail.md) — Utilize misconfigured DNS and old database records to find hidden IP's behind the CloudFlare network.
+- [cloudlist](./cloudlist.md) — A tool for listing Assets from multiple Cloud Providers.
+- [cloudmare](./cloudmare.md) — A simple tool to find origin servers of websites protected by CloudFlare with a misconfiguration DNS.
+- [cloudunflare](./cloudunflare.md) — Reconnaissance Real IP address for Cloudflare Bypass.
+- [cr3dov3r](./cr3dov3r.md) — Search for public leaks for email addresses + check creds against 16 websites.
+- [cutycapt](./cutycapt.md) — A Qt and WebEngine-based command-line utility that captures a web page's rendered output.
+- [datasploit](./datasploit.md) — Performs automated OSINT and more.
+- [dga-detection](./dga-detection.md) — DGA Domain Detection using Bigram Frequency Analysis.
+- [dns-parallel-prober](./dns-parallel-prober.md) — PoC for an adaptive parallelised DNS prober.
+- [dnsbrute](./dnsbrute.md) — Multi-theaded DNS bruteforcing, average speed 80 lookups/second with 40 threads.
+- [dnscobra](./dnscobra.md) — DNS subdomain bruteforcing tool with Tor support through torsocks.
+- [dnsenum](./dnsenum.md) — Script that enumerates DNS information from a domain, attempts zone transfers, performs a brute force dictionary style attack, and then performs reverse look-ups on the results.
+- [dnsgrep](./dnsgrep.md) — A utility for quickly searching presorted DNS names.
+- [dnsprobe](./dnsprobe.md) — Allows you to perform multiple dns queries of your choice with a list of user supplied resolvers.
+- [dnsrecon](./dnsrecon.md) — Python script for enumeration of hosts, subdomains and emails from a given domain using google.
+- [dnssearch](./dnssearch.md) — A subdomain enumeration tool.
+- [dnsspider](./dnsspider.md) — A fast multithreaded bruteforcer of subdomains that leverages a wordlist and/or character permutation.
+- [dnstracer](./dnstracer.md) — Determines where a given DNS server gets its information from, and follows the chain of DNS servers
+- [dnswalk](./dnswalk.md) — A DNS debugger and zone-transfer utility.
+- [dnsx](./dnsx.md) — Fast and multi-purpose DNS toolkit allow to run multiple DNS queries of your choice with a list of user-supplied resolvers.
+- [domain-analyzer](./domain-analyzer.md) — Finds all the security information for a given domain name.
+- [domain-stats](./domain-stats.md) — A web API to deliver domain information from whois and alexa.
+- [domained](./domained.md) — Multi Tool Subdomain Enumeration.
+- [domainhunter](./domainhunter.md) — Checks expired domains for categorization/reputation and Archive.org history to determine good candidates for phishing and C2 domain names.
+- [dradis-ce](./dradis-ce.md) — An open source framework to enable effective information sharing.
+- [elevate](./elevate.md) — Horizontal domain discovery tool you can use to discover other domains owned by a given company.
+- [enum4linux](./enum4linux.md) — A tool for enumerating information from Windows and Samba systems.
+- [enum4linux-ng](./enum4linux-ng.md) — A next generation version of enum4linux.
+- [enumerate-iam](./enumerate-iam.md) — Enumerate the permissions associated with an AWS credential set.
+- [enumerid](./enumerid.md) — Enumerate RIDs using pure Python.
+- [exitmap](./exitmap.md) — A fast and modular scanner for Tor exit relays.
+- [facebot](./facebot.md) — A facebook profile and reconnaissance system.
+- [fav-up](./fav-up.md) — IP lookup by favicon using Shodan.
+- [favfreak](./favfreak.md) — Weaponizing favicon.ico for BugBounties , OSINT and what not.
+- [fbid](./fbid.md) — Show info about the author by facebook photo url.
+- [fierce](./fierce.md) — A DNS reconnaissance tool for locating non-contiguous IP space.
+- [finalrecon](./finalrecon.md) — OSINT Tool for All-In-One Web Reconnaissance.
+- [flashlight](./flashlight.md) — Automated Information Gathering Tool for Penetration Testers.
+- [forager](./forager.md) — Multithreaded threat Intelligence gathering utilizing.
+- [gasmask](./gasmask.md) — All in one Information gathering tool - OSINT.
+- [gatecrasher](./gatecrasher.md) — Network auditing and analysis tool developed in Python.
+- [geoedge](./geoedge.md) — This little tools is designed to get geolocalization information of a host, it get the information from two sources (maxmind and geoiptool).
+- [gh-dork](./gh-dork.md) — Github dorking tool.
+- [ghunt](./ghunt.md) — An offensive OSINT Google framework.
+- [git-hound](./git-hound.md) — Pinpoints exposed API keys on GitHub. A batch-catching, pattern-matching, patch-attacking secret snatcher.
+- [git-wild-hunt](./git-wild-hunt.md) — A tool to hunt for credentials in github wild AKA git*hunt.
+- [gitdorker](./gitdorker.md) — Python program to scrape secrets from GitHub through usage of a large repository of dorks.
+- [gitem](./gitem.md) — A Github organization reconnaissance tool.
+- [gitgraber](./gitgraber.md) — Monitor GitHub to search and find sensitive data in real time for different online services.
+- [githack](./githack.md) — A `.git` folder disclosure exploit.
+- [github-dorks](./github-dorks.md) — Collection of github dorks and helper tool to automate the process of checking dorks.
+- [github-subdomains](./github-subdomains.md) — Find subdomains on GitHub.
+- [gitmails](./gitmails.md) — An information gathering tool to collect git commit emails in version control host services.
+- [gitminer](./gitminer.md) — Tool for advanced mining for content on Github.
+- [gitrecon](./gitrecon.md) — OSINT tool to get information from a Github and Gitlab profile and find user's email addresses leaked on commits.
+- [go-windapsearch](./go-windapsearch.md) — Utility to enumerate users, groups and computers from a Windows domain through LDAP queries.
+- [goddi](./goddi.md) — Dumps Active Directory domain information.
+- [goodork](./goodork.md) — A python script designed to allow you to leverage the power of google dorking straight from the comfort of your command line.
+- [goog-mail](./goog-mail.md) — Enumerate domain emails from google.
+- [googlesub](./googlesub.md) — A python script to find domains by using google dorks.
+- [goohak](./goohak.md) — Automatically Launch Google Hacking Queries Against A Target Domain.
+- [goop](./goop.md) — Perform google searches without being blocked by the CAPTCHA or hitting any rate limits.
+- [gosint](./gosint.md) — OSINT framework in Go.
+- [grabing](./grabing.md) — Counts all the hostnames for an IP adress
+- [graphinder](./graphinder.md) — GraphQL endpoints finder using subdomain enumeration, scripts analysis and bruteforce.
+- [gwtenum](./gwtenum.md) — Enumeration of GWT-RCP method calls.
+- [h8mail](./h8mail.md) — Email OSINT and password breach hunting.
+- [hakrevdns](./hakrevdns.md) — Small, fast tool for performing reverse DNS lookups en masse.
+- [halcyon](./halcyon.md) — A repository crawler that runs checksums for static files found within a given git repository.
+- [hasere](./hasere.md) — Discover the vhosts using google and bing.
+- [hatcloud](./hatcloud.md) — Bypass CloudFlare with Ruby.
+- [hoper](./hoper.md) — Trace URL's jumps across the rel links to obtain the last URL.
+- [hosthunter](./hosthunter.md) — A recon tool for discovering hostnames using OSINT techniques.
+- [howmanypeoplearearound](./howmanypeoplearearound.md) — Count the number of people around you by monitoring wifi signals.
+- [id-entify](./id-entify.md) — Search for information related to a domain: Emails - IP addresses - Domains - Information on WEB technology - Type of Firewall - NS and MX records.
+- [idswakeup](./idswakeup.md) — A collection of tools that allows to test network intrusion detection systems.
+- [infoga](./infoga.md) — Tool for gathering e-mail accounts information from different public sources (search engines, pgp key servers).
+- [inquisitor](./inquisitor.md) — OSINT Gathering Tool for Companies and Organizations.
+- [intelplot](./intelplot.md) — OSINT Tool to Mark Points on Offline Map.
+- [intrace](./intrace.md) — Traceroute-like application piggybacking on existing TCP connections.
+- [ip-tracer](./ip-tracer.md) — Track and retrieve any ip address information.
+- [ip2clue](./ip2clue.md) — A small memory/CPU footprint daemon to lookup country (and other info) based on IP (v4 and v6).
+- [iptodomain](./iptodomain.md) — This tool extract domains from IP address based in the information saved in virustotal.
+- [ipv666](./ipv666.md) — Golang IPv6 address enumeration.
+- [ircsnapshot](./ircsnapshot.md) — Tool to gather information from IRC servers.
+- [isr-form](./isr-form.md) — Simple html parsing tool that extracts all form related information and generates reports of the data. Allows for quick analyzing of data.
+- [ivre](./ivre.md) — Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,...
+- [ivre-docs](./ivre-docs.md) — Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (documentation)
+- [ivre-web](./ivre-web.md) — Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (web application)
+- [jackdaw](./jackdaw.md) — Collect all information in your domain, show you graphs on how domain objects interact with each-other and how to exploit these interactions.
+- [jsearch](./jsearch.md) — Simple script that grep infos from javascript files.
+- [kacak](./kacak.md) — Tools for penetration testers that can enumerate which users logged on windows system.
+- [kamerka](./kamerka.md) — Build interactive map of cameras from Shodan.
+- [keye](./keye.md) — Recon tool detecting changes of websites based on content-length differences.
+- [lanmap2](./lanmap2.md) — Passive network mapping tool.
+- [lbd](./lbd.md) — Load Balancing detector,
+- [ldapenum](./ldapenum.md) — Enumerate domain controllers using LDAP.
+- [ldeep](./ldeep.md) — In-depth ldap enumeration utility.
+- [legion](./legion.md) — Automatic Enumeration Tool based in Open Source tools.
+- [lft](./lft.md) — A layer four traceroute implementing numerous other features.
+- [lhf](./lhf.md) — A modular recon tool for pentesting.
+- [linux-exploit-suggester](./linux-exploit-suggester.md) — A Perl script that tries to suggest exploits based OS version number.
+- [linux-exploit-suggester.sh](./linux-exploit-suggester.sh.md) — Linux privilege escalation auditing tool.
+- [littlebrother](./littlebrother.md) — OSINT tool to get informations on French, Belgian and Swizerland people.
+- [loot](./loot.md) — Sensitive information extraction tool.
+- [machinae](./machinae.md) — A tool for collecting intelligence from public sites/feeds about various security-related pieces of data.
+- [mail-crawl](./mail-crawl.md) — Tool to harvest emails from website.
+- [massbleed](./massbleed.md) — SSL Vulnerability Scanner.
+- [mdns-recon](./mdns-recon.md) — An mDNS recon tool written in Python.
+- [metabigor](./metabigor.md) — Intelligence Tool but without API key.
+- [metafinder](./metafinder.md) — Search for documents in a domain through Search Engines (Google, Bing and Baidu). The objective is to extract metadata.
+- [metagoofil](./metagoofil.md) — An information gathering tool designed for extracting metadata of public documents.
+- [mildew](./mildew.md) — Dotmil subdomain discovery tool that scrapes domains from official DoD website directories and certificate transparency logs.
+- [missidentify](./missidentify.md) — A program to find Win32 applications.
+- [monocle](./monocle.md) — A local network host discovery tool. In passive mode, it will listen for ARP request and reply packets. In active mode, it will send ARP requests to the specific IP range. The results are a list of IP and MAC addresses present on the local network.
+- [nasnum](./nasnum.md) — Script to enumerate network attached storages.
+- [necromant](./necromant.md) — Python Script that search unused Virtual Hosts in Web Servers.
+- [neglected](./neglected.md) — Facebook CDN Photo Resolver.
+- [netdiscover](./netdiscover.md) — An active/passive address reconnaissance tool, mainly developed for those wireless networks without dhcp server, when you are wardriving. It can be also used on hub/switched networks.
+- [netkit-bsd-finger](./netkit-bsd-finger.md) — BSD-finger ported to Linux.
+- [netkit-rusers](./netkit-rusers.md) — Logged in users; Displays who is logged in to machines on local network.
+- [netkit-rwho](./netkit-rwho.md) — Remote who client and server (with Debian patches).
+- [netmask](./netmask.md) — Helps determine network masks
+- [netscout](./netscout.md) — OSINT tool that finds domains, subdomains, directories, endpoints and files.
+- [nohidy](./nohidy.md) — The system admins best friend, multi platform auditing tool.
+- [nsec3map](./nsec3map.md) — A tool to enumerate the resource records of a DNS zone using its DNSSEC NSEC or NSEC3 chain.
+- [nsec3walker](./nsec3walker.md) — Enumerate domain names using DNSSEC.
+- [ntp-ip-enum](./ntp-ip-enum.md) — Script to pull addresses from a NTP server using the monlist command. Can also output Maltego resultset.
+- [nullinux](./nullinux.md) — Tool that can be used to enumerate OS information, domain information, shares, directories, and users through SMB null sessions.
+- [omnibus](./omnibus.md) — OSINT tool for intelligence collection, research and artifact management.
+- [onioff](./onioff.md) — An onion url inspector for inspecting deep web links.
+- [osint-spy](./osint-spy.md) — Performs OSINT scan on email/domain/ip_address/organization.
+- [osinterator](./osinterator.md) — Open Source Toolkit for Open Source Intelligence Gathering.
+- [osintgram](./osintgram.md) — OSINT tool offering an interactive shell to perform analysis on Instagram account of any users by its nickname.
+- [parsero](./parsero.md) — A robots.txt audit tool.
+- [pastemonitor](./pastemonitor.md) — Scrape Pastebin API to collect daily pastes, setup a wordlist and be alerted by email when you have a match..
+- [pdfgrab](./pdfgrab.md) — Tool for searching pdfs withthin google and extracting pdf metadata.
+- [pius-pi](./pius-pi.md) — Organizational asset discovery tool with 20+ plugins covering certificate transparency, passive DNS, and all 5 Regional Internet Registries.
+- [pmapper](./pmapper.md) — A tool for quickly evaluating IAM permissions in AWS.
+- [postenum](./postenum.md) — Clean, nice and easy tool for basic/advanced privilege escalation techniques.
+- [protosint](./protosint.md) — Python script that helps you investigate Protonmail accounts and ProtonVPN IP addresses.
+- [punter](./punter.md) — Hunt domain names using DNSDumpster, WHOIS, Reverse WHOIS, Shodan, Crimeflare.
+- [puredns](./puredns.md) — Fast domain resolver and subdomain bruteforcing with accurate wildcard filtering.
+- [pwned](./pwned.md) — A command-line tool for querying the 'Have I been pwned?' service.
+- [pwned-search](./pwned-search.md) — Pwned Password API lookup.
+- [pwnedornot](./pwnedornot.md) — Tool to find passwords for compromised email addresses.
+- [pymeta](./pymeta.md) — Auto Scanning to SSL Vulnerability.
+- [python-api-dnsdumpster](./python-api-dnsdumpster.md) — Unofficial Python API for http://dnsdumpster.com/.
+- [python-ivre](./python-ivre.md) — Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)
+- [python2-api-dnsdumpster](./python2-api-dnsdumpster.md) — Unofficial Python API for http://dnsdumpster.com/.
+- [python2-ivre](./python2-ivre.md) — Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (library)
+- [python2-shodan](./python2-shodan.md) — Python library and command-line utility for Shodan (https://developer.shodan.io).
+- [quickrecon](./quickrecon.md) — A python script for simple information gathering. It attempts to find subdomain names, perform zone transfers and gathers emails from Google and Bing.
+- [raccoon](./raccoon.md) — A high performance offensive security tool for reconnaissance and vulnerability scanning.
+- [rdwatool](./rdwatool.md) — A python script to extract information from a Microsoft Remote Desktop Web Access (RDWA) application.
+- [recon-ng](./recon-ng.md) — A full-featured Web Reconnaissance framework written in Python.
+- [reconnoitre](./reconnoitre.md) — A security tool for multithreaded information gathering and service enumeration.
+- [reconscan](./reconscan.md) — Network reconnaissance and vulnerability assessment tools.
+- [recsech](./recsech.md) — Tool for doing Footprinting and Reconnaissance on the target web.
+- [red-hawk](./red-hawk.md) — All in one tool for Information Gathering, Vulnerability Scanning and Crawling.
+- [reverseip](./reverseip.md) — Ruby based reverse IP-lookup tool.
+- [revipd](./revipd.md) — A simple reverse IP domain scanner.
+- [ridrelay](./ridrelay.md) — Enumerate usernames on a domain where you have no creds by using SMB Relay with low priv.
+- [ripdc](./ripdc.md) — A script which maps domains related to an given ip address or domainname.
+- [rita](./rita.md) — Real Intelligence Threat Analytics.
+- [rusthound-ce](./rusthound-ce.md) — Active Directory data collector for BloodHound community edition (v5).
+- [s3enum](./s3enum.md) — Amazon S3 bucket enumeration.
+- [scavenger](./scavenger.md) — Crawler (Bot) searching for credential leaks on different paste sites.
+- [screamer](./screamer.md) — Fast Subnet Discovery.
+- [sctpscan](./sctpscan.md) — A network scanner for discovery and security.
+- [scylla](./scylla.md) — Find Advanced Information on a Username, Website, Phone Number, etc.
+- [seekr](./seekr.md) — A multi-purpose OSINT toolkit with a neat web-interface.
+- [server-status-pwn](./server-status-pwn.md) — A script that monitors and extracts requested URLs and clients connected to the service by exploiting publicly accessible Apache server-status instances.
+- [shard](./shard.md) — A command line tool to detect shared passwords.
+- [shhgit](./shhgit.md) — Find committed secrets and sensitive files across GitHub, Gists, GitLab and BitBucket or your local repositories in real time.
+- [shodanhat](./shodanhat.md) — Search for hosts info with shodan.
+- [shosubgo](./shosubgo.md) — Small tool to Grab subdomains using Shodan API.
+- [simplyemail](./simplyemail.md) — Email recon made fast and easy, with a framework to build on CyberSyndicates.
+- [sipi](./sipi.md) — Simple IP Information Tools for Reputation Data Analysis.
+- [smbcrunch](./smbcrunch.md) — 3 tools that work together to simplify reconnaissance of Windows File Shares.
+- [smtp-user-enum](./smtp-user-enum.md) — Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
+- [snscrape](./snscrape.md) — A social networking service scraper in Python.
+- [socialscan](./socialscan.md) — Check email address and username availability on online platforms.
+- [spfmap](./spfmap.md) — A program to map out SPF and DKIM records for a large number of domains.
+- [spiderfoot](./spiderfoot.md) — The Open Source Footprinting Tool.
+- [spoofcheck](./spoofcheck.md) — Simple script that checks a domain for email protections.
+- [spyse](./spyse.md) — Python API wrapper and command-line client for the tools hosted on spyse.com.
+- [sr](./sr.md) — Perform subdomain enumeration, endpoint recognition, and more.
+- [ssl-hostname-resolver](./ssl-hostname-resolver.md) — CN (Common Name) grabber on X.509 Certificates over HTTPS.
+- [stardox](./stardox.md) — Github stargazers information gathering tool.
+- [subdomainer](./subdomainer.md) — A tool designed for obtaining subdomain names from public sources.
+- [subfinder](./subfinder.md) — Modular subdomain discovery tool that can discover massive amounts of valid subdomains for any target.
+- [sublert](./sublert.md) — A security and reconnaissance tool which leverages certificate transparency to automatically monitor new subdomains deployed by specific organizations and issued TLS/SSL certificate.
+- [sublist3r](./sublist3r.md) — A Fast subdomains enumeration tool for penetration testers.
+- [subscraper](./subscraper.md) — Tool that performs subdomain enumeration through various techniques.
+- [svn-extractor](./svn-extractor.md) — A simple script to extract all web resources by means of .SVN folder exposed over network.
+- [swamp](./swamp.md) — An OSINT tool for discovering associated sites through Google Analytics Tracking IDs.
+- [syborg](./syborg.md) — Recursive DNS Subdomain Enumerator with dead-end avoidance system.
+- [teamsuserenum](./teamsuserenum.md) — User enumeration with Microsoft Teams API
+- [thedorkbox](./thedorkbox.md) — Comprehensive collection of Google Dorks & OSINT techniques to find Confidential Data.
+- [theharvester](./theharvester.md) — E-mails, subdomains and names Harvester - OSINT
+- [tilt](./tilt.md) — An easy and simple tool implemented in Python for ip reconnaissance, with reverse ip lookup.
+- [tinfoleak](./tinfoleak.md) — Get detailed information about a Twitter user activity.
+- [tinfoleak2](./tinfoleak2.md) — The most complete open-source tool for Twitter intelligence analysis.
+- [treasure](./treasure.md) — Hunt for sensitive information through githubs code search.
+- [trusttrees](./trusttrees.md) — A Tool for DNS Delegation Trust Graphing.
+- [twofi](./twofi.md) — Twitter Words of Interest.
+- [ubiquiti-probing](./ubiquiti-probing.md) — A Ubiquiti device discovery tool.
+- [udork](./udork.md) — Bash script that uses advanced Google search techniques to obtain sensitive information in files or directories, find IoT devices, detect versions of web applications.
+- [uhoh365](./uhoh365.md) — Script to enumerate Office 365 users without performing login attempts
+- [uncover](./uncover.md) — Discover exposed hosts on the internet using multiple search engines.
+- [userrecon](./userrecon.md) — Find usernames across over 75 social networks.
+- [vbrute](./vbrute.md) — Virtual hosts brute forcer.
+- [vpnpivot](./vpnpivot.md) — Explore the network using this tool.
+- [waldo](./waldo.md) — A lightweight and multithreaded directory and subdomain bruteforcer implemented in Python.
+- [waybackurls](./waybackurls.md) — Fetch all the URLs that the Wayback Machine knows about for a domain.
+- [waymore](./waymore.md) — Find way more from the Wayback Machine, Common Crawl, Alien Vault OTX, URLScan & VirusTotal.
+- [websearch](./websearch.md) — Search vhost names given a host range. Powered by Bing..
+- [weebdns](./weebdns.md) — DNS Enumeration with Asynchronicity.
+- [whatweb](./whatweb.md) — Next generation web scanner that identifies what websites are running.
+- [whoxyrm](./whoxyrm.md) — A reverse whois tool based on Whoxy API.
+- [windapsearch](./windapsearch.md) — Script to enumerate users, groups and computers from a Windows domain through LDAP queries.
+- [windows-exploit-suggester](./windows-exploit-suggester.md) — This tool compares a targets patch levels against the Microsoft vulnerability database in order to detect potential missing patches on the target.
+- [xray](./xray.md) — A tool for recon, mapping and OSINT gathering from public networks.
+- [zeus-scanner](./zeus-scanner.md) — Advanced dork searching utility.
+- [zgrab](./zgrab.md) — Grab banners (optionally over TLS).

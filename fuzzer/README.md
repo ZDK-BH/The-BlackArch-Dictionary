@@ -1,0 +1,93 @@
+# fuzzer
+
+**Tools in this category:** 85
+
+**Category use:** Finding crashes and input-handling bugs in software you own or lab services.
+
+## Tools
+
+- [ajpfuzzer](./ajpfuzzer.md) — A command-line fuzzer for the Apache JServ Protocol (ajp13).
+- [backfuzz](./backfuzz.md) — A network protocol fuzzing toolkit.
+- [bfuzz](./bfuzz.md) — Input based fuzzer tool for browsers.
+- [boofuzz](./boofuzz.md) — No description provided in the source list.
+- [brainstorm](./brainstorm.md) — A smarter web fuzzing tool that combines local LLM models and ffuf to optimize directory and file discovery.
+- [browser-fuzzer](./browser-fuzzer.md) — Browser Fuzzer 3
+- [bunny](./bunny.md) — A closed loop, high-performance, general purpose protocol-blind fuzzer for C programs.
+- [choronzon](./choronzon.md) — An evolutionary knowledge-based fuzzer.
+- [cirt-fuzzer](./cirt-fuzzer.md) — A simple TCP/UDP protocol fuzzer.
+- [conscan](./conscan.md) — A blackbox vulnerability scanner for the Concre5 CMS.
+- [cookie-cadger](./cookie-cadger.md) — An auditing tool for Wi-Fi or wired Ethernet connections.
+- [crlf-injector](./crlf-injector.md) — A python script for testing CRLF injecting issues.
+- [dharma](./dharma.md) — Generation-based, context-free grammar fuzzer.
+- [dizzy](./dizzy.md) — A Python based fuzzing framework with many features.
+- [domato](./domato.md) — DOM fuzzer.
+- [doona](./doona.md) — A fork of the Bruteforce Exploit Detector Tool (BED).
+- [easyfuzzer](./easyfuzzer.md) — A flexible fuzzer, not only for web, has a CSV output for efficient output analysis (platform independent).
+- [firewalk](./firewalk.md) — An active reconnaissance network security tool.
+- [flyr](./flyr.md) — Block-based software vulnerability fuzzing framework.
+- [frisbeelite](./frisbeelite.md) — A GUI-based USB device fuzzer.
+- [ftester](./ftester.md) — A tool designed for testing firewall filtering policies and Intrusion Detection System (IDS) capabilities.
+- [ftp-fuzz](./ftp-fuzz.md) — The master of all master fuzzing scripts specifically targeted towards FTP server software.
+- [fuddly](./fuddly.md) — Fuzzing and Data Manipulation Framework (for GNU/Linux).
+- [fusil](./fusil.md) — A Python library used to write fuzzing programs.
+- [fuzzball2](./fuzzball2.md) — A fuzzer for TCP and IP protocol options. It sends a bunch of more or less bogus packets to the target.
+- [fuzzdb](./fuzzdb.md) — Attack and Discovery Pattern Dictionary for Application Fault Injection Testing.
+- [fuzzdiff](./fuzzdiff.md) — A simple tool designed to help out with crash analysis during fuzz testing. It selectively 'un-fuzzes' portions of a fuzzed file that is known to cause a crash, re-launches the targeted application, and sees if it still crashes.
+- [fuzzowski](./fuzzowski.md) — A Network Protocol Fuzzer made by NCCGroup based on Sulley and BooFuzz.
+- [goofuzz](./goofuzz.md) — A Bash script that uses advanced Google search techniques to obtain sensitive information in files or directories without making requests to the web server.
+- [grammarinator](./grammarinator.md) — A random test generator / fuzzer that creates test cases according to an input ANTLR v4 grammar.
+- [grr](./grr.md) — High-throughput fuzzer and emulator of DECREE binaries.
+- [hexorbase](./hexorbase.md) — A database application designed for administering and auditing multiple database servers simultaneously from a centralized location. It is capable of performing SQL queries and bruteforce attacks against common database servers (MySQL, SQLite, Microsoft SQL Server, Oracle, PostgreSQL).
+- [hodor](./hodor.md) — A general-use fuzzer that can be configured to use known-good input and delimiters in order to fuzz specific locations.
+- [honggfuzz](./honggfuzz.md) — A general-purpose fuzzer with simple, command-line interface.
+- [http-fuzz](./http-fuzz.md) — A simple http fuzzer.
+- [ifuzz](./ifuzz.md) — A binary file fuzzer with several options.
+- [ikeprober](./ikeprober.md) — Tool crafting IKE initiator packets and allowing many options to be manually set. Useful to find overflows, error conditions and identifiyng vendors
+- [jbrofuzz](./jbrofuzz.md) — Web application protocol fuzzer that emerged from the needs of penetration testing.
+- [kitty-framework](./kitty-framework.md) — Fuzzing framework written in python.
+- [malybuzz](./malybuzz.md) — A Python tool focused in discovering programming faults in network software.
+- [manul](./manul.md) — A coverage-guided parallel fuzzer for open-source and blackbox binaries on Windows, Linux and MacOS.
+- [melkor](./melkor.md) — An ELF fuzzer that mutates the existing data in an ELF sample given to create orcs (malformed ELFs), however, it does not change values randomly (dumb fuzzing), instead, it fuzzes certain metadata with semi-valid values through the use of fuzzing rules (knowledge base).
+- [notspikefile](./notspikefile.md) — A Linux based file format fuzzing tool
+- [oat](./oat.md) — A toolkit that could be used to audit security within Oracle database servers.
+- [ohrwurm](./ohrwurm.md) — A small and simple RTP fuzzer.
+- [oscanner](./oscanner.md) — An Oracle assessment framework developed in Java.
+- [peach](./peach.md) — A SmartFuzzer that is capable of performing both generation and mutation based fuzzing.
+- [peach-fuzz](./peach-fuzz.md) — Simple vulnerability scanning framework.
+- [pentbox](./pentbox.md) — A security suite that packs security and stability testing oriented tools for networks and systems.
+- [portmanteau](./portmanteau.md) — An experimental unix driver IOCTL security tool that is useful for fuzzing and discovering device driver attack surface.
+- [powerfuzzer](./powerfuzzer.md) — Powerfuzzer is a highly automated web fuzzer based on many other Open Source fuzzers available (incl. cfuzzer, fuzzled, fuzzer.pl, jbrofuzz, webscarab, wapiti, Socket Fuzzer). It can detect XSS, Injections (SQL, LDAP, commands, code, XPATH) and others.
+- [profuzz](./profuzz.md) — Simple PROFINET fuzzer based on Scapy.
+- [pulsar](./pulsar.md) — Protocol Learning and Stateful Fuzzing.
+- [pyjfuzz](./pyjfuzz.md) — Python JSON Fuzzer.
+- [ratproxy](./ratproxy.md) — A passive web application security assessment tool
+- [s3-fuzzer](./s3-fuzzer.md) — A concurrent, command-line AWS S3 Fuzzer.
+- [samesame](./samesame.md) — Command line tool to generate crafty homograph strings.
+- [sandsifter](./sandsifter.md) — The x86 processor fuzzer.
+- [sfuzz](./sfuzz.md) — A simple fuzzer.
+- [sharpfuzz](./sharpfuzz.md) — AFL-based fuzz testing for .NET.
+- [sloth-fuzzer](./sloth-fuzzer.md) — A smart file fuzzer.
+- [smtp-fuzz](./smtp-fuzz.md) — Simple smtp fuzzer.
+- [snmp-fuzzer](./snmp-fuzzer.md) — SNMP fuzzer uses Protos test cases with an entirely new engine written in Perl.
+- [socketfuzz](./socketfuzz.md) — Simple socket fuzzer.
+- [spiderpig-pdffuzzer](./spiderpig-pdffuzzer.md) — A javascript pdf fuzzer.
+- [spike-fuzzer](./spike-fuzzer.md) — IMMUNITYsec's fuzzer creation kit in C.
+- [sploitego](./sploitego.md) — Maltego Penetration Testing Transforms.
+- [sqlbrute](./sqlbrute.md) — Brute forces data out of databases using blind SQL injection.
+- [sshfuzz](./sshfuzz.md) — A SSH Fuzzing utility written in Perl that uses Net::SSH2.
+- [sulley](./sulley.md) — A pure-python fully automated and unattended fuzzing framework.
+- [taof](./taof.md) — A GUI cross-platform Python generic network protocol fuzzer.
+- [tcpcontrol-fuzzer](./tcpcontrol-fuzzer.md) — 2^6 TCP control bit fuzzer (no ECN or CWR).
+- [termineter](./termineter.md) — Smart meter testing framework.
+- [tftp-fuzz](./tftp-fuzz.md) — Master TFTP fuzzing script as part of the ftools series of fuzzers.
+- [thefuzz](./thefuzz.md) — CLI fuzzing tool.
+- [trinity](./trinity.md) — A Linux System call fuzzer.
+- [uff](./uff.md) — Unleashed ffuf. A fork of ffuf with more functions & a modified HTTP stack.
+- [unifuzzer](./unifuzzer.md) — A fuzzing tool for closed-source binaries based on Unicorn and LibFuzzer.
+- [uniofuzz](./uniofuzz.md) — The universal fuzzing tool for browsers, web services, files, programs and network services/ports
+- [uniscan](./uniscan.md) — A simple Remote File Include, Local File Include and Remote Command Execution vulnerability scanner.
+- [w3af](./w3af.md) — Web Application Attack and Audit Framework.
+- [webscarab](./webscarab.md) — Framework for analysing applications that communicate using the HTTP and HTTPS protocols
+- [webshag](./webshag.md) — A multi-threaded, multi-platform web server audit tool.
+- [wfuzz](./wfuzz.md) — Utility to bruteforce web applications to find their not linked resources.
+- [wsfuzzer](./wsfuzzer.md) — A Python tool written to automate SOAP pentesting of web services.

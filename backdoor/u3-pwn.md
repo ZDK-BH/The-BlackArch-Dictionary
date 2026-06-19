@@ -1,0 +1,66 @@
+# u3-pwn
+
+**Category:** `backdoor`  
+**Version in source list:** `2.0`  
+**Package name:** `u3-pwn`
+
+## What it does
+
+A tool designed to automate injecting executables to Sandisk smart usb devices with default U3 software install.
+
+## What it can be used for
+
+Understanding backdoor behavior, writing detections, and practicing incident response in an isolated malware lab.
+
+## How to install
+
+On BlackArch or Arch with the BlackArch repo enabled:
+
+```bash
+sudo pacman -S --needed u3-pwn
+```
+
+Confirm the installed files and find the actual executable name:
+
+```bash
+pacman -Ql u3-pwn | grep '/bin/'
+```
+
+Open the built-in help before running anything meaningful:
+
+```bash
+u3-pwn --help
+u3-pwn -h
+man u3-pwn
+```
+
+If the command name is different from the package name, use the executable shown by `pacman -Ql`.
+
+## How to use it
+
+1. Use an isolated VM or disposable lab network only.
+2. Do not run samples on your daily machine.
+3. Prefer static analysis, help output, and documentation review before execution.
+4. Capture indicators, process behavior, file writes, and network attempts for defensive learning.
+
+## Example commands
+
+```bash
+u3-pwn --help
+```
+
+```bash
+u3-pwn -h
+```
+
+```bash
+# Defensive lab workflow:
+strings /path/to/sample 2>/dev/null | head
+file /path/to/sample
+```
+
+## Notes
+
+- Start with `--help`, `-h`, or the man page because options differ between tools and versions.
+- Prefer a VM, local lab target, copied evidence file, or test repository for first runs.
+- Save outputs with timestamps so you can compare results after fixes or configuration changes.

@@ -1,0 +1,154 @@
+# networking
+
+**Tools in this category:** 146
+
+**Category use:** Network diagnostics, protocol study, service testing, routing, tunneling, and lab traffic analysis.
+
+## Tools
+
+- [adassault](./adassault.md) — An Active Directory environments pentest tool complementary to existing ones like NetExec.
+- [aiengine](./aiengine.md) — A packet inspection engine with capabilities of learning without any human intervention.
+- [apacket](./apacket.md) — Sniffer syn and backscatter packets.
+- [argus](./argus.md) — Network monitoring tool with flow control.
+- [argus-clients](./argus-clients.md) — Network monitoring client for Argus.
+- [arpalert](./arpalert.md) — Monitor ARP changes in ethernet networks.
+- [arping-th](./arping-th.md) — ARP Ping from Thomas Habets (aka Debian arping).
+- [arptools](./arptools.md) — A simple tool about ARP broadcast, ARP attack, and data transmission.
+- [arpwner](./arpwner.md) — GUI-based python tool for arp poisoning and dns poisoning attacks.
+- [asnmap](./asnmap.md) — Map organization network ranges using ASN information.
+- [autovpn](./autovpn.md) — Easily connect to a VPN in a country of your choice.
+- [buttinsky](./buttinsky.md) — Provide an open source framework for automated botnet monitoring.
+- [bypass-firewall-dns-history](./bypass-firewall-dns-history.md) — Firewall bypass script based on DNS history records.
+- [chameleon](./chameleon.md) — A tool for evading Proxy categorisation.
+- [chaosreader](./chaosreader.md) — A freeware tool to trace tcp, udp etc. sessions and fetch application data from snoop or tcpdump logs.
+- [chopshop](./chopshop.md) — Protocol Analysis/Decoder Framework.
+- [cidr2range](./cidr2range.md) — Script for listing the IP addresses contained in a CIDR netblock.
+- [creak](./creak.md) — Poison, reset, spoof, redirect MITM script.
+- [cyberscan](./cyberscan.md) — A Network Pentesting Tool.
+- [dcdetector](./dcdetector.md) — Spot all domain controllers in a Microsoft Active Directory environment. Find computer name, FQDN, and IP address(es) of all DCs.
+- [depdep](./depdep.md) — A merciless sentinel which will seek sensitive files containing critical info leaking through your network.
+- [det](./det.md) — (extensible) Data Exfiltration Toolkit.
+- [dhcpoptinj](./dhcpoptinj.md) — DHCP option injector.
+- [dinouml](./dinouml.md) — A network simulation tool, based on UML (User Mode Linux) that can simulate big Linux networks on a single PC
+- [dnsdiag](./dnsdiag.md) — DNS Diagnostics and Performance Measurement Tools.
+- [dnsfilexfer](./dnsfilexfer.md) — File transfer via DNS.
+- [dnsobserver](./dnsobserver.md) — A handy DNS service written in Go to aid in the detection of several types of blind vulnerabilities.
+- [dnsteal](./dnsteal.md) — DNS Exfiltration tool for stealthily sending files over DNS requests..
+- [dnsvalidator](./dnsvalidator.md) — Maintains a list of IPv4 DNS servers by verifying them against baseline servers, and ensuring accurate responses.
+- [dripcap](./dripcap.md) — Caffeinated Packet Analyzer.
+- [dtp-spoof](./dtp-spoof.md) — Python script/security tool to test Dynamic Trunking Protocol configuration on a switch.
+- [dublin-traceroute](./dublin-traceroute.md) — NAT-aware multipath tracerouting tool.
+- [dump1090](./dump1090.md) — A simple Mode S decoder for RTLSDR devices.
+- [evillimiter](./evillimiter.md) — Tool that limits bandwidth of devices on the same network without access.
+- [exabgp](./exabgp.md) — The BGP swiss army knife of networking.
+- [filibuster](./filibuster.md) — A Egress filter mapping application with additional functionality.
+- [firecat](./firecat.md) — A penetration testing tool that allows you to punch reverse TCP tunnels out of a compromised network.
+- [flowinspect](./flowinspect.md) — A network traffic inspection tool.
+- [girsh](./girsh.md) — Automatically spawn a reverse shell fully interactive for Linux or Windows victim.
+- [gspoof](./gspoof.md) — A simple GTK/command line TCP/IP packet generator.
+- [gwcheck](./gwcheck.md) — A simple program that checks if a host in an ethernet network is a gateway to Internet.
+- [haka](./haka.md) — A collection of tool that allows capturing TCP/IP packets and filtering them based on Lua policy files.
+- [hharp](./hharp.md) — This tool can perform man-in-the-middle and switch flooding attacks. It has 4 major functions, 3 of which attempt to man-in-the-middle one or more computers on a network with a passive method or flood type method.
+- [http-traceroute](./http-traceroute.md) — This is a python script that uses the Max-Forwards header in HTTP and SIP to perform a traceroute-like scanning functionality.
+- [hyde](./hyde.md) — Just another tool in C to do DDoS (with spoofing).
+- [hyenae](./hyenae.md) — Flexible platform independent packet generator.
+- [hyperfox](./hyperfox.md) — A security tool for proxying and recording HTTP and HTTPs traffic.
+- [infection-monkey](./infection-monkey.md) — Automated security testing tool for networks.
+- [interlace](./interlace.md) — Easily turn single threaded command line applications into a fast, multi-threaded application with CIDR and glob support.
+- [ipaudit](./ipaudit.md) — Monitors network activity on a network.
+- [ipdecap](./ipdecap.md) — Can decapsulate traffic encapsulated within GRE, IPIP, 6in4, ESP (ipsec) protocols, and can also remove IEEE 802.1Q (virtual lan) header.
+- [ipv4bypass](./ipv4bypass.md) — Using IPv6 to Bypass Security.
+- [jnetmap](./jnetmap.md) — A network monitor of sorts.
+- [kickthemout](./kickthemout.md) — Kick devices off your network by performing an ARP Spoof attack.
+- [krbjack](./krbjack.md) — DNS dynamic update abuse in ADIDNS and MitM attack using Kerberos AP-REQ hijacking.
+- [latd](./latd.md) — A LAT terminal daemon for Linux and BSD.
+- [ldapconsole](./ldapconsole.md) — Script allows you to perform custom LDAP requests to a Windows domain.
+- [libparistraceroute](./libparistraceroute.md) — A library written in C dedicated to active network measurements with examples, such as paris-ping and paris-traceroute.
+- [libtins](./libtins.md) — High-level, multiplatform C++ network packet sniffing and crafting library.
+- [ligolo-mp](./ligolo-mp.md) — Multiplayer pivoting solution.
+- [loic](./loic.md) — An open source network stress tool for Windows.
+- [maclookup](./maclookup.md) — Lookup MAC addresses in the IEEE MA-L/OUI public listing.
+- [maketh](./maketh.md) — A packet generator that supports forging ARP, IP, TCP, UDP, ICMP and the ethernet header as well.
+- [malcom](./malcom.md) — Analyze a system's network communication using graphical representations of network traffic.
+- [massdns](./massdns.md) — A high-performance DNS stub resolver in C.
+- [middler](./middler.md) — A Man in the Middle tool to demonstrate protocol middling attacks.
+- [mitm](./mitm.md) — A simple yet effective python3 script to perform DNS spoofing via ARP poisoning.
+- [moloch](./moloch.md) — An open source large scale IPv4 full PCAP capturing, indexing and database system.
+- [mptcp](./mptcp.md) — A tool for manipulation of raw packets that allows a large number of options.
+- [mptcp-abuse](./mptcp-abuse.md) — A collection of tools and resources to explore MPTCP on your network. Initially released at Black Hat USA 2014.
+- [mylg](./mylg.md) — Network Diagnostic Tool.
+- [nacker](./nacker.md) — A tool to circumvent 802.1x Network Access Control on a wired LAN.
+- [nbtool](./nbtool.md) — Some tools for NetBIOS and DNS investigation, attacks, and communication.
+- [ncpfs](./ncpfs.md) — Allows you to mount volumes of NetWare servers under Linux.
+- [nemesis](./nemesis.md) — A command-line network packet crafting and injection utility.
+- [netactview](./netactview.md) — A graphical network connections viewer similar in functionality to netstat.
+- [netcon](./netcon.md) — A network connection establishment and management script.
+- [netmap](./netmap.md) — Can be used to make a graphical representation of the surrounding network.
+- [netreconn](./netreconn.md) — A collection of network scan/recon tools that are relatively small compared to their larger cousins.
+- [netsed](./netsed.md) — Small and handful utility design to alter the contents of packets forwarded thru network in real time.
+- [networkmap](./networkmap.md) — Post-exploitation network mapper.
+- [nextnet](./nextnet.md) — Pivot point discovery tool.
+- [nfdump](./nfdump.md) — A set of tools to collect and process netflow data.
+- [nield](./nield.md) — A tool to receive notifications from kernel through netlink socket, and generate logs related to interfaces, neighbor cache(ARP,NDP), IP address(IPv4,IPv6), routing, FIB rules, traffic control.
+- [nipper](./nipper.md) — Network Infrastructure Parser
+- [nsdtool](./nsdtool.md) — A netgear switch discovery tool. It contains some extra features like bruteoforce and setting a new password.
+- [nsoq](./nsoq.md) — A Network Security Tool for packet manipulation that allows a large number of options.
+- [packet-o-matic](./packet-o-matic.md) — A real time packet processor. Reads the packet from an input module, match the packet using rules and connection tracking information and then send it to a target module.
+- [packetq](./packetq.md) — A tool that provides a basic SQL-frontend to PCAP-files.
+- [packetsender](./packetsender.md) — An open source utility to allow sending and receiving TCP and UDP packets.
+- [packit](./packit.md) — A network auditing tool with the ability to customize, inject, monitor, and manipulate IP traffic.
+- [pcapfex](./pcapfex.md) — Packet CAPture Forensic Evidence eXtractor.
+- [pcapfix](./pcapfix.md) — Tries to repair your broken pcap and pcapng files.
+- [phantap](./phantap.md) — An 'invisible' network tap aimed at red teams.
+- [pivotsuite](./pivotsuite.md) — A portable, platform independent and powerful network pivoting toolkit.
+- [pkt2flow](./pkt2flow.md) — A simple utility to classify packets into flows.
+- [pmacct](./pmacct.md) — Small set of multi-purpose passive network monitoring tools [NetFlow IPFIX sFlow libpcap BGP BMP IGP Streaming Telemetry].
+- [prometheus-firewall](./prometheus-firewall.md) — A Firewall analyzer written in ruby
+- [pwnat](./pwnat.md) — A tool that allows any number of clients behind NATs to communicate with a server behind a separate NAT with *no* port forwarding and *no* DMZ setup on any routers in order to directly communicate with each other.
+- [pyersinia](./pyersinia.md) — Network attack tool like yersinia but written in Python.
+- [pyexfil](./pyexfil.md) — A couple of beta stage tools for data exfiltration.
+- [pyminifakedns](./pyminifakedns.md) — Minimal DNS server written in Python; it always replies with a 127.0.0.1 A-record.
+- [python-cymruwhois](./python-cymruwhois.md) — Python client for the whois.cymru.com service
+- [python2-cymruwhois](./python2-cymruwhois.md) — Python client for the whois.cymru.com service
+- [rinetd](./rinetd.md) — Internet redirection server.
+- [rtpbreak](./rtpbreak.md) — Detects, reconstructs and analyzes any RTP session.
+- [rustcat](./rustcat.md) — A modern port listener and reverse shell.
+- [samplicator](./samplicator.md) — Send copies of (UDP) datagrams to multiple receivers, with optional sampling and spoofing.
+- [sdn-toolkit](./sdn-toolkit.md) — Discover, Identify, and Manipulate SDN-Based Networks
+- [sessionlist](./sessionlist.md) — Sniffer that intents to sniff HTTP packets and attempts to reconstruct interesting authentication data from websites that do not employ proper secure cookie auth.
+- [seth](./seth.md) — Perform a MitM attack and extract clear text credentials from RDP connections.
+- [silk](./silk.md) — A collection of traffic analysis tools developed by the CERT NetSA to facilitate security analysis of large networks.
+- [skydive](./skydive.md) — An open source real-time network topology and protocols analyzer.
+- [smbclient-ng](./smbclient-ng.md) — Interact with SMB shares.
+- [sniffer](./sniffer.md) — Packet Trace Parser for TCP, SMTP Emails, and HTTP Cookies.
+- [sniffles](./sniffles.md) — A Packet Capture Generator for IDS and Regular Expression Evaluation.
+- [snmpattack](./snmpattack.md) — SNMP scanner and attacking tool.
+- [snmpcheck](./snmpcheck.md) — A free open source utility to get information via SNMP protocols.
+- [sockstat](./sockstat.md) — A tool to let you view information about open connections. It is similar to the tool of the same name that is included in FreeBSD, trying to faithfully reproduce as much functionality as is possible.
+- [sprayhound](./sprayhound.md) — Password spraying tool and Bloodhound integration.
+- [sps](./sps.md) — A Linux packet crafting tool. Supports IPv4, IPv6 including extension headers, and tunneling IPv6 over IPv4.
+- [stunner](./stunner.md) — Test and exploit STUN, TURN and TURN over TCP servers.
+- [tcpcopy](./tcpcopy.md) — A TCP stream replay tool to support real testing of Internet server applications.
+- [tcpdstat](./tcpdstat.md) — Get protocol statistics from tcpdump pcap files.
+- [tcpextract](./tcpextract.md) — Extracts files from captured TCP sessions. Support live streams and pcap files.
+- [tcptrace](./tcptrace.md) — A TCP dump file analysis tool.
+- [tcptraceroute](./tcptraceroute.md) — A traceroute implementation using TCP packets.
+- [tcpwatch](./tcpwatch.md) — A utility written in Python that lets you monitor forwarded TCP connections or HTTP proxy connections.
+- [tgcd](./tgcd.md) — TCP/IP Gender Changer Daemon utility.
+- [torpy](./torpy.md) — Pure python Tor client implementation.
+- [tunna](./tunna.md) — a set of tools which will wrap and tunnel any TCP communication over HTTP. It can be used to bypass network restrictions in fully firewalled environments.
+- [turner](./turner.md) — Tunnels HTTP over a permissive/open TURN server; supports HTTP and SOCKS5 proxy.
+- [udpastcp](./udpastcp.md) — This program hides UDP traffic as TCP traffic in order to bypass certain firewalls.
+- [udptunnel](./udptunnel.md) — Tunnels TCP over UDP packets.
+- [umit](./umit.md) — A powerful nmap frontend.
+- [uw-offish](./uw-offish.md) — Clear-text protocol simulator.
+- [websockify](./websockify.md) — WebSocket to TCP proxy/bridge.
+- [wondershaper](./wondershaper.md) — Limit the bandwidth of one or more network adapters.
+- [xerosploit](./xerosploit.md) — Efficient and advanced man in the middle framework.
+- [xxeserv](./xxeserv.md) — A mini webserver with FTP support for XXE payloads.
+- [yaf](./yaf.md) — Yet Another Flowmeter.
+- [yersinia](./yersinia.md) — A network tool designed to take advantage of some weakness in different network protocols.
+- [zackattack](./zackattack.md) — A new tool set to do NTLM Authentication relaying unlike any other tool currently out there.
+- [zdns](./zdns.md) — Fast CLI DNS Lookup Tool.
+- [zeek](./zeek.md) — A powerful network analysis framework that is much different from the typical IDS you may know.
+- [zeek-aux](./zeek-aux.md) — Handy auxiliary programs related to the use of the Zeek Network Security Monitor.

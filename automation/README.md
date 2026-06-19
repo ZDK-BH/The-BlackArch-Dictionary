@@ -1,0 +1,117 @@
+# automation
+
+**Tools in this category:** 109
+
+**Category use:** Automating repetitive security testing, enumeration, reporting, or wordlist preparation tasks.
+
+## Tools
+
+- [apt2](./apt2.md) — Automated penetration toolkit.
+- [automato](./automato.md) — Should help with automating some of the user-focused enumeration tasks during an internal penetration test.
+- [autonessus](./autonessus.md) — This script communicates with the Nessus API in an attempt to help with automating scans.
+- [autonse](./autonse.md) — Massive NSE (Nmap Scripting Engine) AutoSploit and AutoScanner.
+- [autopwn](./autopwn.md) — Specify targets and run sets of tools against them.
+- [autorecon](./autorecon.md) — A multi-threaded network reconnaissance tool which performs automated enumeration of services.
+- [awsbucketdump](./awsbucketdump.md) — A tool to quickly enumerate AWS S3 buckets to look for loot.
+- [bashfuscator](./bashfuscator.md) — Fully configurable and extendable Bash obfuscation framework.
+- [blueranger](./blueranger.md) — A simple Bash script which uses Link Quality to locate Bluetooth device radios.
+- [bopscrk](./bopscrk.md) — Tool to generate smart wordlists, eg. based on lyrics.
+- [brutespray](./brutespray.md) — Brute-Forcing from Nmap output - Automatically attempts default creds on found services.
+- [brutex](./brutex.md) — Automatically brute force all services running on a target.
+- [byepass](./byepass.md) — Automates password cracking tasks using optimized dictionaries and mangling rules.
+- [cewl](./cewl.md) — A custom word list generator.
+- [cheat-sh](./cheat-sh.md) — The only cheat sheet you need.
+- [cisco-snmp-enumeration](./cisco-snmp-enumeration.md) — Automated Cisco SNMP Enumeration, Brute Force, Configuration Download and Password Cracking.
+- [clusterd](./clusterd.md) — Automates the fingerprinting, reconnaissance, and exploitation phases of an application server attack.
+- [codeql](./codeql.md) — The CLI tool for GitHub CodeQL
+- [commonspeak](./commonspeak.md) — Leverages publicly available datasets from Google BigQuery to generate wordlists.
+- [cook](./cook.md) — Easily create word's permutation and combination to generate complex wordlists and passwords.
+- [crunch](./crunch.md) — A wordlist generator for all combinations/permutations of a given character set.
+- [deathstar](./deathstar.md) — Automate getting Domain Admin using Empire.
+- [dorkscout](./dorkscout.md) — Golang tool to automate google dork scan against the entire internet or specific targets.
+- [dracnmap](./dracnmap.md) — Tool to exploit the network and gathering information with nmap help.
+- [dumb0](./dumb0.md) — A simple tool to dump users in popular forums and CMS.
+- [easy-creds](./easy-creds.md) — A bash script that leverages ettercap and other tools to obtain credentials.
+- [easyda](./easyda.md) — Easy Windows Domain Access Script.
+- [emp3r0r](./emp3r0r.md) — Linux post-exploitation framework made by linux user.
+- [empire](./empire.md) — A PowerShell and Python post-exploitation agent.
+- [findsploit](./findsploit.md) — Find exploits in local and online databases instantly.
+- [fstealer](./fstealer.md) — Automates file system mirroring through remote file disclosure vulnerabilities on Linux machines.
+- [glue](./glue.md) — A framework for running a series of tools.
+- [go-exploitdb](./go-exploitdb.md) — Tool for searching Exploits from Exploit Databases, etc.
+- [google-explorer](./google-explorer.md) — Google mass exploit robot - Make a google search, and parse the results for a especific exploit you define.
+- [gooscan](./gooscan.md) — A tool that automates queries against Google search appliances, but with a twist.
+- [hackersh](./hackersh.md) — A shell for with Pythonect-like syntax, including wrappers for commonly used security tools.
+- [harpoon](./harpoon.md) — CLI tool for open source and threat intelligence.
+- [hate-crack](./hate-crack.md) — A tool for automating cracking methodologies through Hashcat.
+- [havoc-c2](./havoc-c2.md) — Modern and malleable post-exploitation command and control framework.
+- [intersect](./intersect.md) — Post-exploitation framework.
+- [invoke-cradlecrafter](./invoke-cradlecrafter.md) — PowerShell Remote Download Cradle Generator & Obfuscator.
+- [invoke-dosfuscation](./invoke-dosfuscation.md) — Cmd.exe Command Obfuscation Generator & Detection Test Harness.
+- [invoke-obfuscation](./invoke-obfuscation.md) — PowerShell Obfuscator.
+- [koadic](./koadic.md) — A Windows post-exploitation rootkit similar to other penetration testing tools such as Meterpreter and Powershell Empire.
+- [ldapscripts](./ldapscripts.md) — Simple shell scripts to handle POSIX entries in an LDAP directory.
+- [linikatz](./linikatz.md) — Tool to attack AD on UNIX.
+- [linset](./linset.md) — Evil Twin Attack Bash script - An automated WPA/WPA2 hacker.
+- [lyricpass](./lyricpass.md) — Tool to generate wordlists based on lyrics.
+- [maskprocessor](./maskprocessor.md) — A High-Performance word generator with a per-position configurable charset.
+- [masscan-automation](./masscan-automation.md) — Masscan integrated with Shodan API.
+- [massexpconsole](./massexpconsole.md) — A collection of tools and exploits with a cli ui for mass exploitation.
+- [mentalist](./mentalist.md) — Graphical tool for custom wordlist generation.
+- [merlin-server](./merlin-server.md) — Merlin is a cross-platform post-exploitation HTTP/2 Command & Control server and agent written in golang.
+- [metasploit-autopwn](./metasploit-autopwn.md) — db_autopwn plugin of metasploit.
+- [mitmap-old](./mitmap-old.md) — Shell Script for launching a Fake AP with karma functionality and launches ettercap for packet capture and traffic manipulation.
+- [morpheus](./morpheus.md) — Automated Ettercap TCP/IP Hijacking Tool.
+- [msf-mpc](./msf-mpc.md) — Msfvenom payload creator.
+- [msfenum](./msfenum.md) — A Metasploit auto auxiliary script.
+- [mutator](./mutator.md) — This project aims to be a wordlist mutator with hormones, which means that some mutations will be applied to the result of the ones that have been already done, resulting in something like: corporation -> C0rp0r4t10n_2012
+- [nettacker](./nettacker.md) — Automated Penetration Testing Framework.
+- [nfspy](./nfspy.md) — A Python library for automating the falsification of NFS credentials when mounting an NFS share.
+- [nfsshell](./nfsshell.md) — Userland NFS command tool.
+- [nosqlattack](./nosqlattack.md) — Python tool to automate exploit MongoDB server IP on Internet anddisclose the database data by MongoDB default configuration weaknesses and injection attacks.
+- [nullscan](./nullscan.md) — A modular framework designed to chain and automate security tests.
+- [octopwnweb](./octopwnweb.md) — Internal pentest framework running in your browser via WebAssembly, powerd by Pyodide
+- [openscap](./openscap.md) — Open Source Security Compliance Solution.
+- [panoptic](./panoptic.md) — A tool that automates the process of search and retrieval of content for common log and config files through LFI vulnerability.
+- [pastejacker](./pastejacker.md) — Hacking systems with the automation of PasteJacking attacks.
+- [pasv-agrsv](./pasv-agrsv.md) — Passive recon / OSINT automation script.
+- [penbox](./penbox.md) — A Penetration Testing Framework - The Tool With All The Tools.
+- [pentestgpt](./pentestgpt.md) — A penetration testing tool empowered by ChatGPT. It is designed to automate the penetration testing process.
+- [pentmenu](./pentmenu.md) — A bash script for recon and DOS attacks.
+- [pin](./pin.md) — A dynamic binary instrumentation tool.
+- [portia](./portia.md) — Automate a number of techniques commonly performed on internal network penetration tests after a low privileged account has been compromised.
+- [pupy](./pupy.md) — Opensource, cross-platform (Windows, Linux, OSX, Android) remote administration and post-exploitation tool mainly written in python.
+- [pureblood](./pureblood.md) — A Penetration Testing Framework created for Hackers / Pentester / Bug Hunter.
+- [pyfuscation](./pyfuscation.md) — Obfuscate powershell scripts by replacing Function names, Variables and Parameters.
+- [recomposer](./recomposer.md) — Randomly changes Win32/64 PE Files for 'safer' uploading to malware and sandbox sites.
+- [rhodiola](./rhodiola.md) — Personalized wordlist generator with NLP, by analyzing tweets (A.K.A crunch2049).
+- [rsmangler](./rsmangler.md) — rsmangler takes a wordlist and mangle it
+- [sakis3g](./sakis3g.md) — An all-in-one script for connecting with 3G.
+- [scap-security-guide](./scap-security-guide.md) — Security compliance content in SCAP, Bash, Ansible, and other formats.
+- [scap-workbench](./scap-workbench.md) — SCAP Scanner And Tailoring Graphical User Interface.
+- [search1337](./search1337.md) — 1337Day Online Exploit Scanner.
+- [shellerator](./shellerator.md) — Simple command-line tool aimed to help pentesters quickly generate one-liner reverse/bind shells in multiple languages.
+- [shellpop](./shellpop.md) — Generate easy and sophisticated reverse or bind shell commands.
+- [shellz](./shellz.md) — A script for generating common revshells fast and easy.
+- [simple-ducky](./simple-ducky.md) — A payload generator.
+- [sipvicious](./sipvicious.md) — Tools for auditing SIP devices.
+- [sn00p](./sn00p.md) — A modular tool written in bourne shell and designed to chain and automate security tools and tests.
+- [sn1per](./sn1per.md) — Automated Pentest Recon Scanner.
+- [sploitctl](./sploitctl.md) — Fetch, install and search exploit archives from exploit sites like exploit-db and packetstorm.
+- [spookflare](./spookflare.md) — Loader, dropper generator with multiple features for bypassing client-side and network-side countermeasures.
+- [statsprocessor](./statsprocessor.md) — A high-performance word-generator based on per-position Markov-attack.
+- [thefatrat](./thefatrat.md) — TheFatRat a massive exploiting tool: easy tool to generate backdoor and easy tool to post exploitation attack.
+- [tiger](./tiger.md) — A security scanner, that checks computer for known problems. Can also use tripwire, aide and chkrootkit.
+- [tlssled](./tlssled.md) — A Linux shell script whose purpose is to evaluate the security of a target SSL/TLS (HTTPS) web server implementation.
+- [torctl](./torctl.md) — Script to redirect all traffic through tor network including dns queries for anonymizing entire system.
+- [ttpassgen](./ttpassgen.md) — Highly flexible and scriptable password dictionary generator based on Python.
+- [unix-privesc-check](./unix-privesc-check.md) — Tries to find misconfigurations that could allow local unprivilged users to escalate privileges to other users or to access local apps (e.g. databases).
+- [username-anarchy](./username-anarchy.md) — Tools for generating usernames when penetration testing.
+- [valhalla-api](./valhalla-api.md) — Valhalla API Client.
+- [veil](./veil.md) — A tool designed to generate metasploit payloads that bypass common anti-virus solutions.
+- [vlan-hopping](./vlan-hopping.md) — Easy 802.1Q VLAN Hopping
+- [voiphopper](./voiphopper.md) — A security validation tool that tests to see if a PC can mimic the behavior of an IP Phone. It rapidly automates a VLAN Hop into the Voice VLAN.
+- [wifi-autopwner](./wifi-autopwner.md) — Script to automate searching and auditing Wi-Fi networks with weak security.
+- [wikigen](./wikigen.md) — A script to generate wordlists out of wikipedia pages.
+- [wmd](./wmd.md) — Python framework for IT security tools.
+- [wnmap](./wnmap.md) — A shell script written with the purpose to automate and chain scans via nmap.

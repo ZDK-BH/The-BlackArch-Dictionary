@@ -1,0 +1,88 @@
+# crypto
+
+**Tools in this category:** 80
+
+**Category use:** Cryptography analysis, encoding/decoding, key-format inspection, and CTF/lab cryptanalysis.
+
+## Tools
+
+- [aespipe](./aespipe.md) — Reads data from stdin and outputs encrypted or decrypted results to stdout.
+- [auto-xor-decryptor](./auto-xor-decryptor.md) — Automatic XOR decryptor tool.
+- [bletchley](./bletchley.md) — A collection of practical application cryptanalysis tools.
+- [c7decrypt](./c7decrypt.md) — Cisco password type encryptor and decryptor.
+- [ciphertest](./ciphertest.md) — A better SSL cipher checker using gnutls.
+- [ciphr](./ciphr.md) — A CLI tool for encoding, decoding, encryption, decryption, and hashing streams of data.
+- [codetective](./codetective.md) — A tool to determine the crypto/encoding algorithm used according to traces of its representation.
+- [cribdrag](./cribdrag.md) — An interactive crib dragging tool for cryptanalysis on ciphertext generated with reused or predictable stream cipher keys.
+- [crypthook](./crypthook.md) — TCP/UDP symmetric encryption tunnel wrapper.
+- [cryptonark](./cryptonark.md) — SSL security checker.
+- [dagon](./dagon.md) — Advanced Hash Manipulation.
+- [daredevil](./daredevil.md) — A tool to perform (higher-order) correlation power analysis attacks (CPA).
+- [decodify](./decodify.md) — Tool that can detect and decode encoded strings, recursively.
+- [deen](./deen.md) — Generic data encoding/decoding application built with PyQt5.
+- [demiguise](./demiguise.md) — HTA encryption tool for RedTeams.
+- [dislocker](./dislocker.md) — Read BitLocker encrypted volumes under Linux.
+- [factordb-pycli](./factordb-pycli.md) — CLI for factordb and Python API Client.
+- [featherduster](./featherduster.md) — An automated, modular cryptanalysis tool.
+- [findmyhash](./findmyhash.md) — Crack different types of hashes using free online services.
+- [foresight](./foresight.md) — A tool for predicting the output of random number generators.
+- [gcrypt](./gcrypt.md) — Simple, secure and performance file encryption tool written in C
+- [gdir.pl](./gdir.pl.md) — Perl wrapper on gcrypt for directory encryption/decryption.
+- [gpp-decrypt](./gpp-decrypt.md) — Parse the Group Policy Preferences XML file which extracts the username and decrypts the cpassword attribute.
+- [haiti](./haiti.md) — Hash type identifier (CLI & lib).
+- [hash-buster](./hash-buster.md) — A python script which scraps online hash crackers to find cleartext of a hash.
+- [hash-extender](./hash-extender.md) — A hash length extension attack tool.
+- [hash-identifier](./hash-identifier.md) — Software to identify the different types of hashes used to encrypt data and especially passwords.
+- [hashcheck](./hashcheck.md) — Search for leaked passwords while maintaining a high level of privacy using the k-anonymity method.
+- [hashdb](./hashdb.md) — A block hash toolkit.
+- [hashdeep](./hashdeep.md) — Cross-platform tools to message digests for any number of files.
+- [hashfind](./hashfind.md) — A tool to search files for matching password hash types and other interesting data.
+- [hashid](./hashid.md) — Software to identify the different types of hashes used to encrypt data.
+- [hashpeek](./hashpeek.md) — A fast Go-based CLI tool to identify, extract, and classify hash types from structured data/files with JSON/CSV output and Hashcat/John formatting details (a hash identifier).
+- [hashpump](./hashpump.md) — A tool to exploit the hash length extension attack in various hashing algorithms.
+- [hashrat](./hashrat.md) — Hashing tool supporting MD5, SHA1, SHA256, SHA512, Whirlpool, JH and their HMAC.
+- [hdcp-genkey](./hdcp-genkey.md) — Generate HDCP source and sink keys from the leaked master key.
+- [hlextend](./hlextend.md) — Pure Python hash length extension module.
+- [ja3](./ja3.md) — Standard for creating SSL client fingerprints in an easy to produce and shareable way.
+- [jwt-key-recovery](./jwt-key-recovery.md) — Recovers the public key used to sign JWT tokens.
+- [kh2hc](./kh2hc.md) — Convert OpenSSH known_hosts file hashed with HashKnownHosts to hashes crackable by Hashcat.
+- [kraken](./kraken.md) — A project to encrypt A5/1 GSM signaling using a Time/Memory Tradeoff Attack.
+- [libbde](./libbde.md) — A library to access the BitLocker Drive Encryption (BDE) format.
+- [luksipc](./luksipc.md) — A tool to convert unencrypted block devices to encrypted LUKS devices in-place.
+- [morxkeyfmt](./morxkeyfmt.md) — Read a private key from stdin and output formatted data values.
+- [nomorexor](./nomorexor.md) — Tool to help guess a files 256 byte XOR key by using frequency analysis.
+- [ntlmv1-multi](./ntlmv1-multi.md) — NTLMv1 Multitool.
+- [omnihash](./omnihash.md) — Hash files, strings, input streams and network resources in various common algorithms simultaneously.
+- [openstego](./openstego.md) — A tool implemented in Java for generic steganography, with support for password-based encryption of the data.
+- [outguess](./outguess.md) — A universal steganographic tool.
+- [pacumen](./pacumen.md) — Packet Acumen - Analyse encrypted network traffic and more (side-channel attacks).
+- [padbuster](./padbuster.md) — Automated script for performing Padding Oracle attacks.
+- [padoracle](./padoracle.md) — Padding Oracle Attack with Node.js.
+- [padre](./padre.md) — Padding Oracle attack tool.
+- [pax-oracle](./pax-oracle.md) — CLI tool for PKCS7 padding oracle attacks.
+- [pip3line](./pip3line.md) — The Swiss army knife of byte manipulation.
+- [poracle](./poracle.md) — A tool for demonstrating padding oracle attacks.
+- [posttester](./posttester.md) — A jar file that will send POST requests to servers in order to test for the hash collision vulnerability discussed at the Chaos Communication Congress in Berlin.
+- [pwd-hash](./pwd-hash.md) — A password hashing tool that use the crypt function to generate the hash of a string given on standard input.
+- [pwdlyser](./pwdlyser.md) — Python-based CLI Password Analyser (Reporting Tool).
+- [rsactftool](./rsactftool.md) — RSA tool for ctf - retrieve private key from weak public key and/or uncipher data.
+- [rsatool](./rsatool.md) — Tool that can be used to calculate RSA and RSA-CRT parameters.
+- [rshack](./rshack.md) — Python tool which allows to carry out some attacks on RSA, and offer a few tools to manipulate RSA keys.
+- [rupture](./rupture.md) — A framework for BREACH and other compression-based crypto attacks.
+- [rustpad](./rustpad.md) — Multi-threaded Padding Oracle attacks against any service.
+- [sbd](./sbd.md) — Netcat-clone, portable, offers strong encryption - features AES-CBC + HMAC-SHA1 encryption, program execution (-e), choosing source port, continuous reconnection with delay + more
+- [sha1collisiondetection](./sha1collisiondetection.md) — Library and command line tool to detect SHA collision in a file
+- [snow](./snow.md) — Steganography program for concealing messages in text files.
+- [sslyze](./sslyze.md) — Python tool for analyzing the configuration of SSL servers and for identifying misconfigurations.
+- [tls-attacker](./tls-attacker.md) — A Java-based framework for analyzing TLS libraries.
+- [tls-map](./tls-map.md) — CLI & library for TLS cipher suites manipulation.
+- [tlsenum](./tlsenum.md) — A command line tool to enumerate TLS cipher-suites supported by a server.
+- [tlsfuzzer](./tlsfuzzer.md) — SSL and TLS protocol test suite and fuzzer.
+- [tlshelpers](./tlshelpers.md) — A collection of shell scripts that help handling X.509 certificate and TLS issues.
+- [tlspretense](./tlspretense.md) — SSL/TLS client testing framework.
+- [untwister](./untwister.md) — Seed recovery tool for PRNGs.
+- [x-rsa](./x-rsa.md) — Contains a many of attack types in RSA such as Hasted, Common Modulus, Chinese Remainder Theorem.
+- [xorbruteforcer](./xorbruteforcer.md) — Script that implements a XOR bruteforcing of a given file, although a specific key can be used too.
+- [xorsearch](./xorsearch.md) — Program to search for a given string in an XOR, ROL or ROT encoded binary file.
+- [zipexec](./zipexec.md) — A unique technique to execute binaries from a password protected zip.
+- [zulucrypt](./zulucrypt.md) — Front end to cryptsetup and tcplay and it allows easy management of encrypted block devices.
